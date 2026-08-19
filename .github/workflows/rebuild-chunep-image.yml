@@ -1,0 +1,36 @@
+name: Rebuild Chú Nếp image
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'image_parts/chunep.part*.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Rebuild canonical WebP
+        shell: bash
+        run: |
+          mkdir -p assets
+          cat image_parts/chunep.part*.txt | tr -d '\r\n' | base64 -d > assets/chunep-canonical.webp
+          test "$(stat -c%s assets/chunep-canonical.webp)" -eq 29734
+          file assets/chunep-canonical.webp
+          rm -rf image_parts
+
+      - name: Commit rebuilt image
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "fix(brand): restore canonical Chú Nếp image binary"
+          git push
