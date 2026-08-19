@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}Chú Nếp Công Nghệ</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta name="theme-color" content="#0a8f91">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:site_name" content="Chú Nếp Công Nghệ">
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ '/assets/chunep-canonical.webp' | absolute_url }}{% endif %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/assets/css/site.css?v=20260819-2">
+</head>
+<body>
+  <div class="site-strip">
+    <div class="container">
+      <div>● <strong>Chú Nếp Công Nghệ</strong> — Tin hay, dễ hiểu, có kiểm chứng</div>
+      <div class="strip-trust">Không biến claim marketing thành fact.</div>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="/" aria-label="Chú Nếp Công Nghệ">
+        <img class="brand-avatar" data-chunep alt="Chú Nếp" width="48" height="48">
+        <div>
+          <div class="brand-name">CHÚ NẾP <span>CÔNG NGHỆ</span></div>
+          <div class="brand-tag">Đọc nhanh để biết tin · Đọc sâu để biết có nên mua</div>
+        </div>
+      </a>
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <a href="/tin-moi/">Tin mới</a>
+        <a href="/tren-tay-danh-gia/">Trên tay & Đánh giá</a>
+        <a href="/tu-van-chon-mua/">Chọn & Mua</a>
+        <a href="/so-sanh-hieu-suat/">So sánh</a>
+        <a href="/thu-thuat/">Thủ thuật</a>
+        <a href="/deeptalk/">DeepTalk</a>
+      </nav>
+      <div class="search-box">
+        <input data-site-search type="search" placeholder="Tìm trên trang này" aria-label="Tìm trên trang này">
+        <span class="search-icon">⌕</span>
+      </div>
+      <button class="menu-btn" data-menu aria-expanded="false" aria-label="Mở menu">☰</button>
+    </div>
+    <nav class="mobile-nav" data-mobile-nav aria-label="Điều hướng mobile">
+      <a href="/tin-moi/">📰 Tin mới</a>
+      <a href="/tren-tay-danh-gia/">🧪 Trên tay & Đánh giá</a>
+      <a href="/tu-van-chon-mua/">🛒 Góc Chọn & Mua</a>
+      <a href="/so-sanh-hieu-suat/">⚡ So sánh hiệu suất</a>
+      <a href="/thu-thuat/">🧰 Thủ thuật</a>
+      <a href="/deeptalk/">💬 DeepTalk</a>
+    </nav>
+  </header>
+  {{ content }}
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>CHÚ NẾP CÔNG NGHỆ</strong>
+        <div class="footer-note">Tin tức · Trải nghiệm · Tư vấn · So sánh dựa trên nguồn và điều kiện kiểm chứng rõ ràng.</div>
+      </div>
+      <div class="footer-links">
+        <a href="/tin-moi/">Tin mới</a><a href="/so-sanh-hieu-suat/">So sánh</a><a href="/deeptalk/">DeepTalk</a><a href="/so-sanh-hieu-suat/">Nguyên tắc nguồn</a>
+      </div>
+    </div>
+  </footer>
+  <button class="backtop" data-backtop aria-label="Lên đầu trang">↑</button>
+  <script src="/assets/js/site.js?v=20260819-2" defer></script>
+</body>
+</html>

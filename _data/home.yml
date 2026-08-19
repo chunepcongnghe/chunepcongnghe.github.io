@@ -1,0 +1,24 @@
+hero_eyebrow: CÔNG NGHỆ DỄ HIỂU · CÓ NGUỒN · CÓ CHÍNH KIẾN
+hero_title: Chú Nếp Công Nghệ
+hero_description: Tin mới, trải nghiệm thực tế, tư vấn chọn mua và so sánh hiệu suất theo cách dễ hiểu. Không lấy thông số quảng cáo thay cho dữ liệu đã kiểm chứng.
+brand_tagline: Đọc nhanh để biết tin. Đọc sâu để biết có nên mua.
+featured_topics:
+  - AI & công cụ mới
+  - Laptop 2026
+  - Smartphone
+  - Chip & GPU
+  - Camera creator
+  - Góc setup
+quick_topics:
+  - label: Tin nhanh
+    url: /tin-moi/
+  - label: Trên tay & Đánh giá
+    url: /tren-tay-danh-gia/
+  - label: Chọn & Mua
+    url: /tu-van-chon-mua/
+  - label: So sánh hiệu suất
+    url: /so-sanh-hieu-suat/
+  - label: Thủ thuật
+    url: /thu-thuat/
+  - label: DeepTalk
+    url: /deeptalk/

@@ -1,0 +1,63 @@
+---
+layout: default
+---
+{% assign section_posts = site.posts | where: "section", page.section_key %}
+<div class="container layout">
+  <aside class="rail" aria-label="Chuyên mục">
+    <div class="rail-card">
+      <div class="rail-title">KHÁM PHÁ</div>
+      <a href="/"><span class="rail-icon">⌂</span>Trang chủ</a>
+      <a href="/tin-moi/" {% if page.section_key == 'tin-moi' %}class="active"{% endif %}><span class="rail-icon">📰</span>Tin mới</a>
+      <a href="/tren-tay-danh-gia/" {% if page.section_key == 'tren-tay-danh-gia' %}class="active"{% endif %}><span class="rail-icon">🧪</span>Trên tay & Đánh giá</a>
+      <a href="/tu-van-chon-mua/" {% if page.section_key == 'tu-van-chon-mua' %}class="active"{% endif %}><span class="rail-icon">🛒</span>Góc Chọn & Mua</a>
+      <a href="/so-sanh-hieu-suat/" {% if page.section_key == 'so-sanh-hieu-suat' %}class="active"{% endif %}><span class="rail-icon">⚡</span>So sánh hiệu suất</a>
+      <a href="/thu-thuat/" {% if page.section_key == 'thu-thuat' %}class="active"{% endif %}><span class="rail-icon">🧰</span>Thủ thuật</a>
+      <a href="/deeptalk/" {% if page.section_key == 'deeptalk' %}class="active"{% endif %}><span class="rail-icon">💬</span>DeepTalk</a>
+    </div>
+  </aside>
+  <main class="main-column">
+    <section class="page-hero">
+      <div class="eyebrow">{{ page.eyebrow | default: 'CHUYÊN MỤC NẾP TECH' }}</div>
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.description }}</p>
+    </section>
+    <div class="filter-bar" aria-label="Lọc theo nhóm sản phẩm">
+      <button class="filter-chip active" data-filter="all">Tất cả</button>
+      <button class="filter-chip" data-filter="smartphone">Điện thoại</button>
+      <button class="filter-chip" data-filter="laptop">Laptop</button>
+      <button class="filter-chip" data-filter="pc-linh-kien">PC & Linh kiện</button>
+      <button class="filter-chip" data-filter="ai">AI</button>
+      <button class="filter-chip" data-filter="camera-creator-gear">Camera & Creator</button>
+      <button class="filter-chip" data-filter="setup">Góc setup</button>
+    </div>
+    {% if page.section_key == 'so-sanh-hieu-suat' %}
+    <div class="compare-banner">
+      <div><h3>So bằng dữ liệu, không so bằng cảm giác</h3><p>Mỗi con số benchmark phải kèm nguồn hoặc điều kiện test. Nếu chỉ là claim của hãng, bài sẽ ghi rõ là claim.</p></div>
+      <a class="btn btn-primary" href="#danh-sach">Xem kho so sánh ↓</a>
+    </div>
+    {% endif %}
+    <section class="section-block" id="danh-sach">
+      <div class="section-head"><div><h2>Bài mới nhất</h2></div><span class="section-link">{{ section_posts.size }} bài</span></div>
+      {% if section_posts.size > 0 %}
+      <div class="list-stack">
+        {% for post in section_posts %}
+        <article class="list-row" data-search-item data-category="{{ post.category | default: 'khac' }}" data-search="{{ post.title | escape }} {{ post.description | escape }} {{ post.tags | join: ' ' | escape }}">
+          <a href="{{ post.url }}"><img src="{{ post.image | default: '/assets/chunep-canonical.webp' }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>
+          <div>
+            <div class="meta">{{ post.category_label | default: post.category }} · {{ post.date | date: '%d/%m/%Y' }} · {{ post.read_time | default: 6 }} phút</div>
+            <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+            <p>{{ post.description }}</p>
+            {% if post.source_status %}<span class="status-badge status-{{ post.source_status }}">{{ post.source_status }}</span>{% endif %}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="empty-state">
+        <b>Chuyên mục đã sẵn sàng, chưa nhồi bài cho đủ số lượng.</b>
+        Nội dung sẽ xuất hiện tự động ở đây khi được tạo trong CMS. Riêng bài so sánh chỉ lên khi đã có nguồn và dữ liệu đủ để đối chiếu.
+      </div>
+      {% endif %}
+    </section>
+  </main>
+</div>
