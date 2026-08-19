@@ -1,0 +1,38 @@
+name: Render Nếp Tech social PNGs
+on:
+  push:
+    branches: [neptech-assets]
+    paths:
+      - 'assets/social-src/**.svg'
+      - '.github/workflows/render-social.yml'
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: neptech-assets
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install cairosvg
+      - name: Render 2160x2700 PNGs
+        run: |
+          mkdir -p assets/social
+          python - <<'PY'
+          import glob, os
+          import cairosvg
+          for src in glob.glob('assets/social-src/*.svg'):
+              dst='assets/social/'+os.path.basename(src).replace('.svg','.png')
+              cairosvg.svg2png(url=src, write_to=dst, output_width=2160, output_height=2700)
+              print(dst)
+          PY
+      - name: Commit rendered PNGs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/social/*.png
+          git diff --cached --quiet || git commit -m 'Render Nếp Tech social PNGs'
+          git push origin HEAD:neptech-assets
