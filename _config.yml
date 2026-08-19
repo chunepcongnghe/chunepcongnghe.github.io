@@ -1,0 +1,9 @@
+title: Nếp Tech
+description: Khám phá công nghệ cùng Chú Nếp
+url: https://chunepcongnghe.github.io
+lang: vi
+timezone: Asia/Ho_Chi_Minh
+permalink: /bai-viet/:title/
+markdown: kramdown
+exclude:
+  - README.md
