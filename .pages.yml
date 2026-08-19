@@ -17,7 +17,7 @@ settings:
 
 content:
   - name: posts
-    label: Bài viết Nếp Tech
+    label: Bài viết Chú Nếp Công Nghệ
     type: collection
     path: _posts
     format: yaml-frontmatter
@@ -25,10 +25,10 @@ content:
       template: "{year}-{month}-{day}-{fields.slug}.md"
       field: create
     view:
-      fields: [title, published, featured, date, category]
+      fields: [title, published, featured, date, section, category, source_status]
       primary: title
-      sort: [date, title, category]
-      search: [title, description, target_query, category, tags, brand]
+      sort: [date, title, section, category]
+      search: [title, description, answer_summary, target_query, section, category, tags, brand]
       default:
         sort: date
         order: desc
@@ -52,12 +52,13 @@ content:
         label: Câu trả lời ngắn AEO/GEO
         type: text
         required: true
+        description: 2–4 câu trả lời thẳng truy vấn chính, dùng được cho đoạn trích tìm kiếm và AI answer engine.
       - name: target_query
         label: Truy vấn trọng tâm
         type: string
         required: true
       - name: date
-        label: Ngày xuất bản
+        label: Ngày giờ xuất bản
         type: date
         required: true
         options:
@@ -70,34 +71,61 @@ content:
         options:
           time: true
           format: yyyy-MM-dd'T'HH:mm:ssXXX
-      - name: category
-        label: Chuyên mục
+      - name: section
+        label: Tuyến nội dung / Trang con
         type: select
         required: true
         options:
           values:
-            - name: tin-cong-nghe
-              label: Tin công nghệ
+            - name: tin-moi
+              label: Tin mới
+            - name: tren-tay-danh-gia
+              label: Trên tay & Đánh giá
+            - name: tu-van-chon-mua
+              label: Góc Chọn & Mua
+            - name: so-sanh-hieu-suat
+              label: So sánh hiệu suất
+            - name: thu-thuat
+              label: Thủ thuật
+            - name: deeptalk
+              label: DeepTalk Chú Nếp
+            - name: video
+              label: Video / YouTube
+      - name: section_label
+        label: Tên tuyến hiển thị
+        type: string
+        required: true
+        description: Ví dụ “Trên tay & Đánh giá”, “Góc Chọn & Mua”.
+      - name: category
+        label: Nhóm sản phẩm / Chủ đề
+        type: select
+        required: true
+        options:
+          values:
+            - name: smartphone
+              label: Điện thoại
             - name: laptop
               label: Laptop
-            - name: mobile
-              label: Mobile
-            - name: chip-ram
-              label: Chip & RAM
-            - name: camera
-              label: Camera / Action Cam / Pocket
-            - name: gimbal
-              label: Gimbal
+            - name: pc-linh-kien
+              label: PC & Linh kiện
+            - name: ai
+              label: AI & Công cụ AI
+            - name: camera-creator-gear
+              label: Camera / Action Cam / Creator Gear
+            - name: wearable
+              label: Wearable
+            - name: smart-home
+              label: Smart Home
             - name: setup
               label: Góc setup
-            - name: so-sanh
-              label: So sánh
-            - name: giai-thich
-              label: Chú Nếp giải thích
-            - name: ai-pc
-              label: AI PC
+            - name: gaming
+              label: Gaming
+            - name: phan-mem
+              label: Phần mềm / Hệ điều hành
+            - name: khac
+              label: Khác
       - name: category_label
-        label: Tên chuyên mục hiển thị
+        label: Tên nhóm hiển thị
         type: string
         required: true
       - name: brand
@@ -129,13 +157,13 @@ content:
         options:
           values:
             - name: confirmed
-              label: Đã xác nhận
+              label: Đã xác nhận / có nguồn rõ
             - name: vendor-claim
               label: Claim / benchmark của hãng
             - name: leak
-              label: Tin rò rỉ
+              label: Tin rò rỉ / chưa xác nhận
       - name: sources
-        label: Nguồn kiểm chứng
+        label: Nguồn kiểm chứng chung
         type: object
         list: true
         fields:
@@ -147,6 +175,62 @@ content:
             label: URL nguồn
             type: string
             required: true
+      - name: comparison
+        label: Dữ liệu so sánh hiệu suất
+        type: object
+        required: false
+        description: Chỉ điền cho bài thuộc tuyến “So sánh hiệu suất”. Không có nguồn thì để trống, không ước đoán.
+        fields:
+          - name: product_a
+            label: Sản phẩm A
+            type: string
+            required: true
+          - name: product_b
+            label: Sản phẩm B
+            type: string
+            required: true
+          - name: test_conditions
+            label: Điều kiện / phương pháp test
+            type: text
+            required: true
+          - name: metrics
+            label: Chỉ số đối chiếu
+            type: object
+            list: true
+            fields:
+              - name: name
+                label: Tên chỉ số
+                type: string
+                required: true
+              - name: unit
+                label: Đơn vị
+                type: string
+                required: false
+              - name: product_a_value
+                label: Giá trị sản phẩm A
+                type: string
+                required: true
+              - name: product_b_value
+                label: Giá trị sản phẩm B
+                type: string
+                required: true
+              - name: source_name
+                label: Tên nguồn chỉ số
+                type: string
+                required: true
+              - name: source_url
+                label: URL nguồn chỉ số
+                type: string
+                required: true
+          - name: conclusion
+            label: Kết luận so sánh
+            type: text
+            required: false
+      - name: video_url
+        label: Video YouTube liên quan
+        type: string
+        required: false
+        description: Để trống nếu chưa có. Trường này dành cho giai đoạn tích hợp Video Chú Nếp.
       - name: author
         label: Tác giả
         type: string
@@ -156,7 +240,7 @@ content:
         label: Vai trò tác giả
         type: string
         required: true
-        default: Nếp Tech · Khám phá công nghệ cùng Chú Nếp
+        default: Chú Nếp Công Nghệ · Tin dễ hiểu, có kiểm chứng
       - name: read_time
         label: Thời gian đọc (phút)
         type: number
@@ -216,3 +300,14 @@ content:
         label: Chủ đề nổi bật
         type: string
         list: true
+      - name: quick_topics
+        label: Lối tắt chuyên mục
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Nhãn
+            type: string
+          - name: url
+            label: URL
+            type: string

@@ -1,44 +1,118 @@
-<!doctype html>
-<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Nếp Tech — Khám phá công nghệ cùng Chú Nếp</title>
-<meta name="description" content="Nếp Tech — Khám phá công nghệ cùng Chú Nếp. Tin mới, so sánh laptop, mobile, chip, RAM, camera và góc setup theo hướng dễ hiểu, có kiểm chứng.">
-<link rel="canonical" href="https://chunepcongnghe.github.io/">
-<meta property="og:type" content="website"><meta property="og:site_name" content="Nếp Tech"><meta property="og:title" content="Nếp Tech — Khám phá công nghệ cùng Chú Nếp"><meta property="og:description" content="Công nghệ dễ hiểu, có kiểm chứng và có chính kiến."><meta property="og:url" content="https://chunepcongnghe.github.io/">
-<meta property="og:image" content="https://chunepcongnghe.github.io/assets/chunep-canonical.webp">
-<meta name="theme-color" content="#06162f">
-<style>
-:root{--ink:#0b1830;--muted:#61758b;--line:#dbe6ef;--bg:#f5f8fc;--navy:#06162f;--cyan:#17ddd8;--cyan2:#05aeca;--green:#25cf91;--purple:#9c72ff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--ink)}a{color:inherit;text-decoration:none}.wrap{width:min(1180px,calc(100% - 32px));margin:auto}.top{background:#031326;color:#c8d9e7;font-size:13px;padding:8px 0}.top .wrap{display:flex;justify-content:space-between;gap:20px}header{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line)}.nav{min-height:78px;display:flex;align-items:center;gap:22px}.brand{display:flex;align-items:center;gap:12px}.brand img{width:52px;height:52px;border-radius:50%;object-fit:cover;border:2px solid var(--cyan);box-shadow:0 0 0 4px #e5fbfb}.bn{font-size:23px;font-weight:950;line-height:1}.bn span{color:var(--cyan2)}.bt{font-size:11px;font-weight:800;color:#61758b;margin-top:6px}nav{margin-left:auto;display:flex;gap:18px;font-size:14px;font-weight:850;color:#31485e}nav a:hover{color:#049eb6}.hero{background:radial-gradient(circle at 82% 28%,#0b6682 0,#0b3a57 25%,#06162f 62%);color:#fff;padding:68px 0}.hg{display:grid;grid-template-columns:1.25fr .75fr;gap:42px;align-items:center}.ey{font-size:13px;font-weight:950;letter-spacing:.09em;color:#66efe7}h1{font-size:clamp(44px,6vw,76px);line-height:1.02;letter-spacing:-2.4px;margin:12px 0 20px}h1 span{color:#2fe2dc}.hero p{color:#c9d9e7;font-size:18px;line-height:1.65;max-width:750px}.portrait{display:grid;place-items:center}.portrait img{width:min(380px,92%);aspect-ratio:1;border-radius:50%;object-fit:cover;border:9px solid #0a2c47;box-shadow:0 0 0 8px #29dfd2,0 30px 70px #0006;image-rendering:auto}.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{padding:13px 18px;border-radius:13px;font-weight:900}.primary{background:var(--cyan);color:#062236}.ghost{border:1px solid #ffffff42;background:#ffffff0c}section{padding:56px 0}.head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:22px}h2{font-size:34px;letter-spacing:-1px;margin:0}.head p{margin:0;color:var(--muted);max-width:620px;line-height:1.55}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 8px 24px #08213b0a;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 18px 40px #08213b14}.visual{height:238px;position:relative;display:grid;place-items:center;overflow:hidden;color:#fff}.v1{background:linear-gradient(145deg,#07162f,#0c6985)}.v2{background:linear-gradient(145deg,#08242d,#0b8a69)}.v3{background:linear-gradient(145deg,#180d37,#724ac9)}.badge{position:absolute;top:16px;left:16px;border:1px solid #ffffff55;background:#ffffff14;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:950;letter-spacing:.05em}.visual svg{width:84%;height:76%;filter:drop-shadow(0 18px 24px #0005)}.body{padding:20px}.meta{font-size:12px;color:#7890a6;font-weight:800}.body h3{font-size:21px;margin:8px 0 8px}.body p{font-size:14px;color:var(--muted);line-height:1.55;margin:0}.more{display:inline-block;margin-top:14px;color:#008ba3;font-weight:900}.cats{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.cat{background:#fff;border:1px solid var(--line);border-radius:17px;min-height:105px;display:grid;place-items:center;text-align:center;font-weight:900;padding:15px}.cat i{font-style:normal;font-size:29px;display:block;margin-bottom:6px}.talk{background:#fff}.talkgrid{display:grid;grid-template-columns:1.1fr .9fr;gap:20px}.mainq{background:linear-gradient(145deg,#071a33,#0b4660);border-radius:25px;color:#fff;padding:30px}.mainq small{color:#67f1e7;font-weight:950}.mainq h3{font-size:37px;letter-spacing:-1px;margin:12px 0}.mainq p{color:#c9d9e7;line-height:1.6}.list{display:grid;gap:12px}.q{border:1px solid var(--line);border-radius:18px;padding:19px;background:#f8fbfe}.q b{display:block;margin-bottom:6px}.q span{color:var(--muted);font-size:14px}.rules{background:#04152b;color:#fff}.rulegrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.rule{border:1px solid #29445f;border-radius:18px;padding:21px;background:#ffffff05}.rule b{display:block;margin:9px 0 7px}.rule p{margin:0;color:#b6c7d8;font-size:13px;line-height:1.55}footer{background:#021021;color:#a9bbce;padding:36px 0}.foot{display:flex;justify-content:space-between;gap:20px}.foot strong{color:#fff}.foot strong span{color:var(--cyan)}@media(max-width:920px){nav{display:none}.hg{grid-template-columns:1fr}.portrait img{width:290px}.cards{grid-template-columns:1fr 1fr}.cats{grid-template-columns:repeat(3,1fr)}.talkgrid{grid-template-columns:1fr}.rulegrid{grid-template-columns:1fr 1fr}}@media(max-width:620px){.wrap{width:min(100% - 22px,1180px)}.top .right{display:none}.brand img{width:44px;height:44px}.bn{font-size:20px}.bt{font-size:9px}.hero{padding:46px 0}h1{font-size:44px;letter-spacing:-1.6px}.hero p{font-size:16px}.portrait img{width:250px}.cards{grid-template-columns:1fr}.cats{grid-template-columns:1fr 1fr}.rulegrid{grid-template-columns:1fr}.head{display:block}.head p{margin-top:8px}.foot{display:block}}
-</style></head><body>
-<div class="top"><div class="wrap"><div>● <strong>Nếp Tech</strong> — Tin hay, dễ hiểu, có kiểm chứng</div><div class="right">Không biến claim marketing thành sự thật đã kiểm chứng.</div></div></div>
-<header><div class="wrap nav"><a class="brand" href="#top"><img data-chunep alt="Chú Nếp" width="52" height="52"><div><div class="bn">NẾP <span>TECH</span></div><div class="bt">Khám phá công nghệ cùng Chú Nếp</div></div></a><nav><a href="#moi">Tin mới</a><a href="#moi">So sánh</a><a href="#danh-muc">Laptop</a><a href="#danh-muc">Mobile</a><a href="#danh-muc">Chip & RAM</a><a href="#danh-muc">Camera</a></nav></div></header>
-<main id="top"><div class="hero"><div class="wrap hg"><div><div class="ey">CÔNG NGHỆ DỄ HIỂU · CÓ CHÍNH KIẾN</div><h1>Đừng hỏi thiết bị nào <span>mạnh nhất.</span><br>Hỏi cái nào hợp với bạn nhất.</h1><p>Nếp Tech biến thông số, tin mới và benchmark thành góc nhìn thực tế: nên mua gì, có cần nâng cấp không, và điều gì chỉ là marketing.</p><div class="btns"><a class="btn primary" href="#moi">Khám phá bài mới →</a><a class="btn ghost" href="#nguyen-tac">Cách Chú Nếp kiểm chứng</a></div></div><div class="portrait"><img data-chunep alt="Chú Nếp — nhân vật đại diện Nếp Tech" width="720" height="720"></div></div></div>
-<section id="moi"><div class="wrap"><div class="head"><div><h2>Mới trên Nếp Tech</h2></div><p>Không chỉ có chữ: mỗi chủ đề được trình bày bằng visual rõ ràng, sau đó mới đi vào phân tích và quan điểm.</p></div><div class="cards">
-<article class="card"><div class="visual v1"><span class="badge">GÓC CHÚ NẾP</span><svg viewBox="0 0 600 340" aria-hidden="true"><rect x="110" y="55" width="380" height="225" rx="20" fill="#0a1830" stroke="#53f4ef" stroke-width="8"/><rect x="135" y="80" width="330" height="175" rx="10" fill="#0c4161"/><path d="M70 285h460l-35 28H105z" fill="#dce7ed"/><g transform="translate(240 105)"><rect width="120" height="120" rx="20" fill="#1bded7"/><path d="M30 0v-22M60 0v-22M90 0v-22M30 120v22M60 120v22M90 120v22M0 30h-22M0 60h-22M0 90h-22M120 30h22M120 60h22M120 90h22" stroke="#6ff9f4" stroke-width="8"/><text x="60" y="76" text-anchor="middle" font-size="48" font-weight="900" fill="#062337">AI</text></g></svg></div><div class="body"><div class="meta">AI PC · Góc nhìn</div><h3>AI PC có làm được việc thật không?</h3><p>AI PC chỉ đáng tiền khi phần mềm tận dụng phần cứng và tiết kiệm thời gian thật cho workflow.</p><span class="more">Bài phân tích đang hoàn thiện →</span></div></article>
-<article class="card"><div class="visual v2"><span class="badge">SO SÁNH LAPTOP</span><svg viewBox="0 0 600 340" aria-hidden="true"><g fill="#dce7ed" stroke="#75fff3" stroke-width="5"><rect x="35" y="65" width="225" height="150" rx="16"/><rect x="340" y="65" width="225" height="150" rx="16"/></g><g fill="#0b2b3a"><rect x="52" y="82" width="191" height="116" rx="8"/><rect x="357" y="82" width="191" height="116" rx="8"/></g><path d="M15 220h265l-25 25H40zM320 220h265l-25 25H345z" fill="#c7d2dc"/><circle cx="300" cy="160" r="42" fill="#1dd99f"/><text x="300" y="174" text-anchor="middle" font-size="36" font-weight="900" fill="#fff">VS</text><text x="148" y="148" text-anchor="middle" font-size="42" font-weight="900" fill="#60fff6">M5</text><text x="452" y="148" text-anchor="middle" font-size="42" font-weight="900" fill="#fff">M4</text></svg></div><div class="body"><div class="meta">Apple · Laptop</div><h3>MacBook Air M5 vs M4</h3><p>So workflow thật, bộ nhớ, SSD, kết nối và claim của hãng thay vì chỉ nhìn một điểm benchmark.</p><span class="more">Bài so sánh đang hoàn thiện →</span></div></article>
-<article class="card"><div class="visual v3"><span class="badge">SO SÁNH CAMERA</span><svg viewBox="0 0 600 340" aria-hidden="true"><g fill="#101827" stroke="#d9d0ff" stroke-width="5"><rect x="55" y="70" width="205" height="180" rx="28"/><rect x="340" y="70" width="205" height="180" rx="28"/></g><circle cx="160" cy="160" r="65" fill="#26324b" stroke="#8df6ff" stroke-width="10"/><circle cx="442" cy="160" r="65" fill="#26324b" stroke="#c797ff" stroke-width="10"/><circle cx="160" cy="160" r="32" fill="#050912"/><circle cx="442" cy="160" r="32" fill="#050912"/><rect x="78" y="92" width="55" height="35" rx="6" fill="#2ccbd3"/><rect x="362" y="92" width="55" height="35" rx="6" fill="#aa76ff"/><text x="300" y="305" text-anchor="middle" font-size="30" font-weight="900" fill="#fff">ACTION 6  VS  5 PRO</text></svg></div><div class="body"><div class="meta">DJI · Creator Gear</div><h3>Action 6 vs Action 5 Pro</h3><p>Đời mới có đáng đổi hay không phụ thuộc điều kiện quay, hậu kỳ và những tính năng bạn thực sự dùng.</p><span class="more">Bài so sánh đang hoàn thiện →</span></div></article>
-</div></div></section>
-<section class="talk"><div class="wrap"><div class="head"><div><h2>Chú Nếp đang bàn gì?</h2></div><p>Những câu hỏi đáng quan tâm hơn việc chỉ hỏi thiết bị nào mạnh nhất.</p></div><div class="talkgrid"><div class="mainq"><small>CHỦ ĐỀ NỔI BẬT</small><h3>32GB RAM có đang dần thành mức mua “thoải mái đầu óc”?</h3><p>16GB chưa phế. Nhưng khi browser, creator app, AI và tác vụ nền chạy cùng lúc, câu hỏi đúng là dùng vài năm nữa có còn thoải mái không.</p></div><div class="list"><div class="q"><b>Intel vs AMD: đừng so mỗi tên chip</b><span>Tản nhiệt, giới hạn điện và cấu hình máy có thể làm trải nghiệm khác hẳn.</span></div><div class="q"><b>Action cam vs Pocket camera</b><span>Một bên sinh ra để chịu đòn, một bên ưu tiên hình đẹp và chuyển động mượt.</span></div><div class="q"><b>Góc setup: đẹp chưa đủ</b><span>Ergonomics, ánh sáng, dây cáp và workflow mới quyết định setup dùng có sướng hay không.</span></div></div></div></div></section>
-<section id="danh-muc"><div class="wrap"><div class="head"><div><h2>Khám phá theo nhu cầu</h2></div><p>Laptop, điện thoại, chip, RAM, camera, gimbal và setup — xoay quanh cách công nghệ được dùng thật.</p></div><div class="cats"><div class="cat"><div><i>💻</i>Laptop</div></div><div class="cat"><div><i>📱</i>Mobile</div></div><div class="cat"><div><i>🧠</i>Chip & RAM</div></div><div class="cat"><div><i>🎥</i>Camera</div></div><div class="cat"><div><i>⌨️</i>Góc setup</div></div><div class="cat"><div><i>💡</i>Chú Nếp giải thích</div></div></div></div></section>
-<section class="rules" id="nguyen-tac"><div class="wrap"><div class="head"><div><h2>Nguyên tắc của Chú Nếp</h2></div><p style="color:#b9cada">Một page công nghệ đáng tin phải biết mình biết gì, chưa biết gì và nguồn nào đang nói điều đó.</p></div><div class="rulegrid"><div class="rule">✅<b>Không đoán thông số</b><p>Ưu tiên website hãng, tài liệu kỹ thuật và nguồn gốc rõ ràng.</p></div><div class="rule">🔎<b>Claim phải có nhãn</b><p>Benchmark do hãng tự công bố sẽ nói rõ là số liệu của hãng.</p></div><div class="rule">⚠️<b>Leak không phải fact</b><p>Tin rò rỉ và dự đoán luôn tách khỏi thông tin đã xác nhận.</p></div><div class="rule">🧠<b>Hợp hơn mạnh</b><p>Thiết bị mạnh nhất chưa chắc phù hợp nhất với tiền và workflow của bạn.</p></div></div></div></section></main>
-<footer><div class="wrap foot"><div><strong>NẾP <span>TECH</span></strong><div>Khám phá công nghệ cùng Chú Nếp</div></div><div>© 2026 Nếp Tech · chunepcongnghe.github.io</div></div></footer>
+---
+layout: default
+title: Trang chủ
+description: Chú Nếp Công Nghệ — tin mới, trải nghiệm, chọn mua, thủ thuật, DeepTalk và so sánh hiệu suất có nguồn kiểm chứng.
+---
+{% assign home = site.data.home %}
+{% assign all_posts = site.posts | where_exp: "post", "post.published != false" %}
+{% assign featured_posts = all_posts | where: "featured", true %}
+{% assign lead = featured_posts.first %}
+{% if lead == nil %}{% assign lead = all_posts.first %}{% endif %}
+<div class="container layout">
+  <aside class="rail" aria-label="Chuyên mục">
+    <div class="rail-card">
+      <div class="rail-title">CHÚ NẾP CÔNG NGHỆ</div>
+      <a class="active" href="/"><span class="rail-icon">⌂</span>Trang chủ</a>
+      <a href="/tin-moi/"><span class="rail-icon">📰</span>Tin mới</a>
+      <a href="/tren-tay-danh-gia/"><span class="rail-icon">🧪</span>Trên tay & Đánh giá</a>
+      <a href="/tu-van-chon-mua/"><span class="rail-icon">🛒</span>Góc Chọn & Mua</a>
+      <a href="/so-sanh-hieu-suat/"><span class="rail-icon">⚡</span>So sánh hiệu suất</a>
+      <a href="/thu-thuat/"><span class="rail-icon">🧰</span>Thủ thuật</a>
+      <a href="/deeptalk/"><span class="rail-icon">💬</span>DeepTalk</a>
+      <a href="#video"><span class="rail-icon">▶</span>Video <small>soon</small></a>
+    </div>
+  </aside>
+  <main class="main-column">
+    <section class="hot-row">
+      <div class="hot-head"><strong>Chủ đề hot</strong><span class="meta">Theo dõi nhanh</span></div>
+      <div class="hot-scroll">
+        {% for topic in home.featured_topics %}<a class="hot-chip" href="/tin-moi/">#{{ topic }}</a>{% endfor %}
+      </div>
+    </section>
 
-<script>
-(async function loadChuNep(){
-  try {
-    const urls = Array.from({length:7}, (_,i) => `/image_parts/chunep.part${String(i+1).padStart(2,'0')}.txt?v=2`);
-    const parts = await Promise.all(urls.map(async (url) => {
-      const res = await fetch(url, {cache:'no-cache'});
-      if (!res.ok) throw new Error(`Không tải được ${url}`);
-      return (await res.text()).replace(/\s+/g,'');
-    }));
-    const src = 'data:image/webp;base64,' + parts.join('');
-    document.querySelectorAll('img[data-chunep]').forEach(img => {
-      img.src = src;
-      img.removeAttribute('data-chunep');
-    });
-  } catch (err) {
-    console.error('Nếp Tech: lỗi tải ảnh Chú Nếp', err);
-  }
-})();
-</script>
-</body></html>
+    <section class="hero-intro">
+      <div class="hero-copy">
+        <div class="eyebrow">{{ home.hero_eyebrow }}</div>
+        <h1>{{ home.hero_title }}</h1>
+        <p>{{ home.hero_description }}</p>
+      </div>
+      <img class="hero-avatar" data-chunep alt="Chú Nếp — Chú Nếp Công Nghệ" width="150" height="150">
+    </section>
+
+    <section class="section-block">
+      <div class="section-head"><div><h2>Nổi bật nhất</h2></div><a class="section-link" href="/tin-moi/">Xem tin mới →</a></div>
+      {% if lead %}
+      <div class="featured-grid">
+        <article class="feature-main" data-search-item data-search="{{ lead.title | escape }} {{ lead.tags | join: ' ' | escape }}">
+          <a href="{{ lead.url }}"><img src="{{ lead.image | default: '/assets/chunep-canonical.webp' }}" alt="{{ lead.image_alt | default: lead.title | escape }}"><div class="overlay"><span class="tag">{{ lead.category_label | default: lead.section_label | default: 'Nổi bật' }}</span><h3>{{ lead.title }}</h3><p>{{ lead.description }}</p></div></a>
+        </article>
+        <div class="side-stories">
+          {% for post in all_posts offset:1 limit:3 %}
+          <article class="mini-story" data-search-item data-search="{{ post.title | escape }} {{ post.tags | join: ' ' | escape }}"><a href="{{ post.url }}"><img src="{{ post.image | default: '/assets/chunep-canonical.webp' }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a><div class="mini-content"><div class="meta">{{ post.category_label | default: post.section_label }} · {{ post.date | date: '%d/%m' }}</div><a href="{{ post.url }}"><h3>{{ post.title }}</h3></a><span class="meta">{{ post.read_time | default: 6 }} phút</span></div></article>
+          {% endfor %}
+        </div>
+      </div>
+      {% else %}
+      <div class="featured-grid">
+        <div class="feature-main"><div class="overlay"><span class="tag">NẾP TECH 2.0</span><h3>Trang tin đã sẵn sàng cho luồng bài từ CMS</h3><p>Bài mới sẽ tự vào Nổi bật, Xem nhanh và đúng chuyên mục theo dữ liệu CMS — không cần hard-code lại trang chủ.</p></div><img data-chunep alt="Chú Nếp Công Nghệ"></div>
+        <div class="side-stories">
+          <div class="placeholder-card"><span class="emoji">🧪</span><h3>Trên tay & Đánh giá</h3><p>Trải nghiệm sản phẩm, nêu rõ điều kiện dùng và điểm chưa tốt.</p></div>
+          <div class="placeholder-card"><span class="emoji">🛒</span><h3>Góc Chọn & Mua</h3><p>Tư vấn theo ngân sách, nhu cầu và trade-off thay vì chỉ nhìn cấu hình.</p></div>
+          <div class="placeholder-card"><span class="emoji">⚡</span><h3>So sánh hiệu suất</h3><p>Chỉ hiển thị số khi có nguồn hoặc điều kiện benchmark rõ ràng.</p></div>
+        </div>
+      </div>
+      {% endif %}
+    </section>
+
+    <section class="section-block">
+      <div class="section-head"><div><h2>Xem nhanh</h2></div><p>Dòng tin ngắn để nắm diễn biến trước khi quyết định đọc sâu.</p></div>
+      {% if all_posts.size > 0 %}
+      <div class="quick-feed">{% for post in all_posts limit:6 %}<a class="quick-item" href="{{ post.url }}" data-search-item><span class="quick-dot"></span><div><b>{{ post.title }}</b><span>{{ post.date | date: '%d/%m/%Y %H:%M' }} · {{ post.category_label | default: post.category }}</span></div></a>{% endfor %}</div>
+      {% else %}
+      <div class="quick-feed"><div class="quick-item"><span class="quick-dot"></span><div><b>Tin mới từ CMS sẽ tự chạy vào đây.</b><span>Không tạo tin giả để lấp giao diện.</span></div></div><div class="quick-item"><span class="quick-dot"></span><div><b>Claim của hãng và leak có nhãn riêng.</b><span>Người đọc biết dữ liệu đang ở mức độ tin cậy nào.</span></div></div></div>
+      {% endif %}
+    </section>
+
+    {% assign review_posts = all_posts | where: 'section', 'tren-tay-danh-gia' %}
+    <section class="section-block">
+      <div class="section-head"><div><h2>Trên tay & Đánh giá</h2></div><a class="section-link" href="/tren-tay-danh-gia/">Xem tất cả →</a></div>
+      {% if review_posts.size > 0 %}<div class="story-grid">{% for post in review_posts limit:3 %}<article class="story-card" data-search-item data-category="{{ post.category }}"><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"><div class="story-body"><span class="tag">{{ post.category_label }}</span><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div></a></article>{% endfor %}</div>{% else %}<div class="placeholder-grid"><a class="placeholder-card" href="/tren-tay-danh-gia/"><span class="emoji">📱</span><h3>Điện thoại</h3><p>Cảm giác cầm, màn hình, camera, pin và trải nghiệm hằng ngày.</p></a><a class="placeholder-card" href="/tren-tay-danh-gia/"><span class="emoji">💻</span><h3>Laptop</h3><p>Hiệu năng trong khung máy thật, nhiệt độ, pin, cổng và workflow.</p></a><a class="placeholder-card" href="/tren-tay-danh-gia/"><span class="emoji">🎥</span><h3>Creator Gear</h3><p>Camera, action cam, mic, gimbal và thiết bị phục vụ quay dựng.</p></a></div>{% endif %}
+    </section>
+
+    {% assign buying_posts = all_posts | where: 'section', 'tu-van-chon-mua' %}
+    <section class="section-block">
+      <div class="section-head"><div><h2>Góc Chọn & Mua</h2></div><a class="section-link" href="/tu-van-chon-mua/">Xem tư vấn →</a></div>
+      <div class="content-split">
+        <div class="list-stack">
+          {% if buying_posts.size > 0 %}{% for post in buying_posts limit:4 %}<article class="list-row" data-search-item><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a><div><div class="meta">{{ post.category_label }} · {{ post.date | date: '%d/%m/%Y' }}</div><a href="{{ post.url }}"><h3>{{ post.title }}</h3></a><p>{{ post.description }}</p></div></article>{% endfor %}{% else %}<div class="empty-state"><b>Không xếp hạng kiểu “mạnh nhất = tốt nhất”.</b>Tuyến Chọn & Mua sẽ ưu tiên ngân sách, nhu cầu, độ bền sử dụng và những đánh đổi người mua thực sự phải chấp nhận.</div>{% endif %}
+        </div>
+        <aside class="sidebar-stack">
+          <div class="side-panel"><h3>Chọn theo nhu cầu</h3><div class="need-grid"><a class="need-link" href="/tu-van-chon-mua/">Học & Văn phòng</a><a class="need-link" href="/tu-van-chon-mua/">Creator</a><a class="need-link" href="/tu-van-chon-mua/">Gaming</a><a class="need-link" href="/tu-van-chon-mua/">AI local</a><a class="need-link" href="/tu-van-chon-mua/">Du lịch</a><a class="need-link" href="/tu-van-chon-mua/">Setup</a></div></div>
+          <div class="side-panel trust-panel"><h3>Nguyên tắc nguồn</h3><p>Đọc được “nguồn nào nói gì” quan trọng hơn nhìn một con số đẹp.</p><div class="trust-list"><span>✅ Fact đã xác nhận</span><span>🏷 Claim / benchmark của hãng</span><span>⚠ Leak / tin chưa xác nhận</span></div></div>
+        </aside>
+      </div>
+    </section>
+
+    {% assign compare_posts = all_posts | where: 'section', 'so-sanh-hieu-suat' %}
+    <section class="section-block">
+      <div class="section-head"><div><h2>So sánh hiệu suất</h2></div><a class="section-link" href="/so-sanh-hieu-suat/">Vào trung tâm so sánh →</a></div>
+      <div class="compare-banner"><div><h3>Laptop vs laptop, điện thoại vs điện thoại — so cả cấu hình lẫn công năng</h3><p>Benchmark, pin, nhiệt, màn hình, camera, kết nối và workflow được đặt trong đúng điều kiện test. Dữ liệu thiếu sẽ để trống, không đoán.</p></div><a class="btn btn-primary" href="/so-sanh-hieu-suat/">So sánh sản phẩm</a></div>
+      {% if compare_posts.size > 0 %}<div class="compare-grid">{% for post in compare_posts limit:4 %}<a class="compare-card" href="{{ post.url }}" data-search-item><span class="tag">{{ post.category_label }}</span><h3>{{ post.title }}</h3>{% if post.comparison %}<div class="compare-pair"><span class="product-pill">{{ post.comparison.product_a }}</span><span class="vs">VS</span><span class="product-pill">{{ post.comparison.product_b }}</span></div>{% endif %}<div class="data-note">Nguồn: {{ post.sources.size | default: 0 }} · {{ post.source_status }}</div></a>{% endfor %}</div>{% else %}<div class="compare-grid"><div class="compare-card"><span class="tag">LAPTOP</span><h3>Mẫu bảng so sánh đã sẵn sàng</h3><div class="compare-pair"><span class="product-pill">Sản phẩm A</span><span class="vs">VS</span><span class="product-pill">Sản phẩm B</span></div><div class="data-note">Chưa có dữ liệu thật nên chưa hiển thị benchmark.</div></div><div class="compare-card"><span class="tag">SMARTPHONE</span><h3>Không bịa con số để làm giao diện “đầy”</h3><div class="compare-pair"><span class="product-pill">Thông số</span><span class="vs">+</span><span class="product-pill">Công năng</span></div><div class="data-note">Khi có bài CMS, bảng sẽ lấy trực tiếp các metric có nguồn.</div></div></div>{% endif %}
+    </section>
+
+    {% assign tips_posts = all_posts | where: 'section', 'thu-thuat' %}
+    {% assign deep_posts = all_posts | where: 'section', 'deeptalk' %}
+    <section class="section-block">
+      <div class="section-head"><div><h2>Thủ thuật & DeepTalk</h2></div><a class="section-link" href="/deeptalk/">Góc bàn luận →</a></div>
+      <div class="story-grid">
+        {% if tips_posts.size > 0 %}{% for post in tips_posts limit:2 %}<article class="story-card" data-search-item><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"><div class="story-body"><span class="tag">Thủ thuật</span><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div></a></article>{% endfor %}{% endif %}
+        {% if deep_posts.size > 0 %}{% for post in deep_posts limit:1 %}<article class="story-card" data-search-item><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"><div class="story-body"><span class="tag">DeepTalk</span><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div></a></article>{% endfor %}{% endif %}
+        {% if tips_posts.size == 0 and deep_posts.size == 0 %}<a class="placeholder-card" href="/thu-thuat/"><span class="emoji">🧰</span><h3>Thủ thuật thực dụng</h3><p>Cài đặt, tối ưu, xử lý lỗi và workflow có thể làm ngay.</p></a><a class="placeholder-card" href="/deeptalk/"><span class="emoji">💬</span><h3>DeepTalk cùng Chú Nếp</h3><p>Phân tích xu hướng, tranh luận công nghệ và câu hỏi “có thật sự cần nâng cấp?”.</p></a><a class="placeholder-card" href="/tin-moi/"><span class="emoji">🧠</span><h3>AI & công cụ mới</h3><p>Tin nhanh nhưng tách rõ demo, claim và khả năng dùng thật.</p></a>{% endif %}
+      </div>
+    </section>
+
+    <section class="section-block" id="video">
+      <div class="video-tease"><div><strong>▶ Video Chú Nếp</strong><p>Khung YouTube review / trải nghiệm đã chừa sẵn trong kiến trúc. Sẽ tích hợp khi kênh video được đưa vào vận hành.</p></div><span class="tag">GIAI ĐOẠN SAU</span></div>
+    </section>
+  </main>
+</div>

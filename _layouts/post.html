@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<div class="article-wrap">
+  <div class="article-grid">
+    <article class="article">
+      <div class="breadcrumbs"><a href="/">Trang chủ</a> › <a href="/{% if page.section == 'tren-tay-danh-gia' %}tren-tay-danh-gia{% elsif page.section == 'tu-van-chon-mua' %}tu-van-chon-mua{% elsif page.section == 'so-sanh-hieu-suat' %}so-sanh-hieu-suat{% elsif page.section == 'thu-thuat' %}thu-thuat{% elsif page.section == 'deeptalk' %}deeptalk{% else %}tin-moi{% endif %}/">{{ page.section_label | default: page.category_label | default: 'Tin công nghệ' }}</a></div>
+      {% if page.source_status %}<span class="status-badge status-{{ page.source_status }}">{% if page.source_status == 'confirmed' %}Đã kiểm chứng nguồn{% elsif page.source_status == 'vendor-claim' %}Có claim từ hãng{% else %}Tin rò rỉ / chưa xác nhận{% endif %}</span>{% endif %}
+      <h1>{{ page.title }}</h1>
+      <p class="article-lead">{{ page.answer_summary | default: page.description }}</p>
+      <div class="article-meta">
+        <span>✍️ {{ page.author | default: 'Chú Nếp' }}</span>
+        <span>🕒 {{ page.date | date: '%d/%m/%Y %H:%M' }}</span>
+        <span>⏱ {{ page.read_time | default: 6 }} phút đọc</span>
+        {% if page.date_modified %}<span>↻ Cập nhật {{ page.date_modified | date: '%d/%m/%Y' }}</span>{% endif %}
+      </div>
+      {% if page.image %}<img class="article-cover" src="{{ page.image }}" alt="{{ page.image_alt | default: page.title | escape }}">{% endif %}
+      {% if page.section == 'so-sanh-hieu-suat' and page.comparison %}
+      <div class="compare-banner">
+        <div><h3>{{ page.comparison.product_a }} vs {{ page.comparison.product_b }}</h3><p>{{ page.comparison.test_conditions | default: 'Điều kiện test và nguồn dữ liệu được ghi trong từng chỉ số.' }}</p></div>
+      </div>
+      {% if page.comparison.metrics %}
+      <div class="compare-table-wrap">
+        <table class="compare-table">
+          <thead><tr><th>Chỉ số / Công năng</th><th>{{ page.comparison.product_a }}</th><th>{{ page.comparison.product_b }}</th><th>Nguồn</th></tr></thead>
+          <tbody>
+          {% for metric in page.comparison.metrics %}
+            <tr><td class="metric">{{ metric.name }}{% if metric.unit %} ({{ metric.unit }}){% endif %}</td><td>{{ metric.product_a_value }}</td><td>{{ metric.product_b_value }}</td><td>{% if metric.source_url %}<a href="{{ metric.source_url }}" rel="nofollow noopener" target="_blank">{{ metric.source_name | default: 'Nguồn' }}</a>{% else %}{{ metric.source_name | default: '—' }}{% endif %}</td></tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% endif %}
+      {% endif %}
+      <div class="article-content">{{ content }}</div>
+      {% if page.sources %}
+      <section class="source-box">
+        <h2>Nguồn kiểm chứng</h2>
+        <ol>{% for source in page.sources %}<li><a href="{{ source.url }}" target="_blank" rel="nofollow noopener">{{ source.name }}</a></li>{% endfor %}</ol>
+        <p class="data-note">Nếp Tech phân biệt rõ dữ liệu độc lập, tài liệu kỹ thuật, claim của hãng và tin rò rỉ. Có sai số hoặc khác điều kiện test sẽ ghi trong bài.</p>
+      </section>
+      {% endif %}
+      {% if page.faq %}
+      <section class="faq"><h2>Câu hỏi thường gặp</h2>{% for item in page.faq %}<details><summary>{{ item.question }}</summary><p>{{ item.answer }}</p></details>{% endfor %}</section>
+      {% endif %}
+    </article>
+    <aside class="toc"><h3>Mục lục bài viết</h3><div data-toc></div></aside>
+  </div>
+</div>
+{% if page.faq %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in page.faq %}{"@type":"Question","name":{{ item.question | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ item.answer | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}]}</script>
+{% endif %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":{{ page.title | jsonify }},"description":{{ page.description | jsonify }},"datePublished":{{ page.date | date_to_xmlschema | jsonify }},"dateModified":{{ page.date_modified | default: page.date | date_to_xmlschema | jsonify }},"author":{"@type":"Person","name":{{ page.author | default: 'Chú Nếp' | jsonify }}},"publisher":{"@type":"Organization","name":"Chú Nếp Công Nghệ"},"mainEntityOfPage":{{ page.url | absolute_url | jsonify }}{% if page.image %},"image":{{ page.image | absolute_url | jsonify }}{% endif %}}</script>

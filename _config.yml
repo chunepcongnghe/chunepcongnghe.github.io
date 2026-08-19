@@ -1,0 +1,26 @@
+title: Chú Nếp Công Nghệ
+description: Tin công nghệ, trải nghiệm, tư vấn chọn mua, thủ thuật và so sánh hiệu suất có nguồn kiểm chứng cùng Chú Nếp.
+url: https://chunepcongnghe.github.io
+baseurl: ""
+lang: vi
+locale: vi_VN
+timezone: Asia/Ho_Chi_Minh
+permalink: /bai-viet/:title/
+future: false
+show_drafts: false
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Chú Nếp
+      published: true
+exclude:
+  - CMS-WORKFLOW.md
+  - README.md
+  - image_parts
