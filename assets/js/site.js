@@ -7,6 +7,35 @@
   qa('[data-filter]').forEach(btn=>btn.addEventListener('click',()=>{const value=btn.dataset.filter;qa('[data-filter]').forEach(b=>b.classList.toggle('active',b===btn));qa('[data-category]').forEach(card=>card.classList.toggle('search-hidden',value!=='all'&&card.dataset.category!==value));}));
   const back=q('[data-backtop]');if(back){const sync=()=>back.classList.toggle('show',scrollY>600);addEventListener('scroll',sync,{passive:true});sync();back.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));}
   const content=q('.article-content'), toc=q('[data-toc]');if(content&&toc){const hs=qa('h2,h3',content);if(hs.length){hs.forEach((h,i)=>{if(!h.id)h.id='muc-'+(i+1);const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;a.style.paddingLeft=h.tagName==='H3'?'12px':'0';toc.appendChild(a);});}else toc.closest('.toc')?.remove();}
+
+  // Editorial thumbnail art direction approved on 19/08/2026:
+  // real/product photography, cinematic depth, no flat vector mockups.
+  const editorialThumbs={
+    'galaxy-z-2026.svg':'https://etf-rebalancing.com/images/phone-preorder/galaxy-z-fold8-flip8-hero.webp',
+    'galaxy-z-flip8-review.svg':'https://img.tamindir.com/resize/1200x675/2025/12/470608/samsung-galaxy-z-flip-8-islemcisi-sizinti-1.jpg',
+    'macbook-air-m5-moi.svg':'https://s.yimg.com/ny/api/res/1.2/oiOFMCzS4EZ6ucpQQ3ULcA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTg-/https%3A/media.zenfs.com/en/pc_mag_263/b02f90f2dd8eaca3838e77da502b307b',
+    'macbook-m5-vs-m4.svg':'https://s.yimg.com/ny/api/res/1.2/oiOFMCzS4EZ6ucpQQ3ULcA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTg-/https%3A/media.zenfs.com/en/pc_mag_263/b02f90f2dd8eaca3838e77da502b307b',
+    'macbook-m5-ram.svg':'https://img.evetech.co.za/repository/ez/How-Much-RAM-Do-You-Really-Need-for-Gaming-in-2025-banner.webp?width=1200',
+    'ram-16gb-2026.svg':'https://img.evetech.co.za/repository/ez/How-Much-RAM-Do-You-Really-Need-for-Gaming-in-2025-banner.webp?width=1200',
+    'macbook-m5-creator.svg':'https://miro.medium.com/0%2Akv7PnwnJj_OTRxAv',
+    'ai-device-value.svg':'https://futureforwardit.in/images/uploaded/generated-image-3.jpg',
+    'action6-review.svg':'https://www.gadgetmatch.com/wp-content/uploads/2025/11/gadgetmatch-20251122-dji-osmo-action-6-1.jpg',
+    'action6-roadtrip.svg':'https://cdn.shopify.com/s/files/1/0108/1062/files/CS0124_CAR__QLA-ACA_-QLP-360-SB_-QLP-360-SPA__MG_0015.jpg?v=1723081972',
+    'action6-or-5pro.svg':'https://camerajabber.com/wp-content/uploads/2025/11/DJI-Osmo-Action-6-09.jpg',
+    'action6-vs-5pro.svg':'https://cdn.mos.cms.futurecdn.net/QuzDN6VcKi5eX9WDT46dpU.jpg'
+  };
+  qa('img').forEach(img=>{
+    const raw=img.getAttribute('src')||'';
+    const key=raw.split('?')[0].split('/').pop();
+    const replacement=editorialThumbs[key];
+    if(!replacement) return;
+    const original=raw;
+    img.referrerPolicy='no-referrer';
+    img.decoding='async';
+    img.addEventListener('error',()=>{if(img.src!==original) img.src=original;},{once:true});
+    img.src=replacement;
+  });
+
   const avatar='data:image/webp;base64,UklGRmgEAABXRUJQVlA4IFwEAAAQFACdASpAAEAAPrVGmkmnI6IhMBv8AOAWiWoAotOYB9GayEc9+j7bY88j6Pd5a3kv/GUEdqUU+O83EauEaX5GPrj0autB+x3s7/oA15rv0WMUtrEN6N/BMgQCiGch1G/HJbX3j+dr6kdcRn90xHJMGhFL9AWCWc6oYtQI//lrB+W8thC7eArgvoKq5HW1GAmBRY6tVZzXNmmCiTCHRu2cpqDqrI51HOwAAP7/Gl0I7kMbkCBSYUuhWCVnIbOG1tcH/zpXbtq9QzqAQevtkljqxWXivf5O2wLrfrfIwyoCBaYtNBI91vccskZiFnj74HYckhr/o6veAn8kF+/9LC2d0AYAw6L/QOmUcX6shVygXk0Imr2jbX058qoWlt0rjmmIGph/0YSQnUkjTIsnMlPzxK58sP2imJP0bHtkR3Su7r+8gRtHcMJgN6qoU02M7+GNxx2Mtb662qIIgQ348j1aUxL89G6ldBzpni004st05lgshko14qIay2vTxxVviVUodQeVTJ/1PpubQfF1jW89afKQBcR06RDQdPQJ+OJaXRiFkE25SrwF9UCYr/A7dPoLJ5agq9cT9FI8aHum9zArobZeUTLF2oaVTAgXaTER4NF5JIBcBmqdsAZOFw6eu7i5yBmB14CvTTy383aptaWfCWXG1rQ5Ijin83NKgETC9LmcNRJbd6N/pVxWuHhPt1iPmtWvg+ZdHoLD7zJE4iTIJgqaonaR/Eipef4dwMzghIyRwrI9kdrgYvdPxcmOztIkvbTefA3J1Sk58LfFME4bUGfF5WuZ3MvamKc/7w11qQI5V/ApwKZ24xrFI17egxz8XHRbteVHuMRVaBz/BBCY+JEhUt7JO5keYw3yt+2z5yGF1P8dNl89Lgn2JafA+aR2WkypqfXgnX6o7aSUOS1fT8Yk29NzyGiREwvRN95O6qim9lWxomFaA62sSPsrNMvHhBrN8n1LrYCFTUmmV/nS+1WVr8NK8l8J52AFe8rvXml8jGHHxyMMmSIhoAbc6sE5t7B6ksty9IRvi2AAoDzJ1F3e9T5izZHWVGk0a+vI67zeJ4HnSZo7+ydly/rJgJX/siueeavFibGQj122b0/D4pIIrr/MEszjia7txmvqbDOksnOGsCcQZILn4hWScVEChet5/6NtC0eiyQERnkdFipfwHST1fjEop0BRAFah1Si15aw3fIgf/BQd1o9QT9PH0ym8yIg2oMsZz3EPujRpN7GEJP0NCK8SpqTIxXk5epd3RHy/+LT1L0vUO2eN3Cm/Io+e2/B0FQEEfCY9rA6OhzOSQdhscGqOkmRme5W8cn/1z5pHOZJHFteOPnL3qiTjxrF/PLIJV2fREOyADBmAf5Rsf6lFDrrAezORUzxhmr8FbaJ94FHz1RUKzbelI5nnMupRMRvhQ2AL/4nImaFzL+juW6DF0dsZsTeCWGrfBek5Wsy7Xj+bRYQOpEsieTqjDz5lVD3zJP4AAAA=';
   qa('img[data-chunep]').forEach(img=>{img.src=avatar;img.removeAttribute('data-chunep');});
 })();
