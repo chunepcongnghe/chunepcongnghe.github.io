@@ -1,0 +1,114 @@
+media:
+  - name: article_images
+    label: Ảnh bài viết
+    input: assets/uploads
+    output: /assets/uploads
+    extensions: [png, jpg, jpeg, webp, avif, svg]
+    rename: safe
+
+content:
+  - name: posts
+    label: Bài viết Nếp Tech
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+    filename:
+      template: "{year}-{month}-{day}-{title}.md"
+      field: create
+    view:
+      fields: [title, category, date, featured]
+      primary: title
+      sort: [date, title, category]
+      search: [title, description, tags]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: layout
+        type: string
+        default: post
+        hidden: true
+      - name: title
+        label: Tiêu đề
+        type: string
+        required: true
+      - name: description
+        label: Mô tả SEO / AEO
+        type: text
+        required: true
+      - name: date
+        label: Ngày đăng
+        type: date
+        required: true
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm:ssXXX
+      - name: updated
+        label: Cập nhật lần cuối
+        type: date
+        default: ""
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm:ssXXX
+      - name: category
+        label: Chuyên mục
+        type: select
+        required: true
+        options:
+          values: [Tin công nghệ, So sánh, Laptop, Mobile, Chip & RAM, Camera, Góc setup, AI PC, Chú Nếp giải thích]
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: cover
+        label: Ảnh đại diện
+        type: image
+        required: true
+        options:
+          media: article_images
+      - name: cover_alt
+        label: Alt text ảnh
+        type: string
+        required: true
+      - name: author
+        label: Tác giả
+        type: string
+        default: Chú Nếp
+      - name: featured
+        label: Bài nổi bật
+        type: boolean
+        default: false
+      - name: sources
+        label: Nguồn kiểm chứng
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: Tên nguồn
+            type: string
+            required: true
+          - name: url
+            label: URL nguồn
+            type: string
+            required: true
+      - name: body
+        label: Nội dung bài
+        type: rich-text
+        required: true
+        options:
+          format: markdown
+          switcher: true
+          media: article_images
+          rename: safe
+
+settings:
+  commit:
+    identity: app
+    templates:
+      create: "content(neptech): add {filename} via CMS"
+      update: "content(neptech): update {filename} via CMS"
+      delete: "content(neptech): remove {filename} via CMS"
+      rename: "content(neptech): rename {oldFilename} -> {newFilename} via CMS"
