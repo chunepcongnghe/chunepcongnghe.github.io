@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chunepcongnghe.github.io/sitemap.xml
