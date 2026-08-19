@@ -1,64 +1,12 @@
 (()=> {
-  const q = (s,c=document) => c.querySelector(s);
-  const qa = (s,c=document) => [...c.querySelectorAll(s)];
-
-  const menu = q('[data-menu]');
-  const mobile = q('[data-mobile-nav]');
-  if (menu && mobile) {
-    menu.addEventListener('click', () => {
-      const open = mobile.classList.toggle('open');
-      menu.setAttribute('aria-expanded', String(open));
-    });
-  }
-
-  const search = q('[data-site-search]');
-  if (search) {
-    search.addEventListener('input', e => {
-      const term = e.target.value.trim().toLowerCase();
-      qa('[data-search-item]').forEach(el => {
-        const hay = (el.dataset.search || el.innerText).toLowerCase();
-        el.classList.toggle('search-hidden', term && !hay.includes(term));
-      });
-    });
-  }
-
-  qa('[data-filter]').forEach(btn => btn.addEventListener('click', () => {
-    const value = btn.dataset.filter;
-    qa('[data-filter]').forEach(b => b.classList.toggle('active', b === btn));
-    qa('[data-category]').forEach(card => {
-      card.classList.toggle('search-hidden', value !== 'all' && card.dataset.category !== value);
-    });
-  }));
-
-  const back = q('[data-backtop]');
-  if (back) {
-    const sync = () => back.classList.toggle('show', scrollY > 600);
-    addEventListener('scroll', sync, {passive:true});
-    sync();
-    back.addEventListener('click', () => scrollTo({top:0, behavior:'smooth'}));
-  }
-
-  const content = q('.article-content');
-  const toc = q('[data-toc]');
-  if (content && toc) {
-    const hs = qa('h2,h3', content);
-    if (hs.length) {
-      hs.forEach((h,i) => {
-        if (!h.id) h.id = 'muc-' + (i+1);
-        const a = document.createElement('a');
-        a.href = '#' + h.id;
-        a.textContent = h.textContent;
-        a.style.paddingLeft = h.tagName === 'H3' ? '12px' : '0';
-        toc.appendChild(a);
-      });
-    } else {
-      const box = toc.closest('.toc');
-      if (box) box.remove();
-    }
-  }
-
-  qa('img[data-chunep]').forEach(img => {
-    img.src = '/assets/chunep-canonical.webp?v=20260819-4';
-    img.removeAttribute('data-chunep');
-  });
+  const q=(s,c=document)=>c.querySelector(s), qa=(s,c=document)=>[...c.querySelectorAll(s)];
+  const menu=q('[data-menu]'), mobile=q('[data-mobile-nav]');
+  if(menu&&mobile) menu.addEventListener('click',()=>{const open=mobile.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));});
+  const search=q('[data-site-search]');
+  if(search) search.addEventListener('input',e=>{const term=e.target.value.trim().toLowerCase();qa('[data-search-item]').forEach(el=>{const hay=(el.dataset.search||el.innerText).toLowerCase();el.classList.toggle('search-hidden',term&&!hay.includes(term));});});
+  qa('[data-filter]').forEach(btn=>btn.addEventListener('click',()=>{const value=btn.dataset.filter;qa('[data-filter]').forEach(b=>b.classList.toggle('active',b===btn));qa('[data-category]').forEach(card=>card.classList.toggle('search-hidden',value!=='all'&&card.dataset.category!==value));}));
+  const back=q('[data-backtop]');if(back){const sync=()=>back.classList.toggle('show',scrollY>600);addEventListener('scroll',sync,{passive:true});sync();back.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));}
+  const content=q('.article-content'), toc=q('[data-toc]');if(content&&toc){const hs=qa('h2,h3',content);if(hs.length){hs.forEach((h,i)=>{if(!h.id)h.id='muc-'+(i+1);const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;a.style.paddingLeft=h.tagName==='H3'?'12px':'0';toc.appendChild(a);});}else toc.closest('.toc')?.remove();}
+  const avatar='data:image/webp;base64,UklGRmgEAABXRUJQVlA4IFwEAAAQFACdASpAAEAAPrVGmkmnI6IhMBv8AOAWiWoAotOYB9GayEc9+j7bY88j6Pd5a3kv/GUEdqUU+O83EauEaX5GPrj0autB+x3s7/oA15rv0WMUtrEN6N/BMgQCiGch1G/HJbX3j+dr6kdcRn90xHJMGhFL9AWCWc6oYtQI//lrB+W8thC7eArgvoKq5HW1GAmBRY6tVZzXNmmCiTCHRu2cpqDqrI51HOwAAP7/Gl0I7kMbkCBSYUuhWCVnIbOG1tcH/zpXbtq9QzqAQevtkljqxWXivf5O2wLrfrfIwyoCBaYtNBI91vccskZiFnj74HYckhr/o6veAn8kF+/9LC2d0AYAw6L/QOmUcX6shVygXk0Imr2jbX058qoWlt0rjmmIGph/0YSQnUkjTIsnMlPzxK58sP2imJP0bHtkR3Su7r+8gRtHcMJgN6qoU02M7+GNxx2Mtb662qIIgQ348j1aUxL89G6ldBzpni004st05lgshko14qIay2vTxxVviVUodQeVTJ/1PpubQfF1jW89afKQBcR06RDQdPQJ+OJaXRiFkE25SrwF9UCYr/A7dPoLJ5agq9cT9FI8aHum9zArobZeUTLF2oaVTAgXaTER4NF5JIBcBmqdsAZOFw6eu7i5yBmB14CvTTy383aptaWfCWXG1rQ5Ijin83NKgETC9LmcNRJbd6N/pVxWuHhPt1iPmtWvg+ZdHoLD7zJE4iTIJgqaonaR/Eipef4dwMzghIyRwrI9kdrgYvdPxcmOztIkvbTefA3J1Sk58LfFME4bUGfF5WuZ3MvamKc/7w11qQI5V/ApwKZ24xrFI17egxz8XHRbteVHuMRVaBz/BBCY+JEhUt7JO5keYw3yt+2z5yGF1P8dNl89Lgn2JafA+aR2WkypqfXgnX6o7aSUOS1fT8Yk29NzyGiREwvRN95O6qim9lWxomFaA62sSPsrNMvHhBrN8n1LrYCFTUmmV/nS+1WVr8NK8l8J52AFe8rvXml8jGHHxyMMmSIhoAbc6sE5t7B6ksty9IRvi2AAoDzJ1F3e9T5izZHWVGk0a+vI67zeJ4HnSZo7+ydly/rJgJX/siueeavFibGQj122b0/D4pIIrr/MEszjia7txmvqbDOksnOGsCcQZILn4hWScVEChet5/6NtC0eiyQERnkdFipfwHST1fjEop0BRAFah1Si15aw3fIgf/BQd1o9QT9PH0ym8yIg2oMsZz3EPujRpN7GEJP0NCK8SpqTIxXk5epd3RHy/+LT1L0vUO2eN3Cm/Io+e2/B0FQEEfCY9rA6OhzOSQdhscGqOkmRme5W8cn/1z5pHOZJHFteOPnL3qiTjxrF/PLIJV2fREOyADBmAf5Rsf6lFDrrAezORUzxhmr8FbaJ94FHz1RUKzbelI5nnMupRMRvhQ2AL/4nImaFzL+juW6DF0dsZsTeCWGrfBek5Wsy7Xj+bRYQOpEsieTqjDz5lVD3zJP4AAAA=';
+  qa('img[data-chunep]').forEach(img=>{img.src=avatar;img.removeAttribute('data-chunep');});
 })();

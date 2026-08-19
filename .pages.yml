@@ -48,15 +48,53 @@ content:
         label: Mô tả SEO
         type: text
         required: true
+        description: Khoảng 140–165 ký tự, nêu rõ sản phẩm/vấn đề và lợi ích người đọc nhận được.
       - name: answer_summary
         label: Câu trả lời ngắn AEO/GEO
         type: text
         required: true
-        description: 2–4 câu trả lời thẳng truy vấn chính, dùng được cho đoạn trích tìm kiếm và AI answer engine.
+        description: 2–4 câu trả lời trực tiếp truy vấn chính trước khi giải thích sâu.
       - name: target_query
         label: Truy vấn trọng tâm
         type: string
         required: true
+      - name: key_takeaways
+        label: Điểm cần biết ngay
+        type: string
+        list: true
+        required: true
+        description: Tối thiểu 3 ý cụ thể, có thể đọc riêng mà vẫn hiểu bài.
+      - name: compare_subject
+        label: Tên phương án chính trong bảng đối chiếu
+        type: string
+        required: true
+      - name: compare_reference
+        label: Tên phương án đối chiếu
+        type: string
+        required: true
+      - name: quick_compare
+        label: Bảng đối chiếu nhanh
+        type: object
+        list: true
+        required: true
+        description: Mỗi bài tối thiểu 3 tiêu chí so với đời trước, đối thủ, cấu hình khác hoặc phương án thay thế.
+        fields:
+          - name: criterion
+            label: Tiêu chí
+            type: string
+            required: true
+          - name: subject_value
+            label: Phương án chính
+            type: string
+            required: true
+          - name: reference_value
+            label: Phương án đối chiếu
+            type: string
+            required: true
+          - name: verdict
+            label: Ý nghĩa thực tế
+            type: text
+            required: true
       - name: date
         label: Ngày giờ xuất bản
         type: date
@@ -95,7 +133,6 @@ content:
         label: Tên tuyến hiển thị
         type: string
         required: true
-        description: Ví dụ “Trên tay & Đánh giá”, “Góc Chọn & Mua”.
       - name: category
         label: Nhóm sản phẩm / Chủ đề
         type: select
@@ -132,7 +169,6 @@ content:
         label: Thương hiệu
         type: string
         required: false
-        description: Ví dụ Apple, Intel, AMD, NVIDIA, Qualcomm, Samsung, DJI, GoPro.
       - name: tags
         label: Thẻ chủ đề
         type: string
@@ -163,9 +199,10 @@ content:
             - name: leak
               label: Tin rò rỉ / chưa xác nhận
       - name: sources
-        label: Nguồn kiểm chứng chung
+        label: Nguồn tham khảo & đối chiếu
         type: object
         list: true
+        required: true
         fields:
           - name: name
             label: Tên nguồn
@@ -176,10 +213,10 @@ content:
             type: string
             required: true
       - name: comparison
-        label: Dữ liệu so sánh hiệu suất
+        label: Dữ liệu so sánh hiệu suất chuyên sâu
         type: object
         required: false
-        description: Chỉ điền cho bài thuộc tuyến “So sánh hiệu suất”. Không có nguồn thì để trống, không ước đoán.
+        description: Chỉ dùng thêm cho bài thuộc tuyến So sánh hiệu suất.
         fields:
           - name: product_a
             label: Sản phẩm A
@@ -205,7 +242,6 @@ content:
               - name: unit
                 label: Đơn vị
                 type: string
-                required: false
               - name: product_a_value
                 label: Giá trị sản phẩm A
                 type: string
@@ -225,12 +261,9 @@ content:
           - name: conclusion
             label: Kết luận so sánh
             type: text
-            required: false
       - name: video_url
         label: Video YouTube liên quan
         type: string
-        required: false
-        description: Để trống nếu chưa có. Trường này dành cho giai đoạn tích hợp Video Chú Nếp.
       - name: author
         label: Tác giả
         type: string
@@ -240,12 +273,12 @@ content:
         label: Vai trò tác giả
         type: string
         required: true
-        default: Chú Nếp Công Nghệ · Tin dễ hiểu, có kiểm chứng
+        default: Chú Nếp Công Nghệ
       - name: read_time
         label: Thời gian đọc (phút)
         type: number
         required: true
-        default: 6
+        default: 7
       - name: featured
         label: Bài nổi bật
         type: boolean
@@ -258,6 +291,7 @@ content:
         label: Câu hỏi thường gặp
         type: object
         list: true
+        required: true
         fields:
           - name: question
             label: Câu hỏi

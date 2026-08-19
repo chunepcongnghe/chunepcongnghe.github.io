@@ -1,6 +1,6 @@
-hero_eyebrow: CÔNG NGHỆ DỄ HIỂU · CÓ NGUỒN · CÓ CHÍNH KIẾN
+hero_eyebrow: CÔNG NGHỆ DỄ HIỂU · SO SÁNH KỸ · GÓC NHÌN THỰC TẾ
 hero_title: Chú Nếp Công Nghệ
-hero_description: Tin mới, trải nghiệm thực tế, tư vấn chọn mua và so sánh hiệu suất theo cách dễ hiểu. Không lấy thông số quảng cáo thay cho dữ liệu đã kiểm chứng.
+hero_description: Tin mới, trải nghiệm thực tế, tư vấn chọn mua và đối chiếu sản phẩm theo nhu cầu sử dụng. Ưu tiên thông tin giúp người đọc biết khác nhau ở đâu và lựa chọn nào hợp hơn.
 brand_tagline: Đọc nhanh để biết tin. Đọc sâu để biết có nên mua.
 featured_topics:
   - AI & công cụ mới
@@ -10,7 +10,7 @@ featured_topics:
   - Camera creator
   - Góc setup
 quick_topics:
-  - label: Tin nhanh
+  - label: Tin mới
     url: /tin-moi/
   - label: Trên tay & Đánh giá
     url: /tren-tay-danh-gia/
