@@ -11,13 +11,18 @@ Từ 2026-08-19, mọi bài mới phải được tạo trong `_posts` để Pag
 - `quick_compare`: tối thiểu 3 tiêu chí đối chiếu với đời trước, đối thủ, cấu hình khác hoặc phương án thay thế phù hợp với chủ đề.
 - `sources`: nguồn chính thức hoặc nguồn gốc dữ liệu rõ ràng; claim của hãng phải gắn `vendor-claim` khi cần.
 - `faq`: tối thiểu 2 câu hỏi sát search intent.
-- Ảnh bài viết là asset độc lập, không nhúng thumbnail nén/base64 vào bài.
+- Ảnh bài viết là asset độc lập trong `assets/posts`.
 
-## Chuẩn thumbnail
-- Mỗi bài có thumbnail riêng, tập trung vào đúng sản phẩm hoặc vấn đề đang nói tới.
-- Không dùng template chữ chung kiểu “Tin nhanh”, “Có nguồn”, “Không bịa số”.
-- Ưu tiên 1–2 chủ thể chính, headline ngắn, tương phản cao, đọc được khi card nhỏ.
-- Không đưa số liệu chưa được xác nhận lên thumbnail.
+## Chuẩn thumbnail mặc định
+Chi tiết đầy đủ nằm trong `THUMBNAIL-STYLE.md`. Từ đợt 2026-08-19, style mặc định là **3D product render realistic / editorial tech photography**.
+- Mỗi bài có thumbnail riêng và sản phẩm/vấn đề phải là chủ thể lớn nhất.
+- Không dùng vector phẳng hoặc background trơn đơn sắc làm style mặc định.
+- Nền có chiều sâu: studio, bàn setup, môi trường sử dụng, road trip, bokeh/ánh sáng phù hợp nhưng không lấn át sản phẩm.
+- Bài so sánh đặt hai phương án đối diện rõ ràng; bài review/tin mới tập trung một sản phẩm; bài thủ thuật ưu tiên bối cảnh thao tác.
+- Hạn chế chữ trên thumbnail; chỉ giữ nhãn ngắn thật sự cần thiết như `M5 vs M4`, `16/24/32GB`, `Action 6 vs 5 Pro`.
+- Không dùng slogan chung kiểu “Tin nhanh”, “Có nguồn”, “Không bịa số”.
+- Không bịa ngoại hình sản phẩm chưa được công bố và không đưa số liệu chưa xác nhận lên ảnh.
+- Tone sáng, premium, hiện đại, sắc nét; tránh tối cyberpunk quá mức.
 
 ## Chuẩn so sánh
 - Mỗi bài đều phải giúp người đọc biết “khác gì so với phương án gần nhất”.
