@@ -1,0 +1,218 @@
+media:
+  - name: post_images
+    label: Ảnh bài viết
+    input: assets/posts
+    output: /assets/posts
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: app
+    templates:
+      create: "Đăng bài mới: {filename}"
+      update: "Cập nhật bài viết: {filename}"
+      delete: "Xóa bài viết: {filename}"
+      rename: "Đổi đường dẫn bài viết: {oldFilename} → {newFilename}"
+
+content:
+  - name: posts
+    label: Bài viết Nếp Tech
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+    filename:
+      template: "{year}-{month}-{day}-{fields.slug}.md"
+      field: create
+    view:
+      fields: [title, published, featured, date, category]
+      primary: title
+      sort: [date, title, category]
+      search: [title, description, target_query, category, tags, brand]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Tiêu đề bài viết
+        type: string
+        required: true
+      - name: slug
+        label: Đường dẫn bài viết
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          message: Chỉ dùng chữ thường không dấu, số và dấu gạch ngang.
+      - name: description
+        label: Mô tả SEO
+        type: text
+        required: true
+      - name: answer_summary
+        label: Câu trả lời ngắn AEO/GEO
+        type: text
+        required: true
+      - name: target_query
+        label: Truy vấn trọng tâm
+        type: string
+        required: true
+      - name: date
+        label: Ngày xuất bản
+        type: date
+        required: true
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm:ssXXX
+      - name: date_modified
+        label: Ngày cập nhật
+        type: date
+        default: ""
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm:ssXXX
+      - name: category
+        label: Chuyên mục
+        type: select
+        required: true
+        options:
+          values:
+            - name: tin-cong-nghe
+              label: Tin công nghệ
+            - name: laptop
+              label: Laptop
+            - name: mobile
+              label: Mobile
+            - name: chip-ram
+              label: Chip & RAM
+            - name: camera
+              label: Camera / Action Cam / Pocket
+            - name: gimbal
+              label: Gimbal
+            - name: setup
+              label: Góc setup
+            - name: so-sanh
+              label: So sánh
+            - name: giai-thich
+              label: Chú Nếp giải thích
+            - name: ai-pc
+              label: AI PC
+      - name: category_label
+        label: Tên chuyên mục hiển thị
+        type: string
+        required: true
+      - name: brand
+        label: Thương hiệu
+        type: string
+        required: false
+        description: Ví dụ Apple, Intel, AMD, NVIDIA, Qualcomm, Samsung, DJI, GoPro.
+      - name: tags
+        label: Thẻ chủ đề
+        type: string
+        list: true
+      - name: image
+        label: Ảnh đại diện
+        type: image
+        required: true
+        options:
+          media: post_images
+          extensions: [jpg, jpeg, png, webp, svg]
+          rename: true
+      - name: image_alt
+        label: Mô tả ảnh
+        type: string
+        required: true
+      - name: source_status
+        label: Trạng thái nguồn
+        type: select
+        required: true
+        default: confirmed
+        options:
+          values:
+            - name: confirmed
+              label: Đã xác nhận
+            - name: vendor-claim
+              label: Claim / benchmark của hãng
+            - name: leak
+              label: Tin rò rỉ
+      - name: sources
+        label: Nguồn kiểm chứng
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Tên nguồn
+            type: string
+            required: true
+          - name: url
+            label: URL nguồn
+            type: string
+            required: true
+      - name: author
+        label: Tác giả
+        type: string
+        required: true
+        default: Chú Nếp
+      - name: author_role
+        label: Vai trò tác giả
+        type: string
+        required: true
+        default: Nếp Tech · Khám phá công nghệ cùng Chú Nếp
+      - name: read_time
+        label: Thời gian đọc (phút)
+        type: number
+        required: true
+        default: 6
+      - name: featured
+        label: Bài nổi bật
+        type: boolean
+        default: false
+      - name: published
+        label: Xuất bản
+        type: boolean
+        default: true
+      - name: faq
+        label: Câu hỏi thường gặp
+        type: object
+        list: true
+        fields:
+          - name: question
+            label: Câu hỏi
+            type: string
+            required: true
+          - name: answer
+            label: Câu trả lời
+            type: text
+            required: true
+      - name: body
+        label: Nội dung bài viết
+        type: rich-text
+        required: true
+        options:
+          format: markdown
+          media: post_images
+          extensions: [jpg, jpeg, png, webp, svg]
+          rename: true
+          switcher: true
+
+  - name: home_settings
+    label: Tùy chỉnh trang chủ
+    type: file
+    path: _data/home.yml
+    format: yaml
+    fields:
+      - name: hero_eyebrow
+        label: Nhãn hero
+        type: string
+      - name: hero_title
+        label: Tiêu đề hero
+        type: string
+      - name: hero_description
+        label: Mô tả hero
+        type: text
+      - name: brand_tagline
+        label: Tagline thương hiệu
+        type: string
+      - name: featured_topics
+        label: Chủ đề nổi bật
+        type: string
+        list: true
