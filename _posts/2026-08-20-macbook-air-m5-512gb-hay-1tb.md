@@ -7,7 +7,7 @@ target_query: "MacBook Air M5 512GB hay 1TB"
 key_takeaways:
   - "MacBook Air M5 khởi điểm 512GB, có tùy chọn 1TB, 2TB và 4TB."
   - "Dung lượng sử dụng thực tế luôn thấp hơn con số danh nghĩa vì hệ điều hành, app, cache và file hệ thống."
-  - "512GB hợp workflow cloud; 1TB hợp người giữ project media, thư viện ảnh/video và máy 4–6 năm."
+  - "512GB hợp quy trình làm việc cloud; 1TB hợp người giữ project media, thư viện ảnh/video và máy 4–6 năm."
   - "SSD ngoài rẻ hơn mỗi GB nhưng đánh đổi bằng phụ kiện, cáp và sự tiện lợi."
 compare_subject: "SSD 512GB"
 compare_reference: "SSD 1TB"
@@ -89,7 +89,7 @@ Nếu phần lớn công việc ở cloud và bạn có thói quen dọn file, 5
 
 ## SSD ngoài có phải giải pháp tốt hơn?
 
-Về chi phí mỗi GB, SSD ngoài thường hấp dẫn hơn nâng bộ nhớ trong lúc mua máy. Với Thunderbolt 4/USB4, MacBook Air M5 cũng có kết nối đủ mạnh cho nhiều workflow lưu trữ ngoài.
+Về chi phí mỗi GB, SSD ngoài thường hấp dẫn hơn nâng bộ nhớ trong lúc mua máy. Với Thunderbolt 4/USB4, MacBook Air M5 cũng có kết nối đủ mạnh cho nhiều quy trình làm việc lưu trữ ngoài.
 
 Nhưng SSD ngoài có ba đánh đổi:
 
@@ -116,4 +116,4 @@ Xem thêm [MacBook Air M5 16GB, 24GB hay 32GB?](/bai-viet/macbook-air-m5-16gb-ha
 
 ## Kết luận
 
-**512GB đủ cho phần lớn người dùng cloud và văn phòng; 1TB đáng tiền nếu dữ liệu local là một phần lớn của workflow.** Đừng nâng SSD vì tâm lý “càng lớn càng tốt”. Hãy nhìn lượng file bạn giữ thật, vòng đời dự kiến của máy và mức độ chấp nhận dùng SSD ngoài.
+**512GB đủ cho phần lớn người dùng cloud và văn phòng; 1TB đáng tiền nếu dữ liệu local là một phần lớn của quy trình làm việc.** Đừng nâng SSD vì tâm lý “càng lớn càng tốt”. Hãy nhìn lượng file bạn giữ thật, vòng đời dự kiến của máy và mức độ chấp nhận dùng SSD ngoài.

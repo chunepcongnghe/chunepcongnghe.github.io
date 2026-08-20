@@ -104,7 +104,7 @@ USB4 được USB-IF xây dựng để gom data, display và các giao thức kh
 
 Các phiên bản USB4 mới có thể hỗ trợ băng thông lên tới **80Gbps** trong cấu hình được hỗ trợ. Nhưng điều đó hoàn toàn không có nghĩa cổng USB4 trên laptop của bạn là 80Gbps.
 
-Bạn cần đọc đúng dòng spec: 20, 40 hay mức khác; có DisplayPort gì; Power Delivery bao nhiêu; host có hỗ trợ tunneling nào.
+Bạn cần đọc đúng dòng thông số: 20, 40 hay mức khác; có DisplayPort gì; Power Delivery bao nhiêu; host có hỗ trợ tunneling nào.
 
 Đây là lý do Chú Nếp không làm bảng kiểu:
 
@@ -116,7 +116,7 @@ Cách viết đó bỏ qua implementation và dễ làm người mua hiểu sai.
 
 Apple ghi hai cổng Thunderbolt 4/USB4 trên MacBook Air M5, hỗ trợ Thunderbolt 4 lên tới **40Gbps**, USB4 lên tới **40Gbps**, sạc và DisplayPort.
 
-Cùng một cổng vật lý, Apple ghi rõ các giao thức và mức tốc độ. Đây là cách spec sheet nên được đọc.
+Cùng một cổng vật lý, Apple ghi rõ các giao thức và mức tốc độ. Đây là cách bảng thông số nên được đọc.
 
 ## Khi nào nên ưu tiên Thunderbolt 4?
 
@@ -130,14 +130,14 @@ TB4 đáng ưu tiên nếu bạn:
 
 ## Khi nào USB4 là đủ?
 
-USB4 hoàn toàn đủ nếu spec của máy đã ghi đúng những gì bạn cần:
+USB4 hoàn toàn đủ nếu thông số của máy đã ghi đúng những gì bạn cần:
 
 - băng thông đủ cho ổ ngoài;
 - xuất màn hình đúng độ phân giải/Hz;
 - công suất sạc phù hợp;
 - dock tương thích host.
 
-Không cần trả thêm chỉ vì logo Thunderbolt nếu workflow không tận dụng.
+Không cần trả thêm chỉ vì logo Thunderbolt nếu quy trình làm việc không tận dụng.
 
 ## Một dock 40Gbps vẫn có thể bị nghẽn
 
@@ -153,7 +153,7 @@ thì tất cả phải chia tài nguyên đường truyền và phụ thuộc c�
 
 Đây là lý do benchmark một SSD cắm trực tiếp có thể khác khi cắm qua dock đầy thiết bị.
 
-## Góc nhìn Chú Nếp: mua cổng bằng workflow, không mua bằng logo
+## Góc nhìn Chú Nếp: mua cổng bằng quy trình làm việc, không mua bằng logo
 
 Trước khi chọn laptop hoặc dock, hãy viết ra:
 

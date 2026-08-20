@@ -52,7 +52,7 @@ faq:
   - question: "Chênh 200–300 gram có đáng quan tâm không?"
     answer: "Nếu máy nằm trên bàn cả ngày thì ít quan trọng. Nếu mang máy, sạc, hub và phụ kiện hằng ngày, tổng trọng lượng bộ gear mới là con số nên tính."
 ---
-“16 inch làm việc đã hơn” và “14 inch mới đúng chất laptop” đều đúng trong một số tình huống, nhưng sai nếu biến thành quy tắc chung. Kích thước màn hình chỉ là một phần của **hệ bài toán di động – không gian – pin – workflow**.
+“16 inch làm việc đã hơn” và “14 inch mới đúng chất laptop” đều đúng trong một số tình huống, nhưng sai nếu biến thành quy tắc chung. Kích thước màn hình chỉ là một phần của **hệ bài toán di động – không gian – pin – quy trình làm việc**.
 
 ## Chú Nếp chốt nhanh
 
@@ -89,7 +89,7 @@ Vì vậy, nếu một bài review nói “16 inch pin lâu hơn” nhưng hai m
 
 ## Kích thước không quyết định hiệu năng
 
-Cùng một thế hệ CPU, thân máy lớn hơn đôi khi có nhiều không gian tản nhiệt hơn, nhưng firmware và giới hạn công suất của từng model mới quyết định sustained performance. Có máy 14 inch chạy rất mạnh; có máy 16 inch ưu tiên êm và mát.
+Cùng một thế hệ CPU, thân máy lớn hơn đôi khi có nhiều không gian tản nhiệt hơn, nhưng firmware và giới hạn công suất của từng model mới quyết định hiệu năng duy trì lâu. Có máy 14 inch chạy rất mạnh; có máy 16 inch ưu tiên êm và mát.
 
 Nếu hiệu năng quan trọng, hãy đọc **power limit, nhiệt, tiếng quạt và benchmark cùng điều kiện**, không dùng “16 inch” như một proxy cho tốc độ.
 

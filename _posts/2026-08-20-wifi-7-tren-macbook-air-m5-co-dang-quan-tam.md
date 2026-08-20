@@ -87,7 +87,7 @@ Chuẩn mạng mới có ý nghĩa không chỉ ở tốc độ đỉnh mà còn
 
 Laptop thường có vòng đời dài hơn điện thoại. Một chuẩn kết nối có thể chưa bắt buộc hôm nay nhưng sẽ hữu ích hơn sau vài năm khi router Wi‑Fi 7 phổ biến và gói cước nhanh hơn.
 
-Nếu giá MacBook Air M5 vốn đã nằm trong ngân sách, Wi‑Fi 7 là một phần “future-proof” hợp lý. Nhưng **không nên mua máy chỉ vì một dòng Wi‑Fi 7 trong bảng thông số**.
+Nếu giá MacBook Air M5 vốn đã nằm trong ngân sách, Wi‑Fi 7 là một phần “dùng lâu dài” hợp lý. Nhưng **không nên mua máy chỉ vì một dòng Wi‑Fi 7 trong bảng thông số**.
 
 ## Khi nào chưa cần quan tâm nhiều?
 

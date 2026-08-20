@@ -100,7 +100,7 @@ Laptop được mang từ nhà → lớp → thư viện → quán cà phê → 
 
 Nếu luôn có ổ điện, laptop mạnh và nặng không phải vấn đề. Nếu di chuyển bằng xe buýt, đi bộ nhiều hoặc học cả ngày, máy nhẹ + sạc USB-C gọn đáng giá hơn một chút benchmark.
 
-Các claim “15 giờ”, “18 giờ” của hãng nên được coi là bài test chuẩn hóa, không phải thời lượng chắc chắn trong Zoom, Chrome nhiều tab hay IDE.
+Các thông tin hãng công bố “15 giờ”, “18 giờ” của hãng nên được coi là bài test chuẩn hóa, không phải thời lượng chắc chắn trong Zoom, Chrome nhiều tab hay IDE.
 
 ## 5. Cổng kết nối: một chi tiết nhỏ có thể làm phiền bốn năm
 

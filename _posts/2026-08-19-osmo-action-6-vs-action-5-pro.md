@@ -1,12 +1,12 @@
 ---
 title: "Osmo Action 6 vs Action 5 Pro: cảm biến, khẩu độ, 4K Custom và HorizonSteady khác nhau thế nào?"
 slug: osmo-action-6-vs-action-5-pro
-description: "So sánh Osmo Action 6 và Action 5 Pro theo cảm biến, khẩu độ, bộ nhớ, chống nước, pin và HorizonSteady. Mỗi khác biệt được đặt trong đúng workflow quay."
+description: "So sánh Osmo Action 6 và Action 5 Pro theo cảm biến, khẩu độ, bộ nhớ, chống nước, pin và HorizonSteady. Mỗi khác biệt được đặt trong đúng quy trình làm việc quay."
 answer_summary: "Action 6 hơn Action 5 Pro về cảm biến 1/1,1 inch, khẩu độ biến thiên và 4K Custom; HorizonSteady cũng được DJI nâng lên 4K. Hai máy cùng chống nước 20m và cùng được hãng công bố tối đa 240 phút pin trong điều kiện chuẩn. Vì vậy, nâng cấp hợp lý nhất với người cần linh hoạt khung hình và thiếu sáng, không phải người chỉ quay 4K ban ngày."
 target_query: "Osmo Action 6 vs Action 5 Pro"
 key_takeaways:
   - "Action 6: cảm biến 1/1,1 inch vuông, f/2.0–f/4.0; Action 5 Pro: 1/1,3 inch, f/2.8."
-  - "Action 6 có 4K Custom để crop nhiều tỷ lệ và HorizonSteady 4K; 5 Pro giới hạn HorizonSteady ở độ phân giải thấp hơn theo spec DJI."
+  - "Action 6 có 4K Custom để crop nhiều tỷ lệ và HorizonSteady 4K; 5 Pro giới hạn HorizonSteady ở độ phân giải thấp hơn theo thông số DJI."
   - "Bộ nhớ trong: Action 6 50GB; Action 5 Pro 47GB khả dụng."
   - "Cả hai chống nước 20m và DJI công bố tối đa 240 phút pin trong điều kiện thử tiêu chuẩn."
 compare_subject: "Osmo Action 6"
@@ -22,7 +22,7 @@ quick_compare:
     verdict: "Action 6 linh hoạt hơn khi thay đổi ánh sáng."
   - criterion: "HorizonSteady"
     subject_value: "Hỗ trợ 4K theo DJI"
-    reference_value: "Tối đa 2.7K/60 theo spec DJI"
+    reference_value: "Tối đa 2.7K/60 theo thông số DJI"
     verdict: "Action 6 hữu ích hơn nếu cần giữ horizon nhưng vẫn muốn đầu ra 4K."
   - criterion: "Pin tối đa hãng công bố"
     subject_value: "240 phút"
@@ -38,7 +38,7 @@ brand: DJI
 tags: ["Osmo Action 6 vs Action 5 Pro", "Osmo Action 6", "Action 5 Pro", "DJI", "action cam"]
 image: "/assets/images/thumbs/osmo-action-6-vs-action-5-pro.jpg"
 image_alt: "Osmo Action 6 và Action 5 Pro đối chiếu cảm biến, khẩu độ và bộ nhớ trong"
-source_status: vendor-claim
+source_status: vendor-thông tin hãng công bố
 sources:
   - name: "DJI — Osmo Action 6"
     url: "https://www.dji.com/osmo-action-6"
@@ -84,7 +84,7 @@ comparison:
       product_b_value: "1080p/2.7K, tối đa 60fps"
       source_name: "DJI"
       source_url: "https://www.dji.com/osmo-action-6/faq"
-  conclusion: "Action 6 tạo khoảng cách ở khả năng tạo hình và hậu kỳ; Action 5 Pro vẫn mạnh ở workflow 4K truyền thống và không thua về chống nước/pin công bố."
+  conclusion: "Action 6 tạo khoảng cách ở khả năng tạo hình và hậu kỳ; Action 5 Pro vẫn mạnh ở quy trình làm việc 4K truyền thống và không thua về chống nước/pin công bố."
 author: "Chú Nếp"
 author_role: "Chú Nếp Công Nghệ"
 read_time: 10
@@ -100,7 +100,7 @@ faq:
 ---
 ## Đây là so sánh theo cùng tiêu chí, không trộn benchmark khác điều kiện
 
-Một bảng so sánh action cam dễ gây hiểu nhầm nếu lấy một thông số marketing của máy A đặt cạnh một kết quả lab của máy B. Bài này chỉ đối chiếu **spec và tính năng chính thức từ DJI**, sau đó giải thích chúng có ý nghĩa gì trong workflow.
+Một bảng so sánh action cam dễ gây hiểu nhầm nếu lấy một thông số marketing của máy A đặt cạnh một kết quả lab của máy B. Bài này chỉ đối chiếu **thông số và tính năng chính thức từ DJI**, sau đó giải thích chúng có ý nghĩa gì trong quy trình làm việc.
 
 ## Cảm biến: 1/1,1 inch vs 1/1,3 inch
 
@@ -114,17 +114,17 @@ Tuy nhiên, kích thước cảm biến không đủ để kết luận chất l
 
 Nhưng đừng hiểu f/2.0 là máy sẽ tạo bokeh mạnh như camera lens rời. Action cam vẫn ưu tiên góc rộng và độ nét toàn cảnh.
 
-## 4K Custom và HorizonSteady: lợi thế workflow rõ của Action 6
+## 4K Custom và HorizonSteady: lợi thế quy trình làm việc rõ của Action 6
 
 DJI nêu Action 6 có 4K Custom để quay trước rồi crop nhiều tỷ lệ. Điều này hữu ích khi cùng source phải xuất 16:9 và 9:16.
 
-HorizonSteady cũng được nâng lên 4K trên Action 6. Spec của 5 Pro giới hạn HorizonSteady ở 1080p hoặc 2.7K đến 60fps. Nếu bạn thường quay góc nghiêng mạnh nhưng vẫn muốn master 4K, đây là nâng cấp cụ thể, dễ giải thích hơn nhãn 8K.
+HorizonSteady cũng được nâng lên 4K trên Action 6. thông số của 5 Pro giới hạn HorizonSteady ở 1080p hoặc 2.7K đến 60fps. Nếu bạn thường quay góc nghiêng mạnh nhưng vẫn muốn master 4K, đây là nâng cấp cụ thể, dễ giải thích hơn nhãn 8K.
 
 ## Bộ nhớ: 50GB vs 47GB — khác biệt nhỏ
 
 Cả hai có bộ nhớ trong đủ cứu nguy khi quên thẻ. Chênh 3GB không nên ảnh hưởng quyết định mua. Với road trip dài, thẻ microSD dung lượng cao vẫn là giải pháp chính.
 
-## Pin và chống nước: gần như hòa trên spec
+## Pin và chống nước: gần như hòa trên thông số
 
 Cả hai chống nước 20m không cần housing. DJI công bố tối đa 240 phút pin cho cả hai trong điều kiện thử tiêu chuẩn. Vì vậy, nếu ai nói Action 6 “pin vượt trội” chỉ dựa vào tài liệu này thì chưa có cơ sở.
 
@@ -138,10 +138,10 @@ Cả hai chống nước 20m không cần housing. DJI công bố tối đa 240 
 ## Action 5 Pro phù hợp với ai hơn?
 
 - POV/road trip chủ yếu ban ngày.
-- Workflow 4K30/60 đã ổn.
+- quy trình làm việc 4K30/60 đã ổn.
 - Giá 5 Pro thấp hơn đủ lớn.
 - Người đang sở hữu 5 Pro và chưa gặp điểm nghẽn.
 
 ## Kết luận
 
-Action 6 tốt hơn về **độ linh hoạt hình ảnh và hậu kỳ**, không phải mọi tiêu chí. Action 5 Pro vẫn hòa ở chống nước và pin công bố, đồng thời tiếp tục đủ mạnh cho phần lớn workflow 4K. Nâng cấp chỉ đáng khi phần mới giải quyết cảnh quay bạn thực sự có.
+Action 6 tốt hơn về **độ linh hoạt hình ảnh và hậu kỳ**, không phải mọi tiêu chí. Action 5 Pro vẫn hòa ở chống nước và pin công bố, đồng thời tiếp tục đủ mạnh cho phần lớn quy trình làm việc 4K. Nâng cấp chỉ đáng khi phần mới giải quyết cảnh quay bạn thực sự có.

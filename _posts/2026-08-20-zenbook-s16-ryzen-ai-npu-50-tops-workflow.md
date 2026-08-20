@@ -1,7 +1,7 @@
 ---
 title: "Zenbook S 16 với Ryzen AI: NPU 50 TOPS giúp gì thật trong công việc hằng ngày?"
 slug: zenbook-s16-ryzen-ai-npu-50-tops-workflow
-description: "Phân tích ASUS Zenbook S 16 dùng Ryzen AI theo dữ liệu chính thức: NPU 50 TOPS, OLED 3K 120Hz, RAM hàn và câu hỏi AI local có tạo khác biệt thật trong workflow hay không."
+description: "Phân tích ASUS Zenbook S 16 dùng Ryzen AI theo dữ liệu chính thức: NPU 50 TOPS, OLED 3K 120Hz, RAM hàn và câu hỏi AI local có tạo khác biệt thật trong quy trình làm việc hay không."
 answer_summary: "NPU 50 TOPS trên Zenbook S 16 giúp máy đạt ngưỡng Copilot+ PC và mở đường cho các tác vụ AI chạy tại thiết bị, nhưng giá trị thực phụ thuộc ứng dụng có hỗ trợ NPU hay không. Với công việc văn phòng, trình duyệt và chỉnh sửa nhẹ, CPU, RAM, SSD, màn hình và pin vẫn quyết định phần lớn trải nghiệm. Với AI local, video hoặc phần mềm đã tối ưu NPU, phần cứng AI mới bắt đầu tạo khác biệt rõ hơn."
 target_query: "Zenbook S 16 Ryzen AI NPU 50 TOPS có tác dụng gì"
 key_takeaways:
@@ -13,7 +13,7 @@ compare_subject: "NPU 50 TOPS"
 compare_reference: "CPU/GPU + RAM + SSD"
 quick_compare:
   - criterion: "AI on-device"
-    subject_value: "Có phần cứng chuyên dụng cho workload AI tương thích"
+    subject_value: "Có phần cứng chuyên dụng cho khối lượng công việc AI tương thích"
     reference_value: "Vẫn xử lý phần lớn tác vụ truyền thống"
     verdict: "NPU có giá trị khi phần mềm thực sự gọi NPU."
   - criterion: "Công việc văn phòng"
@@ -52,7 +52,7 @@ faq:
   - question: "Zenbook S 16 có phải Copilot+ PC không?"
     answer: "Các cấu hình Ryzen AI có NPU 50 TOPS đáp ứng ngưỡng NPU mà Microsoft nêu cho Copilot+ PC; khả năng tính năng cụ thể còn phụ thuộc phiên bản Windows, khu vực và phần mềm."
   - question: "Nên ưu tiên 32GB RAM hay NPU mạnh hơn?"
-    answer: "Nếu workflow của bạn thường xuyên dùng nhiều ứng dụng, video, VM hoặc AI local cần bộ nhớ, RAM có thể tạo giá trị rõ hơn. Nếu ứng dụng đã tối ưu NPU, NPU mạnh mới đáng ưu tiên hơn."
+    answer: "Nếu quy trình làm việc của bạn thường xuyên dùng nhiều ứng dụng, video, VM hoặc AI local cần bộ nhớ, RAM có thể tạo giá trị rõ hơn. Nếu ứng dụng đã tối ưu NPU, NPU mạnh mới đáng ưu tiên hơn."
 ---
 Điểm dễ gây hiểu nhầm nhất của làn sóng AI PC là người mua nhìn thấy **50 TOPS** rồi vô thức coi đó như một điểm benchmark tổng hợp. Cách đọc này sai ngay từ đầu.
 
@@ -64,9 +64,9 @@ Nhưng TOPS không cho chúng ta biết máy mở Chrome nhanh hơn bao nhiêu, 
 
 ## Vì sao app hỗ trợ NPU mới là điểm mấu chốt?
 
-Một NPU mạnh nhưng phần mềm không gọi đến NPU thì lợi thế đó gần như không xuất hiện trong workflow. Đây là lý do Chú Nếp luôn tách câu hỏi **"máy có NPU mạnh không?"** khỏi câu hỏi **"phần mềm mình dùng có tận dụng NPU không?"**.
+Một NPU mạnh nhưng phần mềm không gọi đến NPU thì lợi thế đó gần như không xuất hiện trong quy trình làm việc. Đây là lý do Chú Nếp luôn tách câu hỏi **"máy có NPU mạnh không?"** khỏi câu hỏi **"phần mềm mình dùng có tận dụng NPU không?"**.
 
-Các tính năng như xử lý camera, hiệu ứng nền, một số tác vụ AI cục bộ hoặc mô hình nhỏ có thể hưởng lợi từ NPU. Ngược lại, nhiều workflow Adobe, dựng video, code, browser hay AI local vẫn có thể phụ thuộc đáng kể vào CPU, GPU và RAM.
+Các tính năng như xử lý camera, hiệu ứng nền, một số tác vụ AI cục bộ hoặc mô hình nhỏ có thể hưởng lợi từ NPU. Ngược lại, nhiều quy trình làm việc Adobe, dựng video, code, browser hay AI local vẫn có thể phụ thuộc đáng kể vào CPU, GPU và RAM.
 
 ## OLED 3K 120Hz và RAM hàn mới là thứ bạn cảm nhận mỗi ngày
 
@@ -74,7 +74,7 @@ ASUS niêm yết Zenbook S 16 với màn hình OLED 16 inch 3K 120Hz, cùng các
 
 Điểm cần lưu ý là RAM trên dòng này nằm trên bo mạch. Vì vậy, quyết định 16GB hay 32GB tại thời điểm mua có thể ảnh hưởng vòng đời máy mạnh hơn việc chạy theo một con số TOPS cao hơn nhưng chưa có ứng dụng tương ứng.
 
-## Góc nhìn Chú Nếp: AI PC nên được mua theo workflow
+## Góc nhìn Chú Nếp: AI PC nên được mua theo quy trình làm việc
 
 Nếu bạn chủ yếu dùng web, Office, họp online và chỉnh ảnh nhẹ, hãy ưu tiên màn hình, pin, bàn phím, cổng kết nối và RAM phù hợp trước. Nếu bạn đã biết mình dùng phần mềm có AI on-device, chạy mô hình cục bộ hoặc cần các tính năng Copilot+ cụ thể, NPU 50 TOPS mới trở thành tiêu chí mua rõ ràng.
 

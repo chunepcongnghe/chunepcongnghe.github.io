@@ -122,4 +122,4 @@ Xem thêm bài [Osmo Action 6 đánh giá: cảm biến 1/1,1 inch có đáng h�
 
 ## Kết luận
 
-**Khẩu độ biến thiên trên Action 6 không phải chiêu tăng thông số cho đẹp bảng spec.** f/2.0 có lợi khi thiếu sáng; f/4.0 giúp linh hoạt hơn với vùng nét gần. Nhưng đừng đánh giá chất lượng video chỉ từ khẩu độ — hãy luôn đặt nó cùng cảm biến, xử lý hình và điều kiện quay thực tế.
+**Khẩu độ biến thiên trên Action 6 không phải chiêu tăng thông số cho đẹp bảng thông số.** f/2.0 có lợi khi thiếu sáng; f/4.0 giúp linh hoạt hơn với vùng nét gần. Nhưng đừng đánh giá chất lượng video chỉ từ khẩu độ — hãy luôn đặt nó cùng cảm biến, xử lý hình và điều kiện quay thực tế.

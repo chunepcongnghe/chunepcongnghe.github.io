@@ -56,7 +56,7 @@ Action cam hiện nay cho phép bật 4K, 60fps, HDR, horizon lock và hàng lo�
 
 ## 4K30 là cấu hình nền hợp lý cho nhiều cảnh hành trình
 
-Với POV chạy xe, phong cảnh, cảnh dừng chân và vlog bình thường, 30fps thường đã đủ để tạo chuyển động tự nhiên. Ít frame hơn cũng giúp workflow lưu trữ và hậu kỳ nhẹ hơn so với 60fps trong cùng điều kiện codec/bitrate.
+Với POV chạy xe, phong cảnh, cảnh dừng chân và vlog bình thường, 30fps thường đã đủ để tạo chuyển động tự nhiên. Ít frame hơn cũng giúp quy trình làm việc lưu trữ và hậu kỳ nhẹ hơn so với 60fps trong cùng điều kiện codec/bitrate.
 
 Điều này đặc biệt hữu ích khi bạn quay liên tục hàng giờ và cuối ngày phải sao lưu hàng trăm clip.
 
@@ -80,6 +80,6 @@ Bạn không cần giả định mọi clip đều chạy đúng bitrate tối �
 
 ## Góc nhìn Chú Nếp: quay ít mode hơn nhưng nhất quán hơn
 
-Một workflow road trip dễ dựng thường chỉ cần vài preset rõ ràng: 4K30 cho cảnh chính, 4K60 cho chuyển động/slow-motion, một preset thiếu sáng nếu cần. Càng ít đổi setting giữa đường, nguy cơ quay nhầm càng thấp.
+Một quy trình làm việc road trip dễ dựng thường chỉ cần vài preset rõ ràng: 4K30 cho cảnh chính, 4K60 cho chuyển động/slow-motion, một preset thiếu sáng nếu cần. Càng ít đổi setting giữa đường, nguy cơ quay nhầm càng thấp.
 
 Mục tiêu của action cam không phải chứng minh nó có bao nhiêu mode. Mục tiêu là **đem về footage đủ đẹp, đủ ổn định và dễ dựng**.

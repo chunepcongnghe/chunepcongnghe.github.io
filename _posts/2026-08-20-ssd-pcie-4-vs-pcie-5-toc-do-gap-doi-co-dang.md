@@ -2,12 +2,12 @@
 title: "SSD PCIe 4.0 vs PCIe 5.0: 7,45GB/s vs 14,5GB/s — tốc độ gấp đôi có làm máy nhanh gấp đôi?"
 slug: ssd-pcie-4-vs-pcie-5-toc-do-gap-doi-co-dang
 description: "So sánh SSD PCIe 4.0 và PCIe 5.0 bằng dữ liệu Samsung 990 Pro và Crucial T705; phân tích khi nào băng thông tuần tự cao hơn tạo khác biệt thật."
-answer_summary: "SSD PCIe 5.0 có thể đạt tốc độ tuần tự công bố gần gấp đôi PCIe 4.0, nhưng máy không vì thế nhanh gấp đôi trong mọi tác vụ. Samsung 990 Pro Gen4 được hãng công bố tới 7.450MB/s đọc tuần tự, trong khi Crucial T705 Gen5 2TB tới 14.500MB/s; chênh lệch lớn nhất phát huy ở copy file rất lớn và workload storage nặng. Với boot, web, Office hoặc nhiều tác vụ phổ thông, độ trễ, random I/O, cache và chính ứng dụng mới quyết định cảm giác nhanh."
+answer_summary: "SSD PCIe 5.0 có thể đạt tốc độ tuần tự công bố gần gấp đôi PCIe 4.0, nhưng máy không vì thế nhanh gấp đôi trong mọi tác vụ. Samsung 990 Pro Gen4 được hãng công bố tới 7.450MB/s đọc tuần tự, trong khi Crucial T705 Gen5 2TB tới 14.500MB/s; chênh lệch lớn nhất phát huy ở copy file rất lớn và khối lượng công việc storage nặng. Với boot, web, Office hoặc nhiều tác vụ phổ thông, độ trễ, random I/O, cache và chính ứng dụng mới quyết định cảm giác nhanh."
 target_query: "SSD PCIe 4.0 và PCIe 5.0 khác nhau thực tế thế nào"
 key_takeaways:
   - "Samsung 990 Pro Gen4: đọc/ghi tuần tự tối đa công bố tới 7.450/6.900MB/s."
   - "Crucial T705 Gen5 2TB: đọc/ghi tuần tự tối đa công bố tới 14.500/12.700MB/s theo flyer hãng."
-  - "Đây là số liệu hãng trong điều kiện test; hiệu năng thực tế phụ thuộc nền tảng, dung lượng, nhiệt, trạng thái cache và workload."
+  - "Đây là số liệu hãng trong điều kiện test; hiệu năng thực tế phụ thuộc nền tảng, dung lượng, nhiệt, trạng thái cache và khối lượng công việc."
   - "SSD Gen5 nhanh hơn đáng kể trên giấy nhưng thường nóng hơn và cần đúng khe PCIe 5.0/cooling để khai thác tốt."
 compare_subject: "PCIe 5.0 — Crucial T705 2TB"
 compare_reference: "PCIe 4.0 — Samsung 990 Pro 2TB"
@@ -19,7 +19,7 @@ quick_compare:
   - criterion: "Ghi tuần tự tối đa công bố"
     subject_value: "12.700MB/s"
     reference_value: "6.900MB/s"
-    verdict: "Lợi thế rõ với workload ghi file lớn nếu không gặp nút thắt khác."
+    verdict: "Lợi thế rõ với khối lượng công việc ghi file lớn nếu không gặp nút thắt khác."
   - criterion: "Yêu cầu nền tảng"
     subject_value: "Cần M.2 PCIe Gen5 để đạt tối đa"
     reference_value: "PCIe Gen4 x4"
@@ -33,7 +33,7 @@ brand: Multi-brand
 tags: [SSD PCIe 5.0, SSD PCIe 4.0, Samsung 990 Pro, Crucial T705, NVMe, SSD Gen5]
 image: "/assets/images/thumbs/ssd-pcie-4-vs-pcie-5-toc-do-gap-doi-co-dang.jpg"
 image_alt: "SSD M.2 NVMe gắn trên bo mạch chủ, minh họa so sánh PCIe 4.0 và 5.0"
-source_status: vendor-claim
+source_status: vendor-thông tin hãng công bố
 sources:
   - name: "Samsung VN — 990 PRO PCIe 4.0 NVMe SSD"
     url: "https://www.samsung.com/vn/memory-storage/nvme-ssd/990-pro-2tb-nvme-pcie-gen-4-mz-v9p2t0bw/"
@@ -60,7 +60,7 @@ Hai con số **7.450MB/s** và **14.500MB/s** nhìn rất dễ khiến người 
 
 ## Chú Nếp chốt nhanh
 
-Nếu bạn thường copy hàng trăm GB, dựng media nặng, xử lý dataset lớn hoặc workstation có workflow storage thực sự: **PCIe 5.0 đáng quan tâm**. Nếu dùng web, Office, code nhẹ, game và edit phổ thông: **SSD Gen4 tốt vẫn cực nhanh**, số tiền chênh có thể đem lại giá trị lớn hơn khi đầu tư RAM, GPU hoặc dung lượng.
+Nếu bạn thường copy hàng trăm GB, dựng media nặng, xử lý dataset lớn hoặc workstation có quy trình làm việc storage thực sự: **PCIe 5.0 đáng quan tâm**. Nếu dùng web, Office, code nhẹ, game và edit phổ thông: **SSD Gen4 tốt vẫn cực nhanh**, số tiền chênh có thể đem lại giá trị lớn hơn khi đầu tư RAM, GPU hoặc dung lượng.
 
 ## Đặt hai SSD thật lên bàn cân
 
@@ -72,11 +72,11 @@ Dùng Samsung 990 Pro 2TB và Crucial T705 2TB làm mốc, nhưng cần nhấn m
 | Ghi tuần tự | tới 6.900MB/s | tới 12.700MB/s |
 | Giao tiếp | PCIe 4.0 x4 | PCIe 5.0 x4 |
 
-Trên workload tuần tự đủ lớn, Gen5 có lợi thế rất rõ. Nhưng “máy nhanh” là tổng của nhiều loại I/O khác nhau.
+Trên khối lượng công việc tuần tự đủ lớn, Gen5 có lợi thế rất rõ. Nhưng “máy nhanh” là tổng của nhiều loại I/O khác nhau.
 
 ## Sequential speed không phải tốc độ của mọi thứ
 
-Tốc độ tuần tự mô tả dữ liệu được đọc/ghi thành dải dài. Copy một file video 100GB giữa hai ổ nhanh có thể tận dụng điều này. Mở một project có hàng chục nghìn file nhỏ lại phụ thuộc nhiều hơn vào random I/O và latency.
+Tốc độ tuần tự mô tả dữ liệu được đọc/ghi thành dải dài. Copy một file video 100GB giữa hai ổ nhanh có thể tận dụng điều này. Mở một project có hàng chục nghìn file nhỏ lại phụ thuộc nhiều hơn vào random I/O và độ trễ.
 
 Trình duyệt, Office và nhiều app desktop còn chờ CPU, network, render UI hoặc database nội bộ. SSD có thể đã hoàn thành phần việc của nó trước khi component khác xong.
 
@@ -96,7 +96,7 @@ Laptop còn phức tạp hơn desktop: không gian tản nhiệt giới hạn v�
 
 - Scratch disk cho video RAW/8K hoặc intermediate bitrate rất cao.
 - Workstation copy file lớn giữa các SSD Gen5/10GbE/Thunderbolt đủ nhanh.
-- Dataset, VM, build system hoặc workload đã đo được storage là bottleneck.
+- Dataset, VM, build system hoặc khối lượng công việc đã đo được storage là điểm nghẽn.
 - Máy mới hỗ trợ Gen5 và chênh giá nhỏ so với tổng ngân sách.
 
 ## Khi nào Gen4 vẫn là lựa chọn hợp lý hơn?
@@ -104,6 +104,6 @@ Laptop còn phức tạp hơn desktop: không gian tản nhiệt giới hạn v�
 - Laptop phổ thông chỉ hỗ trợ Gen4.
 - Nhu cầu chính là dung lượng: 2TB Gen4 tốt có thể hữu ích hơn 1TB Gen5.
 - Game, web, Office, chỉnh ảnh và video thông thường chưa đẩy băng thông tuần tự thành nút thắt.
-- Bạn chưa có dữ liệu nào cho thấy SSD hiện tại đang giới hạn workflow.
+- Bạn chưa có dữ liệu nào cho thấy SSD hiện tại đang giới hạn quy trình làm việc.
 
 Chú Nếp không chống công nghệ mới. PCIe 5.0 là bước tiến thật. Nhưng **băng thông cao chỉ đáng tiền khi công việc có dữ liệu để lấp đầy băng thông đó**.

@@ -1,14 +1,14 @@
 ---
 title: "MacBook Air M5 vs laptop Windows AI mỏng nhẹ: nên chọn theo hệ sinh thái hay thông số?"
 slug: macbook-air-m5-vs-windows-ai-mong-nhe
-description: "So sánh MacBook Air M5 với laptop Windows AI mỏng nhẹ tiêu biểu như Zenbook S 16 Ryzen AI: màn hình, RAM, cổng, NPU, media engine và workflow thực tế."
+description: "So sánh MacBook Air M5 với laptop Windows AI mỏng nhẹ tiêu biểu như Zenbook S 16 Ryzen AI: màn hình, RAM, cổng, NPU, media engine và quy trình làm việc thực tế."
 answer_summary: "MacBook Air M5 và laptop Windows AI mỏng nhẹ phục vụ cùng nhóm người dùng di động nhưng tối ưu theo hai hướng khác nhau. Air M5 nổi bật với thiết kế fanless, media engine H.264/HEVC/ProRes, Wi-Fi 7 và hệ sinh thái macOS; các mẫu Windows AI như Zenbook S 16 có thể cung cấp OLED 3K 120Hz, nhiều cổng hơn và NPU tới 50 TOPS. Không có lựa chọn thắng tuyệt đối: creator nên chọn theo phần mềm, codec, màn hình, cổng kết nối, RAM và hệ sinh thái đang dùng."
 target_query: "MacBook Air M5 vs laptop Windows AI nên chọn máy nào"
 key_takeaways:
   - "MacBook Air M5 có băng thông bộ nhớ 153GB/s, RAM 16/24/32GB và media engine hỗ trợ H.264, HEVC, ProRes/ProRes RAW cùng AV1 decode."
   - "Zenbook S 16 Ryzen AI có tùy chọn OLED 16 inch 3K 120Hz, RAM 16/24/32GB hàn và NPU lên tới 50 TOPS tùy cấu hình."
   - "Air M5 có hai Thunderbolt 4/USB4 + MagSafe; Zenbook S 16 có thể thêm USB-A, HDMI và khe thẻ tùy model."
-  - "Đây là so sánh kiến trúc/workflow, không phải benchmark hoặc so giá trực tiếp giữa mọi cấu hình trên thị trường."
+  - "Đây là so sánh kiến trúc/quy trình làm việc, không phải benchmark hoặc so giá trực tiếp giữa mọi cấu hình trên thị trường."
 compare_subject: "MacBook Air M5"
 compare_reference: "Windows AI mỏng nhẹ tiêu biểu"
 quick_compare:
@@ -21,13 +21,13 @@ quick_compare:
     reference_value: "Có thể có OLED 3K 120Hz như Zenbook S 16"
     verdict: "Windows có nhiều lựa chọn panel hơn; Air ưu tiên cân bằng và pin."
   - criterion: "AI on-device"
-    subject_value: "Neural Engine trong M5; Apple không công bố TOPS trên trang spec này"
+    subject_value: "Neural Engine trong M5; Apple không công bố TOPS trên trang thông số này"
     reference_value: "Ryzen AI có thể đạt 50 TOPS NPU"
-    verdict: "Không so TOPS chéo kiến trúc nếu thiếu benchmark cùng workload."
+    verdict: "Không so TOPS chéo kiến trúc nếu thiếu benchmark cùng khối lượng công việc."
 comparison:
   product_a: "MacBook Air M5 13 inch"
   product_b: "Zenbook S 16 Ryzen AI (đại diện Windows AI mỏng nhẹ)"
-  test_conditions: "Đối chiếu thông số chính thức và workflow; không phải benchmark kiểm soát và không khẳng định hai cấu hình cùng giá."
+  test_conditions: "Đối chiếu thông số chính thức và quy trình làm việc; không phải benchmark kiểm soát và không khẳng định hai cấu hình cùng giá."
   metrics:
     - name: "Màn hình"
       product_a_value: "13,6 inch IPS 2560×1664, 500 nit"
@@ -45,7 +45,7 @@ comparison:
       source_name: "Apple / ASUS"
       source_url: "https://support.apple.com/vi-vn/126320"
     - name: "NPU / AI"
-      product_a_value: "Neural Engine trong M5; không dùng TOPS chưa được Apple công bố ở spec này"
+      product_a_value: "Neural Engine trong M5; không dùng TOPS chưa được Apple công bố ở thông số này"
       product_b_value: "NPU Ryzen AI lên tới 50 TOPS"
       source_name: "Apple / AMD"
       source_url: "https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-hx-370.html"
@@ -73,9 +73,9 @@ featured: false
 published: true
 faq:
   - question: "MacBook Air M5 có NPU yếu hơn laptop Windows AI 50 TOPS không?"
-    answer: "Không thể kết luận chỉ bằng TOPS vì Apple không công bố cùng kiểu số liệu trên trang spec này và hai kiến trúc/phần mềm khác nhau. Cần benchmark cùng model và workload."
+    answer: "Không thể kết luận chỉ bằng TOPS vì Apple không công bố cùng kiểu số liệu trên trang thông số này và hai kiến trúc/phần mềm khác nhau. Cần benchmark cùng model và khối lượng công việc."
   - question: "Creator nên chọn MacBook hay Windows AI?"
-    answer: "Hãy bắt đầu từ phần mềm, codec, plug-in, màn hình và thiết bị ngoại vi. macOS hợp một số workflow Apple/ProRes; Windows có dải phần cứng, cổng và GPU đa dạng hơn."
+    answer: "Hãy bắt đầu từ phần mềm, codec, plug-in, màn hình và thiết bị ngoại vi. macOS hợp một số quy trình làm việc Apple/ProRes; Windows có dải phần cứng, cổng và GPU đa dạng hơn."
   - question: "OLED 120Hz có làm Zenbook tốt hơn Air M5 không?"
     answer: "OLED 120Hz có lợi về tương phản và độ mượt, nhưng không tự quyết định toàn bộ trải nghiệm. Pin, text rendering, phản chiếu, kích thước và phần mềm vẫn quan trọng."
 ---
@@ -89,7 +89,7 @@ MacBook Air M5 giữ thiết kế fanless và kiểm soát chặt phần cứng/
 
 ## Creator nên nhìn codec và phần mềm trước benchmark
 
-Nếu workflow Final Cut/Logic, iPhone/AirDrop và ProRes chiếm phần lớn thời gian, macOS và media engine Apple có giá trị hệ thống. Nếu dùng ứng dụng Windows-only, GPU rời, thiết bị ngoại vi chuyên dụng hoặc muốn dải lựa chọn phần cứng rộng, Windows hợp lý hơn.
+Nếu quy trình làm việc Final Cut/Logic, iPhone/AirDrop và ProRes chiếm phần lớn thời gian, macOS và media engine Apple có giá trị hệ thống. Nếu dùng ứng dụng Windows-only, GPU rời, thiết bị ngoại vi chuyên dụng hoặc muốn dải lựa chọn phần cứng rộng, Windows hợp lý hơn.
 
 Một benchmark CPU tổng hợp không trả lời được câu hỏi plugin bạn dùng có chạy không, codec có decode bằng phần cứng không hay bạn cần bao nhiêu adapter.
 
@@ -101,10 +101,10 @@ Do đó, hãy thử màn hình nếu có thể thay vì mua theo tên công ngh�
 
 ## Cổng kết nối: chi phí ẩn của setup
 
-Air M5 có hai Thunderbolt 4/USB4 và MagSafe. Một số ultrabook Windows có USB4 cùng HDMI, USB-A hoặc khe thẻ. Nếu workflow của bạn cần màn hình, thẻ nhớ, SSD và Ethernet mỗi ngày, số cổng có thể quyết định việc bạn phải mang dock hay không.
+Air M5 có hai Thunderbolt 4/USB4 và MagSafe. Một số ultrabook Windows có USB4 cùng HDMI, USB-A hoặc khe thẻ. Nếu quy trình làm việc của bạn cần màn hình, thẻ nhớ, SSD và Ethernet mỗi ngày, số cổng có thể quyết định việc bạn phải mang dock hay không.
 
 ## Góc nhìn Chú Nếp: chọn hệ thống ít ma sát nhất
 
-MacBook Air M5 không mặc định tốt hơn Windows AI, và Windows AI cũng không tự tốt hơn vì có 50 TOPS. Hãy chọn máy khiến workflow hiện tại **ít phải đổi thói quen, ít adapter và ít workaround nhất**.
+MacBook Air M5 không mặc định tốt hơn Windows AI, và Windows AI cũng không tự tốt hơn vì có 50 TOPS. Hãy chọn máy khiến quy trình làm việc hiện tại **ít phải đổi thói quen, ít adapter và ít workaround nhất**.
 
 Cấu hình chỉ là phần cứng. Giá trị thật là tốc độ từ lúc mở máy đến lúc hoàn thành công việc.

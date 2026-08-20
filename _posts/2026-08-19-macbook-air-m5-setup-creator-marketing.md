@@ -1,7 +1,7 @@
 ---
-title: "Setup MacBook Air M5 cho marketing & creator: workflow gọn hơn quan trọng hơn cài nhiều app"
+title: "Setup MacBook Air M5 cho marketing & creator: quy trình làm việc gọn hơn quan trọng hơn cài nhiều app"
 slug: macbook-air-m5-setup-creator-marketing
-description: "Hướng dẫn setup MacBook Air M5 cho marketing và creator: cấu trúc file, cloud, app nền, SSD, màn hình và backup; đối chiếu workflow gọn với kiểu cài app tự phát."
+description: "Hướng dẫn setup MacBook Air M5 cho marketing và creator: cấu trúc file, cloud, app nền, SSD, màn hình và backup; đối chiếu quy trình làm việc gọn với kiểu cài app tự phát."
 answer_summary: "Setup tốt không làm chip M5 nhanh hơn nhưng giảm thời gian tìm file, chuyển app, dọn SSD và xử lý lỗi. Với marketing/creator, nên chuẩn hóa thư mục dự án, quyết định file local/cloud, giới hạn app nền, cấu hình backup và bố trí màn hình trước khi cài thêm công cụ."
 target_query: "setup MacBook Air M5 cho marketing creator"
 key_takeaways:
@@ -9,7 +9,7 @@ key_takeaways:
   - "512GB mặc định dễ thở hơn nhưng footage 4K vẫn có thể làm đầy nhanh; cần quy tắc local, SSD ngoài và cloud."
   - "App chạy nền cần được kiểm tra theo giá trị sử dụng, không phải cài vì 'có thể cần'."
   - "Backup và naming convention nên thiết lập trước project đầu tiên, không chờ tới lúc mất file."
-compare_subject: "Workflow có cấu trúc"
+compare_subject: "quy trình làm việc có cấu trúc"
 compare_reference: "Cài app & lưu file tự phát"
 quick_compare:
   - criterion: "Tìm file"
@@ -27,7 +27,7 @@ quick_compare:
   - criterion: "Backup"
     subject_value: "Có lịch và ít nhất 2 bản"
     reference_value: "Nhớ thì copy"
-    verdict: "Workflow có khả năng phục hồi khi ổ/file lỗi."
+    verdict: "quy trình làm việc có khả năng phục hồi khi ổ/file lỗi."
 date: "2026-08-19T19:25:00+07:00"
 date_modified: "2026-08-19T21:51:00+07:00"
 section: thu-thuat
@@ -37,7 +37,7 @@ category_label: "Laptop"
 brand: Apple
 tags: ["MacBook Air M5", "marketing workflow", "creator workflow", "setup MacBook", "backup"]
 image: "/assets/images/thumbs/macbook-air-m5-setup-creator-marketing.jpg"
-image_alt: "MacBook Air M5 với workflow marketing creator gồm file system, cloud sync và timeline"
+image_alt: "MacBook Air M5 với quy trình làm việc marketing creator gồm file system, cloud sync và timeline"
 source_status: confirmed
 sources:
   - name: "Apple Newsroom Việt Nam — MacBook Air M5"
@@ -51,11 +51,11 @@ faq:
   - question: "MacBook Air M5 512GB có đủ cho creator không?"
     answer: "Đủ hay không phụ thuộc footage và cách archive. Video 4K có thể làm đầy 512GB nhanh, nên project active có thể ở máy còn raw/archive chuyển SSD ngoài hoặc cloud."
   - question: "Nên cài app nào trước trên MacBook mới?"
-    answer: "Nên cài theo workflow thật: trình duyệt, password manager, cloud/backup, app giao tiếp và công cụ sản xuất đang dùng. Tránh cài hàng loạt utility chỉ vì thấy hữu ích trên mạng."
-  - question: "Setup workflow có giúp máy nhanh hơn không?"
+    answer: "Nên cài theo quy trình làm việc thật: trình duyệt, password manager, cloud/backup, app giao tiếp và công cụ sản xuất đang dùng. Tránh cài hàng loạt utility chỉ vì thấy hữu ích trên mạng."
+  - question: "Setup quy trình làm việc có giúp máy nhanh hơn không?"
     answer: "Không tăng hiệu năng chip, nhưng có thể làm công việc nhanh hơn vì giảm chuyển ngữ cảnh, tìm file, đồng bộ lỗi và app nền không cần thiết."
 ---
-## Tối ưu workflow khác tối ưu benchmark
+## Tối ưu quy trình làm việc khác tối ưu benchmark
 
 MacBook mới có thể rất nhanh nhưng người dùng vẫn mất thời gian nếu file rải khắp nơi, project đặt tên tùy hứng và mọi app đều chạy nền. Với marketing/creator, **tổ chức thông tin** thường tạo khác biệt lớn hơn cài thêm một ứng dụng tăng năng suất.
 
@@ -111,4 +111,4 @@ Sau 2 tuần, xem app nào không dùng, thư mục nào gây khó tìm và dung
 
 ## Kết luận
 
-MacBook Air M5 là công cụ; workflow mới quyết định bạn có tiết kiệm thời gian hay không. Một hệ thống file, backup và app nền gọn giúp cả 16GB lẫn 32GB làm việc hiệu quả hơn — và giảm nhu cầu “nâng cấu hình để chữa sự lộn xộn”.
+MacBook Air M5 là công cụ; quy trình làm việc mới quyết định bạn có tiết kiệm thời gian hay không. Một hệ thống file, backup và app nền gọn giúp cả 16GB lẫn 32GB làm việc hiệu quả hơn — và giảm nhu cầu “nâng cấu hình để chữa sự lộn xộn”.

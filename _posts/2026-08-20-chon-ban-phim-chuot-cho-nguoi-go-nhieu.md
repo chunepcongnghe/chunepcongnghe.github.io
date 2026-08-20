@@ -2,7 +2,7 @@
 title: "Chọn bàn phím + chuột cho người gõ nhiều: ưu tiên tư thế, kích thước và khoảng với trước switch hay DPI"
 slug: chon-ban-phim-chuot-cho-nguoi-go-nhieu
 description: "Cách chọn bàn phím và chuột cho người làm việc nhiều giờ: layout, chiều cao, khoảng với, tư thế cổ tay, trọng lượng và kết nối quan trọng hơn thông số marketing."
-answer_summary: "Với người gõ và dùng chuột nhiều giờ, yếu tố nên ưu tiên là tư thế trung tính và khoảng với tay. Bàn phím quá rộng có thể đẩy chuột ra xa; bàn phím quá cao có thể khiến cổ tay phải duỗi nếu bàn/kê tay không phù hợp. DPI cao, switch đắt hay polling rate lớn không tự đảm bảo thoải mái — hình dáng phải hợp kích thước tay, bàn và workflow trước."
+answer_summary: "Với người gõ và dùng chuột nhiều giờ, yếu tố nên ưu tiên là tư thế trung tính và khoảng với tay. Bàn phím quá rộng có thể đẩy chuột ra xa; bàn phím quá cao có thể khiến cổ tay phải duỗi nếu bàn/kê tay không phù hợp. DPI cao, switch đắt hay tần số phản hồi lớn không tự đảm bảo thoải mái — hình dáng phải hợp kích thước tay, bàn và quy trình làm việc trước."
 target_query: "cách chọn bàn phím chuột cho người gõ nhiều"
 key_takeaways:
   - "OSHA khuyến nghị bàn phím đặt trước người, vai thư giãn, khuỷu tay gần thân và cổ tay tương đối thẳng."
@@ -14,13 +14,13 @@ compare_reference: "Chọn theo thông số"
 quick_compare:
   - criterion: "Bàn phím"
     subject_value: "Layout, chiều cao, góc cổ tay"
-    reference_value: "Switch, RGB, polling rate"
+    reference_value: "Switch, RGB, tần số phản hồi"
     verdict: "Tư thế quyết định ma sát hàng giờ; switch là sở thích sau đó."
   - criterion: "Chuột"
     subject_value: "Form tay, vị trí gần bàn phím"
     reference_value: "DPI tối đa"
     verdict: "DPI cao không cứu được form chuột không hợp tay."
-  - criterion: "Workflow"
+  - criterion: "quy trình làm việc"
     subject_value: "Phím tắt, multi-device, nút thực dùng"
     reference_value: "Nhiều nút nhưng không map"
     verdict: "Tính năng chỉ có giá trị khi giảm thao tác lặp lại."
@@ -92,9 +92,9 @@ Một test đơn giản: đặt tay lên chuột mà không cố chỉnh tư th�
 - Multi-device hữu ích nếu đổi Mac/PC thường xuyên.
 - Nút ngang/gesture có giá trị nếu map cho timeline, browser hoặc spreadsheet.
 - Macro hữu ích khi thay một chuỗi thao tác lặp lại.
-- Wireless chỉ đáng nếu latency/độ ổn định phù hợp và việc bỏ dây thật sự giúp bàn làm việc.
+- Wireless chỉ đáng nếu độ trễ/độ ổn định phù hợp và việc bỏ dây thật sự giúp bàn làm việc.
 
-Chú Nếp thích phụ kiện có **lý do tồn tại trong workflow**, không thích phụ kiện chỉ thêm một dòng vào bảng spec.
+Chú Nếp thích phụ kiện có **lý do tồn tại trong quy trình làm việc**, không thích phụ kiện chỉ thêm một dòng vào bảng thông số.
 
 ## Đừng cố sửa đau mỏi chỉ bằng shopping
 

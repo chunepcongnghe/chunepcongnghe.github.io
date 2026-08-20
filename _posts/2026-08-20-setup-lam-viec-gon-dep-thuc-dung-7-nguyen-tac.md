@@ -2,20 +2,20 @@
 title: "Setup làm việc gọn, đẹp nhưng phải thực dụng: 7 nguyên tắc bố trí màn hình, dock, dây và nguồn"
 slug: setup-lam-viec-gon-dep-thuc-dung-7-nguyen-tac
 description: "7 nguyên tắc setup góc làm việc gọn và thực dụng: vị trí màn hình, bàn phím, chuột, dock, dây, nguồn và khoảng với tay dựa trên ergonomics thay vì chỉ trang trí."
-answer_summary: "Một setup tốt không phải setup ít dây nhất mà là setup giảm thao tác thừa và giữ tư thế trung tính. Màn hình cần ở vị trí dễ nhìn, bàn phím và chuột gần thân người, dock đặt nơi thao tác thường xuyên dễ tiếp cận, còn dây nguồn/tín hiệu nên được tách và có dư chiều dài hợp lý. Ưu tiên workflow trước rồi mới tối ưu thẩm mỹ."
+answer_summary: "Một setup tốt không phải setup ít dây nhất mà là setup giảm thao tác thừa và giữ tư thế trung tính. Màn hình cần ở vị trí dễ nhìn, bàn phím và chuột gần thân người, dock đặt nơi thao tác thường xuyên dễ tiếp cận, còn dây nguồn/tín hiệu nên được tách và có dư chiều dài hợp lý. Ưu tiên quy trình làm việc trước rồi mới tối ưu thẩm mỹ."
 target_query: "cách setup góc làm việc gọn đẹp thực dụng"
 key_takeaways:
   - "OSHA khuyến nghị bàn phím đặt trực diện, vai thả lỏng, khuỷu tay gần thân và cổ tay thẳng; chuột nên ở gần để giảm với."
   - "Màn hình nên được bố trí sao cho không buộc người dùng xoay cổ hoặc cúi/ngẩng kéo dài."
   - "Dock/hub nên đặt theo tần suất cắm rút; giấu hoàn toàn dưới bàn có thể đẹp nhưng bất tiện nếu dùng thẻ nhớ/USB hàng ngày."
   - "Cable management tốt phải cho phép bảo trì, thay thiết bị và nâng hạ bàn mà không kéo căng dây."
-compare_subject: "Setup theo workflow"
+compare_subject: "Setup theo quy trình làm việc"
 compare_reference: "Setup ưu tiên ảnh đẹp"
 quick_compare:
   - criterion: "Vị trí phụ kiện"
     subject_value: "Theo tần suất sử dụng"
     reference_value: "Theo độ sạch của ảnh"
-    verdict: "Workflow giảm thao tác thừa mỗi ngày."
+    verdict: "quy trình làm việc giảm thao tác thừa mỗi ngày."
   - criterion: "Cable management"
     subject_value: "Có slack, dễ bảo trì"
     reference_value: "Giấu tối đa"

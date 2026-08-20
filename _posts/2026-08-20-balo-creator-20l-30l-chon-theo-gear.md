@@ -1,8 +1,8 @@
 ---
 title: "Balo creator 20L hay 30L: đừng chọn dung tích trước khi liệt kê đúng bộ gear mình mang"
 slug: balo-creator-20l-30l-chon-theo-gear
-description: "Phân tích balo creator 20L vs 30L theo workflow thực tế, lấy Peak Design Everyday Backpack làm ví dụ: laptop, camera, action cam, phụ kiện và bài toán mang thừa gear."
-answer_summary: "20L thường hợp bộ gear gọn gồm laptop, một camera/action cam, sạc và phụ kiện cơ bản; 30L tạo thêm headroom cho nhiều lens, áo khoác hoặc đồ chuyến đi. Nhưng dung tích lớn hơn không tự tốt hơn: balo càng rộng càng dễ khiến người dùng mang thêm thiết bị không cần thiết. Peak Design Everyday Backpack có hai cỡ 20L/30L, MagLatch, ngăn chia linh hoạt và truy cập hai bên; lựa chọn nên bắt đầu từ danh sách gear thật chứ không từ tâm lý 'mua lớn cho chắc'."
+description: "Phân tích balo creator 20L vs 30L theo quy trình làm việc thực tế, lấy Peak Design Everyday Backpack làm ví dụ: laptop, camera, action cam, phụ kiện và bài toán mang thừa gear."
+answer_summary: "20L thường hợp bộ gear gọn gồm laptop, một camera/action cam, sạc và phụ kiện cơ bản; 30L tạo thêm phần hiệu năng còn dư cho nhiều lens, áo khoác hoặc đồ chuyến đi. Nhưng dung tích lớn hơn không tự tốt hơn: balo càng rộng càng dễ khiến người dùng mang thêm thiết bị không cần thiết. Peak Design Everyday Backpack có hai cỡ 20L/30L, MagLatch, ngăn chia linh hoạt và truy cập hai bên; lựa chọn nên bắt đầu từ danh sách gear thật chứ không từ tâm lý 'mua lớn cho chắc'."
 target_query: "balo creator 20L hay 30L nên chọn loại nào"
 key_takeaways:
   - "Peak Design Everyday Backpack có hai cỡ 20L và 30L, hướng tới laptop, camera và đồ dùng hằng ngày."
@@ -15,7 +15,7 @@ quick_compare:
   - criterion: "Bộ gear hằng ngày"
     subject_value: "Laptop + body/action cam + ít phụ kiện"
     reference_value: "Nhiều thiết bị hơn hoặc thêm đồ cá nhân"
-    verdict: "20L hợp setup tối giản, 30L hợp headroom lớn hơn."
+    verdict: "20L hợp setup tối giản, 30L hợp phần hiệu năng còn dư lớn hơn."
   - criterion: "Di chuyển"
     subject_value: "Gọn và dễ kiểm soát lượng đồ"
     reference_value: "Cồng kềnh hơn khi nhồi đầy"
@@ -58,7 +58,7 @@ Creator rất dễ mắc một lỗi giống người mua laptop: **mua dư đ�
 
 Peak Design Everyday Backpack được bán ở hai kích thước 20L và 30L. Hãng tập trung vào thiết kế MagLatch, FlexFold divider, truy cập hai bên và ngăn laptop để người dùng bố trí camera/đồ hằng ngày linh hoạt.
 
-Điểm Chú Nếp quan tâm là **bộ gear thực tế**. Nếu một chuyến quay bình thường của bạn chỉ có laptop, action cam, mic không dây, power bank, sạc và vài phụ kiện, 20L có thể đã hợp lý. Nếu mang nhiều lens, body thứ hai hoặc phải nhét thêm áo khoác/đồ cá nhân, 30L có headroom rõ hơn.
+Điểm Chú Nếp quan tâm là **bộ gear thực tế**. Nếu một chuyến quay bình thường của bạn chỉ có laptop, action cam, mic không dây, power bank, sạc và vài phụ kiện, 20L có thể đã hợp lý. Nếu mang nhiều lens, body thứ hai hoặc phải nhét thêm áo khoác/đồ cá nhân, 30L có phần hiệu năng còn dư rõ hơn.
 
 ## Balo càng lớn càng dễ sinh “gear creep”
 

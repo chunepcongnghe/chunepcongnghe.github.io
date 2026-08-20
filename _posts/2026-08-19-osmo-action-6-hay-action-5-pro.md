@@ -1,7 +1,7 @@
 ---
 title: "Nên mua Osmo Action 6 hay Action 5 Pro? So cảnh quay, tính năng và chi phí nâng đời"
 slug: osmo-action-6-hay-action-5-pro
-description: "Nên mua Action 6 hay Action 5 Pro? So cảm biến, khẩu độ, 4K Custom, chống nước, pin và workflow để chọn theo cảnh quay thay vì theo đời máy."
+description: "Nên mua Action 6 hay Action 5 Pro? So cảm biến, khẩu độ, 4K Custom, chống nước, pin và quy trình làm việc để chọn theo cảnh quay thay vì theo đời máy."
 answer_summary: "Action 6 phù hợp người cần thiếu sáng tốt hơn về mặt phần cứng, khẩu độ biến thiên và crop nhiều tỷ lệ nhờ 4K Custom. Action 5 Pro vẫn hợp POV, road trip và 4K ban ngày nếu giá thấp hơn đáng kể. Nếu bạn đã sở hữu 5 Pro, chỉ nên nâng khi các tính năng mới giải quyết một vấn đề quay cụ thể."
 target_query: "Osmo Action 6 hay Action 5 Pro nên mua"
 key_takeaways:
@@ -23,7 +23,7 @@ quick_compare:
   - criterion: "POV ban ngày"
     subject_value: "Rất phù hợp"
     reference_value: "Vẫn rất phù hợp"
-    verdict: "Nếu đây là 90% workload, giá mua có thể quan trọng hơn đời máy."
+    verdict: "Nếu đây là 90% khối lượng công việc, giá mua có thể quan trọng hơn đời máy."
   - criterion: "Chống nước"
     subject_value: "20m"
     reference_value: "20m"
@@ -69,7 +69,7 @@ Cảm biến 1/1,1 inch và khẩu độ tối đa f/2.0 là hai thay đổi ph�
 
 Nếu bạn thường xuyên phải quay lại vì khung ngang không dùng được cho dọc, hoặc footage đêm là phần quan trọng của kênh, Action 6 có giá trị trực tiếp hơn.
 
-## Chọn Action 5 Pro khi workflow 4K hiện tại đã đủ
+## Chọn Action 5 Pro khi quy trình làm việc 4K hiện tại đã đủ
 
 Action 5 Pro vẫn hỗ trợ 4K120, cảm biến 1/1,3 inch, f/2.8, chống nước 20m và 47GB bộ nhớ trong khả dụng. Đây không phải một thiết bị “lỗi thời” chỉ vì Action 6 xuất hiện.
 
@@ -79,11 +79,11 @@ Nếu bạn quay chủ yếu ban ngày, dùng 4K30/60, cần chống rung và kh
 
 Độ phân giải cao nghe hấp dẫn nhưng kéo theo file lớn, tải dựng cao và yêu cầu lưu trữ nhiều hơn. Với đầu ra 1080p/4K, lợi ích 8K phải được cân bằng với thời gian hậu kỳ.
 
-Creator kiếm tiền từ tốc độ sản xuất nên coi **workflow** là chi phí: nếu 8K khiến ingest, proxy, edit và archive lâu hơn mà không tăng chất lượng đầu ra nhìn thấy, tính năng đó chưa chắc tạo giá trị.
+Creator kiếm tiền từ tốc độ sản xuất nên coi **quy trình làm việc** là chi phí: nếu 8K khiến ingest, proxy, edit và archive lâu hơn mà không tăng chất lượng đầu ra nhìn thấy, tính năng đó chưa chắc tạo giá trị.
 
 ## Nếu đang có Action 5 Pro, hãy tính chi phí nâng đời
 
-Chi phí thật không chỉ là giá Action 6. Nó còn gồm chênh lệch bán lại 5 Pro, phụ kiện có dùng chung hay không, thời gian làm quen, firmware và khả năng workflow hiện tại phải thay đổi.
+Chi phí thật không chỉ là giá Action 6. Nó còn gồm chênh lệch bán lại 5 Pro, phụ kiện có dùng chung hay không, thời gian làm quen, firmware và khả năng quy trình làm việc hiện tại phải thay đổi.
 
 Nếu tính năng mới không giúp quay tốt hơn hoặc nhanh hơn ở một tình huống bạn gặp thường xuyên, giữ 5 Pro là lựa chọn hợp lý.
 

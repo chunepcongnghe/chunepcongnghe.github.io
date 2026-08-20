@@ -136,7 +136,7 @@ Nếu pin là tiêu chí số một, nên chờ test độc lập cùng độ s�
 - dùng màn hình gập lớn hàng ngày;
 - cần camera đa dụng hơn;
 - chấp nhận máy nặng hơn để lấy màn 8 inch;
-- Fold thực sự thay một phần tablet/laptop trong workflow.
+- Fold thực sự thay một phần tablet/laptop trong quy trình làm việc.
 
 ### Chọn Fold8 nếu:
 
@@ -145,7 +145,7 @@ Nếu pin là tiêu chí số một, nên chờ test độc lập cùng độ s�
 - camera 50MP đã đủ nhu cầu;
 - không cần trả thêm cho các nâng cấp Ultra ít dùng.
 
-Điểm quan trọng là **Ultra chỉ đáng tiền khi những phần “Ultra” đi vào workflow**. Nếu không, Fold8 có thể là lựa chọn hợp lý hơn dù bảng spec thấp hơn.
+Điểm quan trọng là **Ultra chỉ đáng tiền khi những phần “Ultra” đi vào quy trình làm việc**. Nếu không, Fold8 có thể là lựa chọn hợp lý hơn dù bảng thông số thấp hơn.
 
 Xem thêm [Galaxy Z Fold8 hay Z Flip8?](/bai-viet/galaxy-z-fold8-hay-z-flip8-chon-theo-nhu-cau/) nếu bạn còn phân vân giữa hai kiểu điện thoại gập khác nhau.
 

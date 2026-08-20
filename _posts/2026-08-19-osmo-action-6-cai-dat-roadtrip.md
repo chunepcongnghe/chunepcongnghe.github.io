@@ -51,7 +51,7 @@ featured: false
 published: true
 faq:
   - question: "Road trip nên quay Action 6 ở 4K30 hay 4K60?"
-    answer: "4K30 hợp cảnh dài, ít chuyển động gấp và workflow nhẹ hơn. 4K60 hợp POV nhanh, rung động nhiều hoặc muốn slow-down nhẹ. Chọn theo đầu ra thay vì mặc định 60fps."
+    answer: "4K30 hợp cảnh dài, ít chuyển động gấp và quy trình làm việc nhẹ hơn. 4K60 hợp POV nhanh, rung động nhiều hoặc muốn slow-down nhẹ. Chọn theo đầu ra thay vì mặc định 60fps."
   - question: "Có nên bật HorizonSteady suốt chuyến đi?"
     answer: "Không nhất thiết. Nếu góc camera cố định và đường chân trời ít nghiêng, RockSteady thường đủ. HorizonSteady hữu ích khi máy xoay/nghiêng mạnh và bạn cần horizon khóa ổn định."
   - question: "50GB bộ nhớ trong có đủ road trip không?"
@@ -59,7 +59,7 @@ faq:
 ---
 ## Road trip cần độ tin cậy trước, chất lượng tối đa sau
 
-Một thiết lập “max spec” có thể tạo file lớn, nóng máy và làm hậu kỳ nặng hơn mà không cải thiện đầu ra nhìn thấy. Road trip có đặc thù quay lâu, nhiều cảnh chuyển động và khó quay lại, nên ưu tiên **ổn định, pin, lưu trữ và tính nhất quán**.
+Một thiết lập “max thông số” có thể tạo file lớn, nóng máy và làm hậu kỳ nặng hơn mà không cải thiện đầu ra nhìn thấy. Road trip có đặc thù quay lâu, nhiều cảnh chuyển động và khó quay lại, nên ưu tiên **ổn định, pin, lưu trữ và tính nhất quán**.
 
 ## 1. Chọn 4K30 hay 4K60 theo chuyển động
 

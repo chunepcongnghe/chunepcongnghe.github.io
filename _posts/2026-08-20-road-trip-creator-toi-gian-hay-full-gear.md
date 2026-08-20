@@ -50,7 +50,7 @@ faq:
   - question: "Tối giản gear có nên bỏ mic rời không?"
     answer: "Nếu video có thoại quan trọng, audio thường đáng ưu tiên hơn camera thứ hai. Mic rời cần được test pin, gain và backup trước chuyến đi."
   - question: "Redundancy quan trọng nhất ở đâu?"
-    answer: "Pin, storage và dữ liệu đã quay. Một thiết bị dự phòng chỉ hữu ích nếu workflow backup và nguồn điện cũng được chuẩn bị."
+    answer: "Pin, storage và dữ liệu đã quay. Một thiết bị dự phòng chỉ hữu ích nếu quy trình làm việc backup và nguồn điện cũng được chuẩn bị."
 ---
 Creator rất dễ rơi vào nghịch lý: mua thêm gear để có nhiều lựa chọn, rồi chuyến đi lại dành nhiều thời gian **quản gear hơn quay nội dung**. Road trip làm vấn đề này rõ nhất vì ánh sáng, địa điểm và khoảnh khắc thay đổi liên tục.
 
@@ -95,7 +95,7 @@ Mất một lens phụ có thể làm thiếu một góc quay; mất toàn bộ 
 
 ## Full gear tăng số điểm có thể lỗi
 
-Ba camera nghĩa là ba bộ setting, nhiều pin, nhiều clock, nhiều codec và nhiều file. Nếu mỗi thiết bị chỉ có 95% khả năng được setup đúng trong một tình huống vội, thêm nhiều thiết bị làm tổng workflow phức tạp lên nhanh.
+Ba camera nghĩa là ba bộ setting, nhiều pin, nhiều clock, nhiều codec và nhiều file. Nếu mỗi thiết bị chỉ có 95% khả năng được setup đúng trong một tình huống vội, thêm nhiều thiết bị làm tổng quy trình làm việc phức tạp lên nhanh.
 
 Điều này không phải công thức xác suất chính xác cho mọi chuyến; nó là cách nhìn hệ thống: **mỗi thành phần mới cần trả lời nó giảm rủi ro gì hay chỉ tạo thêm rủi ro**.
 

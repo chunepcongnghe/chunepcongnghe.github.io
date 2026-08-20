@@ -6,7 +6,7 @@ answer_summary: "Keychron Q1 Max hợp với người muốn một bàn phím c�
 target_query: "Keychron Q1 Max có hợp dân văn phòng không"
 key_takeaways:
   - "Keychron công bố Q1 Max nặng khoảng 1.724kg ±10%, phù hợp bàn làm việc cố định hơn là mang đi liên tục."
-  - "Bàn phím hỗ trợ 2.4GHz, Bluetooth 5.1 và USB-C; polling rate 1000Hz ở 2.4GHz/có dây và 90Hz ở Bluetooth theo hãng."
+  - "Bàn phím hỗ trợ 2.4GHz, Bluetooth 5.1 và USB-C; tần số phản hồi 1000Hz ở 2.4GHz/có dây và 90Hz ở Bluetooth theo hãng."
   - "Hot-swap và QMK/Launcher giúp thay switch, remap phím và tạo macro mà không phải đổi bàn phím."
   - "Chiều cao mặt trước 20,7mm và mặt sau 31,8mm chưa tính keycap có thể khiến một số người cần kê tay."
 compare_subject: "Keychron Q1 Max"
@@ -19,7 +19,7 @@ quick_compare:
   - criterion: "Tùy biến"
     subject_value: "Hot-swap, QMK/Launcher, nhiều mode kết nối"
     reference_value: "Thường ít tùy biến hơn"
-    verdict: "Có lợi cho người muốn chỉnh phím và switch theo workflow."
+    verdict: "Có lợi cho người muốn chỉnh phím và switch theo quy trình làm việc."
   - criterion: "Tính di động"
     subject_value: "Nặng và thân cao"
     reference_value: "Thuận tiện mang theo"
@@ -50,7 +50,7 @@ faq:
   - question: "Có cần kê tay khi dùng Q1 Max không?"
     answer: "Không bắt buộc, nhưng thân bàn phím khá cao. Người có tư thế cổ tay thấp có thể thấy kê tay giúp giữ cổ tay trung tính hơn."
 ---
-Keychron Q1 Max là kiểu sản phẩm rất dễ khiến người mê setup quyết định mua chỉ bằng một tấm ảnh: thân nhôm dày, layout gọn, knob, keycap đẹp. Nhưng với người gõ 6–8 tiếng mỗi ngày, câu hỏi quan trọng hơn là **nó có hợp workflow văn phòng hay không**.
+Keychron Q1 Max là kiểu sản phẩm rất dễ khiến người mê setup quyết định mua chỉ bằng một tấm ảnh: thân nhôm dày, layout gọn, knob, keycap đẹp. Nhưng với người gõ 6–8 tiếng mỗi ngày, câu hỏi quan trọng hơn là **nó có hợp quy trình làm việc văn phòng hay không**.
 
 ## Trọng lượng 1,7kg: điểm mạnh và điểm yếu cùng lúc
 
@@ -60,7 +60,7 @@ Vì vậy, Chú Nếp không xếp Q1 Max vào nhóm bàn phím “mua một cá
 
 ## Kết nối ba chế độ tạo giá trị thật
 
-Q1 Max hỗ trợ 2.4GHz, Bluetooth 5.1 và USB-C. Theo Keychron, polling rate đạt 1000Hz ở 2.4GHz và khi dùng dây, trong khi Bluetooth là 90Hz.
+Q1 Max hỗ trợ 2.4GHz, Bluetooth 5.1 và USB-C. Theo Keychron, tần số phản hồi đạt 1000Hz ở 2.4GHz và khi dùng dây, trong khi Bluetooth là 90Hz.
 
 Với công việc văn phòng, 90Hz Bluetooth vẫn đủ cho nhập liệu thông thường. 2.4GHz hữu ích khi bạn muốn phản hồi nhất quán hơn hoặc dùng thêm game sau giờ làm. Giá trị lớn nhất ở đây không phải con số 1000Hz, mà là **khả năng chuyển thiết bị và chọn kiểu kết nối theo hoàn cảnh**.
 
@@ -68,7 +68,7 @@ Với công việc văn phòng, 90Hz Bluetooth vẫn đủ cho nhập liệu th�
 
 Hot-swap cho phép thay switch mà không cần hàn. QMK/Launcher cho phép remap phím, tạo layer và macro. Đây là hai tính năng mạnh, nhưng chúng chỉ có giá trị nếu bạn thực sự khai thác.
 
-Một người chỉ cần gõ văn bản và chưa từng đổi switch có thể không nhận được nhiều giá trị từ hệ sinh thái tùy biến này. Ngược lại, người làm Excel, code, edit, macro hoặc có workflow nhiều phím tắt có thể biến layout 75% thành bộ điều khiển rất cá nhân.
+Một người chỉ cần gõ văn bản và chưa từng đổi switch có thể không nhận được nhiều giá trị từ hệ sinh thái tùy biến này. Ngược lại, người làm Excel, code, edit, macro hoặc có quy trình làm việc nhiều phím tắt có thể biến layout 75% thành bộ điều khiển rất cá nhân.
 
 ## Chiều cao thân là thứ nên để ý hơn tiếng quảng cáo “premium”
 
@@ -80,4 +80,4 @@ Nếu bàn và ghế không đúng độ cao, cổ tay có thể bị gập lên
 
 Nếu mục tiêu là một bàn phím chắc, đẹp, tùy biến sâu và dùng cố định nhiều năm, Q1 Max có logic rất rõ. Nếu mục tiêu là gọn nhẹ, mang đi mỗi ngày hoặc chỉ cần nhập liệu cơ bản, bạn đang trả tiền cho rất nhiều phần cứng và khả năng tùy biến mà có thể không dùng tới.
 
-Bàn phím tốt không phải bàn phím nặng nhất hay nhiều foam nhất. Nó là bàn phím **khớp tư thế, workflow và cách bạn di chuyển**.
+Bàn phím tốt không phải bàn phím nặng nhất hay nhiều foam nhất. Nó là bàn phím **khớp tư thế, quy trình làm việc và cách bạn di chuyển**.

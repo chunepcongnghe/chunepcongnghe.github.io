@@ -76,7 +76,7 @@ Các cấu hình Apple công bố gồm:
 
 Apple ghi rõ hub/daisy-chain có thể giúp kết nối hai màn hình qua một cổng Thunderbolt, nhưng không tăng số màn hình tối đa.
 
-Một số giải pháp dùng DisplayLink có thể tạo thêm màn hình bằng phần mềm, nhưng đó là cơ chế khác với xuất hình native và có trade-off riêng về driver, tài nguyên và tương thích. Nếu không thật sự cần, Chú Nếp ưu tiên kết nối native trước.
+Một số giải pháp dùng DisplayLink có thể tạo thêm màn hình bằng phần mềm, nhưng đó là cơ chế khác với xuất hình native và có sự đánh đổi riêng về driver, tài nguyên và tương thích. Nếu không thật sự cần, Chú Nếp ưu tiên kết nối native trước.
 
 ## Setup nào hợp người làm marketing và văn phòng?
 
@@ -90,7 +90,7 @@ Hợp người dùng nhiều dashboard, spreadsheet, Ads Manager, tài liệu v�
 
 ### Một màn hình ultrawide
 
-Nếu không thích hai khung màn hình, ultrawide có thể cho trải nghiệm liền mạch hơn. Nhưng hãy kiểm tra độ phân giải, tần số quét và khả năng scaling của macOS trước khi mua.
+Nếu không thích hai khung màn hình, ultrawide có thể cho trải nghiệm liền mạch hơn. Nhưng hãy kiểm tra độ phân giải, tần số quét và khả năng tỷ lệ hiển thị của macOS trước khi mua.
 
 ## Chọn dock theo nhu cầu, không theo số cổng
 

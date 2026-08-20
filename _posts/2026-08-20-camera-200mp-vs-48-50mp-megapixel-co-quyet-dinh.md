@@ -8,7 +8,7 @@ key_takeaways:
   - "ISOCELL HP2 của Samsung có 200 triệu pixel 0,6µm trên format 1/1.3 inch và dùng Tetra2pixel để gộp 4 hoặc 16 pixel thành chế độ 50MP/12,5MP."
   - "Galaxy S26 Ultra dùng camera wide 200MP f/1.4 theo Samsung; iPhone 17 Pro dùng hệ 48MP Fusion với main f/1.78 theo Apple."
   - "MP đo độ phân giải sampling, không đo trực tiếp dynamic range, noise, flare, autofocus hay độ chính xác màu."
-  - "So sánh chất lượng cần ảnh cùng cảnh/cùng điều kiện; bảng spec chỉ cho biết khả năng phần cứng."
+  - "So sánh chất lượng cần ảnh cùng cảnh/cùng điều kiện; bảng thông số chỉ cho biết khả năng phần cứng."
 compare_subject: "Camera 200MP"
 compare_reference: "Camera 48/50MP"
 quick_compare:
@@ -88,7 +88,7 @@ Nếu lens resolve đủ chi tiết, ánh sáng tốt và shutter đủ nhanh, f
 
 Trong thiếu sáng, photon trở thành tài nguyên khan hiếm. Hãng có thể dùng binning, multi-frame stacking và noise reduction. Khi đó, việc chỉ nhìn kích thước pixel quảng cáo hoặc số MP càng thiếu ngữ cảnh.
 
-Samsung đưa low-light và autofocus vào các điểm nhấn của HP2, nhưng đó vẫn là claim/thiết kế của nhà sản xuất; để nói một điện thoại cụ thể chụp đêm tốt hơn máy khác cần test cùng cảnh.
+Samsung đưa low-light và autofocus vào các điểm nhấn của HP2, nhưng đó vẫn là thông tin hãng công bố/thiết kế của nhà sản xuất; để nói một điện thoại cụ thể chụp đêm tốt hơn máy khác cần test cùng cảnh.
 
 ## Vì sao Apple có thể dùng 48MP mà vẫn cạnh tranh camera
 
@@ -96,7 +96,7 @@ Apple công bố iPhone 17 Pro với hệ Fusion 48MP cho nhiều camera. Điề
 
 Không nên biến ví dụ này thành “48MP tốt hơn 200MP”. Kết luận đúng là **hai con số MP không đủ để xếp hạng camera**.
 
-## Cách Chú Nếp đọc camera spec
+## Cách Chú Nếp đọc camera thông số
 
 1. Xem tiêu cự và kích thước sensor trước.
 2. Xem lens/aperture và stabilization.

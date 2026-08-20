@@ -1,27 +1,27 @@
 ---
-title: "Setup màn hình ngoài cho MacBook: resolution scaling, refresh rate và color profile — tránh ảnh nét mà chữ khó đọc"
+title: "Setup màn hình ngoài cho MacBook: resolution tỷ lệ hiển thị, tần số quét và hồ sơ màu — tránh ảnh nét mà chữ khó đọc"
 slug: setup-man-hinh-ngoai-macbook-scaling-refresh-color
-description: "Cách setup màn hình ngoài cho MacBook: chọn resolution scaling, refresh rate, HDR và color profile theo workflow; tránh chạy sai độ phân giải hoặc hy sinh độ mượt."
-answer_summary: "Sau khi cắm màn hình ngoài vào MacBook, đừng dừng ở việc thấy hình. Hãy chọn mức scaling dễ đọc, kiểm tra refresh rate/HDR khả dụng và dùng color profile phù hợp. Apple lưu ý scaled resolution có thể ảnh hưởng hiệu năng; với một số tổ hợp độ phân giải cao, refresh rate và HDR còn phụ thuộc cổng, cáp và giới hạn của Mac. Mục tiêu là UI dễ đọc và chế độ tín hiệu đúng với công việc, không phải luôn chọn con số lớn nhất."
-target_query: "cách cài màn hình ngoài cho MacBook scaling refresh rate"
+description: "Cách setup màn hình ngoài cho MacBook: chọn resolution tỷ lệ hiển thị, tần số quét, HDR và hồ sơ màu theo quy trình làm việc; tránh chạy sai độ phân giải hoặc hy sinh độ mượt."
+answer_summary: "Sau khi cắm màn hình ngoài vào MacBook, đừng dừng ở việc thấy hình. Hãy chọn mức tỷ lệ hiển thị dễ đọc, kiểm tra tần số quét/HDR khả dụng và dùng hồ sơ màu phù hợp. Apple lưu ý scaled resolution có thể ảnh hưởng hiệu năng; với một số tổ hợp độ phân giải cao, tần số quét và HDR còn phụ thuộc cổng, cáp và giới hạn của Mac. Mục tiêu là UI dễ đọc và chế độ tín hiệu đúng với công việc, không phải luôn chọn con số lớn nhất."
+target_query: "cách cài màn hình ngoài cho MacBook tỷ lệ hiển thị tần số quét"
 key_takeaways:
-  - "macOS cho phép chọn độ phân giải/scaling riêng cho từng màn hình; độ phân giải scaled có thể tác động hiệu năng theo Apple."
+  - "macOS cho phép chọn độ phân giải/tỷ lệ hiển thị riêng cho từng màn hình; độ phân giải scaled có thể tác động hiệu năng theo Apple."
   - "MacBook Air M5 hỗ trợ nhiều tổ hợp màn ngoài từ 6K60/4K144 tới một màn 8K60, 5K120 hoặc 4K240, nhưng cổng/cáp/màn hình phải đáp ứng."
-  - "Refresh rate cao làm chuyển động mượt hơn; nó không làm chữ tĩnh nét hơn nếu mật độ điểm ảnh không đổi."
-  - "Color profile nên theo monitor và workflow; không nên bật HDR chỉ vì màn có nút HDR nếu nội dung/chế độ làm việc không cần."
-compare_subject: "Setup có kiểm tra scaling / refresh / profile"
+  - "tần số quét cao làm chuyển động mượt hơn; nó không làm chữ tĩnh nét hơn nếu mật độ điểm ảnh không đổi."
+  - "hồ sơ màu nên theo monitor và quy trình làm việc; không nên bật HDR chỉ vì màn có nút HDR nếu nội dung/chế độ làm việc không cần."
+compare_subject: "Setup có kiểm tra tỷ lệ hiển thị / refresh / profile"
 compare_reference: "Cắm là dùng mặc định"
 quick_compare:
   - criterion: "Độ dễ đọc"
-    subject_value: "Chọn scaling theo khoảng cách/PPI"
+    subject_value: "Chọn tỷ lệ hiển thị theo khoảng cách/PPI"
     reference_value: "Có thể UI quá nhỏ hoặc quá lớn"
-    verdict: "Scaling đúng ảnh hưởng trực tiếp trải nghiệm hằng ngày."
+    verdict: "tỷ lệ hiển thị đúng ảnh hưởng trực tiếp trải nghiệm hằng ngày."
   - criterion: "Độ mượt"
-    subject_value: "Kiểm tra đúng refresh rate"
+    subject_value: "Kiểm tra đúng tần số quét"
     reference_value: "Có thể mắc ở 60Hz dù màn hỗ trợ cao hơn"
     verdict: "Cần kiểm tra cáp, cổng và settings."
   - criterion: "Màu"
-    subject_value: "Profile theo thiết bị/workflow"
+    subject_value: "Profile theo thiết bị/quy trình làm việc"
     reference_value: "Dùng profile ngẫu nhiên"
     verdict: "Màu đẹp mắt không đồng nghĩa màu đúng."
 date: 2026-08-20T14:00:00+07:00
@@ -48,25 +48,25 @@ featured: false
 published: true
 faq:
   - question: "Có nên chọn độ phân giải cao nhất trên màn hình MacBook không?"
-    answer: "Không nhất thiết. Độ phân giải vật lý cao là tốt, nhưng mức scaling UI nên phù hợp kích thước màn, PPI và khoảng cách nhìn. Mục tiêu là vừa nét vừa dễ đọc."
+    answer: "Không nhất thiết. Độ phân giải vật lý cao là tốt, nhưng mức tỷ lệ hiển thị UI nên phù hợp kích thước màn, PPI và khoảng cách nhìn. Mục tiêu là vừa nét vừa dễ đọc."
   - question: "Vì sao màn 120Hz nhưng Mac chỉ hiện 60Hz?"
     answer: "Có thể do cổng, cáp, adapter, độ phân giải/HDR đang chọn hoặc giới hạn của Mac/màn hình. Kiểm tra toàn bộ chuỗi tín hiệu trước khi kết luận lỗi phần cứng."
   - question: "Có nên luôn bật HDR trên macOS?"
     answer: "Không. HDR hữu ích với nội dung và monitor phù hợp; với tác vụ SDR thông thường, bật HDR không tự làm màu chính xác hơn và có thể thay đổi cách độ sáng/màu được hiển thị."
 ---
-Nhiều setup màn hình ngoài thất bại theo cách rất âm thầm: màn hình vẫn lên hình nhưng chạy sai refresh rate, UI quá nhỏ hoặc màu trông “rực” mà không đúng. Vì thế, bước sau khi cắm cáp quan trọng không kém bước chọn monitor.
+Nhiều setup màn hình ngoài thất bại theo cách rất âm thầm: màn hình vẫn lên hình nhưng chạy sai tần số quét, UI quá nhỏ hoặc màu trông “rực” mà không đúng. Vì thế, bước sau khi cắm cáp quan trọng không kém bước chọn monitor.
 
 ## Chú Nếp chốt nhanh
 
-Chọn **scaling để chữ dễ đọc**, rồi kiểm tra **refresh rate**, sau đó mới xử lý **HDR/color profile**. Nếu phải hy sinh một thông số vì giới hạn cổng/cáp, ưu tiên theo công việc: dân văn phòng cần dễ đọc; creator cần màu đúng; người nhạy chuyển động ưu tiên refresh phù hợp.
+Chọn **tỷ lệ hiển thị để chữ dễ đọc**, rồi kiểm tra **tần số quét**, sau đó mới xử lý **HDR/hồ sơ màu**. Nếu phải hy sinh một thông số vì giới hạn cổng/cáp, ưu tiên theo công việc: dân văn phòng cần dễ đọc; creator cần màu đúng; người nhạy chuyển động ưu tiên refresh phù hợp.
 
-## Bước 1: chọn scaling theo mắt, không theo sĩ diện thông số
+## Bước 1: chọn tỷ lệ hiển thị theo mắt, không theo sĩ diện thông số
 
 Apple cho phép chọn mức độ phân giải hiển thị riêng cho màn hình. Trên panel độ phân giải cao, một mức “Looks like” thấp hơn không có nghĩa panel biến thành màn thấp phân giải; macOS đang scale giao diện để kích thước chữ/icon hợp lý hơn.
 
 Apple cũng lưu ý scaled resolution có thể ảnh hưởng hiệu năng. Vì vậy, nếu một mức scale quá cực đoan làm máy/render UI không như mong muốn, thử mức kế bên trước khi đổ lỗi cho màn.
 
-## Bước 2: xác nhận refresh rate thật sự đang chạy
+## Bước 2: xác nhận tần số quét thật sự đang chạy
 
 Một monitor 120/144Hz cắm qua adapter không phù hợp có thể chỉ chạy 60Hz. Với MacBook Air M5, Apple công bố các cấu hình hỗ trợ khá cao — như 4K144 trong tổ hợp hai màn, hoặc một màn 5K120/4K240 — nhưng điều này còn yêu cầu display, cable và đường tín hiệu phù hợp.
 
@@ -76,13 +76,13 @@ Một monitor 120/144Hz cắm qua adapter không phù hợp có thể chỉ ch�
 | Cable/adapter | Có thể giới hạn bandwidth |
 | Resolution | Độ phân giải cao dùng nhiều băng thông hơn |
 | HDR | Có thể thay đổi băng thông/chế độ khả dụng |
-| Refresh rate trong Settings | Đảm bảo máy không tự chọn mức thấp hơn |
+| tần số quét trong Settings | Đảm bảo máy không tự chọn mức thấp hơn |
 
 ## Bước 3: profile màu theo mục tiêu sử dụng
 
 Profile màu mô tả cách hệ thống ánh xạ màu cho display. Với monitor có profile chính thức hoặc được calibrate, dùng đúng profile quan trọng hơn kéo saturation đến khi nhìn “nịnh mắt”.
 
-Nếu bạn làm web/social content, sRGB vẫn là không gian rất phổ biến. Nếu workflow P3/HDR, cần cả phần mềm, nội dung và display cùng quản lý màu đúng.
+Nếu bạn làm web/social content, sRGB vẫn là không gian rất phổ biến. Nếu quy trình làm việc P3/HDR, cần cả phần mềm, nội dung và display cùng quản lý màu đúng.
 
 ## Đừng bật HDR như một nút “đẹp hơn”
 

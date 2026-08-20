@@ -2,7 +2,7 @@
 title: "Chọn hub/dock cho MacBook Air M5: đừng mua 12-in-1 trước khi biết mình cần gì"
 slug: chon-hub-dock-macbook-air-m5
 description: "Hướng dẫn chọn hub/dock MacBook Air M5 theo màn hình, SSD, Ethernet, thẻ nhớ và Power Delivery. Phân biệt hub USB-C, USB4 và Thunderbolt 4 để tránh mua dư."
-answer_summary: "MacBook Air M5 có hai cổng Thunderbolt 4/USB4 40Gbps, MagSafe và hỗ trợ tối đa hai màn hình ngoài theo Apple. Vì vậy, hub/dock nên được chọn từ workflow: nếu chỉ cần HDMI + USB-A + thẻ nhớ, hub USB-C tốt có thể đủ; nếu cần SSD nhanh, Ethernet, nhiều thiết bị và setup một-cáp ổn định, dock Thunderbolt 4/USB4 phù hợp hơn. Điểm cần kiểm tra nhất là khả năng xuất màn hình của chính Mac, băng thông dock, Power Delivery thực nhận và thông số cáp."
+answer_summary: "MacBook Air M5 có hai cổng Thunderbolt 4/USB4 40Gbps, MagSafe và hỗ trợ tối đa hai màn hình ngoài theo Apple. Vì vậy, hub/dock nên được chọn từ quy trình làm việc: nếu chỉ cần HDMI + USB-A + thẻ nhớ, hub USB-C tốt có thể đủ; nếu cần SSD nhanh, Ethernet, nhiều thiết bị và setup một-cáp ổn định, dock Thunderbolt 4/USB4 phù hợp hơn. Điểm cần kiểm tra nhất là khả năng xuất màn hình của chính Mac, băng thông dock, Power Delivery thực nhận và thông số cáp."
 target_query: "hub dock cho MacBook Air M5 nên chọn loại nào"
 key_takeaways:
   - "MacBook Air M5 có 2 cổng Thunderbolt 4/USB4 lên tới 40Gbps và MagSafe 3."
@@ -15,7 +15,7 @@ quick_compare:
   - criterion: "Nhu cầu"
     subject_value: "USB-A, HDMI, SD, Ethernet cơ bản"
     reference_value: "SSD nhanh, nhiều thiết bị, setup desktop cố định"
-    verdict: "Chọn theo workflow, không theo số lượng cổng."
+    verdict: "Chọn theo quy trình làm việc, không theo số lượng cổng."
   - criterion: "Băng thông upstream"
     subject_value: "Tùy chuẩn USB của hub"
     reference_value: "Có thể 40Gbps ở TB4/USB4 phù hợp"
@@ -56,7 +56,7 @@ faq:
 ---
 Hub 12-in-1 nhìn rất “đáng tiền”: HDMI, VGA, Ethernet, SD, microSD, ba USB-A, hai USB-C… Nhưng số lượng cổng lớn không nói được dock đó **có phù hợp với MacBook Air M5 của bạn hay không**.
 
-Cách chọn đúng là đi ngược lại: viết workflow trước, chọn dock sau.
+Cách chọn đúng là đi ngược lại: viết quy trình làm việc trước, chọn dock sau.
 
 ## Bước 1: biết MacBook Air M5 có gì sẵn
 
@@ -80,7 +80,7 @@ Bạn cần:
 - SD/microSD;
 - đôi khi Ethernet.
 
-Một hub USB-C tốt có thể hoàn toàn đủ. Không cần trả thêm cho TB4 nếu không có workload băng thông cao.
+Một hub USB-C tốt có thể hoàn toàn đủ. Không cần trả thêm cho TB4 nếu không có khối lượng công việc băng thông cao.
 
 ### Nhóm B — creator
 Bạn có thể cần:
@@ -123,7 +123,7 @@ Cần đối chiếu:
 
 - khả năng của MacBook;
 - chuẩn DisplayPort/HDMI của dock;
-- độ phân giải và refresh rate;
+- độ phân giải và tần số quét;
 - macOS compatibility;
 - dock có dùng DisplayLink hay xuất hình native.
 
@@ -156,4 +156,4 @@ Chú Nếp chọn dock bằng câu hỏi: **“Mỗi sáng mình muốn cắm ba
 
 ## Kết luận
 
-**MacBook Air M5 không mặc định cần Thunderbolt dock.** Hub USB-C đủ cho nhu cầu cơ bản; TB4/USB4 đáng tiền khi workflow thực sự cần băng thông, nhiều màn hình và setup một-cáp. Viết danh sách thiết bị trước khi mua sẽ giúp tránh cả hai lỗi: mua thiếu và mua quá dư.
+**MacBook Air M5 không mặc định cần Thunderbolt dock.** Hub USB-C đủ cho nhu cầu cơ bản; TB4/USB4 đáng tiền khi quy trình làm việc thực sự cần băng thông, nhiều màn hình và setup một-cáp. Viết danh sách thiết bị trước khi mua sẽ giúp tránh cả hai lỗi: mua thiếu và mua quá dư.

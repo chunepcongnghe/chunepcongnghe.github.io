@@ -1,8 +1,8 @@
 ---
-title: "Màn hình rời cho MacBook: 24, 27 hay 34 inch ultrawide — chọn theo PPI, khoảng cách và workflow"
+title: "Màn hình rời cho MacBook: 24, 27 hay 34 inch ultrawide — chọn theo PPI, khoảng cách và quy trình làm việc"
 slug: man-hinh-roi-macbook-24-27-34-ultrawide
-description: "Chọn màn hình rời cho MacBook theo PPI, scaling, khoảng cách và workflow: 24 inch 4K, 27 inch 5K hay 34 inch ultrawide 3440×1440 hợp ai hơn?"
-answer_summary: "Không có kích thước màn hình rời tốt nhất cho mọi MacBook. 24 inch 4K hợp bàn nhỏ và ưu tiên độ nét; 27 inch 5K là phương án gần với mật độ điểm ảnh Retina nhất; 34 inch ultrawide cho không gian ngang lớn nhưng thường có mật độ điểm ảnh thấp hơn nếu dùng 3440×1440. Nên chọn theo khoảng cách ngồi, kiểu cửa sổ làm việc và mức scaling bạn thấy dễ đọc, không chỉ theo số inch."
+description: "Chọn màn hình rời cho MacBook theo PPI, tỷ lệ hiển thị, khoảng cách và quy trình làm việc: 24 inch 4K, 27 inch 5K hay 34 inch ultrawide 3440×1440 hợp ai hơn?"
+answer_summary: "Không có kích thước màn hình rời tốt nhất cho mọi MacBook. 24 inch 4K hợp bàn nhỏ và ưu tiên độ nét; 27 inch 5K là phương án gần với mật độ điểm ảnh Retina nhất; 34 inch ultrawide cho không gian ngang lớn nhưng thường có mật độ điểm ảnh thấp hơn nếu dùng 3440×1440. Nên chọn theo khoảng cách ngồi, kiểu cửa sổ làm việc và mức tỷ lệ hiển thị bạn thấy dễ đọc, không chỉ theo số inch."
 target_query: "MacBook nên dùng màn hình 24 27 hay 34 inch ultrawide"
 key_takeaways:
   - "24 inch 4K có mật độ khoảng 184 PPI; 27 inch 5K khoảng 218 PPI; 34 inch 3440×1440 khoảng 110 PPI."
@@ -50,7 +50,7 @@ featured: false
 published: true
 faq:
   - question: "27 inch 4K có dùng tốt với MacBook không?"
-    answer: "Có. 27 inch 4K vẫn là lựa chọn thực dụng, nhưng mật độ điểm ảnh thấp hơn 27 inch 5K nên cách macOS scale UI và cảm nhận độ nét sẽ khác. Nên xem trực tiếp ở mức scaling bạn định dùng."
+    answer: "Có. 27 inch 4K vẫn là lựa chọn thực dụng, nhưng mật độ điểm ảnh thấp hơn 27 inch 5K nên cách macOS scale UI và cảm nhận độ nét sẽ khác. Nên xem trực tiếp ở mức tỷ lệ hiển thị bạn định dùng."
   - question: "34 inch ultrawide có nét bằng màn Retina không?"
     answer: "Không thể kết luận chỉ từ kích thước. Một mẫu 34 inch 3440×1440 chỉ khoảng 110 PPI, thấp hơn đáng kể 27 inch 5K 218 PPI; các mẫu 5K2K sẽ là câu chuyện khác."
   - question: "MacBook Air M5 kéo được màn hình ngoài độ phân giải nào?"
@@ -60,7 +60,7 @@ Một màn hình đẹp trên ảnh setup chưa chắc là màn hình hợp nh�
 
 ## Chú Nếp chốt nhanh
 
-Nếu bàn nhỏ và công việc chủ yếu là tài liệu, web, code: **24 inch 4K** rất hợp lý. Nếu ưu tiên chữ sắc, UI gần cảm giác Retina và ngân sách cho phép: **27 inch 5K** là mốc đẹp. Nếu workflow có timeline dài, bảng tính rộng hoặc cần nhiều cửa sổ cạnh nhau: **34 inch ultrawide** đáng cân nhắc, nhưng hãy kiểm tra PPI trước khi xuống tiền.
+Nếu bàn nhỏ và công việc chủ yếu là tài liệu, web, code: **24 inch 4K** rất hợp lý. Nếu ưu tiên chữ sắc, UI gần cảm giác Retina và ngân sách cho phép: **27 inch 5K** là mốc đẹp. Nếu quy trình làm việc có timeline dài, bảng tính rộng hoặc cần nhiều cửa sổ cạnh nhau: **34 inch ultrawide** đáng cân nhắc, nhưng hãy kiểm tra PPI trước khi xuống tiền.
 
 ## Đừng nhìn inch trước, hãy nhìn mật độ điểm ảnh
 
@@ -74,11 +74,11 @@ PPI cho biết có bao nhiêu pixel trên mỗi inch. Với ba cấu hình phổ
 
 Apple công bố Studio Display 27 inch 5K ở **218 PPI**. Đây không phải lời khẳng định rằng mọi người phải mua màn 5K, mà là một mốc dễ hiểu để biết vì sao macOS trông rất “đúng tỷ lệ” trên loại panel này.
 
-## Scaling trên macOS quan trọng hơn nhiều người nghĩ
+## tỷ lệ hiển thị trên macOS quan trọng hơn nhiều người nghĩ
 
-macOS thường render giao diện theo một mức “Looks like” thay vì bắt người dùng nhìn UI nguyên bản ở độ phân giải vật lý. Điều này rất tiện, nhưng Apple cũng lưu ý một số mức scaled có thể ảnh hưởng hiệu năng; với kết nối màn hình ngoài, lựa chọn độ phân giải còn có thể liên quan đến refresh rate và HDR khả dụng.
+macOS thường render giao diện theo một mức “Looks like” thay vì bắt người dùng nhìn UI nguyên bản ở độ phân giải vật lý. Điều này rất tiện, nhưng Apple cũng lưu ý một số mức scaled có thể ảnh hưởng hiệu năng; với kết nối màn hình ngoài, lựa chọn độ phân giải còn có thể liên quan đến tần số quét và HDR khả dụng.
 
-Vì vậy, khi thử màn hình, đừng chỉ mở wallpaper. Hãy mở Safari, Finder, bảng tính và ứng dụng bạn dùng hàng ngày ở **đúng mức scaling dự định sử dụng**.
+Vì vậy, khi thử màn hình, đừng chỉ mở wallpaper. Hãy mở Safari, Finder, bảng tính và ứng dụng bạn dùng hàng ngày ở **đúng mức tỷ lệ hiển thị dự định sử dụng**.
 
 ## 24 inch 4K: phương án ít rủi ro cho bàn nhỏ
 
@@ -92,17 +92,17 @@ Vì vậy, khi thử màn hình, đừng chỉ mở wallpaper. Hãy mở Safari,
 
 Nếu công việc chủ yếu là nội dung web, email, báo cáo và bạn ngồi đủ xa, một màn 27 inch 4K tốt vẫn có thể cho trải nghiệm rất ổn. Chú Nếp không xem 5K là “bắt buộc”; nó chỉ là phương án có logic kỹ thuật rõ nhất cho người đặc biệt nhạy với chữ.
 
-## 34 inch ultrawide: mua vì workflow, không mua vì nhìn ngầu
+## 34 inch ultrawide: mua vì quy trình làm việc, không mua vì nhìn ngầu
 
 Ultrawide có lợi thế thực sự khi chiều ngang giúp bạn làm việc: timeline video, nhiều panel chỉnh ảnh, spreadsheet, dashboard hoặc hai tài liệu song song. Nhưng 34 inch 3440×1440 có mật độ chỉ khoảng 110 PPI, nên nếu bạn chuyển từ màn Retina sang có thể thấy chữ thô hơn.
 
 Mấu chốt là **độ phân giải đi cùng kích thước**. Một màn 34 inch 5K2K không thể bị đánh đồng với 3440×1440 chỉ vì cùng 34 inch.
 
-## Chọn theo workflow thay vì bảng thông số
+## Chọn theo quy trình làm việc thay vì bảng thông số
 
 - **Tài liệu, code, web, bàn nhỏ:** ưu tiên 24 inch 4K.
 - **Đọc chữ nhiều, thiết kế UI, muốn cảm giác Retina:** cân nhắc 27 inch 5K.
 - **Video timeline, data, nhiều cửa sổ:** 34 inch ultrawide hợp lý nếu PPI và khoảng cách ngồi chấp nhận được.
-- **Màu sắc chuyên nghiệp:** ngoài PPI còn phải xem gamut, calibration, độ đồng đều panel và workflow quản lý màu.
+- **Màu sắc chuyên nghiệp:** ngoài PPI còn phải xem gamut, calibration, độ đồng đều panel và quy trình làm việc quản lý màu.
 
-Một chiếc màn hình hợp là chiếc khiến bạn quên mất thông số sau vài ngày dùng. Nếu phải liên tục nheo mắt, kéo cửa sổ hoặc đổi scaling để “cứu” UI, rất có thể bạn đã chọn sai tỷ lệ chứ không phải MacBook có vấn đề.
+Một chiếc màn hình hợp là chiếc khiến bạn quên mất thông số sau vài ngày dùng. Nếu phải liên tục nheo mắt, kéo cửa sổ hoặc đổi tỷ lệ hiển thị để “cứu” UI, rất có thể bạn đã chọn sai tỷ lệ chứ không phải MacBook có vấn đề.

@@ -8,7 +8,7 @@ key_takeaways:
   - "MacBook Air M5 dùng chip M5 10-core CPU, GPU 8 hoặc 10 core tùy cấu hình và memory bandwidth 153GB/s."
   - "Apple tiếp tục thiết kế fanless, ưu tiên im lặng và mỏng nhẹ."
   - "Pin 53,8Wh; Apple công bố tối đa 18 giờ video streaming và 15 giờ web không dây trong điều kiện thử nghiệm của hãng."
-  - "Không có dữ liệu chính thức đủ để kết luận hiệu năng sustained so với MacBook Pro; cần benchmark dài cùng điều kiện nếu muốn so nhiệt và throttling."
+  - "Không có dữ liệu chính thức đủ để kết luận hiệu năng sustained so với MacBook Pro; cần benchmark dài cùng điều kiện nếu muốn so nhiệt và giảm hiệu năng vì nhiệt."
 compare_subject: "MacBook Air M5 fanless"
 compare_reference: "Laptop active cooling"
 quick_compare:
@@ -54,7 +54,7 @@ faq:
 ---
 Có một thông số MacBook Air gần như không được in to trên banner quảng cáo nhưng ảnh hưởng trực tiếp đến trải nghiệm mỗi ngày: **máy không có quạt**.
 
-Với M5, Apple tiếp tục giữ triết lý đó. Đây vừa là điểm rất hay của Air, vừa là thứ cần hiểu đúng nếu bạn đang cân nhắc dùng máy cho workload nặng.
+Với M5, Apple tiếp tục giữ triết lý đó. Đây vừa là điểm rất hay của Air, vừa là thứ cần hiểu đúng nếu bạn đang cân nhắc dùng máy cho khối lượng công việc nặng.
 
 ## Im lặng tuyệt đối là lợi ích thật, không phải thông số cho đẹp
 
@@ -72,17 +72,17 @@ Apple công bố M5 trên Air có **CPU 10 lõi**, GPU **8 hoặc 10 lõi** tùy
 
 Nhưng thông số đỉnh không trả lời được một câu khác: máy giữ mức hiệu năng đó trong 10, 20 hay 30 phút tải liên tục như thế nào?
 
-## Fanless và sustained performance là hai mặt của cùng một thiết kế
+## Fanless và hiệu năng duy trì lâu là hai mặt của cùng một thiết kế
 
 Khi chip chạy nặng, điện năng biến thành nhiệt. Laptop có quạt có thể tăng lưu lượng không khí để đưa nhiệt ra ngoài. Laptop fanless không có cơ chế này, nên phải dựa nhiều hơn vào truyền nhiệt qua vật liệu thân máy và giảm công suất khi chạm ngưỡng nhiệt.
 
-Điều này không đồng nghĩa Air M5 “chậm” hay “throttle ngay”. Mức giảm phụ thuộc workload, nhiệt độ phòng, vị trí đặt máy và thời gian chạy.
+Điều này không đồng nghĩa Air M5 “chậm” hay “throttle ngay”. Mức giảm phụ thuộc khối lượng công việc, nhiệt độ phòng, vị trí đặt máy và thời gian chạy.
 
-Quan trọng là **Apple không đưa biểu đồ sustained performance trong trang thông số kỹ thuật**. Vì vậy Chú Nếp không gắn một tỷ lệ giảm hiệu năng nào nếu chưa có bài test dài và đồng điều kiện.
+Quan trọng là **Apple không đưa biểu đồ hiệu năng duy trì lâu trong trang thông số kỹ thuật**. Vì vậy Chú Nếp không gắn một tỷ lệ giảm hiệu năng nào nếu chưa có bài test dài và đồng điều kiện.
 
 ## Pin 53,8Wh và fanless có liên quan gì?
 
-Apple ghi pin lithium-polymer **53,8Wh**, cùng claim tối đa 18 giờ streaming video hoặc 15 giờ duyệt web không dây trong bài test của hãng.
+Apple ghi pin lithium-polymer **53,8Wh**, cùng thông tin hãng công bố tối đa 18 giờ streaming video hoặc 15 giờ duyệt web không dây trong bài test của hãng.
 
 Fanless giúp loại bỏ điện năng cho quạt, nhưng thời lượng pin thực tế vẫn phụ thuộc màn hình, app, độ sáng, mạng và tải chip. Không nên lấy việc “không quạt” rồi kết luận máy chắc chắn pin tốt hơn một laptop khác.
 
@@ -92,7 +92,7 @@ MacBook Air M5 đặc biệt hợp với:
 
 - sinh viên và dân văn phòng;
 - người làm marketing, content, presentation;
-- coder có workload không compile liên tục hàng giờ;
+- coder có khối lượng công việc không compile liên tục hàng giờ;
 - editor chỉnh video ngắn, ảnh và audio;
 - người cần máy nhẹ, im lặng và ít thành phần cơ khí.
 
@@ -102,7 +102,7 @@ Nếu công việc là render 3D, encode dài, chạy model local liên tục ho
 
 Sai lầm phổ biến là thấy cùng thế hệ chip rồi hỏi “Air có mạnh bằng Pro không?”. Hai dòng máy giải quyết hai ưu tiên khác nhau.
 
-Air tối ưu cho **tỷ lệ hiệu năng / trọng lượng / tiếng ồn / pin**. Pro có nhiều không gian hơn cho tản nhiệt, cổng kết nối và workload kéo dài.
+Air tối ưu cho **tỷ lệ hiệu năng / trọng lượng / tiếng ồn / pin**. Pro có nhiều không gian hơn cho tản nhiệt, cổng kết nối và khối lượng công việc kéo dài.
 
 Nếu Air đủ nhanh cho 95% thời gian của bạn, việc nó chậm hơn ở một bài render 30 phút có thể không quan trọng. Ngược lại, nếu 30 phút render đó diễn ra mỗi ngày, khác biệt trở thành tiền và thời gian thật.
 

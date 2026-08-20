@@ -1,7 +1,7 @@
 ---
 title: "MacBook Air M5 vs M4: 153GB/s vs 120GB/s, 512GB vs 256GB — có đáng nâng đời?"
 slug: macbook-air-m5-vs-m4
-description: "So sánh MacBook Air M5 và M4 theo băng thông nhớ, SSD, Wi‑Fi, pin, RAM và workload. Bảng đối chiếu rõ phần nào nâng cấp thật, phần nào gần như giữ nguyên."
+description: "So sánh MacBook Air M5 và M4 theo băng thông nhớ, SSD, Wi‑Fi, pin, RAM và khối lượng công việc. Bảng đối chiếu rõ phần nào nâng cấp thật, phần nào gần như giữ nguyên."
 answer_summary: "MacBook Air M5 hơn M4 rõ ở SSD khởi điểm 512GB, băng thông nhớ 153GB/s và Wi‑Fi 7/Bluetooth 6. Hai đời vẫn giống nhau ở CPU 10 lõi, RAM tối đa 32GB và pin video công bố tối đa 18 giờ. Người đang dùng M4 chỉ nên nâng khi các thay đổi mới giải quyết điểm nghẽn thật; người mua mới có lý do chọn M5 mạnh hơn."
 target_query: "MacBook Air M5 vs M4"
 key_takeaways:
@@ -15,7 +15,7 @@ quick_compare:
   - criterion: "Băng thông bộ nhớ"
     subject_value: "153GB/s"
     reference_value: "120GB/s"
-    verdict: "M5 có lợi thế phần cứng cho workload nhạy memory bandwidth; không đồng nghĩa mọi app nhanh hơn 27,5%."
+    verdict: "M5 có lợi thế phần cứng cho khối lượng công việc nhạy memory bandwidth; không đồng nghĩa mọi app nhanh hơn 27,5%."
   - criterion: "SSD mặc định"
     subject_value: "512GB"
     reference_value: "256GB"
@@ -38,7 +38,7 @@ brand: Apple
 tags: ["MacBook Air M5 vs M4", "MacBook Air M5", "MacBook Air M4", "Apple M5", "Apple M4"]
 image: "/assets/images/thumbs/macbook-air-m5-vs-m4.jpg"
 image_alt: "Hai MacBook Air M5 và M4 đặt cạnh nhau với băng thông 153GB/s vs 120GB/s và SSD 512GB vs 256GB"
-source_status: vendor-claim
+source_status: vendor-thông tin hãng công bố
 sources:
   - name: "Apple Newsroom Việt Nam — MacBook Air M5"
     url: "https://www.apple.com/vn/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/"
@@ -47,7 +47,7 @@ sources:
 comparison:
   product_a: "MacBook Air 13 inch M5"
   product_b: "MacBook Air 13 inch M4"
-  test_conditions: "Đối chiếu thông số chính thức Apple. Các con số hiệu năng ứng dụng do Apple công bố được xem là vendor claim, không thay cho benchmark độc lập cùng điều kiện."
+  test_conditions: "Đối chiếu thông số chính thức Apple. Các con số hiệu năng ứng dụng do Apple công bố được xem là thông tin hãng công bố, không thay cho benchmark độc lập cùng điều kiện."
   metrics:
     - name: "Băng thông bộ nhớ"
       unit: "GB/s"
@@ -94,9 +94,9 @@ faq:
   - question: "MacBook Air M5 nhanh hơn M4 bao nhiêu?"
     answer: "Không có một tỷ lệ duy nhất. Băng thông bộ nhớ tăng từ 120 lên 153GB/s, còn Apple công bố mức tăng khác nhau theo từng ứng dụng. Muốn biết hiệu năng thực tế phải benchmark cùng app, file và điều kiện."
   - question: "M5 vs M4 khác nhau dễ cảm nhận nhất ở đâu?"
-    answer: "Với người mua cấu hình cơ bản, SSD 512GB thay vì 256GB là khác biệt rất thực dụng. Với creator/AI workload, băng thông bộ nhớ cao hơn có thể đáng chú ý hơn."
+    answer: "Với người mua cấu hình cơ bản, SSD 512GB thay vì 256GB là khác biệt rất thực dụng. Với creator/AI khối lượng công việc, băng thông bộ nhớ cao hơn có thể đáng chú ý hơn."
   - question: "Đang dùng MacBook Air M4 có nên đổi M5?"
-    answer: "Nếu M4 không thiếu dung lượng và không nghẽn workload, chưa cần đổi. Nâng hợp lý hơn khi SSD, memory bandwidth hoặc kết nối mới giải quyết vấn đề cụ thể."
+    answer: "Nếu M4 không thiếu dung lượng và không nghẽn khối lượng công việc, chưa cần đổi. Nâng hợp lý hơn khi SSD, memory bandwidth hoặc kết nối mới giải quyết vấn đề cụ thể."
 ---
 ## Bảng thông số cho thấy M5 nâng đúng vài điểm, chứ không thắng tuyệt đối
 
@@ -106,7 +106,7 @@ M5 có SSD mặc định lớn gấp đôi, băng thông bộ nhớ cao hơn và
 
 ## 153GB/s vs 120GB/s: chênh 27,5% không phải chênh 27,5% hiệu năng
 
-Băng thông bộ nhớ mô tả tốc độ dữ liệu có thể di chuyển giữa các khối xử lý và unified memory. Workload GPU, AI, media hoặc dữ liệu lớn có thể nhạy với yếu tố này hơn tác vụ văn phòng.
+Băng thông bộ nhớ mô tả tốc độ dữ liệu có thể di chuyển giữa các khối xử lý và unified memory. khối lượng công việc GPU, AI, media hoặc dữ liệu lớn có thể nhạy với yếu tố này hơn tác vụ văn phòng.
 
 Nhưng hiệu năng ứng dụng còn phụ thuộc CPU, GPU, cache, SSD, nhiệt, phiên bản app và tối ưu phần mềm. Vì vậy, lấy 153/120 rồi tuyên bố M5 nhanh hơn 27,5% là sai phương pháp.
 
@@ -122,23 +122,23 @@ M5 dùng chip mạng N1 với Wi‑Fi 7 và Bluetooth 6; M4 dùng Wi‑Fi 6E và
 
 Đừng mua M5 chỉ vì Wi‑Fi 7 nếu mạng của bạn chưa cần. Hãy coi nó là lợi thế nền tảng cộng thêm.
 
-## Apple claim AI/creator nhanh hơn: có giá trị nhưng phải đọc đúng nhãn
+## Apple thông tin hãng công bố AI/creator nhanh hơn: có giá trị nhưng phải đọc đúng nhãn
 
-Apple công bố M5 có thể nhanh hơn M4 trong một số workload Topaz Video, Blender và Affinity. Đây là **benchmark do Apple công bố**, có điều kiện test riêng. Nó cho thấy hướng cải thiện của M5 nhưng không chứng minh mọi project thực tế có cùng mức tăng.
+Apple công bố M5 có thể nhanh hơn M4 trong một số khối lượng công việc Topaz Video, Blender và Affinity. Đây là **benchmark do Apple công bố**, có điều kiện test riêng. Nó cho thấy hướng cải thiện của M5 nhưng không chứng minh mọi project thực tế có cùng mức tăng.
 
-Người dùng nên ưu tiên benchmark độc lập của đúng ứng dụng mình dùng trước khi trả tiền nâng đời chỉ vì claim hiệu năng.
+Người dùng nên ưu tiên benchmark độc lập của đúng ứng dụng mình dùng trước khi trả tiền nâng đời chỉ vì thông tin hãng công bố hiệu năng.
 
 ## Hai đời gần như hòa ở đâu?
 
-CPU 10 lõi, RAM tối đa 32GB và pin video tối đa 18 giờ là ba điểm quan trọng không tạo khoảng cách lớn trên bảng spec. Nếu công việc hiện tại chủ yếu browser, Office, Canva và creator nhẹ, M4 vẫn có thể cho trải nghiệm rất gần M5.
+CPU 10 lõi, RAM tối đa 32GB và pin video tối đa 18 giờ là ba điểm quan trọng không tạo khoảng cách lớn trên bảng thông số. Nếu công việc hiện tại chủ yếu browser, Office, Canva và creator nhẹ, M4 vẫn có thể cho trải nghiệm rất gần M5.
 
 ## Quyết định theo tình huống
 
 **Mua mới trong 2026:** M5 hợp lý hơn nếu giá chênh không bất thường vì cấu hình cơ bản tốt hơn và nền tảng mới hơn.
 
-**Đang dùng M4:** chỉ nâng khi có bottleneck cụ thể. Nếu không, chi phí đổi đời có thể lớn hơn lợi ích.
+**Đang dùng M4:** chỉ nâng khi có điểm nghẽn cụ thể. Nếu không, chi phí đổi đời có thể lớn hơn lợi ích.
 
-**Đang dùng M1/M2:** khoảng cách nhiều thế hệ khiến M5 đáng cân nhắc hơn, nhưng vẫn nên so với ngân sách và workload.
+**Đang dùng M1/M2:** khoảng cách nhiều thế hệ khiến M5 đáng cân nhắc hơn, nhưng vẫn nên so với ngân sách và khối lượng công việc.
 
 ## Kết luận
 

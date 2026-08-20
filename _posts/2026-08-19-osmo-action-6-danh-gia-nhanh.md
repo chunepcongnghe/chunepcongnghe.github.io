@@ -2,7 +2,7 @@
 title: "Osmo Action 6 đánh giá: cảm biến 1/1,1 inch và khẩu độ f/2–f/4 có đáng hơn Action 5 Pro?"
 slug: osmo-action-6-danh-gia-nhanh
 description: "Đánh giá Osmo Action 6 dựa trên dữ liệu DJI, đối chiếu Action 5 Pro về cảm biến, khẩu độ, 4K Custom, bộ nhớ và khả năng quay thực tế."
-answer_summary: "Osmo Action 6 nâng cấp đáng quan tâm nhất ở cảm biến 1/1,1 inch, khẩu độ biến thiên f/2.0–f/4.0 và 4K Custom để crop nhiều tỷ lệ sau khi quay. So với Action 5 Pro, lợi ích này hợp creator quay thiếu sáng hoặc xuất cả video ngang lẫn dọc; nếu workflow 4K ban ngày đã ổn, Action 5 Pro vẫn rất cạnh tranh."
+answer_summary: "Osmo Action 6 nâng cấp đáng quan tâm nhất ở cảm biến 1/1,1 inch, khẩu độ biến thiên f/2.0–f/4.0 và 4K Custom để crop nhiều tỷ lệ sau khi quay. So với Action 5 Pro, lợi ích này hợp creator quay thiếu sáng hoặc xuất cả video ngang lẫn dọc; nếu quy trình làm việc 4K ban ngày đã ổn, Action 5 Pro vẫn rất cạnh tranh."
 target_query: "Osmo Action 6 đánh giá có đáng mua"
 key_takeaways:
   - "Action 6 dùng cảm biến 1/1,1 inch và khẩu độ biến thiên f/2.0–f/4.0; Action 5 Pro dùng 1/1,3 inch và f/2.8 cố định."
@@ -38,7 +38,7 @@ brand: DJI
 tags: ["Osmo Action 6", "Action 5 Pro", "DJI", "action cam", "4K Custom"]
 image: "/assets/images/thumbs/osmo-action-6-danh-gia-nhanh.jpg"
 image_alt: "Osmo Action 6 với cảm biến 1/1,1 inch, khẩu độ biến thiên f/2.0–f/4.0 và so sánh Action 5 Pro"
-source_status: vendor-claim
+source_status: vendor-thông tin hãng công bố
 sources:
   - name: "DJI — Osmo Action 6"
     url: "https://www.dji.com/osmo-action-6"
@@ -79,7 +79,7 @@ Action 5 Pro dùng f/2.8 cố định. Action 6 cho phép dải f/2.0–f/4.0 tr
 
 Một creator thường cần video ngang 16:9 cho YouTube và dọc 9:16 cho Reels/TikTok. Nếu cùng một source có thể crop linh hoạt hơn sau khi quay, thời gian set góc và quay lại có thể giảm.
 
-Đây là lợi thế workflow. 8K có thể hữu ích cho crop hoặc lưu master độ phân giải cao, nhưng file lớn hơn và yêu cầu máy dựng mạnh hơn. Không nên bật 8K mặc định nếu đầu ra cuối cùng vẫn là 4K hoặc 1080p.
+Đây là lợi thế quy trình làm việc. 8K có thể hữu ích cho crop hoặc lưu master độ phân giải cao, nhưng file lớn hơn và yêu cầu máy dựng mạnh hơn. Không nên bật 8K mặc định nếu đầu ra cuối cùng vẫn là 4K hoặc 1080p.
 
 ## Pin và chống nước: gần như không tạo khoảng cách
 

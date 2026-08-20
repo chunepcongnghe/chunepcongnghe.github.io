@@ -2,13 +2,13 @@
 title: "Dell P2725D 27 inch QHD 100Hz: màn hình văn phòng có cần 100Hz và 109 PPI không?"
 slug: dell-p2725d-27-qhd-100hz-danh-gia-dua-tren-du-lieu
 description: "Đánh giá Dell P2725D theo thông số chính thức: 27 inch QHD, IPS 100Hz, 109 PPI, 350 nit, 99% sRGB và chân đế công thái học; phân tích giá trị thực cho dân văn phòng."
-answer_summary: "Dell P2725D là màn hình văn phòng 27 inch QHD 2560×1440, IPS 100Hz, mật độ khoảng 109 PPI, độ sáng công bố 350 nit và 99% sRGB. Điểm đáng chú ý không chỉ là 100Hz mà còn là độ phân giải QHD trên 27 inch, chân đế chỉnh cao/xoay/nghiêng/pivot và hub USB. Với đọc chữ và làm việc dài giờ, độ rõ văn bản còn phụ thuộc scaling, hệ điều hành và cấu trúc hiển thị; 100Hz giúp chuyển động giao diện mượt hơn nhưng không tự biến màn hình thành lựa chọn tốt cho màu sắc chuyên nghiệp."
+answer_summary: "Dell P2725D là màn hình văn phòng 27 inch QHD 2560×1440, IPS 100Hz, mật độ khoảng 109 PPI, độ sáng công bố 350 nit và 99% sRGB. Điểm đáng chú ý không chỉ là 100Hz mà còn là độ phân giải QHD trên 27 inch, chân đế chỉnh cao/xoay/nghiêng/pivot và hub USB. Với đọc chữ và làm việc dài giờ, độ rõ văn bản còn phụ thuộc tỷ lệ hiển thị, hệ điều hành và cấu trúc hiển thị; 100Hz giúp chuyển động giao diện mượt hơn nhưng không tự biến màn hình thành lựa chọn tốt cho màu sắc chuyên nghiệp."
 target_query: "Dell P2725D 27 QHD 100Hz có đáng mua cho văn phòng"
 key_takeaways:
   - "Dell P2725D dùng tấm nền IPS 27 inch QHD 2560×1440, 100Hz và mật độ khoảng 109 PPI theo hãng."
   - "Dell công bố độ sáng 350 cd/m², độ tương phản 1500:1 và độ phủ 99% sRGB."
   - "Chân đế hỗ trợ chỉnh độ cao, swivel, pivot và tilt; đây là lợi thế thực dụng cho ergonomics."
-  - "Độ rõ chữ không chỉ do PPI: scaling, subpixel và cơ chế render chữ của hệ điều hành cũng ảnh hưởng."
+  - "Độ rõ chữ không chỉ do PPI: tỷ lệ hiển thị, subpixel và cơ chế render chữ của hệ điều hành cũng ảnh hưởng."
 compare_subject: "27 inch QHD 100Hz"
 compare_reference: "27 inch Full HD 60/75Hz phổ thông"
 quick_compare:
@@ -46,11 +46,11 @@ featured: false
 published: true
 faq:
   - question: "27 inch QHD có đủ nét để làm văn phòng không?"
-    answer: "Với khoảng 109 PPI, QHD trên 27 inch thường cho mật độ điểm ảnh tốt hơn Full HD cùng kích thước. Độ rõ chữ thực tế còn phụ thuộc scaling và cách hệ điều hành render font."
+    answer: "Với khoảng 109 PPI, QHD trên 27 inch thường cho mật độ điểm ảnh tốt hơn Full HD cùng kích thước. Độ rõ chữ thực tế còn phụ thuộc tỷ lệ hiển thị và cách hệ điều hành render font."
   - question: "100Hz có đáng tiền nếu không chơi game?"
     answer: "Có thể đáng nếu bạn nhạy với chuyển động giao diện, cuộn web hoặc kéo cửa sổ. Nhưng 100Hz không cải thiện độ chính xác màu hay độ nét của nội dung tĩnh."
   - question: "99% sRGB có đủ cho chỉnh ảnh không?"
-    answer: "Độ phủ gamut không đồng nghĩa hiệu chuẩn chính xác. Với công việc màu nghiêm túc cần xem thêm sai số màu, calibration và workflow quản lý màu."
+    answer: "Độ phủ gamut không đồng nghĩa hiệu chuẩn chính xác. Với công việc màu nghiêm túc cần xem thêm sai số màu, calibration và quy trình làm việc quản lý màu."
 ---
 Một màn hình văn phòng dễ bị đánh giá quá đơn giản: “27 inch, QHD, 100Hz là ngon”. Nhưng ba thông số này chỉ là điểm khởi đầu. Với người ngồi trước màn hình nhiều giờ, **độ rõ chữ, tư thế, khả năng điều chỉnh và kết nối** mới là phần tạo ra khác biệt mỗi ngày.
 
@@ -58,7 +58,7 @@ Một màn hình văn phòng dễ bị đánh giá quá đơn giản: “27 inch
 
 P2725D có độ phân giải **2560×1440** trên kích thước 27 inch, tương đương khoảng **109 PPI** theo Dell. So với Full HD 27 inch, mật độ điểm ảnh cao hơn giúp đường viền chữ và UI có nhiều dữ liệu hơn để hiển thị, đồng thời cung cấp thêm không gian làm việc.
 
-Tuy nhiên, RTINGS lưu ý chất lượng chữ không chỉ phụ thuộc độ phân giải. Subpixel layout, scaling, ClearType và cơ chế render của hệ điều hành đều có thể làm hai màn hình cùng PPI cho cảm giác đọc khác nhau.
+Tuy nhiên, RTINGS lưu ý chất lượng chữ không chỉ phụ thuộc độ phân giải. Subpixel layout, tỷ lệ hiển thị, ClearType và cơ chế render của hệ điều hành đều có thể làm hai màn hình cùng PPI cho cảm giác đọc khác nhau.
 
 ## 100Hz có ý nghĩa ngay cả khi không chơi game
 

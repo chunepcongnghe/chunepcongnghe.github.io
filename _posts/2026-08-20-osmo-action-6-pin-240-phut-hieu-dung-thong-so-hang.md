@@ -9,7 +9,7 @@ key_takeaways:
   - "Bài test dùng 1080p/24fps, RockSteady bật, Wi‑Fi tắt và màn hình tắt."
   - "Quay 4K, màn hình bật, nhiệt độ môi trường và kết nối không dây có thể làm kết quả khác đáng kể."
   - "Khi so pin action cam, phải đối chiếu cùng độ phân giải, fps, chống rung, nhiệt độ và trạng thái màn hình."
-compare_subject: "Claim 240 phút của hãng"
+compare_subject: "thông tin hãng công bố 240 phút của hãng"
 compare_reference: "Kịch bản quay thực tế"
 quick_compare:
   - criterion: "Độ phân giải / fps"
@@ -37,7 +37,7 @@ brand: DJI
 tags: [Osmo Action 6, pin action cam, DJI, 240 phút, benchmark hãng]
 image: "/assets/images/thumbs/osmo-action-6-pin-240-phut-hieu-dung-thong-so-hang.jpg"
 image_alt: "DJI Osmo Action 6 trong bối cảnh quay thực tế, minh họa phân tích thời lượng pin 240 phút"
-source_status: vendor-claim
+source_status: vendor-thông tin hãng công bố
 sources:
   - name: "DJI — Osmo Action 6 Specs"
     url: "https://www.dji.com/osmo-action-6/specs"
@@ -54,11 +54,11 @@ faq:
   - question: "Tại sao hãng vẫn dùng con số 240 phút?"
     answer: "Đó là một bài test chuẩn hóa để người dùng có mốc tham chiếu. Vấn đề là phải đọc đầy đủ điều kiện thử nghiệm đi kèm."
   - question: "So pin Action 6 và Action 5 Pro bằng 240 phút có đủ không?"
-    answer: "Chưa đủ. Cả hai đều có claim 240 phút trong điều kiện gần giống nhau; để biết khác biệt thực tế cần test cùng mode 4K, nhiệt độ và cách sử dụng."
+    answer: "Chưa đủ. Cả hai đều có thông tin hãng công bố 240 phút trong điều kiện gần giống nhau; để biết khác biệt thực tế cần test cùng mode 4K, nhiệt độ và cách sử dụng."
 ---
 “Pin tới 240 phút” nghe rất dễ hiểu thành **quay được bốn giờ**. Nhưng nếu đọc phần chú thích của DJI, con số này có điều kiện rất cụ thể.
 
-Đây là ví dụ điển hình cho cách Chú Nếp muốn đọc thông số công nghệ: **không phủ nhận claim của hãng, nhưng không tách con số khỏi bài test**.
+Đây là ví dụ điển hình cho cách Chú Nếp muốn đọc thông số công nghệ: **không phủ nhận thông tin hãng công bố của hãng, nhưng không tách con số khỏi bài test**.
 
 ## DJI đo 240 phút như thế nào?
 
@@ -91,17 +91,17 @@ Ngoài ra, khi quay thật người dùng thường:
 
 Mỗi yếu tố đều khiến bài toán điện năng khác điều kiện lab.
 
-## Claim của hãng có vô nghĩa không?
+## thông tin hãng công bố của hãng có vô nghĩa không?
 
 Không. Một bài test chuẩn vẫn hữu ích vì nó tạo **mốc tham chiếu có điều kiện rõ**.
 
 Vấn đề xảy ra khi người đọc hoặc người bán chỉ lấy “240 phút” mà bỏ mất phần điều kiện bên dưới.
 
-Chú Nếp đánh giá claim tốt là claim có methodology đủ rõ để biết nó đại diện cho tình huống nào. DJI làm đúng ở chỗ ghi chi tiết điều kiện test trên trang specs.
+Chú Nếp đánh giá thông tin hãng công bố tốt là thông tin hãng công bố có methodology đủ rõ để biết nó đại diện cho tình huống nào. DJI làm đúng ở chỗ ghi chi tiết điều kiện test trên trang thông số.
 
 ## Action 6 và Action 5 Pro đều công bố 240 phút thì có nghĩa pin ngang nhau?
 
-Cả hai trang specs đều ghi 240 phút trong bài test 1080p/24fps với điều kiện tương tự. Điều đó cho thấy trong **kịch bản test cụ thể của hãng**, hai máy cùng đạt mốc tham chiếu này.
+Cả hai trang thông số đều ghi 240 phút trong bài test 1080p/24fps với điều kiện tương tự. Điều đó cho thấy trong **kịch bản test cụ thể của hãng**, hai máy cùng đạt mốc tham chiếu này.
 
 Nhưng không nên suy ra:
 
@@ -135,8 +135,8 @@ Một con số đẹp không xấu. Nhưng trước khi biến nó thành quyế
 
 Cách đọc này áp dụng cho pin, benchmark CPU, tốc độ SSD, độ sáng màn hình, camera zoom và cả hiệu năng AI.
 
-Nếu chuẩn bị road trip, xem thêm [workflow lưu trữ Osmo Action 6](/bai-viet/osmo-action-6-64gb-microsd-workflow-roadtrip/) để tránh hết dung lượng giữa chuyến.
+Nếu chuẩn bị road trip, xem thêm [quy trình làm việc lưu trữ Osmo Action 6](/bai-viet/osmo-action-6-64gb-microsd-quy trình làm việc-roadtrip/) để tránh hết dung lượng giữa chuyến.
 
 ## Kết luận
 
-**240 phút là claim hợp lệ trong điều kiện test DJI công bố, không phải lời hứa 4 giờ quay 4K ngoài đời.** Đọc methodology trước khi đọc headline sẽ giúp bạn so sản phẩm công bằng hơn và tránh mua dựa trên một con số bị tách khỏi bối cảnh.
+**240 phút là thông tin hãng công bố hợp lệ trong điều kiện test DJI công bố, không phải lời hứa 4 giờ quay 4K ngoài đời.** Đọc methodology trước khi đọc headline sẽ giúp bạn so sản phẩm công bằng hơn và tránh mua dựa trên một con số bị tách khỏi bối cảnh.

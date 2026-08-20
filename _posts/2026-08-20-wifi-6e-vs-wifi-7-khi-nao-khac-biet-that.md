@@ -15,7 +15,7 @@ quick_compare:
   - criterion: "Độ rộng kênh tối đa"
     subject_value: "320MHz"
     reference_value: "160MHz"
-    verdict: "Wi‑Fi 7 có trần throughput cao hơn khi phổ tần và thiết bị cho phép."
+    verdict: "Wi‑Fi 7 có trần tốc độ truyền dữ liệu cao hơn khi phổ tần và thiết bị cho phép."
   - criterion: "Điều chế"
     subject_value: "4096-QAM"
     reference_value: "1024-QAM"
@@ -54,13 +54,13 @@ faq:
   - question: "Laptop Wi‑Fi 6E dùng được router Wi‑Fi 7 không?"
     answer: "Có nhờ khả năng tương thích ngược, nhưng laptop đó không tận dụng được đầy đủ tính năng như 320MHz hay MLO của Wi‑Fi 7."
   - question: "Tốc độ 5,8Gbps của adapter Wi‑Fi 7 có phải tốc độ tải file thật không?"
-    answer: "Không. Đây là mức PHY tối đa hãng công bố trong điều kiện chuẩn; throughput ứng dụng thực tế thấp hơn và phụ thuộc router, khoảng cách, nhiễu, giao thức và máy chủ."
+    answer: "Không. Đây là mức PHY tối đa hãng công bố trong điều kiện chuẩn; tốc độ truyền dữ liệu ứng dụng thực tế thấp hơn và phụ thuộc router, khoảng cách, nhiễu, giao thức và máy chủ."
 ---
 Wi‑Fi là một trong những nơi con số marketing dễ gây hiểu nhầm nhất. Người dùng nhìn “5,8Gbps” rồi kỳ vọng tải Steam hoặc Speedtest ở mức đó, trong khi mạng không dây còn bị giới hạn bởi ISP, router, client, khoảng cách và môi trường vô tuyến.
 
 ## Chú Nếp chốt nhanh
 
-Nếu Wi‑Fi 6E của bạn đang ổn, Internet dưới 1Gbps và không có nhu cầu NAS/streaming nội bộ nặng, **không cần đổi chỉ để có chữ Wi‑Fi 7**. Wi‑Fi 7 đáng nâng khi bạn có client tương thích, router đặt tốt, backhaul nhanh và thật sự cần throughput nội bộ hoặc độ trễ/độ ổn định tốt hơn.
+Nếu Wi‑Fi 6E của bạn đang ổn, Internet dưới 1Gbps và không có nhu cầu NAS/streaming nội bộ nặng, **không cần đổi chỉ để có chữ Wi‑Fi 7**. Wi‑Fi 7 đáng nâng khi bạn có client tương thích, router đặt tốt, backhaul nhanh và thật sự cần tốc độ truyền dữ liệu nội bộ hoặc độ trễ/độ ổn định tốt hơn.
 
 ## Bảng khác biệt kỹ thuật quan trọng
 
@@ -74,7 +74,7 @@ Nếu Wi‑Fi 6E của bạn đang ổn, Internet dưới 1Gbps và không có n
 
 ## 320MHz: rộng hơn nhưng không phải lúc nào cũng có đất để chạy
 
-Kênh 320MHz gấp đôi 160MHz về độ rộng phổ. Trong điều kiện phù hợp, đây là một phần lý do Wi‑Fi 7 có thể tăng throughput mạnh. Nhưng phổ 6GHz khả dụng khác nhau theo quốc gia, và mạng xung quanh có thể khiến router chọn kênh khác để duy trì ổn định.
+Kênh 320MHz gấp đôi 160MHz về độ rộng phổ. Trong điều kiện phù hợp, đây là một phần lý do Wi‑Fi 7 có thể tăng tốc độ truyền dữ liệu mạnh. Nhưng phổ 6GHz khả dụng khác nhau theo quốc gia, và mạng xung quanh có thể khiến router chọn kênh khác để duy trì ổn định.
 
 Nói đơn giản: **320MHz là khả năng, không phải lời hứa**.
 
@@ -86,7 +86,7 @@ Vì vậy, đặt router đúng vị trí đôi khi đem lại cải thiện th�
 
 ## MLO mới là phần thú vị hơn con số peak
 
-Multi-Link Operation cho phép thiết bị Wi‑Fi 7 sử dụng hoặc điều phối nhiều link. Giá trị tiềm năng là giảm phụ thuộc vào một đường truyền duy nhất, tăng độ tin cậy và giảm latency trong một số tình huống.
+Multi-Link Operation cho phép thiết bị Wi‑Fi 7 sử dụng hoặc điều phối nhiều link. Giá trị tiềm năng là giảm phụ thuộc vào một đường truyền duy nhất, tăng độ tin cậy và giảm độ trễ trong một số tình huống.
 
 Nhưng lợi ích thực tế phụ thuộc cách router, chipset và hệ điều hành triển khai. Không nên lấy chữ “MLO” trên hộp rồi mặc định game sẽ giảm ping một con số cụ thể.
 
@@ -100,7 +100,7 @@ Nhưng lợi ích thực tế phụ thuộc cách router, chipset và hệ đi�
 
 - Nhà có NAS 2.5GbE/10GbE và thường xuyên copy file lớn qua Wi‑Fi.
 - Nhiều client mới cùng hoạt động, đặc biệt trong không gian có băng 6GHz sạch.
-- Workflow AR/VR, game streaming nội bộ hoặc truyền video bitrate cao cần latency ổn định.
+- quy trình làm việc AR/VR, game streaming nội bộ hoặc truyền video bitrate cao cần độ trễ ổn định.
 - Đang thay router cũ và muốn mua một thiết bị dùng nhiều năm, thay vì bỏ router 6E đang chạy tốt.
 
 Chú Nếp nhìn Wi‑Fi 7 như một **nâng cấp hạ tầng**, không phải món đồ “cắm vào là Internet nhanh gấp đôi”. Khi cả chuỗi mạng cùng theo kịp, nó rất đáng giá; khi chỉ thay một mắt xích, con số trên hộp dễ lớn hơn khác biệt bạn cảm nhận.

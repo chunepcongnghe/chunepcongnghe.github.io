@@ -38,7 +38,7 @@ brand: Samsung
 tags: ["Galaxy Z Flip8", "Galaxy Z Fold8", "Samsung", "FlexWindow", "điện thoại gập 2026"]
 image: "/assets/images/thumbs/galaxy-z-flip8-danh-gia-nhanh.jpg"
 image_alt: "Galaxy Z Flip8 dạng gập với FlexWindow 4,1 inch, trọng lượng 180g và thân máy mỏng 6,1mm"
-source_status: vendor-claim
+source_status: vendor-thông tin hãng công bố
 sources:
   - name: "Samsung Newsroom Việt Nam — Galaxy Z 2026"
     url: "https://news.samsung.com/vn/samsung-ra-mat-the-he-galaxy-gap-chuan-moi-galaxy-z-fold8-ultra-galaxy-z-fold8-va-galaxy-z-flip8"
@@ -63,7 +63,7 @@ faq:
 
 So với Fold8 201g, Flip8 nhẹ hơn 21g. Con số này không quá lớn trên giấy nhưng kết hợp với hình dạng vuông ngắn khi gập, cảm giác mang trong túi có thể khác rõ hơn việc CPU nhanh thêm vài phần trăm.
 
-Ngược lại, khi mở máy, Flip8 vẫn là smartphone 6,9 inch chứ không trở thành không gian gần tablet như Fold8. Người cần chia cửa sổ, đọc tài liệu dài hoặc xem bảng dữ liệu nên coi đây là trade-off quan trọng.
+Ngược lại, khi mở máy, Flip8 vẫn là smartphone 6,9 inch chứ không trở thành không gian gần tablet như Fold8. Người cần chia cửa sổ, đọc tài liệu dài hoặc xem bảng dữ liệu nên coi đây là sự đánh đổi quan trọng.
 
 ## FlexWindow 4,1 inch có thật sự giúp dùng ít phải mở máy?
 
@@ -83,7 +83,7 @@ Samsung công bố pin điển hình 4.300mAh. Fold8 là 4.800mAh nhưng cũng c
 
 Flip8 có camera góc rộng 50MP và siêu rộng 12MP theo Samsung. Fold8 dùng góc rộng 50MP và siêu rộng 50MP. Với người chụp nhiều phong cảnh, nội thất hoặc creator cần góc siêu rộng chi tiết, đây là khác biệt nên cân nhắc.
 
-Người chủ yếu quay/chụp thường ngày có thể coi lợi thế form factor quan trọng hơn chênh lệch phần cứng camera.
+Người chủ yếu quay/chụp thường ngày có thể coi lợi thế kiểu dáng quan trọng hơn chênh lệch phần cứng camera.
 
 ## Ai nên chọn Flip8?
 

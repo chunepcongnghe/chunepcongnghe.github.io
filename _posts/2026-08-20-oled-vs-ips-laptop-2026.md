@@ -1,14 +1,14 @@
 ---
 title: "OLED vs IPS trên laptop 2026: so độ tương phản, màu, 120Hz, pin và rủi ro burn-in"
 slug: oled-vs-ips-laptop-2026
-description: "So sánh OLED và IPS trên laptop theo dữ liệu sản phẩm thực tế: contrast, gamut, refresh rate, độ sáng, nội dung tĩnh, pin và ai nên chọn loại nào."
+description: "So sánh OLED và IPS trên laptop theo dữ liệu sản phẩm thực tế: contrast, gamut, tần số quét, độ sáng, nội dung tĩnh, pin và ai nên chọn loại nào."
 answer_summary: "OLED có lợi thế vật lý rõ về màu đen và độ tương phản vì từng pixel tự phát sáng; nhiều panel laptop 2026 còn đạt 120Hz, gamut rộng và phản hồi rất nhanh. IPS không có màu đen sâu bằng nhưng vẫn có thể rất chính xác màu, sáng tốt, ít lo lão hóa không đồng đều do nội dung tĩnh và thường dễ tối ưu chi phí/pin hơn. Không có công nghệ thắng tuyệt đối: creator và người xem HDR thường hưởng lợi từ OLED, còn người làm tài liệu/code nhiều giờ có thể ưu tiên một panel IPS chất lượng cao."
 target_query: "OLED vs IPS laptop 2026"
 key_takeaways:
   - "ASUS Zenbook 14 OLED có cấu hình 2880×1800, 120Hz, 100% DCI-P3 và 0,2ms theo ASUS."
   - "MacBook Air M5 dùng IPS 500 nit, P3 và hỗ trợ một tỷ màu theo Apple."
   - "OLED có contrast nội tại cao hơn; IPS tránh được cơ chế lão hóa pixel hữu cơ đặc trưng của OLED."
-  - "Pin không thể so chỉ bằng OLED/IPS vì còn phụ thuộc độ sáng, nội dung, refresh rate, panel và quản lý năng lượng."
+  - "Pin không thể so chỉ bằng OLED/IPS vì còn phụ thuộc độ sáng, nội dung, tần số quét, panel và quản lý năng lượng."
 compare_subject: "OLED laptop"
 compare_reference: "IPS laptop"
 quick_compare:
@@ -29,24 +29,24 @@ comparison:
   product_b: "IPS laptop"
   test_conditions: "Đối chiếu đặc tính công nghệ và hai ví dụ sản phẩm thực tế; không quy kết mọi panel OLED/IPS đều có cùng thông số."
   metrics:
-    - name: "Ví dụ refresh rate"
+    - name: "Ví dụ tần số quét"
       a: "Zenbook 14 OLED: 120Hz"
       b: "MacBook Air M5 IPS: 60Hz theo thông số Apple"
       unit: "Hz"
-      source_a: "ASUS Tech Specs"
-      source_b: "Apple Tech Specs"
+      source_a: "ASUS Tech thông số"
+      source_b: "Apple Tech thông số"
     - name: "Ví dụ gamut"
       a: "100% DCI-P3"
       b: "P3 wide color"
       unit: "gamut"
-      source_a: "ASUS Tech Specs"
-      source_b: "Apple Tech Specs"
+      source_a: "ASUS Tech thông số"
+      source_b: "Apple Tech thông số"
     - name: "Ví dụ độ sáng SDR"
       a: "Tùy cấu hình/panel ASUS"
       b: "500 nit"
       unit: "nit"
-      source_a: "ASUS Tech Specs"
-      source_b: "Apple Tech Specs"
+      source_a: "ASUS Tech thông số"
+      source_b: "Apple Tech thông số"
 date: 2026-08-20T09:10:00+07:00
 section: so-sanh-hieu-suat
 section_label: "So sánh hiệu suất"
@@ -109,7 +109,7 @@ Nhưng 120Hz không phải đặc quyền OLED; IPS 120/144Hz đã tồn tại l
 1. Panel là OLED hay IPS?
 2. Panel chạy 60Hz, 90Hz, 120Hz hay cao hơn?
 
-Nếu không, rất dễ khen OLED vì một lợi thế thực ra đến từ refresh rate.
+Nếu không, rất dễ khen OLED vì một lợi thế thực ra đến từ tần số quét.
 
 ## Burn-in: nên hiểu là rủi ro quản lý, không phải án tử
 
@@ -127,12 +127,12 @@ OLED có thể tiết kiệm khi giao diện tối vì pixel tối tiêu thụ �
 
 IPS có đèn nền chạy tương đối ổn định theo độ sáng cài đặt.
 
-Do đó không thể kết luận “OLED pin tốt hơn” hay “IPS pin tốt hơn” nếu không đo **hai laptop cụ thể với cùng workload và độ sáng**.
+Do đó không thể kết luận “OLED pin tốt hơn” hay “IPS pin tốt hơn” nếu không đo **hai laptop cụ thể với cùng khối lượng công việc và độ sáng**.
 
 ## Chú Nếp chọn loại nào cho từng nhu cầu?
 
 ### Creator ảnh/video
-Ưu tiên OLED nếu panel có calibration tốt, gamut rộng và workflow HDR quan trọng.
+Ưu tiên OLED nếu panel có calibration tốt, gamut rộng và quy trình làm việc HDR quan trọng.
 
 ### Văn phòng, code, kế toán
 IPS cao cấp rất đáng cân nhắc nếu ngày làm việc chứa nhiều UI tĩnh và bạn muốn giảm lo về lão hóa panel.

@@ -7,7 +7,7 @@ target_query: "Copilot+ PC 40 TOPS là gì"
 key_takeaways:
   - "Microsoft nêu nhiều tính năng AI mới của Copilot+ PC cần NPU có năng lực 40+ TOPS."
   - "TOPS đo thông lượng tính toán AI theo một cách nhất định, không thể dùng một mình để kết luận tốc độ ứng dụng hay hiệu năng tổng thể."
-  - "NPU phát huy ở tác vụ AI chạy nền hoặc on-device cần hiệu quả điện năng; GPU vẫn mạnh ở nhiều workload AI nặng và đồ họa."
+  - "NPU phát huy ở tác vụ AI chạy nền hoặc on-device cần hiệu quả điện năng; GPU vẫn mạnh ở nhiều khối lượng công việc AI nặng và đồ họa."
   - "Khi mua AI PC, nên kiểm tra tính năng phần mềm bạn dùng có thật sự tận dụng NPU hay không."
 compare_subject: "Copilot+ PC với NPU 40+ TOPS"
 compare_reference: "Laptop không đạt chuẩn Copilot+"
@@ -55,7 +55,7 @@ faq:
   - question: "Copilot+ PC có bắt buộc phải có NPU 40+ TOPS không?"
     answer: "Microsoft cho biết nhiều tính năng AI mới dành cho Copilot+ PC yêu cầu NPU đạt khả năng 40+ TOPS."
   - question: "NPU có thay thế GPU khi chạy AI local không?"
-    answer: "Không. NPU, GPU và CPU có điểm mạnh khác nhau. NPU thường nổi bật ở hiệu quả điện năng và tác vụ AI chuyên dụng, còn GPU vẫn rất quan trọng với workload AI nặng hoặc ứng dụng được tối ưu cho GPU."
+    answer: "Không. NPU, GPU và CPU có điểm mạnh khác nhau. NPU thường nổi bật ở hiệu quả điện năng và tác vụ AI chuyên dụng, còn GPU vẫn rất quan trọng với khối lượng công việc AI nặng hoặc ứng dụng được tối ưu cho GPU."
 ---
 Trong hai năm gần đây, cụm từ **AI PC** xuất hiện dày đặc đến mức người mua laptop rất dễ rơi vào một bẫy mới: thấy con số TOPS càng cao thì nghĩ máy càng “AI mạnh”.
 
@@ -65,7 +65,7 @@ Microsoft dùng mốc **40+ TOPS của NPU** như một yêu cầu quan trọng 
 
 ## TOPS đang nói về điều gì?
 
-TOPS là viết tắt của *trillion operations per second* — số nghìn tỷ phép toán mỗi giây theo một dạng workload nhất định. Trong ngữ cảnh NPU, nó cho biết phần cứng có khả năng xử lý khối lượng tính toán AI lớn tới đâu.
+TOPS là viết tắt của *trillion operations per second* — số nghìn tỷ phép toán mỗi giây theo một dạng khối lượng công việc nhất định. Trong ngữ cảnh NPU, nó cho biết phần cứng có khả năng xử lý khối lượng tính toán AI lớn tới đâu.
 
 Nhưng có một điều quan trọng: **TOPS không nói hết chất lượng của toàn bộ hệ thống**.
 
@@ -76,7 +76,7 @@ Hai NPU có con số gần nhau vẫn có thể khác nhau về:
 - driver;
 - framework;
 - mức điện năng;
-- khả năng phần mềm thật sự đẩy workload xuống NPU.
+- khả năng phần mềm thật sự đẩy khối lượng công việc xuống NPU.
 
 Vì vậy, Chú Nếp không khuyến khích mua laptop bằng cách xếp TOPS từ cao xuống thấp.
 
@@ -86,13 +86,13 @@ Theo tài liệu Microsoft Learn, nhiều tính năng Windows AI mới dành cho
 
 Điểm hay của NPU không phải lúc nào cũng là “chạy nhanh nhất”. Điểm hay thường nằm ở việc xử lý một tác vụ AI **liên tục nhưng không phải đánh thức GPU công suất cao mọi lúc**.
 
-Ví dụ về mặt kiến trúc, những workload như hiệu ứng camera, xử lý âm thanh, nhận diện hoặc một số mô hình chạy nền có thể phù hợp với NPU hơn vì máy cần giữ pin và nhiệt độ ổn định.
+Ví dụ về mặt kiến trúc, những khối lượng công việc như hiệu ứng camera, xử lý âm thanh, nhận diện hoặc một số mô hình chạy nền có thể phù hợp với NPU hơn vì máy cần giữ pin và nhiệt độ ổn định.
 
 ## NPU, GPU và CPU: đừng bắt ba thứ làm cùng một việc
 
 ### CPU
 
-CPU linh hoạt, giỏi điều phối hệ thống và xử lý rất nhiều loại tác vụ. Nó không sinh ra chỉ để chạy mạng neural nhưng vẫn có thể tham gia workload AI.
+CPU linh hoạt, giỏi điều phối hệ thống và xử lý rất nhiều loại tác vụ. Nó không sinh ra chỉ để chạy mạng neural nhưng vẫn có thể tham gia khối lượng công việc AI.
 
 ### GPU
 
@@ -100,9 +100,9 @@ GPU có rất nhiều đơn vị tính toán song song, từ lâu đã là nền
 
 ### NPU
 
-NPU được thiết kế chuyên cho workload machine learning với mục tiêu hiệu quả năng lượng. Nó phù hợp với hướng “AI luôn có mặt trong hệ thống” hơn là chỉ chạy một benchmark để lấy điểm cao.
+NPU được thiết kế chuyên cho khối lượng công việc machine learning với mục tiêu hiệu quả năng lượng. Nó phù hợp với hướng “AI luôn có mặt trong hệ thống” hơn là chỉ chạy một benchmark để lấy điểm cao.
 
-Vậy nên câu hỏi đúng không phải “NPU có thay GPU không?” mà là **phần mềm nào dùng được NPU, và việc chuyển workload sang NPU có giúp máy mát hơn, bền pin hơn hoặc phản hồi tốt hơn hay không**.
+Vậy nên câu hỏi đúng không phải “NPU có thay GPU không?” mà là **phần mềm nào dùng được NPU, và việc chuyển khối lượng công việc sang NPU có giúp máy mát hơn, bền pin hơn hoặc phản hồi tốt hơn hay không**.
 
 ## Tại sao người dùng dễ bị số TOPS đánh lừa?
 
@@ -122,7 +122,7 @@ Nếu câu 5 là “không”, đó là dấu hiệu nên cân nhắc lại.
 
 ## MacBook Air M5 cũng cho thấy một hướng tiếp cận khác
 
-Apple không dùng nhãn Copilot+ nhưng M5 có Neural Engine và Neural Accelerators trong GPU, đồng thời Apple công bố một số workload AI được tăng tốc rõ so với M4. Điều này cho thấy thị trường đang đi theo hướng **nhiều khối phần cứng cùng tham gia AI**, chứ không có một con số duy nhất đại diện cho tất cả.
+Apple không dùng nhãn Copilot+ nhưng M5 có Neural Engine và Neural Accelerators trong GPU, đồng thời Apple công bố một số khối lượng công việc AI được tăng tốc rõ so với M4. Điều này cho thấy thị trường đang đi theo hướng **nhiều khối phần cứng cùng tham gia AI**, chứ không có một con số duy nhất đại diện cho tất cả.
 
 Điểm đáng quan tâm với người mua là phần mềm nào đã tận dụng được kiến trúc đó.
 
@@ -130,9 +130,9 @@ Apple không dùng nhãn Copilot+ nhưng M5 có Neural Engine và Neural Acceler
 
 Nếu bạn mua laptop để làm Office, trình duyệt, quản trị quảng cáo và Canva, NPU 40 TOPS có thể chưa tạo ra khác biệt lớn mỗi ngày.
 
-Nếu bạn làm workflow có AI chạy local, xử lý hình ảnh, video, âm thanh hoặc thường dùng các tính năng Copilot+ cụ thể, phần cứng NPU mới bắt đầu trở thành tiêu chí đáng cân nhắc.
+Nếu bạn làm quy trình làm việc có AI chạy local, xử lý hình ảnh, video, âm thanh hoặc thường dùng các tính năng Copilot+ cụ thể, phần cứng NPU mới bắt đầu trở thành tiêu chí đáng cân nhắc.
 
-Điều quan trọng là **không trả thêm tiền chỉ vì tem “AI PC” nếu bạn chưa xác định workload**.
+Điều quan trọng là **không trả thêm tiền chỉ vì tem “AI PC” nếu bạn chưa xác định khối lượng công việc**.
 
 ## Kết luận
 

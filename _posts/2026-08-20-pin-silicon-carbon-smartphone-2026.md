@@ -1,7 +1,7 @@
 ---
 title: "Pin silicon-carbon 2026: vì sao smartphone 7.000–10.000mAh xuất hiện ngày càng nhiều?"
 slug: pin-silicon-carbon-smartphone-2026
-description: "Pin silicon-carbon đang đẩy dung lượng smartphone lên 7.000–10.000mAh mà không làm máy dày tương ứng. Chú Nếp phân tích dữ liệu thật, lợi ích và trade-off."
+description: "Pin silicon-carbon đang đẩy dung lượng smartphone lên 7.000–10.000mAh mà không làm máy dày tương ứng. Chú Nếp phân tích dữ liệu thật, lợi ích và sự đánh đổi."
 answer_summary: "Silicon-carbon không phải phép màu làm pin vô hạn, nhưng nó cho phép tăng mật độ năng lượng so với anode graphite truyền thống. Năm 2026, realme P4 Power đã lên 10.001mAh, HONOR Magic V6 công bố 6.660mAh trong thân máy gập mỏng, còn OPPO Find X9 đạt 7.025mAh. Lợi ích lớn nhất là tăng dung lượng trong cùng không gian; đổi lại người mua vẫn phải nhìn vào nhiệt, tốc độ sạc, tuổi thọ chu kỳ và hiệu quả hệ thống thay vì chỉ nhìn mAh."
 target_query: "pin silicon carbon smartphone 2026 là gì"
 key_takeaways:
@@ -92,11 +92,11 @@ Khi có dữ liệu đầy đủ, nên nhìn thêm **Wh (watt-hour)** vì đây 
 
 - máy nóng thế nào khi sạc nhanh;
 - hãng công bố chu kỳ pin ra sao;
-- điều kiện lab của claim thời lượng;
+- điều kiện lab của thông tin hãng công bố thời lượng;
 - pin có giữ hiệu suất khi nhiệt độ cao/thấp không;
 - bộ sạc và giao thức sạc có phổ biến hay độc quyền.
 
-realme chẳng hạn đưa ra claim pin bền nhiều năm dựa trên giả định tần suất sạc cụ thể. Đây là dữ liệu tham khảo hữu ích, nhưng không nên biến thành cam kết rằng mọi người dùng đều sẽ đạt đúng con số đó.
+realme chẳng hạn đưa ra thông tin hãng công bố pin bền nhiều năm dựa trên giả định tần suất sạc cụ thể. Đây là dữ liệu tham khảo hữu ích, nhưng không nên biến thành cam kết rằng mọi người dùng đều sẽ đạt đúng con số đó.
 
 ## Góc nhìn Chú Nếp: cuộc đua pin đang có ý nghĩa hơn cuộc đua độ mỏng
 

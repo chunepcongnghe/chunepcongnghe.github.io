@@ -1,7 +1,7 @@
 ---
 title: "Osmo Action 6 có 64GB bộ nhớ trong: đi road trip nên dùng microSD thế nào để không hết chỗ?"
 slug: osmo-action-6-64gb-microsd-workflow-roadtrip
-description: "Osmo Action 6 có 64GB bộ nhớ trong, khoảng 50GB khả dụng và hỗ trợ microSD đến 1TB. Gợi ý workflow road trip để tránh hết dung lượng hoặc mất source."
+description: "Osmo Action 6 có 64GB bộ nhớ trong, khoảng 50GB khả dụng và hỗ trợ microSD đến 1TB. Gợi ý quy trình làm việc road trip để tránh hết dung lượng hoặc mất source."
 answer_summary: "Bộ nhớ trong 50GB khả dụng của Osmo Action 6 nên xem như vùng dự phòng, không phải kho chính cho chuyến đi dài. Với video bitrate tối đa 120Mbps, dung lượng có thể đầy nhanh; microSD V30 dung lượng 256–512GB là lựa chọn cân bằng cho road trip, kèm thói quen backup theo ngày."
 target_query: "Osmo Action 6 microSD bao nhiêu GB road trip"
 key_takeaways:
@@ -32,7 +32,7 @@ category_label: "Camera / Creator Gear"
 brand: DJI
 tags: [Osmo Action 6, microSD, road trip, action cam, backup video]
 image: "/assets/images/thumbs/osmo-action-6-64gb-microsd-workflow-roadtrip.jpg"
-image_alt: "Action camera trong bối cảnh road trip trên ô tô, minh họa workflow lưu trữ Osmo Action 6"
+image_alt: "Action camera trong bối cảnh road trip trên ô tô, minh họa quy trình làm việc lưu trữ Osmo Action 6"
 source_status: confirmed
 sources:
   - name: "DJI — Osmo Action 6 Specs"
@@ -92,7 +92,7 @@ DJI liệt kê các thẻ U3, A2, V30 tương thích. Khi quay video bitrate cao
 
 Thẻ không đủ tốc độ có thể gây dừng ghi, lỗi file hoặc trải nghiệm không ổn định.
 
-## Workflow Chú Nếp đề xuất cho road trip
+## quy trình làm việc Chú Nếp đề xuất cho road trip
 
 ### Trước chuyến đi
 
@@ -125,7 +125,7 @@ Dung lượng không phải chi phí duy nhất. Quay hàng giờ tạo thêm:
 - thời gian dựng;
 - pin và nhiệt.
 
-Một workflow tốt thường có kỷ luật start/stop, đánh dấu đoạn quan trọng và chia cảnh thay vì để camera chạy vô hạn.
+Một quy trình làm việc tốt thường có kỷ luật start/stop, đánh dấu đoạn quan trọng và chia cảnh thay vì để camera chạy vô hạn.
 
 Nếu đang tối ưu cài đặt road trip, xem thêm [Osmo Action 6 cài đặt road trip](/bai-viet/osmo-action-6-cai-dat-roadtrip/).
 
@@ -137,4 +137,4 @@ Chú Nếp ưu tiên thẻ 256–512GB chất lượng tốt + backup mỗi ngà
 
 ## Kết luận
 
-**Osmo Action 6 có 50GB khả dụng bên trong nhưng road trip vẫn nên dùng microSD làm kho chính.** Chọn 256GB nếu backup đều, 512GB nếu quay dài; và quan trọng nhất là xây workflow backup thay vì chỉ mua thẻ thật lớn.
+**Osmo Action 6 có 50GB khả dụng bên trong nhưng road trip vẫn nên dùng microSD làm kho chính.** Chọn 256GB nếu backup đều, 512GB nếu quay dài; và quan trọng nhất là xây quy trình làm việc backup thay vì chỉ mua thẻ thật lớn.

@@ -1,13 +1,13 @@
 ---
 title: "Osmo Action 6 vs iPhone 17 Pro để quay vlog, road trip: máy nào hợp hơn?"
 slug: osmo-action-6-vs-iphone-17-pro-quay-vlog-roadtrip
-description: "So sánh DJI Osmo Action 6 và iPhone 17 Pro cho vlog/road trip dựa trên dữ liệu thật: 4K120, chống rung, chống nước, trọng lượng, mic và workflow."
-answer_summary: "Osmo Action 6 hợp hơn khi cần gắn xe, đội đầu, quay mưa/nước, góc siêu rộng và thao tác ít lo rơi vỡ; iPhone 17 Pro hợp hơn khi cần một thiết bị đa năng, camera linh hoạt, ProRes/Log và hậu kỳ cao cấp. Cả hai đều hỗ trợ 4K120 ở một số chế độ, nhưng khác nhau lớn nhất nằm ở form factor và workflow chứ không phải chỉ độ phân giải. Với road trip, combo smartphone + action cam thường thực dụng hơn việc ép một thiết bị làm mọi việc."
+description: "So sánh DJI Osmo Action 6 và iPhone 17 Pro cho vlog/road trip dựa trên dữ liệu thật: 4K120, chống rung, chống nước, trọng lượng, mic và quy trình làm việc."
+answer_summary: "Osmo Action 6 hợp hơn khi cần gắn xe, đội đầu, quay mưa/nước, góc siêu rộng và thao tác ít lo rơi vỡ; iPhone 17 Pro hợp hơn khi cần một thiết bị đa năng, camera linh hoạt, ProRes/Log và hậu kỳ cao cấp. Cả hai đều hỗ trợ 4K120 ở một số chế độ, nhưng khác nhau lớn nhất nằm ở kiểu dáng và quy trình làm việc chứ không phải chỉ độ phân giải. Với road trip, combo smartphone + action cam thường thực dụng hơn việc ép một thiết bị làm mọi việc."
 target_query: "Osmo Action 6 vs iPhone 17 Pro quay vlog road trip"
 key_takeaways:
   - "Osmo Action 6 nặng 149g, chống nước 20m không cần housing và có FOV tối đa 155°."
   - "iPhone 17 Pro nặng 204g, IP68 và hỗ trợ ProRes tới 4K120 khi dùng bộ nhớ ngoài."
-  - "Cả hai có 4K120 nhưng mục tiêu khác nhau: action cam ưu tiên góc rộng/chống rung/gắn mount; iPhone ưu tiên hệ camera đa tiêu cự và workflow Pro."
+  - "Cả hai có 4K120 nhưng mục tiêu khác nhau: action cam ưu tiên góc rộng/chống rung/gắn mount; iPhone ưu tiên hệ camera đa tiêu cự và quy trình làm việc Pro."
   - "Road trip nên chọn theo góc quay và rủi ro môi trường, không phải theo câu 'camera nào đẹp hơn'."
 compare_subject: "DJI Osmo Action 6"
 compare_reference: "iPhone 17 Pro"
@@ -19,7 +19,7 @@ quick_compare:
   - criterion: "Video chuyên sâu"
     subject_value: "4K120, D-Log M, góc rộng"
     reference_value: "ProRes, ProRes RAW, Apple Log 2, genlock"
-    verdict: "iPhone 17 Pro có hệ workflow hậu kỳ chuyên nghiệp rộng hơn."
+    verdict: "iPhone 17 Pro có hệ quy trình làm việc hậu kỳ chuyên nghiệp rộng hơn."
   - criterion: "Chống nước"
     subject_value: "20m không housing"
     reference_value: "IP68 theo điều kiện Apple"
@@ -58,9 +58,9 @@ faq:
 ---
 “Action cam hay điện thoại quay đẹp hơn?” là câu hỏi nghe đơn giản nhưng thường dẫn đến một so sánh sai ngay từ đầu.
 
-DJI Osmo Action 6 và iPhone 17 Pro đều quay được video độ phân giải cao, đều có chống rung và đều có thể tạo footage rất đẹp. Nhưng hai thiết bị được sinh ra cho **hai kiểu rủi ro và workflow khác nhau**.
+DJI Osmo Action 6 và iPhone 17 Pro đều quay được video độ phân giải cao, đều có chống rung và đều có thể tạo footage rất đẹp. Nhưng hai thiết bị được sinh ra cho **hai kiểu rủi ro và quy trình làm việc khác nhau**.
 
-## Form factor quyết định nhiều hơn megapixel
+## kiểu dáng quyết định nhiều hơn megapixel
 
 Osmo Action 6 nặng **149g**, có thân hình nhỏ, góc nhìn tối đa **155°** và chống nước **20m không cần housing** theo DJI.
 
@@ -107,11 +107,11 @@ Action 6 có ba mic tích hợp và hỗ trợ hệ microphone DJI. Trong bối 
 
 Không có thiết bị nào tự giải quyết hoàn hảo tiếng gió ở tốc độ cao. Vị trí mic, deadcat, cabin xe và cách mount vẫn quan trọng.
 
-## Bộ nhớ và workflow
+## Bộ nhớ và quy trình làm việc
 
 Action 6 có khoảng **50GB bộ nhớ trong khả dụng** theo DJI và hỗ trợ microSD tới 1TB. Đây là lợi thế lớn khi quay dài: tháo thẻ, đổi thẻ, sao lưu theo ngày.
 
-iPhone có bộ nhớ trong lớn tùy cấu hình và hỗ trợ ghi ProRes chất lượng cao ra ổ ngoài. Workflow này mạnh nhưng cần cáp/SSD phù hợp nếu quay bitrate cao.
+iPhone có bộ nhớ trong lớn tùy cấu hình và hỗ trợ ghi ProRes chất lượng cao ra ổ ngoài. quy trình làm việc này mạnh nhưng cần cáp/SSD phù hợp nếu quay bitrate cao.
 
 Với road trip nhiều ngày, thẻ microSD nhỏ gọn thường dễ chia footage theo ngày hơn.
 
@@ -130,4 +130,4 @@ Thực tế creator đi road trip thường hưởng lợi nhất từ combo:
 
 ## Kết luận
 
-**Osmo Action 6 thắng về tính chuyên dụng cho hành động; iPhone 17 Pro thắng về độ đa năng và workflow video cao cấp.** Nếu chỉ được chọn một, hãy chọn dựa trên loại footage chiếm nhiều nhất trong video của bạn — không chọn dựa trên thông số 4K120 vì cả hai đều có nó.
+**Osmo Action 6 thắng về tính chuyên dụng cho hành động; iPhone 17 Pro thắng về độ đa năng và quy trình làm việc video cao cấp.** Nếu chỉ được chọn một, hãy chọn dựa trên loại footage chiếm nhiều nhất trong video của bạn — không chọn dựa trên thông số 4K120 vì cả hai đều có nó.
