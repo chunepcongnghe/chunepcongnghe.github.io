@@ -30,7 +30,7 @@ section_label: "Góc Chọn & Mua"
 category: phu-kien-setup
 category_label: "Phụ kiện / Setup"
 brand: Multi-brand
-tags: [giá đỡ laptop, laptop stand, tản nhiệt laptop, ergonomics, setup laptop, phụ kiện laptop]
+tags: [giá đỡ laptop, laptop stand, tản nhiệt laptop, công thái học, setup laptop, phụ kiện laptop]
 image: "/assets/images/thumbs/gia-do-laptop-co-giup-mat-hon-ngoi-do-moi.jpg"
 image_alt: "Laptop được nâng trên giá đỡ trong góc làm việc có bàn phím và chuột rời"
 source_status: confirmed
@@ -96,7 +96,7 @@ Nếu thường xuyên mang theo, Chú Nếp ưu tiên loại gập gọn và đ
 
 ## Có cần mua loại có quạt không?
 
-Đó đã là một nhóm khác: cooling pad. Giá đỡ thường chỉ tạo khoảng trống và cải thiện vị trí máy, còn cooling pad chủ động thổi gió. Với laptop văn phòng, giá đỡ không quạt thường yên tĩnh và đủ cho mục tiêu ergonomics. Với laptop gaming nóng, cooling pad có thể đáng cân nhắc hơn, nhưng hiệu quả phải xem đúng thiết kế máy.
+Đó đã là một nhóm khác: cooling pad. Giá đỡ thường chỉ tạo khoảng trống và cải thiện vị trí máy, còn cooling pad chủ động thổi gió. Với laptop văn phòng, giá đỡ không quạt thường yên tĩnh và đủ cho mục tiêu **ngồi đúng tư thế, đỡ mỏi khi làm việc lâu**. Với laptop gaming nóng, cooling pad có thể đáng cân nhắc hơn, nhưng hiệu quả phải xem đúng thiết kế máy.
 
 ## Chọn nhanh theo nhu cầu
 
