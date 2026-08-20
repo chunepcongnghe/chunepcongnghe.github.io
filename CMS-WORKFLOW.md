@@ -3,15 +3,24 @@
 Từ 2026-08-19, mọi bài mới phải được tạo trong `_posts` để Pages CMS nhìn thấy và có thể chỉnh tay. HTML hard-code không phải nguồn nội dung chính.
 
 ## Chuẩn bắt buộc cho mỗi bài
-- `title`: rõ sản phẩm/vấn đề và search intent; không giật tít sai dữ kiện.
+- `title`: rõ sản phẩm/vấn đề và ý định tìm kiếm; không giật tít sai dữ kiện.
 - `description`: mô tả SEO tự nhiên, ưu tiên 140–165 ký tự.
 - `answer_summary`: 2–4 câu trả lời trực tiếp truy vấn chính để phục vụ AEO/GEO.
 - `target_query`, `tags`, `category`, `section`, ngày xuất bản/cập nhật.
 - `key_takeaways`: tối thiểu 3 ý người đọc cần biết ngay.
 - `quick_compare`: tối thiểu 3 tiêu chí đối chiếu với đời trước, đối thủ, cấu hình khác hoặc phương án thay thế phù hợp với chủ đề.
-- `sources`: nguồn chính thức hoặc nguồn gốc dữ liệu rõ ràng; claim của hãng phải gắn `vendor-claim` khi cần.
-- `faq`: tối thiểu 2 câu hỏi sát search intent.
+- `sources`: nguồn chính thức hoặc nguồn gốc dữ liệu rõ ràng; thông tin do hãng công bố phải đặt đúng bối cảnh.
+- `faq`: tối thiểu 2 câu hỏi sát nhu cầu tìm kiếm.
 - Ảnh bài viết là asset độc lập trong `assets/posts` hoặc được pipeline thumbnail localize về `assets/images/thumbs/<slug>.jpg`.
+
+## Văn phong tiếng Việt tự nhiên — bắt buộc
+- Viết như hai người Việt đang nói chuyện và chia sẻ kinh nghiệm với nhau: câu rõ, dễ hiểu, không cố tỏ ra “kỹ thuật”.
+- Ưu tiên từ tiếng Việt khi đã có cách nói tự nhiên. Ví dụ: `bottleneck` → **điểm nghẽn/vấn đề đang cản máy**, `workflow` → **quy trình/cách làm việc**, `downtime` → **thời gian gián đoạn**, `trade-off` → **sự đánh đổi**, `refresh rate` → **tần số quét**, `scaling` → **tỷ lệ hiển thị**.
+- Chỉ giữ từ tiếng Anh đã rất phổ biến trong ngữ cảnh công nghệ như **gear, gaming, AI, RAM, SSD, CPU, GPU, NPU, benchmark, creator, hub, dock, Wi‑Fi, Bluetooth, USB, OLED**. Nếu thuật ngữ còn lạ, phải giải thích bằng tiếng Việt ngay lần đầu xuất hiện.
+- Không viết câu ghép toàn danh từ kỹ thuật. Mỗi đoạn phải trả lời được một câu hỏi đơn giản: “Điều này có ý nghĩa gì với người dùng?”.
+- Không dùng các cụm kiểu `ROI`, `workload`, `vendor claim`, `use case`, `future-proof`, `form factor`, `thermal budget` trong phần người đọc nhìn thấy nếu không thật sự cần. Hãy chuyển sang cách nói đời thường.
+- Mục **Chú Nếp chốt nhanh** tối đa khoảng 3–4 câu, nói thẳng: ai hợp, ai không hợp, khi nào đáng tiền và điểm cần cân nhắc.
+- Workflow `natural-vietnamese.yml` sẽ tự rà lại bài mới và sửa các từ khó hiểu nằm trong danh sách kiểm soát.
 
 ## Chuẩn thumbnail mặc định
 Chi tiết đầy đủ nằm trong `THUMBNAIL-STYLE.md`. Từ đợt 2026-08-19, style mặc định là **3D product render realistic / editorial tech photography**.
@@ -27,10 +36,10 @@ Chi tiết đầy đủ nằm trong `THUMBNAIL-STYLE.md`. Từ đợt 2026-08-19
 
 ## Chuẩn so sánh
 - Mỗi bài đều phải giúp người đọc biết “khác gì so với phương án gần nhất”.
-- Bài chuyên mục So sánh hiệu suất dùng thêm `comparison.metrics` và nguồn cho từng chỉ số khi có benchmark/metric tương đương.
+- Bài chuyên mục So sánh hiệu suất dùng thêm `comparison.metrics` và nguồn cho từng chỉ số khi có bài đo/metric tương đương.
 - Không trộn điều kiện benchmark khác nhau rồi kết luận thắng/thua tuyệt đối.
 - Thiếu dữ liệu thì ghi rõ chưa đủ dữ liệu, không ước đoán.
-- Claim phòng lab của hãng phải viết là mức hãng công bố/điều kiện hãng, không biến thành trải nghiệm thực tế.
+- Con số hãng đo trong phòng thử nghiệm phải ghi rõ điều kiện hãng công bố, không biến thành trải nghiệm thực tế.
 
 ## SEO / AEO / GEO
 - Một H1 duy nhất; H2/H3 mô tả câu hỏi người dùng thực sự tìm.
@@ -39,11 +48,11 @@ Chi tiết đầy đủ nằm trong `THUMBNAIL-STYLE.md`. Từ đợt 2026-08-19
 - Article, FAQ và Breadcrumb structured data được layout sinh tự động.
 
 ## Chuẩn Batch 4 trở đi — khóa cố định
-- Mỗi batch có **12 bài net-new**, kiểm tra intent để tránh cannibalization với bài đã có.
+- Mỗi batch có **12 bài mới**, kiểm tra ý định tìm kiếm để tránh tự cạnh tranh với bài đã có.
 - Toàn bộ văn bản thân bài, lead, list, blockquote, FAQ và ghi chú nguồn phải căn đều; heading, bảng và metadata giữ canh tự nhiên để dễ đọc.
 - Mỗi bài có mục **`## Chú Nếp chốt nhanh`**: ngắn, rõ quan điểm, trả lời người đọc nên hiểu/chọn gì nhưng không viết kiểu quảng cáo.
-- Fact, vendor claim và opinion phải tách rõ. Không giả hands-on nếu chưa cầm/sử dụng sản phẩm; ghi “phân tích theo dữ liệu” khi phù hợp.
+- Dữ kiện, thông tin hãng công bố và ý kiến Chú Nếp phải tách rõ. Không giả trải nghiệm trực tiếp nếu chưa cầm/sử dụng sản phẩm; ghi “phân tích theo dữ liệu” khi phù hợp.
 - Ưu tiên bảng Markdown hoặc `quick_compare` khi có từ hai phương án trở lên; bảng phải cùng điều kiện hoặc ghi rõ giới hạn so sánh.
-- Có thể thêm ảnh minh họa trong thân bài khi ảnh giúp giải thích cấu tạo, workflow, cổng kết nối hoặc điều kiện test; không thêm ảnh chỉ để lấp chỗ trống.
+- Có thể thêm ảnh minh họa trong thân bài khi ảnh giúp giải thích cấu tạo, cách sử dụng, cổng kết nối hoặc điều kiện test; không thêm ảnh chỉ để lấp chỗ trống.
 - Thumbnail phải realistic/product/editorial photography, đúng chủ thể, local sau pipeline, 1200×675, duy nhất và không lỗi.
-- Batch chỉ hoàn tất sau khi post, thumbnail localizer và anti-duplicate/anti-broken đều pass trên `main`.
+- Batch chỉ hoàn tất sau khi bài viết, thumbnail localizer, kiểm tra trùng ảnh/lỗi ảnh và kiểm tra văn phong tiếng Việt đều pass trên `main`.

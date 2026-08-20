@@ -1,0 +1,47 @@
+name: Giữ văn phong tiếng Việt tự nhiên
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_posts/**'
+      - '.github/scripts/naturalize_vietnamese.py'
+      - '.github/workflows/natural-vietnamese.yml'
+      - 'CMS-WORKFLOW.md'
+      - 'EDITORIAL-VIETNAMESE.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  naturalize:
+    if: github.actor != 'github-actions[bot]' && !contains(github.event.head_commit.message, '[vi-naturalize]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Chuẩn hóa và kiểm tra văn phong
+        run: python .github/scripts/naturalize_vietnamese.py
+
+      - name: Commit nếu có bài cần sửa
+        shell: bash
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "Văn phong đã đạt chuẩn, không cần sửa."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _posts
+          git commit -m "[vi-naturalize] Chuẩn hóa văn phong tiếng Việt tự nhiên"
+          git pull --rebase origin main
+          git push origin HEAD:main
