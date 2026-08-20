@@ -31,7 +31,7 @@ category: networking
 category_label: "Mạng / Wi‑Fi"
 brand: Multi-brand
 tags: [Wi-Fi 7, Wi-Fi 6E, 320MHz, MLO, 4K QAM, router Wi-Fi 7]
-image: "https://images.unsplash.com/photo-1750712263185-edde9f359e33?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/wifi-6e-vs-wifi-7-khi-nao-khac-biet-that.jpg"
 image_alt: "Router Wi-Fi thực tế trên bàn gỗ, minh họa so sánh Wi-Fi 6E và Wi-Fi 7"
 source_status: confirmed
 sources:

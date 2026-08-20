@@ -31,7 +31,7 @@ category: setup
 category_label: "Bàn phím / Chuột"
 brand: Multi-brand
 tags: [bàn phím văn phòng, chuột ergonomic, gõ nhiều, ergonomics, MX Mechanical, MX Master 3S]
-image: "https://images.unsplash.com/photo-1708200216317-84160f5e8db0?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/chon-ban-phim-chuot-cho-nguoi-go-nhieu.jpg"
 image_alt: "Bàn phím và chuột thực tế trên bàn làm việc"
 source_status: confirmed
 sources:

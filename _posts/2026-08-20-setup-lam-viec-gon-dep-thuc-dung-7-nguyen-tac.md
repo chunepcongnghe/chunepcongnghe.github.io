@@ -31,7 +31,7 @@ category: setup
 category_label: "Setup / Ergonomics"
 brand: Multi-brand
 tags: [setup góc làm việc, cable management, ergonomics, dock laptop, bàn làm việc]
-image: "https://images.unsplash.com/photo-1645377208970-1490c65ad7c6?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/setup-lam-viec-gon-dep-thuc-dung-7-nguyen-tac.jpg"
 image_alt: "Góc làm việc tối giản với laptop và màn hình ngoài"
 source_status: confirmed
 sources:

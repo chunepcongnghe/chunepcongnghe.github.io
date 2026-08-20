@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop / Nâng cấp"
 brand: Multi-brand
 tags: [nâng RAM laptop, nâng SSD laptop, đổi laptop, bottleneck laptop, nâng cấp máy tính]
-image: "https://images.unsplash.com/photo-1721332149267-ef9b10eaacd9?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/khi-nao-nang-ram-ssd-hay-doi-laptop.jpg"
 image_alt: "Bo mạch laptop và linh kiện lưu trữ thực tế, minh họa quyết định nâng cấp"
 source_status: confirmed
 sources:

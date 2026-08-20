@@ -31,7 +31,7 @@ category: pc-linh-kien
 category_label: "SSD / Lưu trữ"
 brand: Multi-brand
 tags: [SSD PCIe 5.0, SSD PCIe 4.0, Samsung 990 Pro, Crucial T705, NVMe, SSD Gen5]
-image: "https://images.unsplash.com/photo-1588259341607-1dbd302efa21?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/ssd-pcie-4-vs-pcie-5-toc-do-gap-doi-co-dang.jpg"
 image_alt: "SSD M.2 NVMe gắn trên bo mạch chủ, minh họa so sánh PCIe 4.0 và 5.0"
 source_status: vendor-claim
 sources:

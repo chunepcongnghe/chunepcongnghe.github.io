@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop / Phần cứng"
 brand: Multi-brand
 tags: [RAM hàn, RAM laptop nâng cấp, unified memory, LPCAMM2, SO-DIMM, Framework Laptop]
-image: "https://images.unsplash.com/photo-1776768232475-f11bf93bf168?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/ram-han-vs-ram-nang-cap-laptop-danh-doi.jpg"
 image_alt: "Bo mạch máy tính cận cảnh, minh họa thiết kế bộ nhớ tích hợp và module"
 source_status: confirmed
 sources:

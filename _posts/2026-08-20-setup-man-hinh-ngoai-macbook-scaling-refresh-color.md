@@ -31,7 +31,7 @@ category: setup
 category_label: "MacBook / Màn hình"
 brand: Apple
 tags: [MacBook màn hình ngoài, macOS scaling, refresh rate MacBook, color profile macOS, màn hình Mac]
-image: "https://images.unsplash.com/photo-1497296805880-3b37686c87ea?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/setup-man-hinh-ngoai-macbook-scaling-refresh-color.jpg"
 image_alt: "MacBook kết nối màn hình ngoài trên bàn làm việc thực tế"
 source_status: confirmed
 sources:

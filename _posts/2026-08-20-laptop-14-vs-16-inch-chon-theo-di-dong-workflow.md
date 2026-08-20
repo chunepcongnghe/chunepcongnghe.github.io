@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop"
 brand: Multi-brand
 tags: [laptop 14 inch, laptop 16 inch, Zenbook 14, Zenbook S 16, laptop di động, chọn laptop]
-image: "https://images.unsplash.com/photo-1704299059700-268345bcb6bd?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/laptop-14-vs-16-inch-chon-theo-di-dong-workflow.jpg"
 image_alt: "Hai laptop đặt cạnh nhau trong không gian làm việc để minh họa lựa chọn kích thước"
 source_status: confirmed
 sources:

@@ -31,7 +31,7 @@ category: smartphone
 category_label: "Điện thoại / Camera"
 brand: Multi-brand
 tags: [camera 200MP, camera 48MP, camera 50MP, megapixel smartphone, ISOCELL HP2, iPhone camera]
-image: "https://images.unsplash.com/photo-1775839700200-804627f67c66?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/camera-200mp-vs-48-50mp-megapixel-co-quyet-dinh.jpg"
 image_alt: "Cụm camera smartphone cận cảnh thực tế"
 source_status: confirmed
 sources:

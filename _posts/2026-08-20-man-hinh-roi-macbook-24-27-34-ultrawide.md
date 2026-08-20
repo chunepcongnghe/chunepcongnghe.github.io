@@ -31,7 +31,7 @@ category: setup
 category_label: "Màn hình / MacBook"
 brand: Multi-brand
 tags: [màn hình MacBook, 24 inch 4K, 27 inch 5K, 34 inch ultrawide, PPI, macOS scaling]
-image: "https://images.unsplash.com/photo-1770899621442-24237af4c8b4?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/man-hinh-roi-macbook-24-27-34-ultrawide.jpg"
 image_alt: "MacBook kết nối màn hình rời trong góc làm việc hiện đại"
 source_status: confirmed
 sources:

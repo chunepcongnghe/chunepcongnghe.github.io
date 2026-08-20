@@ -31,7 +31,7 @@ category: technology
 category_label: "Góc nhìn công nghệ"
 brand: Multi-brand
 tags: [bao lâu nên đổi laptop, chu kỳ nâng cấp, đổi điện thoại, bottleneck, ROI thiết bị, FOMO công nghệ]
-image: "https://images.unsplash.com/photo-1722159475082-0a2331580de3?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/bao-lau-nen-doi-laptop-thiet-bi-theo-bottleneck.jpg"
 image_alt: "Góc làm việc thực tế với laptop, màn hình và phụ kiện, minh họa vòng đời nâng cấp thiết bị"
 source_status: confirmed
 sources:
