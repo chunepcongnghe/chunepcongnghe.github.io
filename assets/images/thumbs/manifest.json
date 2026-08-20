@@ -192,7 +192,7 @@
   "dell-p2725d-27-qhd-100hz-danh-gia-dua-tren-du-lieu": {
     "post": "_posts/2026-08-20-dell-p2725d-27-qhd-100hz-danh-gia-dua-tren-du-lieu.md",
     "image": "/assets/images/thumbs/dell-p2725d-27-qhd-100hz-danh-gia-dua-tren-du-lieu.jpg",
-    "source": "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/5697/339564/dell-pro-plus-p2725d-27-inch-2k-ips-100hz-5ms-bac-1-638860067892187239.jpg",
+    "source": "existing-local",
     "sha256": "a983c59b2edf315bc114bdf34526e2ede6ff48bf524913fc504aaf756dc49757",
     "size": [
       1200,
