@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop / Creator"
 brand: Multi-brand
 tags: [32GB RAM creator, 16GB vs 32GB RAM, laptop dựng video, AI local, MacBook Air M5 RAM]
-image: "https://img.evetech.co.za/repository/ez/How-Much-RAM-Do-You-Really-Need-for-Gaming-in-2025-banner.webp?width=1200"
+image: "/assets/images/thumbs/laptop-creator-khi-nao-can-32gb-ram.jpg"
 image_alt: "Các thanh RAM thực tế minh họa lựa chọn dung lượng cho creator"
 source_status: confirmed
 sources:

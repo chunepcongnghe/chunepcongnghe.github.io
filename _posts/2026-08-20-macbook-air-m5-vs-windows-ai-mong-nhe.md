@@ -56,7 +56,7 @@ category: laptop
 category_label: "Laptop"
 brand: Multi-brand
 tags: [MacBook Air M5 vs Windows AI, Zenbook S 16, Ryzen AI, laptop creator, macOS vs Windows]
-image: "https://s.yimg.com/ny/api/res/1.2/oiOFMCzS4EZ6ucpQQ3ULcA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTg-/https%3A/media.zenfs.com/en/pc_mag_263/b02f90f2dd8eaca3838e77da502b307b"
+image: "/assets/images/thumbs/macbook-air-m5-vs-windows-ai-mong-nhe.jpg"
 image_alt: "MacBook Air thực tế trên nền tối minh họa bài so sánh với laptop Windows AI"
 source_status: confirmed
 sources:

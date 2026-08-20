@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop / AI PC"
 brand: ASUS
 tags: [Zenbook S 16, Ryzen AI, NPU 50 TOPS, Copilot+ PC, laptop AI, ASUS]
-image: "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg"
+image: "/assets/images/thumbs/zenbook-s16-ryzen-ai-npu-50-tops-workflow.jpg"
 image_alt: "Laptop ASUS Zenbook trong ảnh sản phẩm thực tế, minh họa bài phân tích Zenbook S 16 Ryzen AI"
 source_status: confirmed
 sources:

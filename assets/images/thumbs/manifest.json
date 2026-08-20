@@ -119,6 +119,36 @@
       675
     ]
   },
+  "action-cam-road-trip-cai-dat-4k30-4k60": {
+    "post": "_posts/2026-08-20-action-cam-road-trip-cai-dat-4k30-4k60.md",
+    "image": "/assets/images/thumbs/action-cam-road-trip-cai-dat-4k30-4k60.jpg",
+    "source": "https://www.gadgetmatch.com/wp-content/uploads/2025/11/gadgetmatch-20251122-dji-osmo-action-6-1.jpg",
+    "sha256": "ffefe87be181ad73e80412dba90f9a38c2899a31b4217f1bf9c97419daea7175",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "balo-creator-20l-30l-chon-theo-gear": {
+    "post": "_posts/2026-08-20-balo-creator-20l-30l-chon-theo-gear.md",
+    "image": "/assets/images/thumbs/balo-creator-20l-30l-chon-theo-gear.jpg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Peak_Design_Everyday_Backpack_30_L_2.jpg",
+    "sha256": "c3cf1c892122b997f7eccd854373aed768eb46182c3df0b143db7adcaed3c7e1",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "benchmark-cao-co-dong-nghia-laptop-dung-suong": {
+    "post": "_posts/2026-08-20-benchmark-cao-co-dong-nghia-laptop-dung-suong.md",
+    "image": "/assets/images/thumbs/benchmark-cao-co-dong-nghia-laptop-dung-suong.jpg",
+    "source": "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg",
+    "sha256": "468ab21e79dc8831b437c3977dcdc74c8f039db980a3ac3c43c749eadfe0b599",
+    "size": [
+      1200,
+      675
+    ]
+  },
   "cach-doc-cau-hinh-laptop-khong-bi-marketing-dan-dat": {
     "post": "_posts/2026-08-20-cach-doc-cau-hinh-laptop-khong-bi-marketing-dan-dat.md",
     "image": "/assets/images/thumbs/cach-doc-cau-hinh-laptop-khong-bi-marketing-dan-dat.jpg",
@@ -144,6 +174,26 @@
     "image": "/assets/images/thumbs/copilot-plus-pc-40-tops-thuc-su-mo-khoa-gi.jpg",
     "source": "existing-local",
     "sha256": "54ce2a0754f1eaebea6c29f589188e3b28bb2bc89d7feaf5e356f2db3e040a49",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "copilot-plus-pc-vs-laptop-windows-thuong": {
+    "post": "_posts/2026-08-20-copilot-plus-pc-vs-laptop-windows-thuong.md",
+    "image": "/assets/images/thumbs/copilot-plus-pc-vs-laptop-windows-thuong.jpg",
+    "source": "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg",
+    "sha256": "e093cde910348edc3c4e80ff7445ec748542936a8a47ddff4a84212569deb8db",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "dell-p2725d-27-qhd-100hz-danh-gia-dua-tren-du-lieu": {
+    "post": "_posts/2026-08-20-dell-p2725d-27-qhd-100hz-danh-gia-dua-tren-du-lieu.md",
+    "image": "/assets/images/thumbs/dell-p2725d-27-qhd-100hz-danh-gia-dua-tren-du-lieu.jpg",
+    "source": "https://miro.medium.com/0%2Akv7PnwnJj_OTRxAv",
+    "sha256": "a9676453865bf6986c50d6b4e35fccc5ad357f83f69574a5a2054613a307a471",
     "size": [
       1200,
       675
@@ -199,6 +249,36 @@
       675
     ]
   },
+  "keychron-q1-max-van-phong-danh-gia-theo-du-lieu": {
+    "post": "_posts/2026-08-20-keychron-q1-max-van-phong-danh-gia-theo-du-lieu.md",
+    "image": "/assets/images/thumbs/keychron-q1-max-van-phong-danh-gia-theo-du-lieu.jpg",
+    "source": "https://www.keychron.com/cdn/shop/files/Keychron_Q1_Max_with_Keycaps.png?v=1747724354&width=1400",
+    "sha256": "99ff450af9073f4d0a5b8e371906813731dad3aa72b2325230cce00bbc92a5a9",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "kiem-tra-man-hinh-laptop-lam-viec-dai-gio": {
+    "post": "_posts/2026-08-20-kiem-tra-man-hinh-laptop-lam-viec-dai-gio.md",
+    "image": "/assets/images/thumbs/kiem-tra-man-hinh-laptop-lam-viec-dai-gio.jpg",
+    "source": "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg",
+    "sha256": "c165699db5f8f4134424440bd620f5d5f22ba6b2d32dafc4aa22f348e6800636",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "laptop-creator-khi-nao-can-32gb-ram": {
+    "post": "_posts/2026-08-20-laptop-creator-khi-nao-can-32gb-ram.md",
+    "image": "/assets/images/thumbs/laptop-creator-khi-nao-can-32gb-ram.jpg",
+    "source": "https://img.evetech.co.za/repository/ez/How-Much-RAM-Do-You-Really-Need-for-Gaming-in-2025-banner.webp?width=1200",
+    "sha256": "b87f6047f824d24c74d65499e4387bf20334f7516f0924ad6108086dd58d6532",
+    "size": [
+      1200,
+      675
+    ]
+  },
   "laptop-oled-2026-3k-120hz-co-dang-tien": {
     "post": "_posts/2026-08-20-laptop-oled-2026-3k-120hz-co-dang-tien.md",
     "image": "/assets/images/thumbs/laptop-oled-2026-3k-120hz-co-dang-tien.jpg",
@@ -214,6 +294,16 @@
     "image": "/assets/images/thumbs/laptop-sinh-vien-2026-5-tieu-chi-quan-trong.jpg",
     "source": "existing-local",
     "sha256": "42e826a49f44f318555d3c86767caa8d0688895dd242087d4dc43acd524cc0d9",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "laptop-van-phong-uu-tien-pin-man-hinh-ban-phim": {
+    "post": "_posts/2026-08-20-laptop-van-phong-uu-tien-pin-man-hinh-ban-phim.md",
+    "image": "/assets/images/thumbs/laptop-van-phong-uu-tien-pin-man-hinh-ban-phim.jpg",
+    "source": "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg",
+    "sha256": "18339d6ac66ebac440de959f18682bf60e6299c9418192f09c1e6d3990039d93",
     "size": [
       1200,
       675
@@ -254,6 +344,26 @@
     "image": "/assets/images/thumbs/macbook-air-m5-khong-quat-danh-gia-theo-du-lieu.jpg",
     "source": "existing-local",
     "sha256": "a732846e80b71a7a5119c321ac0b79b27620acabd3e3bcfe27b73728ae103ad4",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "macbook-air-m5-vs-windows-ai-mong-nhe": {
+    "post": "_posts/2026-08-20-macbook-air-m5-vs-windows-ai-mong-nhe.md",
+    "image": "/assets/images/thumbs/macbook-air-m5-vs-windows-ai-mong-nhe.jpg",
+    "source": "https://s.yimg.com/ny/api/res/1.2/oiOFMCzS4EZ6ucpQQ3ULcA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTg-/https%3A/media.zenfs.com/en/pc_mag_263/b02f90f2dd8eaca3838e77da502b307b",
+    "sha256": "beae0a271359f604194fdcfe138f32bce571c71e7ca94516b217d3b8c0c12626",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "macbook-con-la-lua-chon-mac-dinh-cho-creator": {
+    "post": "_posts/2026-08-20-macbook-con-la-lua-chon-mac-dinh-cho-creator.md",
+    "image": "/assets/images/thumbs/macbook-con-la-lua-chon-mac-dinh-cho-creator.jpg",
+    "source": "https://s.yimg.com/ny/api/res/1.2/oiOFMCzS4EZ6ucpQQ3ULcA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTg-/https%3A/media.zenfs.com/en/pc_mag_263/b02f90f2dd8eaca3838e77da502b307b",
+    "sha256": "f13ceaad8fd84a6e7c7f69e584f613383b70bf1623634a6babedb3ce3d9cb6dc",
     "size": [
       1200,
       675
@@ -354,6 +464,16 @@
     "image": "/assets/images/thumbs/wifi-7-tren-macbook-air-m5-co-dang-quan-tam.jpg",
     "source": "existing-local",
     "sha256": "eadda1f501f9d328d89adab56bb9ab010ea2ac20e5adb5427c6d10245ac4db6a",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "zenbook-s16-ryzen-ai-npu-50-tops-workflow": {
+    "post": "_posts/2026-08-20-zenbook-s16-ryzen-ai-npu-50-tops-workflow.md",
+    "image": "/assets/images/thumbs/zenbook-s16-ryzen-ai-npu-50-tops-workflow.jpg",
+    "source": "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg",
+    "sha256": "4260259a4ea16fe5b69bc24a1d0cbafc4d45f9b31f32b71e812e62d05aed81da",
     "size": [
       1200,
       675

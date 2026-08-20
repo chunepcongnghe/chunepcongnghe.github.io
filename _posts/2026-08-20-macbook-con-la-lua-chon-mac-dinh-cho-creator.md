@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop / Creator"
 brand: Multi-brand
 tags: [MacBook creator 2026, MacBook Air M5, Windows creator laptop, ProRes, creator workflow, DeepTalk]
-image: "https://s.yimg.com/ny/api/res/1.2/oiOFMCzS4EZ6ucpQQ3ULcA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTg-/https%3A/media.zenfs.com/en/pc_mag_263/b02f90f2dd8eaca3838e77da502b307b"
+image: "/assets/images/thumbs/macbook-con-la-lua-chon-mac-dinh-cho-creator.jpg"
 image_alt: "MacBook Air thực tế minh họa góc nhìn creator năm 2026"
 source_status: confirmed
 sources:

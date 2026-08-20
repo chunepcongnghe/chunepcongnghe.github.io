@@ -31,7 +31,7 @@ category: setup
 category_label: "Màn hình / Setup"
 brand: Dell
 tags: [Dell P2725D, màn hình 27 inch QHD, màn hình văn phòng, 100Hz, 109 PPI, IPS]
-image: "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/p-series/p2725d/mg/monitor-dell-pro-plus-p2725d-bk-gallery-1.psd?chrss=full&fmt=png-alpha&hei=804&pscan=auto&qlt=100%2C1&resMode=sharp2&scl=1&size=905%2C804&wid=905"
+image: "/assets/images/thumbs/dell-p2725d-27-qhd-100hz-danh-gia-dua-tren-du-lieu.jpg"
 image_alt: "Dell Pro 27 Plus QHD P2725D ảnh sản phẩm chính thức"
 source_status: confirmed
 sources:

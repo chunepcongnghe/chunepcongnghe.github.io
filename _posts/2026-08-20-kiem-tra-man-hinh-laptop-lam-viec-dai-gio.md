@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop / Màn hình"
 brand: Multi-brand
 tags: [kiểm tra màn hình laptop, màn hình làm việc 8 giờ, OLED vs IPS, PPI, text clarity, PWM]
-image: "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg"
+image: "/assets/images/thumbs/kiem-tra-man-hinh-laptop-lam-viec-dai-gio.jpg"
 image_alt: "Laptop màn hình OLED thực tế trên bàn làm việc"
 source_status: confirmed
 sources:

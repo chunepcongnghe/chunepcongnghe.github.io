@@ -56,7 +56,7 @@ category: ai
 category_label: "AI PC / Laptop"
 brand: Multi-brand
 tags: [Copilot+ PC, Windows AI PC, NPU 40 TOPS, Snapdragon X Elite, Ryzen AI, laptop Windows]
-image: "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg"
+image: "/assets/images/thumbs/copilot-plus-pc-vs-laptop-windows-thuong.jpg"
 image_alt: "Laptop Windows hiện đại ảnh thực tế minh họa Copilot+ PC"
 source_status: confirmed
 sources:

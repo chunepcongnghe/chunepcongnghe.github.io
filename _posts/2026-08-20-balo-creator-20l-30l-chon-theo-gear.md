@@ -31,7 +31,7 @@ category: camera-creator-gear
 category_label: "Camera / Creator Gear"
 brand: Peak Design
 tags: [balo creator, balo 20L vs 30L, Peak Design Everyday Backpack, camera bag, creator gear]
-image: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Peak_Design_Everyday_Backpack_30_L_2.jpg"
+image: "/assets/images/thumbs/balo-creator-20l-30l-chon-theo-gear.jpg"
 image_alt: "Peak Design Everyday Backpack 30L ảnh thực tế"
 source_status: confirmed
 sources:

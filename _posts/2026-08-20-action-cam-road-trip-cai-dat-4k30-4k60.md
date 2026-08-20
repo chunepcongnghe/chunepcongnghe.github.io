@@ -31,7 +31,7 @@ category: camera-creator-gear
 category_label: "Camera / Creator Gear"
 brand: DJI
 tags: [action cam road trip, 4K30 vs 4K60, Osmo Action 6, HorizonSteady, microSD action cam, POV drive]
-image: "https://www.gadgetmatch.com/wp-content/uploads/2025/11/gadgetmatch-20251122-dji-osmo-action-6-1.jpg"
+image: "/assets/images/thumbs/action-cam-road-trip-cai-dat-4k30-4k60.jpg"
 image_alt: "DJI Osmo Action 6 ảnh thực tế dùng ngoài trời"
 source_status: confirmed
 sources:

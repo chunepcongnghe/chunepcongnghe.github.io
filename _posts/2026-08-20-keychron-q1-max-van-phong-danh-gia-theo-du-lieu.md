@@ -31,7 +31,7 @@ category: setup
 category_label: "Setup / Phụ kiện"
 brand: Keychron
 tags: [Keychron Q1 Max, bàn phím cơ văn phòng, QMK, hot-swap, bàn phím 75%, setup]
-image: "https://www.keychron.com/cdn/shop/files/Keychron_Q1_Max_with_Keycaps.png?v=1747724354&width=1400"
+image: "/assets/images/thumbs/keychron-q1-max-van-phong-danh-gia-theo-du-lieu.jpg"
 image_alt: "Keychron Q1 Max ảnh sản phẩm thực tế trên nền sáng"
 source_status: confirmed
 sources:

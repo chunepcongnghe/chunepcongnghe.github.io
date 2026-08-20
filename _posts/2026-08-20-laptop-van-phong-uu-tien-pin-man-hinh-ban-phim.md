@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop"
 brand: Multi-brand
 tags: [laptop văn phòng 2026, chọn laptop văn phòng, pin laptop, màn hình laptop, bàn phím laptop, 16GB RAM]
-image: "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg"
+image: "/assets/images/thumbs/laptop-van-phong-uu-tien-pin-man-hinh-ban-phim.jpg"
 image_alt: "Laptop mỏng nhẹ thực tế trên bàn làm việc văn phòng"
 source_status: confirmed
 sources:

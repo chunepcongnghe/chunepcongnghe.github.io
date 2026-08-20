@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop / Hiệu suất"
 brand: Multi-brand
 tags: [benchmark laptop, hiệu năng laptop, sustained performance, NPU TOPS, laptop dùng sướng, DeepTalk]
-image: "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg"
+image: "/assets/images/thumbs/benchmark-cao-co-dong-nghia-laptop-dung-suong.jpg"
 image_alt: "Laptop thực tế trên bàn làm việc minh họa góc nhìn benchmark và trải nghiệm"
 source_status: confirmed
 sources:
