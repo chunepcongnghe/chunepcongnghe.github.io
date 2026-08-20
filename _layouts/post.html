@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+<style>
+.article-lead,.article-content p,.article-content li,.article-content blockquote,.source-box li,.source-box p,.faq p{ text-align:justify; text-justify:inter-word; }
+.article-content p,.article-content li,.source-box li,.faq p{ hyphens:auto; overflow-wrap:break-word; }
+</style>
 <div class="article-wrap"><div class="article-grid"><article class="article">
   <div class="breadcrumbs"><a href="/">Trang chủ</a> › <a href="/{% if page.section == 'tren-tay-danh-gia' %}tren-tay-danh-gia{% elsif page.section == 'tu-van-chon-mua' %}tu-van-chon-mua{% elsif page.section == 'so-sanh-hieu-suat' %}so-sanh-hieu-suat{% elsif page.section == 'thu-thuat' %}thu-thuat{% elsif page.section == 'deeptalk' %}deeptalk{% else %}tin-moi{% endif %}/">{{ page.section_label | default: page.category_label | default: 'Tin công nghệ' }}</a></div>
   {% if page.source_status %}<span class="status-badge status-{{ page.source_status }}">{% if page.source_status == 'confirmed' %}Thông tin đã đối chiếu{% elsif page.source_status == 'vendor-claim' %}Có dữ liệu/claim từ hãng{% else %}Tin chưa xác nhận{% endif %}</span>{% endif %}
