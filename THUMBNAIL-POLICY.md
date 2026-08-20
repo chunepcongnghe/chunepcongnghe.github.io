@@ -11,3 +11,4 @@ Từ 20/08/2026, thumbnail bài viết phải tuân thủ các quy tắc sau:
 7. **Anti-broken:** file phải tồn tại, decode được và đúng kích thước 1200×675.
 8. **Anti-duplicate:** đường dẫn local và binary thumbnail phải duy nhất cho từng slug. Nếu nhiều bài dùng chung một ảnh nguồn, phải tạo composition/crop khác nhau và lưu thành file riêng.
 9. Mỗi batch 12 bài mới phải kết thúc với **12 thumbnail local riêng** và pass kiểm tra trước khi coi batch hoàn tất.
+10. Workflow `Localize unique article thumbnails` là gate bắt buộc: batch chưa pass thì chưa được coi là hoàn tất.
