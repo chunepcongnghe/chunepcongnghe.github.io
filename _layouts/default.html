@@ -7,6 +7,10 @@
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta name="theme-color" content="#0a8f91">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png?v=20260820">
+  <link rel="icon" type="image/png" sizes="64x64" href="/assets/favicon-64.png?v=20260820">
+  <link rel="shortcut icon" href="/favicon.ico?v=20260820">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260820">
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="Chú Nếp Công Nghệ">
   <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
@@ -14,14 +18,14 @@
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ '/assets/chunep-canonical.webp' | absolute_url }}{% endif %}">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preload" as="image" href="/assets/chunep-canonical.webp?v=20260819-final">
+  <link rel="preload" as="image" href="/assets/chunep-canonical.webp?v=20260820-sharp" type="image/webp" fetchpriority="high">
   <link rel="stylesheet" href="/assets/css/site.css?v=20260819-5">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-row">
       <a class="brand" href="/" aria-label="Chú Nếp Công Nghệ">
-        <img class="brand-avatar" src="data:image/webp;base64,UklGRmgEAABXRUJQVlA4IFwEAAAQFACdASpAAEAAPrVGmkmnI6IhMBv8AOAWiWoAotOYB9GayEc9+j7bY88j6Pd5a3kv/GUEdqUU+O83EauEaX5GPrj0autB+x3s7/oA15rv0WMUtrEN6N/BMgQCiGch1G/HJbX3j+dr6kdcRn90xHJMGhFL9AWCWc6oYtQI//lrB+W8thC7eArgvoKq5HW1GAmBRY6tVZzXNmmCiTCHRu2cpqDqrI51HOwAAP7/Gl0I7kMbkCBSYUuhWCVnIbOG1tcH/zpXbtq9QzqAQevtkljqxWXivf5O2wLrfrfIwyoCBaYtNBI91vccskZiFnj74HYckhr/o6veAn8kF+/9LC2d0AYAw6L/QOmUcX6shVygXk0Imr2jbX058qoWlt0rjmmIGph/0YSQnUkjTIsnMlPzxK58sP2imJP0bHtkR3Su7r+8gRtHcMJgN6qoU02M7+GNxx2Mtb662qIIgQ348j1aUxL89G6ldBzpni004st05lgshko14qIay2vTxxVviVUodQeVTJ/1PpubQfF1jW89afKQBcR06RDQdPQJ+OJaXRiFkE25SrwF9UCYr/A7dPoLJ5agq9cT9FI8aHum9zArobZeUTLF2oaVTAgXaTER4NF5JIBcBmqdsAZOFw6eu7i5yBmB14CvTTy383aptaWfCWXG1rQ5Ijin83NKgETC9LmcNRJbd6N/pVxWuHhPt1iPmtWvg+ZdHoLD7zJE4iTIJgqaonaR/Eipef4dwMzghIyRwrI9kdrgYvdPxcmOztIkvbTefA3J1Sk58LfFME4bUGfF5WuZ3MvamKc/7w11qQI5V/ApwKZ24xrFI17egxz8XHRbteVHuMRVaBz/BBCY+JEhUt7JO5keYw3yt+2z5yGF1P8dNl89Lgn2JafA+aR2WkypqfXgnX6o7aSUOS1fT8Yk29NzyGiREwvRN95O6qim9lWxomFaA62sSPsrNMvHhBrN8n1LrYCFTUmmV/nS+1WVr8NK8l8J52AFe8rvXml8jGHHxyMMmSIhoAbc6sE5t7B6ksty9IRvi2AAoDzJ1F3e9T5izZHWVGk0a+vI67zeJ4HnSZo7+ydly/rJgJX/siueeavFibGQj122b0/D4pIIrr/MEszjia7txmvqbDOksnOGsCcQZILn4hWScVEChet5/6NtC0eiyQERnkdFipfwHST1fjEop0BRAFah1Si15aw3fIgf/BQd1o9QT9PH0ym8yIg2oMsZz3EPujRpN7GEJP0NCK8SpqTIxXk5epd3RHy/+LT1L0vUO2eN3Cm/Io+e2/B0FQEEfCY9rA6OhzOSQdhscGqOkmRme5W8cn/1z5pHOZJHFteOPnL3qiTjxrF/PLIJV2fREOyADBmAf5Rsf6lFDrrAezORUzxhmr8FbaJ94FHz1RUKzbelI5nnMupRMRvhQ2AL/4nImaFzL+juW6DF0dsZsTeCWGrfBek5Wsy7Xj+bRYQOpEsieTqjDz5lVD3zJP4AAAA=" alt="Chú Nếp" width="48" height="48">
+        <img class="brand-avatar" src="/assets/chunep-canonical.webp?v=20260820-sharp" alt="Chú Nếp" width="48" height="48" decoding="async">
         <div>
           <div class="brand-name">CHÚ NẾP <span>CÔNG NGHỆ</span></div>
           <div class="brand-tag">Đọc nhanh để biết tin · Đọc sâu để biết có nên mua</div>
