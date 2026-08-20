@@ -31,7 +31,7 @@ category: smartphone
 category_label: "Điện thoại / Chọn mua"
 brand: Multi-brand
 tags: [điện thoại nhỏ gọn, smartphone compact, Galaxy S26, iPhone 17 Pro, điện thoại 6.3 inch]
-image: "https://images.unsplash.com/photo-1698266852138-c591a88ab8fa?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/smartphone-nho-gon-2026-con-dang-mua-khong.jpg"
 image_alt: "Một người cầm điện thoại gọn trong một tay"
 source_status: confirmed
 sources:

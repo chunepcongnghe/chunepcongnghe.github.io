@@ -31,7 +31,7 @@ category: smartphone
 category_label: "Góc nhìn điện thoại"
 brand: Multi-brand
 tags: [smartphone 2026, cấu hình điện thoại, chip flagship, benchmark, AI smartphone, gaming]
-image: "https://images.unsplash.com/photo-1760597371579-da4fd99d44ec?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/dienthoai-ngay-cang-manh-nguoi-dung-co-thuc-su-can.jpg"
 image_alt: "Hai smartphone hiện đại được cầm trước khung cảnh thành phố"
 source_status: confirmed
 sources:

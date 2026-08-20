@@ -31,7 +31,7 @@ category: phu-kien-setup
 category_label: "Phụ kiện / Setup"
 brand: Multi-brand
 tags: [giá đỡ laptop, laptop stand, tản nhiệt laptop, ergonomics, setup laptop, phụ kiện laptop]
-image: "https://images.unsplash.com/photo-1700451761287-b8b21c406208?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/gia-do-laptop-co-giup-mat-hon-ngoi-do-moi.jpg"
 image_alt: "Laptop được nâng trên giá đỡ trong góc làm việc có bàn phím và chuột rời"
 source_status: confirmed
 sources:

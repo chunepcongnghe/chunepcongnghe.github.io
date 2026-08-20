@@ -31,7 +31,7 @@ category: phu-kien-setup
 category_label: "Phụ kiện / Setup"
 brand: Multi-brand
 tags: [cooling pad, đế tản nhiệt laptop, laptop gaming, nhiệt độ laptop, phụ kiện laptop]
-image: "https://images.unsplash.com/photo-1769085794397-9cde6d47233a?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/cooling-pad-laptop-co-dang-mua-khong.jpg"
 image_alt: "Cận cảnh hệ thống quạt và linh kiện tản nhiệt bên trong laptop"
 source_status: confirmed
 sources:

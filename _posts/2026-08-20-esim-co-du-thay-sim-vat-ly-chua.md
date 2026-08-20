@@ -31,7 +31,7 @@ category: smartphone
 category_label: "Điện thoại / Nhà mạng"
 brand: Multi-brand
 tags: [eSIM, SIM vật lý, iPhone eSIM, Android eSIM, du lịch, nhà mạng]
-image: "https://images.unsplash.com/photo-1761293877320-d78bffe24b25?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/esim-co-du-thay-sim-vat-ly-chua.jpg"
 image_alt: "Điện thoại hiển thị các lựa chọn eSIM cho nhiều quốc gia"
 source_status: confirmed
 sources:

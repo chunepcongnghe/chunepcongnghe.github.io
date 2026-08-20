@@ -142,7 +142,7 @@
   "bao-lau-nen-doi-laptop-thiet-bi-theo-bottleneck": {
     "post": "_posts/2026-08-20-bao-lau-nen-doi-laptop-thiet-bi-theo-bottleneck.md",
     "image": "/assets/images/thumbs/bao-lau-nen-doi-laptop-thiet-bi-theo-bottleneck.jpg",
-    "source": "https://images.unsplash.com/photo-1722159475082-0a2331580de3?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "source": "existing-local",
     "sha256": "5614002d2fb8f8e7f1cd874ef88a8aeeeb32beb7afc614656606094670c60a28",
     "size": [
       1200,
@@ -172,7 +172,7 @@
   "camera-200mp-vs-48-50mp-megapixel-co-quyet-dinh": {
     "post": "_posts/2026-08-20-camera-200mp-vs-48-50mp-megapixel-co-quyet-dinh.md",
     "image": "/assets/images/thumbs/camera-200mp-vs-48-50mp-megapixel-co-quyet-dinh.jpg",
-    "source": "https://images.unsplash.com/photo-1775839700200-804627f67c66?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "source": "existing-local",
     "sha256": "42ff2981985d9d9a784861eac1cce203ffb70dfb58fae0eff21bbcd5956c0834",
     "size": [
       1200,
@@ -182,7 +182,7 @@
   "chon-ban-phim-chuot-cho-nguoi-go-nhieu": {
     "post": "_posts/2026-08-20-chon-ban-phim-chuot-cho-nguoi-go-nhieu.md",
     "image": "/assets/images/thumbs/chon-ban-phim-chuot-cho-nguoi-go-nhieu.jpg",
-    "source": "https://images.unsplash.com/photo-1708200216317-84160f5e8db0?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "source": "existing-local",
     "sha256": "c99fcf29ba7af7a0c55aa560c92b7835d39f20cc890bf49d0bd6f6edd23194f4",
     "size": [
       1200,
@@ -194,6 +194,16 @@
     "image": "/assets/images/thumbs/chon-hub-dock-macbook-air-m5.jpg",
     "source": "existing-local",
     "sha256": "8a4aea4d6d8284c28192ee8ccaf7cf75a670a8e6b5a204b398a76531410b0492",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "cooling-pad-laptop-co-dang-mua-khong": {
+    "post": "_posts/2026-08-20-cooling-pad-laptop-co-dang-mua-khong.md",
+    "image": "/assets/images/thumbs/cooling-pad-laptop-co-dang-mua-khong.jpg",
+    "source": "https://images.unsplash.com/photo-1769085794397-9cde6d47233a?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "sha256": "cd1abde0f696181d592b2c341964030e9ff2277cf749419bd1be6a631b317d70",
     "size": [
       1200,
       675
@@ -229,11 +239,51 @@
       675
     ]
   },
+  "dien-thoai-256gb-vs-512gb-ai-nen-bo-them-tien": {
+    "post": "_posts/2026-08-20-dien-thoai-256gb-vs-512gb-ai-nen-bo-them-tien.md",
+    "image": "/assets/images/thumbs/dien-thoai-256gb-vs-512gb-ai-nen-bo-them-tien.jpg",
+    "source": "https://images.unsplash.com/photo-1760087959509-67b15d5cf1c7?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "sha256": "25473f34719a0a954c65cf62d5acf8c271ac25951d5ce4567f1c64a50ec26ed0",
+    "size": [
+      1200,
+      675
+    ]
+  },
   "dien-thoai-gap-2026-da-du-lam-may-chinh-chua": {
     "post": "_posts/2026-08-20-dien-thoai-gap-2026-da-du-lam-may-chinh-chua.md",
     "image": "/assets/images/thumbs/dien-thoai-gap-2026-da-du-lam-may-chinh-chua.jpg",
     "source": "existing-local",
     "sha256": "401b329256fc826a13f34941e1c6e5756a1cc195ffa58cb75cf469a53ee22065",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "dienthoai-ngay-cang-manh-nguoi-dung-co-thuc-su-can": {
+    "post": "_posts/2026-08-20-dienthoai-ngay-cang-manh-nguoi-dung-co-thuc-su-can.md",
+    "image": "/assets/images/thumbs/dienthoai-ngay-cang-manh-nguoi-dung-co-thuc-su-can.jpg",
+    "source": "https://images.unsplash.com/photo-1760597371579-da4fd99d44ec?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "sha256": "b6702c00f5c45ad2d62cf5baeeccbc2c304db589e3adc698df46ca485629f8ac",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "esim-co-du-thay-sim-vat-ly-chua": {
+    "post": "_posts/2026-08-20-esim-co-du-thay-sim-vat-ly-chua.md",
+    "image": "/assets/images/thumbs/esim-co-du-thay-sim-vat-ly-chua.jpg",
+    "source": "https://images.unsplash.com/photo-1761293877320-d78bffe24b25?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "sha256": "ee012d9bbc13e0731d7d577ca34973b260474f5f24c6c5f2daa75d67074f4852",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "flagship-doi-truoc-vs-tam-trung-moi-cung-tam-gia": {
+    "post": "_posts/2026-08-20-flagship-doi-truoc-vs-tam-trung-moi-cung-tam-gia.md",
+    "image": "/assets/images/thumbs/flagship-doi-truoc-vs-tam-trung-moi-cung-tam-gia.jpg",
+    "source": "https://images.unsplash.com/photo-1772131549804-0cc8dab56991?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "sha256": "16f3c80cf89058dc5d30b35384561b5261a78e07507f152a0fa4b73c305f56f4",
     "size": [
       1200,
       675
@@ -279,6 +329,26 @@
       675
     ]
   },
+  "gia-do-dien-thoai-magsafe-qi2-co-dinh-hay-chinh-goc": {
+    "post": "_posts/2026-08-20-gia-do-dien-thoai-magsafe-qi2-co-dinh-hay-chinh-goc.md",
+    "image": "/assets/images/thumbs/gia-do-dien-thoai-magsafe-qi2-co-dinh-hay-chinh-goc.jpg",
+    "source": "https://images.unsplash.com/photo-1760443728230-b84a87381f8f?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "sha256": "8b8e8fbcca0999926991eabc0bd7bf82f00d21d3f513c209d787f788e9618547",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "gia-do-laptop-co-giup-mat-hon-ngoi-do-moi": {
+    "post": "_posts/2026-08-20-gia-do-laptop-co-giup-mat-hon-ngoi-do-moi.md",
+    "image": "/assets/images/thumbs/gia-do-laptop-co-giup-mat-hon-ngoi-do-moi.jpg",
+    "source": "https://images.unsplash.com/photo-1700451761287-b8b21c406208?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "sha256": "ebefbd5fd62f87b2a6a1d08b66c957f0923cc7f419920b44f19f3cfa1fe54bd9",
+    "size": [
+      1200,
+      675
+    ]
+  },
   "keychron-q1-max-van-phong-danh-gia-theo-du-lieu": {
     "post": "_posts/2026-08-20-keychron-q1-max-van-phong-danh-gia-theo-du-lieu.md",
     "image": "/assets/images/thumbs/keychron-q1-max-van-phong-danh-gia-theo-du-lieu.jpg",
@@ -292,7 +362,7 @@
   "khi-nao-nang-ram-ssd-hay-doi-laptop": {
     "post": "_posts/2026-08-20-khi-nao-nang-ram-ssd-hay-doi-laptop.md",
     "image": "/assets/images/thumbs/khi-nao-nang-ram-ssd-hay-doi-laptop.jpg",
-    "source": "https://images.unsplash.com/photo-1721332149267-ef9b10eaacd9?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "source": "existing-local",
     "sha256": "5aeb7582d18d0350a72573666c520fed5bc6ed6ae0e611ac15db904d152a2b0e",
     "size": [
       1200,
@@ -312,7 +382,7 @@
   "laptop-14-vs-16-inch-chon-theo-di-dong-workflow": {
     "post": "_posts/2026-08-20-laptop-14-vs-16-inch-chon-theo-di-dong-workflow.md",
     "image": "/assets/images/thumbs/laptop-14-vs-16-inch-chon-theo-di-dong-workflow.jpg",
-    "source": "https://images.unsplash.com/photo-1704299059700-268345bcb6bd?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "source": "existing-local",
     "sha256": "a297d174ffcda9b9f1557a18faabb003ad04efdc9bbcad1159774323238c826f",
     "size": [
       1200,
@@ -422,7 +492,7 @@
   "man-hinh-roi-macbook-24-27-34-ultrawide": {
     "post": "_posts/2026-08-20-man-hinh-roi-macbook-24-27-34-ultrawide.md",
     "image": "/assets/images/thumbs/man-hinh-roi-macbook-24-27-34-ultrawide.jpg",
-    "source": "https://images.unsplash.com/photo-1770899621442-24237af4c8b4?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "source": "existing-local",
     "sha256": "210e9a96940be5bbae77bada34765fc73a0da8381a5d98273428361a61b6ac33",
     "size": [
       1200,
@@ -502,7 +572,7 @@
   "ram-han-vs-ram-nang-cap-laptop-danh-doi": {
     "post": "_posts/2026-08-20-ram-han-vs-ram-nang-cap-laptop-danh-doi.md",
     "image": "/assets/images/thumbs/ram-han-vs-ram-nang-cap-laptop-danh-doi.jpg",
-    "source": "https://images.unsplash.com/photo-1776768232475-f11bf93bf168?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "source": "existing-local",
     "sha256": "dbbb0de05787d46665e2ec2b68f8038e52c85e9f791ed82d3a3dfa0ea00ef584",
     "size": [
       1200,
@@ -512,8 +582,28 @@
   "road-trip-creator-toi-gian-hay-full-gear": {
     "post": "_posts/2026-08-20-road-trip-creator-toi-gian-hay-full-gear.md",
     "image": "/assets/images/thumbs/road-trip-creator-toi-gian-hay-full-gear.jpg",
-    "source": "https://images.unsplash.com/photo-1774018019864-9037e1b24b8c?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "source": "existing-local",
     "sha256": "2c3d5f56f4e57f7b01e1fe7825fcc36dfd85403fbf8b988346ce14295ffc6b5a",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "sac-gan-65w-vs-100w-cho-laptop-dien-thoai": {
+    "post": "_posts/2026-08-20-sac-gan-65w-vs-100w-cho-laptop-dien-thoai.md",
+    "image": "/assets/images/thumbs/sac-gan-65w-vs-100w-cho-laptop-dien-thoai.jpg",
+    "source": "https://images.unsplash.com/photo-1758578070291-0c22ff555df9?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "sha256": "ac3233338b3b78964ab5b9ccc8fa47131e78a861687715e617b7e683efd607cb",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "sac-nhanh-45w-80w-120w-nhanh-hon-co-luon-tot-hon": {
+    "post": "_posts/2026-08-20-sac-nhanh-45w-80w-120w-nhanh-hon-co-luon-tot-hon.md",
+    "image": "/assets/images/thumbs/sac-nhanh-45w-80w-120w-nhanh-hon-co-luon-tot-hon.jpg",
+    "source": "https://images.unsplash.com/photo-1741144837506-9986b01d8e27?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "sha256": "cc40d699e94b6ebaa67e3fdbadc77d931ec1e76a4ff1584575b0791d26c90b24",
     "size": [
       1200,
       675
@@ -522,7 +612,7 @@
   "setup-lam-viec-gon-dep-thuc-dung-7-nguyen-tac": {
     "post": "_posts/2026-08-20-setup-lam-viec-gon-dep-thuc-dung-7-nguyen-tac.md",
     "image": "/assets/images/thumbs/setup-lam-viec-gon-dep-thuc-dung-7-nguyen-tac.jpg",
-    "source": "https://images.unsplash.com/photo-1645377208970-1490c65ad7c6?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "source": "existing-local",
     "sha256": "46fe499240c5e943ed946b7a3e0afe026e23a5474ce553a8b707d54a379c8bf5",
     "size": [
       1200,
@@ -532,8 +622,28 @@
   "setup-man-hinh-ngoai-macbook-scaling-refresh-color": {
     "post": "_posts/2026-08-20-setup-man-hinh-ngoai-macbook-scaling-refresh-color.md",
     "image": "/assets/images/thumbs/setup-man-hinh-ngoai-macbook-scaling-refresh-color.jpg",
-    "source": "https://images.unsplash.com/photo-1497296805880-3b37686c87ea?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "source": "existing-local",
     "sha256": "bd3a949649ed41598123d283133c158742c695b25e29839a3cd860aa79d2932f",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "smartphone-8gb-vs-12gb-ram-khac-biet-thuc-te": {
+    "post": "_posts/2026-08-20-smartphone-8gb-vs-12gb-ram-khac-biet-thuc-te.md",
+    "image": "/assets/images/thumbs/smartphone-8gb-vs-12gb-ram-khac-biet-thuc-te.jpg",
+    "source": "https://images.unsplash.com/photo-1772683828849-9cc05e330b44?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "sha256": "9b13a935ac04508c2d06c884f36e407834bc8fb19d419d7e7cc3924c42895b7a",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "smartphone-nho-gon-2026-con-dang-mua-khong": {
+    "post": "_posts/2026-08-20-smartphone-nho-gon-2026-con-dang-mua-khong.md",
+    "image": "/assets/images/thumbs/smartphone-nho-gon-2026-con-dang-mua-khong.jpg",
+    "source": "https://images.unsplash.com/photo-1698266852138-c591a88ab8fa?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "sha256": "87795dfdebd71ca2fe276da0a289eebb81d7fa05b834b0b7c9fd7b347fa05156",
     "size": [
       1200,
       675
@@ -542,7 +652,7 @@
   "ssd-pcie-4-vs-pcie-5-toc-do-gap-doi-co-dang": {
     "post": "_posts/2026-08-20-ssd-pcie-4-vs-pcie-5-toc-do-gap-doi-co-dang.md",
     "image": "/assets/images/thumbs/ssd-pcie-4-vs-pcie-5-toc-do-gap-doi-co-dang.jpg",
-    "source": "https://images.unsplash.com/photo-1588259341607-1dbd302efa21?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "source": "existing-local",
     "sha256": "6ccbd414c22d1fa54d78cf70812735c8335bb712744286a6f33f4407b834ed4b",
     "size": [
       1200,
@@ -569,10 +679,20 @@
       675
     ]
   },
+  "usb-c-dien-thoai-cung-cong-khac-toc-do-xuat-hinh-sac": {
+    "post": "_posts/2026-08-20-usb-c-dien-thoai-cung-cong-khac-toc-do-xuat-hinh-sac.md",
+    "image": "/assets/images/thumbs/usb-c-dien-thoai-cung-cong-khac-toc-do-xuat-hinh-sac.jpg",
+    "source": "https://images.unsplash.com/photo-1595756630452-736bc8ef3693?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "sha256": "013eafbd482a3e90ae61b371c95ba4d161b613026211215136736d5997171529",
+    "size": [
+      1200,
+      675
+    ]
+  },
   "wifi-6e-vs-wifi-7-khi-nao-khac-biet-that": {
     "post": "_posts/2026-08-20-wifi-6e-vs-wifi-7-khi-nao-khac-biet-that.md",
     "image": "/assets/images/thumbs/wifi-6e-vs-wifi-7-khi-nao-khac-biet-that.jpg",
-    "source": "https://images.unsplash.com/photo-1750712263185-edde9f359e33?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "source": "existing-local",
     "sha256": "37400db6b32a33bb253b0b036732f9833b96cf0405c7efbf3b0333dd1bcee576",
     "size": [
       1200,

@@ -31,7 +31,7 @@ category: sac-pin
 category_label: "Sạc / Pin"
 brand: Multi-brand
 tags: [sạc nhanh 45W, sạc 80W, sạc 120W, USB PD, PPS, HyperCharge, pin điện thoại]
-image: "https://images.unsplash.com/photo-1741144837506-9986b01d8e27?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/sac-nhanh-45w-80w-120w-nhanh-hon-co-luon-tot-hon.jpg"
 image_alt: "Điện thoại đang cắm cáp sạc nhanh trên bàn"
 source_status: vendor-claim
 sources:

@@ -31,7 +31,7 @@ category: phu-kien-setup
 category_label: "Phụ kiện điện thoại"
 brand: Multi-brand
 tags: [MagSafe, Qi2, giá đỡ điện thoại, sạc không dây, phụ kiện điện thoại, phone stand]
-image: "https://images.unsplash.com/photo-1760443728230-b84a87381f8f?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/gia-do-dien-thoai-magsafe-qi2-co-dinh-hay-chinh-goc.jpg"
 image_alt: "Điện thoại đặt trên giá đỡ trong không gian làm việc hiện đại"
 source_status: confirmed
 sources:

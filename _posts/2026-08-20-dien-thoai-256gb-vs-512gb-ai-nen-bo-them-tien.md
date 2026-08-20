@@ -31,7 +31,7 @@ category: smartphone
 category_label: "Điện thoại / Bộ nhớ"
 brand: Multi-brand
 tags: [256GB, 512GB, bộ nhớ điện thoại, iPhone 17 Pro, Galaxy S26, dung lượng smartphone]
-image: "https://images.unsplash.com/photo-1760087959509-67b15d5cf1c7?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/dien-thoai-256gb-vs-512gb-ai-nen-bo-them-tien.jpg"
 image_alt: "Hai điện thoại đặt cạnh nhau minh họa lựa chọn dung lượng 256GB và 512GB"
 source_status: confirmed
 sources:

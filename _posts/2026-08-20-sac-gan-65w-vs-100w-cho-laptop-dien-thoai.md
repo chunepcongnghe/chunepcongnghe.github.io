@@ -31,7 +31,7 @@ category: phu-kien-setup
 category_label: "Sạc / Cáp / Hub"
 brand: Multi-brand
 tags: [sạc GaN, sạc 65W, sạc 100W, USB PD, USB-C, phụ kiện laptop, phụ kiện điện thoại]
-image: "https://images.unsplash.com/photo-1758578070291-0c22ff555df9?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/sac-gan-65w-vs-100w-cho-laptop-dien-thoai.jpg"
 image_alt: "Củ sạc và cáp USB-C trên bàn làm việc"
 source_status: confirmed
 sources:

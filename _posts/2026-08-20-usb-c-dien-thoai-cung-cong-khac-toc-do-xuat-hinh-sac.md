@@ -31,7 +31,7 @@ category: ket-noi
 category_label: "Kết nối / USB-C"
 brand: Multi-brand
 tags: [USB-C điện thoại, USB 3.2, DisplayPort Alt Mode, USB PD, truyền dữ liệu, xuất màn hình]
-image: "https://images.unsplash.com/photo-1595756630452-736bc8ef3693?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/usb-c-dien-thoai-cung-cong-khac-toc-do-xuat-hinh-sac.jpg"
 image_alt: "Cận cảnh đầu cáp USB-C minh họa sự khác nhau về tính năng dù cùng hình dạng"
 source_status: confirmed
 sources:

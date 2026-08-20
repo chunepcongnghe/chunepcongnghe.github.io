@@ -31,7 +31,7 @@ category: smartphone
 category_label: "Điện thoại"
 brand: Multi-brand
 tags: [8GB RAM, 12GB RAM, Android, RAM điện thoại, đa nhiệm smartphone, Galaxy A57]
-image: "https://images.unsplash.com/photo-1772683828849-9cc05e330b44?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/smartphone-8gb-vs-12gb-ram-khac-biet-thuc-te.jpg"
 image_alt: "Hai điện thoại Android đặt cạnh nhau để minh họa lựa chọn 8GB và 12GB RAM"
 source_status: confirmed
 sources:

@@ -31,7 +31,7 @@ category: smartphone
 category_label: "Điện thoại / Chọn mua"
 brand: Samsung
 tags: [flagship cũ, điện thoại tầm trung, Galaxy S25, Galaxy A57, chọn mua điện thoại, điện thoại 2026]
-image: "https://images.unsplash.com/photo-1772131549804-0cc8dab56991?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+image: "/assets/images/thumbs/flagship-doi-truoc-vs-tam-trung-moi-cung-tam-gia.jpg"
 image_alt: "Hai thế hệ điện thoại đặt cạnh nhau minh họa lựa chọn flagship đời trước và máy mới"
 source_status: confirmed
 sources:
