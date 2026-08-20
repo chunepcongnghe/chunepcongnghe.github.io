@@ -36,7 +36,7 @@ category: smartphone
 category_label: "Điện thoại"
 brand: Samsung
 tags: ["Galaxy Z Fold8 Ultra", "Galaxy Z Fold8", "Galaxy Z Flip8", "Samsung foldable 2026"]
-image: /assets/posts/galaxy-z-2026.svg
+image: "/assets/images/thumbs/galaxy-z-fold8-ultra-fold8-flip8-ra-mat.jpg"
 image_alt: "Galaxy Z Fold8 Ultra, Fold8 và Flip8 đặt cạnh nhau để so sánh ba kiểu điện thoại gập Samsung 2026"
 source_status: confirmed
 sources:

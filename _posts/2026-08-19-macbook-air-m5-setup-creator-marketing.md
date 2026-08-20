@@ -36,7 +36,7 @@ category: laptop
 category_label: "Laptop"
 brand: Apple
 tags: ["MacBook Air M5", "marketing workflow", "creator workflow", "setup MacBook", "backup"]
-image: /assets/posts/macbook-m5-creator.svg
+image: "/assets/images/thumbs/macbook-air-m5-setup-creator-marketing.jpg"
 image_alt: "MacBook Air M5 với workflow marketing creator gồm file system, cloud sync và timeline"
 source_status: confirmed
 sources:

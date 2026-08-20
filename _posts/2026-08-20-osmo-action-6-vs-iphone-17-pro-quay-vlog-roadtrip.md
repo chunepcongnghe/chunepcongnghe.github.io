@@ -31,7 +31,7 @@ category: camera
 category_label: "Camera / Creator Gear"
 brand: DJI / Apple
 tags: [Osmo Action 6, iPhone 17 Pro, action cam vs smartphone, quay vlog, road trip]
-image: "https://www.apple.com/newsroom/images/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/article/Apple-iPhone-17-Pro-camera-close-up-250909_big.jpg.large.jpg"
+image: "/assets/images/thumbs/osmo-action-6-vs-iphone-17-pro-quay-vlog-roadtrip.jpg"
 image_alt: "Cụm camera iPhone 17 Pro thực tế, một trong hai thiết bị được so sánh cho vlog và road trip"
 source_status: confirmed
 sources:

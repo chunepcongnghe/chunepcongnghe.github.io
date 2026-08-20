@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop"
 brand: Apple
 tags: [MacBook Air M5, MacBook Air 13, MacBook Air 15, laptop mỏng nhẹ]
-image: "https://macfinder.co.uk/wp-content/uploads/2026/03/img-MacBook-Air-13-inch-M5-2026-00326-scaled.jpg"
+image: "/assets/images/thumbs/macbook-air-m5-13-vs-15-trai-nghiem-khac-nhau-ra-sao.jpg"
 image_alt: "MacBook Air M5 trên nền sáng, minh họa so sánh bản 13 và 15 inch"
 source_status: confirmed
 sources:

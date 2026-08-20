@@ -48,7 +48,7 @@ category: laptop
 category_label: "Laptop / Kết nối"
 brand: Intel / USB-IF
 tags: [Thunderbolt 4 vs USB4, USB-C, dock laptop, Thunderbolt, USB4]
-image: "https://www.apple.com/newsroom/images/2026/03/apple-introduces-the-new-macbook-air-with-m5/article/Apple-MacBook-Air-hero-260303_big.jpg.large.jpg"
+image: "/assets/images/thumbs/thunderbolt-4-vs-usb4-khac-nhau-o-dau.jpg"
 image_alt: "MacBook Air với các cổng USB-C Thunderbolt, minh họa bài so sánh Thunderbolt 4 và USB4"
 source_status: confirmed
 sources:

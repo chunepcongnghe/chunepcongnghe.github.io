@@ -36,7 +36,7 @@ tags:
   - Apple N1
   - mạng không dây
   - laptop 2026
-image: "https://s.yimg.com/ny/api/res/1.2/oiOFMCzS4EZ6ucpQQ3ULcA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTg-/https%3A/media.zenfs.com/en/pc_mag_263/b02f90f2dd8eaca3838e77da502b307b"
+image: "/assets/images/thumbs/wifi-7-tren-macbook-air-m5-co-dang-quan-tam.jpg"
 image_alt: "MacBook Air M5 trong bối cảnh làm việc không dây, minh họa bài phân tích Wi‑Fi 7"
 source_status: confirmed
 sources:

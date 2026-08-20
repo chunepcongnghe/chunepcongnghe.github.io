@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop"
 brand: Multi-brand
 tags: [laptop sinh viên 2026, chọn laptop học tập, 16GB RAM, laptop văn phòng, laptop đại học]
-image: "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg"
+image: "/assets/images/thumbs/laptop-sinh-vien-2026-5-tieu-chi-quan-trong.jpg"
 image_alt: "Laptop mỏng nhẹ thực tế trên bàn làm việc, minh họa lựa chọn laptop cho sinh viên"
 source_status: confirmed
 sources:

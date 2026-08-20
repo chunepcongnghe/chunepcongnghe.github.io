@@ -31,7 +31,7 @@ category: camera-creator-gear
 category_label: "Camera / Creator Gear"
 brand: DJI
 tags: [Osmo Action 6, Action 5 Pro, action cam, khẩu độ, road trip]
-image: "https://www.gadgetmatch.com/wp-content/uploads/2025/11/gadgetmatch-20251122-dji-osmo-action-6-1.jpg"
+image: "/assets/images/thumbs/osmo-action-6-khau-do-f2-f4-co-y-nghia-gi.jpg"
 image_alt: "DJI Osmo Action 6 trong bối cảnh thực tế, minh họa phân tích khẩu độ f/2.0 đến f/4.0"
 source_status: confirmed
 sources:

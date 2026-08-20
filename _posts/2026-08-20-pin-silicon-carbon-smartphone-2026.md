@@ -31,7 +31,7 @@ category: smartphone
 category_label: "Điện thoại"
 brand: Multi-brand
 tags: [pin silicon carbon, smartphone 2026, pin 10000mAh, realme P4 Power, HONOR Magic V6, OPPO Find X9]
-image: "https://static2.realme.net/images/realme-p4-power-5g/17682967496997c38514e9cf3496f95c26cd4ed7df366.webp"
+image: "/assets/images/thumbs/pin-silicon-carbon-smartphone-2026.jpg"
 image_alt: "realme P4 Power 5G với pin 10001mAh, ví dụ smartphone dùng pin silicon-carbon dung lượng lớn"
 source_status: confirmed
 sources:

@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop / Setup"
 brand: Apple
 tags: [hub MacBook Air M5, dock MacBook, Thunderbolt 4 dock, USB-C hub, MacBook setup]
-image: "https://www.apple.com/newsroom/images/2026/03/apple-introduces-the-new-macbook-air-with-m5/article/Apple-MacBook-Air-hero-260303_big.jpg.large.jpg"
+image: "/assets/images/thumbs/chon-hub-dock-macbook-air-m5.jpg"
 image_alt: "MacBook Air M5 thực tế, minh họa việc chọn hub và dock cho setup"
 source_status: confirmed
 sources:

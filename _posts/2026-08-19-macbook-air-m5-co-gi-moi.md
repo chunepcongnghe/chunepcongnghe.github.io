@@ -36,7 +36,7 @@ category: laptop
 category_label: "Laptop"
 brand: Apple
 tags: ["MacBook Air M5", "MacBook Air M4", "Apple M5", "Wi-Fi 7", "laptop 2026"]
-image: /assets/posts/macbook-air-m5-moi.svg
+image: "/assets/images/thumbs/macbook-air-m5-co-gi-moi.jpg"
 image_alt: "MacBook Air M5 với các điểm mới 512GB, Wi‑Fi 7 và băng thông bộ nhớ 153GB/s"
 source_status: confirmed
 sources:

@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop"
 brand: ASUS
 tags: [OLED laptop, laptop 2026, 3K 120Hz, Zenbook 14 OLED, IPS vs OLED]
-image: "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg"
+image: "/assets/images/thumbs/laptop-oled-2026-3k-120hz-co-dang-tien.jpg"
 image_alt: "ASUS Zenbook 14 OLED thực tế với màn hình OLED, minh họa xu hướng laptop OLED độ phân giải cao"
 source_status: confirmed
 sources:

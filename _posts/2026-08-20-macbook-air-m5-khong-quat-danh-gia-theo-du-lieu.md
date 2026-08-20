@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop"
 brand: Apple
 tags: [MacBook Air M5, fanless, MacBook Air không quạt, M5, laptop 2026]
-image: "https://www.apple.com/newsroom/images/2026/03/apple-introduces-the-new-macbook-air-with-m5/article/Apple-MacBook-Air-hero-260303_big.jpg.large.jpg"
+image: "/assets/images/thumbs/macbook-air-m5-khong-quat-danh-gia-theo-du-lieu.jpg"
 image_alt: "MacBook Air M5 thực tế trong ảnh sản phẩm chính thức của Apple"
 source_status: confirmed
 sources:

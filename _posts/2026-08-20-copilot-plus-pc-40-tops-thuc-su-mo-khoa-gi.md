@@ -36,7 +36,7 @@ tags:
   - 40 TOPS
   - Windows AI
   - AI PC 2026
-image: "https://futureforwardit.in/images/uploaded/generated-image-3.jpg"
+image: "/assets/images/thumbs/copilot-plus-pc-40-tops-thuc-su-mo-khoa-gi.jpg"
 image_alt: "Laptop AI hiện đại trong không gian làm việc, minh họa Copilot+ PC và NPU"
 source_status: confirmed
 sources:

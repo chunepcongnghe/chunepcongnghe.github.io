@@ -36,7 +36,7 @@ category: smartphone
 category_label: "Điện thoại"
 brand: Samsung
 tags: ["Galaxy Z Flip8", "Galaxy Z Fold8", "Samsung", "FlexWindow", "điện thoại gập 2026"]
-image: /assets/posts/galaxy-z-flip8-review.svg
+image: "/assets/images/thumbs/galaxy-z-flip8-danh-gia-nhanh.jpg"
 image_alt: "Galaxy Z Flip8 dạng gập với FlexWindow 4,1 inch, trọng lượng 180g và thân máy mỏng 6,1mm"
 source_status: vendor-claim
 sources:

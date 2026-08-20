@@ -31,7 +31,7 @@ category: ai
 category_label: "AI & Công cụ AI"
 brand: Microsoft
 tags: [NPU, CPU, GPU, AI local, Copilot+ PC, TOPS]
-image: "https://futureforwardit.in/images/uploaded/generated-image-3.jpg"
+image: "/assets/images/thumbs/npu-vs-cpu-gpu-cho-ai-local.jpg"
 image_alt: "Laptop AI hiện đại, minh họa so sánh NPU, CPU và GPU cho tác vụ AI local"
 source_status: confirmed
 sources:

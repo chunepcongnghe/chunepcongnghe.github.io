@@ -35,7 +35,7 @@ category: camera-creator-gear
 category_label: "Camera / Creator Gear"
 brand: DJI
 tags: [Osmo Action 6, pin action cam, DJI, 240 phút, benchmark hãng]
-image: "https://camerajabber.com/wp-content/uploads/2025/11/DJI-Osmo-Action-6-09.jpg"
+image: "/assets/images/thumbs/osmo-action-6-pin-240-phut-hieu-dung-thong-so-hang.jpg"
 image_alt: "DJI Osmo Action 6 trong bối cảnh quay thực tế, minh họa phân tích thời lượng pin 240 phút"
 source_status: vendor-claim
 sources:

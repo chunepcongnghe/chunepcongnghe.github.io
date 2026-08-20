@@ -36,7 +36,7 @@ category: camera-creator-gear
 category_label: "Camera / Creator Gear"
 brand: DJI
 tags: ["Osmo Action 6", "road trip", "POV", "4K60", "HorizonSteady"]
-image: /assets/posts/action6-roadtrip.svg
+image: "/assets/images/thumbs/osmo-action-6-cai-dat-roadtrip.jpg"
 image_alt: "Osmo Action 6 trên cung đường road trip với checklist 4K, chống rung, Pre-Rec, pin và bộ nhớ"
 source_status: confirmed
 sources:

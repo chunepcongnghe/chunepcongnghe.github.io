@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop"
 brand: Apple
 tags: [MacBook Air M5, màn hình ngoài, Thunderbolt 4, USB4, dock MacBook]
-image: "https://miro.medium.com/0%2Akv7PnwnJj_OTRxAv"
+image: "/assets/images/thumbs/macbook-air-m5-dung-2-man-hinh-ngoai.jpg"
 image_alt: "MacBook trong góc setup làm việc với màn hình ngoài, minh họa kết nối hai màn hình cho MacBook Air M5"
 source_status: confirmed
 sources:

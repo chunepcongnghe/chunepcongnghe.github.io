@@ -36,7 +36,7 @@ category: camera-creator-gear
 category_label: "Camera / Creator Gear"
 brand: DJI
 tags: ["Osmo Action 6 vs Action 5 Pro", "Osmo Action 6", "Action 5 Pro", "DJI", "action cam"]
-image: /assets/posts/action6-vs-5pro.svg
+image: "/assets/images/thumbs/osmo-action-6-vs-action-5-pro.jpg"
 image_alt: "Osmo Action 6 và Action 5 Pro đối chiếu cảm biến, khẩu độ và bộ nhớ trong"
 source_status: vendor-claim
 sources:

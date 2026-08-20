@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop / AI PC"
 brand: Multi-brand
 tags: [32GB RAM, SSD 1TB, AI PC, FOMO cấu hình, laptop 2026, Copilot+ PC]
-image: "https://www.apple.com/newsroom/images/2026/03/apple-introduces-the-new-macbook-air-with-m5/article/Apple-MacBook-Air-hero-260303_big.jpg.large.jpg"
+image: "/assets/images/thumbs/fomo-cau-hinh-32gb-1tb-ai-pc-co-can-khong.jpg"
 image_alt: "MacBook Air M5 thực tế, minh họa câu chuyện chọn cấu hình RAM và SSD theo nhu cầu"
 source_status: confirmed
 sources:

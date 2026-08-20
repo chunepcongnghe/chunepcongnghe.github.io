@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop"
 brand: Apple
 tags: [MacBook Air M5, SSD 512GB, SSD 1TB, chọn cấu hình MacBook]
-image: "https://f00.esfr.pl/foto/8/187426399937/e128f996692f75d20b181bc8da3a1129/apple-macbook-air-2026-15-3-m5-16gb-ram-512gb-dysk-macos-srebrny-funkcje-ai%2C187426399937_5.webp"
+image: "/assets/images/thumbs/macbook-air-m5-512gb-hay-1tb.jpg"
 image_alt: "MacBook Air M5 trên nền sáng, minh họa tư vấn chọn SSD 512GB hay 1TB"
 source_status: confirmed
 sources:

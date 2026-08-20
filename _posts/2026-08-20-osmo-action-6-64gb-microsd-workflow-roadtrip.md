@@ -31,7 +31,7 @@ category: camera-creator-gear
 category_label: "Camera / Creator Gear"
 brand: DJI
 tags: [Osmo Action 6, microSD, road trip, action cam, backup video]
-image: "https://cdn.shopify.com/s/files/1/0108/1062/files/CS0124_CAR__QLA-ACA_-QLP-360-SB_-QLP-360-SPA__MG_0015.jpg?v=1723081972"
+image: "/assets/images/thumbs/osmo-action-6-64gb-microsd-workflow-roadtrip.jpg"
 image_alt: "Action camera trong bối cảnh road trip trên ô tô, minh họa workflow lưu trữ Osmo Action 6"
 source_status: confirmed
 sources:

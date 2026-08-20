@@ -31,7 +31,7 @@ category: opinion
 category_label: "Góc nhìn công nghệ"
 brand: Multi-brand
 tags: [flagship, value công nghệ, thiết bị đắt, chọn mua công nghệ, DeepTalk]
-image: "https://img.global.news.samsung.com/vn/wp-content/uploads/2026/07/28104855/image-18.png"
+image: "/assets/images/thumbs/thiet-bi-dat-hon-chua-chac-hop-hon.jpg"
 image_alt: "Điện thoại gập cao cấp Galaxy Z Fold8 Ultra thực tế, minh họa câu chuyện thiết bị đắt và giá trị sử dụng"
 source_status: confirmed
 sources:

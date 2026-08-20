@@ -35,7 +35,7 @@ category: smartphone
 category_label: "Điện thoại"
 brand: Samsung
 tags: [Galaxy Z Fold8, Galaxy Z Flip8, điện thoại gập, Samsung 2026]
-image: "https://static.digit.in/Samsung-Galaxy-Z-Fold-8-Fold-8-Ultra-Z-Flip-8-designs-1.png"
+image: "/assets/images/thumbs/galaxy-z-fold8-hay-z-flip8-chon-theo-nhu-cau.jpg"
 image_alt: "Điện thoại Samsung Galaxy Z Fold và Z Flip trong bối cảnh studio, minh họa bài tư vấn chọn máy gập"
 source_status: confirmed
 sources:

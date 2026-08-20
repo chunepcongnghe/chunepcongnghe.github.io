@@ -36,7 +36,7 @@ category: laptop
 category_label: "Laptop"
 brand: Apple
 tags: ["MacBook Air M5 vs M4", "MacBook Air M5", "MacBook Air M4", "Apple M5", "Apple M4"]
-image: /assets/posts/macbook-m5-vs-m4.svg
+image: "/assets/images/thumbs/macbook-air-m5-vs-m4.jpg"
 image_alt: "Hai MacBook Air M5 và M4 đặt cạnh nhau với băng thông 153GB/s vs 120GB/s và SSD 512GB vs 256GB"
 source_status: vendor-claim
 sources:

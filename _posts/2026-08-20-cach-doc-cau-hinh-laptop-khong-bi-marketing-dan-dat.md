@@ -31,7 +31,7 @@ category: laptop
 category_label: "Laptop"
 brand: Multi-brand
 tags: [đọc cấu hình laptop, thông số laptop, TGP, RAM soldered, USB-C, NPU TOPS]
-image: "https://www.apple.com/newsroom/images/2026/03/apple-introduces-the-new-macbook-air-with-m5/article/Apple-MacBook-Air-hero-260303_big.jpg.large.jpg"
+image: "/assets/images/thumbs/cach-doc-cau-hinh-laptop-khong-bi-marketing-dan-dat.jpg"
 image_alt: "Laptop thực tế trên bàn làm việc, minh họa bài hướng dẫn đọc cấu hình laptop"
 source_status: confirmed
 sources:

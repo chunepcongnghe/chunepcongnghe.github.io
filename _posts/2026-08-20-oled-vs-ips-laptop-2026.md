@@ -54,7 +54,7 @@ category: laptop
 category_label: "Laptop"
 brand: Multi-brand
 tags: [OLED vs IPS, màn hình laptop, OLED laptop 2026, IPS laptop, burn-in]
-image: "https://press.asus.com/assets/w_894%2Ch_597/c3a8d4a6-42fe-4495-9a65-a5607b483616/20231215110905242_s.jpg"
+image: "/assets/images/thumbs/oled-vs-ips-laptop-2026.jpg"
 image_alt: "Laptop ASUS Zenbook OLED thực tế, dùng làm ví dụ khi so sánh OLED và IPS"
 source_status: confirmed
 sources:

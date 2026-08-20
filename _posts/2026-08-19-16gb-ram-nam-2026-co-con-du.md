@@ -36,7 +36,7 @@ category: pc-linh-kien
 category_label: "PC & Linh kiện"
 brand: ""
 tags: ["16GB RAM", "24GB RAM", "32GB RAM", "RAM 2026", "AI local"]
-image: /assets/posts/ram-16gb-2026.svg
+image: "/assets/images/thumbs/16gb-ram-nam-2026-co-con-du.jpg"
 image_alt: "Hai thanh RAM 16GB và 32GB đối chiếu cho workload browser, creator và AI local năm 2026"
 source_status: confirmed
 sources:

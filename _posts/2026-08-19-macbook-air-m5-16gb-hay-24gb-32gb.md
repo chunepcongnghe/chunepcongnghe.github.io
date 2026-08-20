@@ -36,7 +36,7 @@ category: laptop
 category_label: "Laptop"
 brand: Apple
 tags: ["MacBook Air M5", "16GB RAM", "24GB RAM", "32GB RAM", "unified memory"]
-image: /assets/posts/macbook-m5-ram.svg
+image: "/assets/images/thumbs/macbook-air-m5-16gb-hay-24gb-32gb.jpg"
 image_alt: "So sánh 16GB, 24GB và 32GB unified memory trên MacBook Air M5 theo workload"
 source_status: confirmed
 sources:

@@ -31,7 +31,7 @@ category: smartphone
 category_label: "Điện thoại"
 brand: Samsung
 tags: [Galaxy Z Fold8 Ultra, review Fold8 Ultra, điện thoại gập 2026, Samsung Fold8 Ultra]
-image: "https://img.global.news.samsung.com/vn/wp-content/uploads/2026/07/28104855/image-18.png"
+image: "/assets/images/thumbs/galaxy-z-fold8-ultra-danh-gia-dua-tren-du-lieu.jpg"
 image_alt: "Galaxy Z Fold8 Ultra thực tế khi mở, ảnh Samsung Newsroom"
 source_status: confirmed
 sources:

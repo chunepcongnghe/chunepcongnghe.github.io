@@ -35,7 +35,7 @@ category: smartphone
 category_label: "Điện thoại"
 brand: Samsung
 tags: [Galaxy Z Fold8 Ultra, Galaxy Z Fold8, Samsung foldable, so sánh điện thoại]
-image: "https://media.ldlc.com/r1600/ld/products/00/06/36/15/LD0006361548.jpg"
+image: "/assets/images/thumbs/galaxy-z-fold8-ultra-vs-fold8.jpg"
 image_alt: "Samsung Galaxy Z Fold8 Ultra mở màn hình, minh họa bài so sánh với Galaxy Z Fold8"
 source_status: confirmed
 sources:

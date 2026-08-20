@@ -36,7 +36,7 @@ category: ai
 category_label: "AI & Công cụ AI"
 brand: ""
 tags: ["AI PC", "AI smartphone", "NPU", "AI local", "AI cloud", "Apple Intelligence", "Galaxy AI"]
-image: /assets/posts/ai-device-value.svg
+image: "/assets/images/thumbs/co-nen-mua-thiet-bi-vi-chu-ai.jpg"
 image_alt: "Chip AI trên laptop và điện thoại đối chiếu với câu hỏi ứng dụng có hỗ trợ và workflow tiết kiệm được gì"
 source_status: vendor-claim
 sources:

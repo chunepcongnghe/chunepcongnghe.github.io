@@ -31,7 +31,7 @@ category: smartphone
 category_label: "Điện thoại"
 brand: Samsung
 tags: [điện thoại gập, Galaxy Z Fold8, Galaxy Z Flip8, foldable 2026, DeepTalk]
-image: "https://media.ldlc.com/r1600/ld/products/00/06/36/15/LD0006361548.jpg"
+image: "/assets/images/thumbs/dien-thoai-gap-2026-da-du-lam-may-chinh-chua.jpg"
 image_alt: "Điện thoại gập Samsung Galaxy Z mở trên nền studio, minh họa góc nhìn về điện thoại gập làm máy chính"
 source_status: confirmed
 sources:
