@@ -5,114 +5,117 @@ description: Chú Nếp Công Nghệ — tin mới, trải nghiệm, chọn mua,
 ---
 {% assign home = site.data.home %}
 {% assign all_posts = site.posts | where_exp: "post", "post.published != false" %}
-{% assign featured_posts = all_posts | where: "featured", true %}
-{% assign lead = featured_posts.first %}
-{% if lead == nil %}{% assign lead = all_posts.first %}{% endif %}
-<div class="container layout">
-  <aside class="rail" aria-label="Chuyên mục">
-    <div class="rail-card">
-      <div class="rail-title">CHÚ NẾP CÔNG NGHỆ</div>
-      <a class="active" href="/"><span class="rail-icon">⌂</span>Trang chủ</a>
-      <a href="/tin-moi/"><span class="rail-icon">📰</span>Tin mới</a>
-      <a href="/tren-tay-danh-gia/"><span class="rail-icon">🧪</span>Trên tay & Đánh giá</a>
-      <a href="/tu-van-chon-mua/"><span class="rail-icon">🛒</span>Góc Chọn & Mua</a>
-      <a href="/so-sanh-hieu-suat/"><span class="rail-icon">⚡</span>So sánh hiệu suất</a>
-      <a href="/thu-thuat/"><span class="rail-icon">🧰</span>Thủ thuật</a>
-      <a href="/deeptalk/"><span class="rail-icon">💬</span>DeepTalk</a>
-      <a href="#video"><span class="rail-icon">▶</span>Video <small>soon</small></a>
+{% assign lead = all_posts.first %}
+{% assign review_posts = all_posts | where: "section", "tren-tay-danh-gia" %}
+{% assign buying_posts = all_posts | where: "section", "tu-van-chon-mua" %}
+{% assign compare_posts = all_posts | where: "section", "so-sanh-hieu-suat" %}
+{% assign tips_posts = all_posts | where: "section", "thu-thuat" %}
+{% assign deep_posts = all_posts | where: "section", "deeptalk" %}
+
+<div class="container home-wrap">
+  <section class="hot-row home-topics" aria-label="Chủ đề nổi bật">
+    <div class="hot-head"><strong>Chủ đề đang được quan tâm</strong><span class="meta">Theo dõi nhanh</span></div>
+    <div class="hot-scroll">
+      {% for topic in home.featured_topics %}<a class="hot-chip" href="/tin-moi/">{{ topic }}</a>{% endfor %}
     </div>
-  </aside>
-  <main class="main-column">
-    <section class="hot-row">
-      <div class="hot-head"><strong>Chủ đề hot</strong><span class="meta">Theo dõi nhanh</span></div>
-      <div class="hot-scroll">
-        {% for topic in home.featured_topics %}<a class="hot-chip" href="/tin-moi/">#{{ topic }}</a>{% endfor %}
-      </div>
-    </section>
+  </section>
 
-    <section class="hero-intro">
-      <div class="hero-copy">
-        <div class="eyebrow">{{ home.hero_eyebrow }}</div>
-        <h1>{{ home.hero_title }}</h1>
-        <p>{{ home.hero_description }}</p>
-      </div>
-      <img class="hero-avatar" src="/assets/chunep-canonical.webp?v=20260820-sharp" alt="Chú Nếp — Chú Nếp Công Nghệ" width="150" height="150" decoding="async" fetchpriority="high">
-    </section>
-
-    <section class="section-block">
-      <div class="section-head"><div><h2>Nổi bật nhất</h2></div><a class="section-link" href="/tin-moi/">Xem tin mới →</a></div>
+  <div class="home-layout">
+    <main class="home-main">
       {% if lead %}
-      <div class="featured-grid">
-        <article class="feature-main" data-search-item data-search="{{ lead.title | escape }} {{ lead.tags | join: ' ' | escape }}">
-          <a href="{{ lead.url }}"><img src="{{ lead.image | default: '/assets/chunep-canonical.webp' }}" alt="{{ lead.image_alt | default: lead.title | escape }}"><div class="overlay"><span class="tag">{{ lead.category_label | default: lead.section_label | default: 'Nổi bật' }}</span><h3>{{ lead.title }}</h3><p>{{ lead.description }}</p></div></a>
+      <section class="editorial-hero" aria-label="Tin nổi bật mới nhất">
+        <article class="lead-story" data-search-item>
+          <a href="{{ lead.url }}">
+            <img src="{{ lead.image | default: '/assets/chunep-canonical.webp' }}" alt="{{ lead.image_alt | default: lead.title | escape }}" width="900" height="560" fetchpriority="high">
+            <div class="lead-overlay">
+              <div class="story-flags"><span class="tag tag-hot">Mới nhất</span><span class="source-flag source-{{ lead.source_status }}">{{ lead.category_label | default: lead.category }}</span></div>
+              <h1>{{ lead.title }}</h1>
+              <p>{{ lead.description }}</p>
+              <div class="story-meta"><time>{{ lead.date | date: '%H:%M · %d/%m/%Y' }}</time><span>{{ lead.read_time | default: 7 }} phút đọc</span></div>
+            </div>
+          </a>
         </article>
-        <div class="side-stories">
+        <div class="hero-stack">
           {% for post in all_posts offset:1 limit:3 %}
-          <article class="mini-story" data-search-item data-search="{{ post.title | escape }} {{ post.tags | join: ' ' | escape }}"><a href="{{ post.url }}"><img src="{{ post.image | default: '/assets/chunep-canonical.webp' }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a><div class="mini-content"><div class="meta">{{ post.category_label | default: post.section_label }} · {{ post.date | date: '%d/%m' }}</div><a href="{{ post.url }}"><h3>{{ post.title }}</h3></a><span class="meta">{{ post.read_time | default: 6 }} phút</span></div></article>
+          <article class="hero-side-story" data-search-item>
+            <a href="{{ post.url }}"><img src="{{ post.image | default: '/assets/chunep-canonical.webp' }}" alt="{{ post.image_alt | default: post.title | escape }}" width="360" height="220" loading="lazy"><div><span class="meta">{{ post.category_label | default: post.category }} · {{ post.date | date: '%H:%M' }}</span><h2>{{ post.title }}</h2><span class="read-link">Đọc bài →</span></div></a>
+          </article>
           {% endfor %}
         </div>
-      </div>
-      {% else %}
-      <div class="featured-grid">
-        <div class="feature-main"><div class="overlay"><span class="tag">NẾP TECH 2.0</span><h3>Trang tin đã sẵn sàng cho luồng bài từ CMS</h3><p>Bài mới sẽ tự vào Nổi bật, Xem nhanh và đúng chuyên mục theo dữ liệu CMS — không cần hard-code lại trang chủ.</p></div><img data-chunep alt="Chú Nếp Công Nghệ"></div>
-        <div class="side-stories">
-          <div class="placeholder-card"><span class="emoji">🧪</span><h3>Trên tay & Đánh giá</h3><p>Trải nghiệm sản phẩm, nêu rõ điều kiện dùng và điểm chưa tốt.</p></div>
-          <div class="placeholder-card"><span class="emoji">🛒</span><h3>Góc Chọn & Mua</h3><p>Tư vấn theo ngân sách, nhu cầu và trade-off thay vì chỉ nhìn cấu hình.</p></div>
-          <div class="placeholder-card"><span class="emoji">⚡</span><h3>So sánh hiệu suất</h3><p>Chỉ hiển thị số khi có nguồn hoặc điều kiện benchmark rõ ràng.</p></div>
-        </div>
-      </div>
+      </section>
       {% endif %}
-    </section>
 
-    <section class="section-block">
-      <div class="section-head"><div><h2>Xem nhanh</h2></div><p>Dòng tin ngắn để nắm diễn biến trước khi quyết định đọc sâu.</p></div>
-      {% if all_posts.size > 0 %}
-      <div class="quick-feed">{% for post in all_posts limit:6 %}<a class="quick-item" href="{{ post.url }}" data-search-item><span class="quick-dot"></span><div><b>{{ post.title }}</b><span>{{ post.date | date: '%d/%m/%Y %H:%M' }} · {{ post.category_label | default: post.category }}</span></div></a>{% endfor %}</div>
-      {% else %}
-      <div class="quick-feed"><div class="quick-item"><span class="quick-dot"></span><div><b>Tin mới từ CMS sẽ tự chạy vào đây.</b><span>Không tạo tin giả để lấp giao diện.</span></div></div><div class="quick-item"><span class="quick-dot"></span><div><b>Claim của hãng và leak có nhãn riêng.</b><span>Người đọc biết dữ liệu đang ở mức độ tin cậy nào.</span></div></div></div>
-      {% endif %}
-    </section>
-
-    {% assign review_posts = all_posts | where: 'section', 'tren-tay-danh-gia' %}
-    <section class="section-block">
-      <div class="section-head"><div><h2>Trên tay & Đánh giá</h2></div><a class="section-link" href="/tren-tay-danh-gia/">Xem tất cả →</a></div>
-      {% if review_posts.size > 0 %}<div class="story-grid">{% for post in review_posts limit:3 %}<article class="story-card" data-search-item data-category="{{ post.category }}"><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"><div class="story-body"><span class="tag">{{ post.category_label }}</span><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div></a></article>{% endfor %}</div>{% else %}<div class="placeholder-grid"><a class="placeholder-card" href="/tren-tay-danh-gia/"><span class="emoji">📱</span><h3>Điện thoại</h3><p>Cảm giác cầm, màn hình, camera, pin và trải nghiệm hằng ngày.</p></a><a class="placeholder-card" href="/tren-tay-danh-gia/"><span class="emoji">💻</span><h3>Laptop</h3><p>Hiệu năng trong khung máy thật, nhiệt độ, pin, cổng và workflow.</p></a><a class="placeholder-card" href="/tren-tay-danh-gia/"><span class="emoji">🎥</span><h3>Creator Gear</h3><p>Camera, action cam, mic, gimbal và thiết bị phục vụ quay dựng.</p></a></div>{% endif %}
-    </section>
-
-    {% assign buying_posts = all_posts | where: 'section', 'tu-van-chon-mua' %}
-    <section class="section-block">
-      <div class="section-head"><div><h2>Góc Chọn & Mua</h2></div><a class="section-link" href="/tu-van-chon-mua/">Xem tư vấn →</a></div>
-      <div class="content-split">
-        <div class="list-stack">
-          {% if buying_posts.size > 0 %}{% for post in buying_posts limit:4 %}<article class="list-row" data-search-item><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a><div><div class="meta">{{ post.category_label }} · {{ post.date | date: '%d/%m/%Y' }}</div><a href="{{ post.url }}"><h3>{{ post.title }}</h3></a><p>{{ post.description }}</p></div></article>{% endfor %}{% else %}<div class="empty-state"><b>Không xếp hạng kiểu “mạnh nhất = tốt nhất”.</b>Tuyến Chọn & Mua sẽ ưu tiên ngân sách, nhu cầu, độ bền sử dụng và những đánh đổi người mua thực sự phải chấp nhận.</div>{% endif %}
+      <section class="section-block quick-section">
+        <div class="section-head"><div><span class="section-kicker">NHỊP CÔNG NGHỆ</span><h2>Xem nhanh</h2></div><p>Nắm ý chính trước, chọn bài cần đọc sâu sau.</p></div>
+        <div class="quick-feed quick-feed-editorial">
+          {% for post in all_posts offset:4 limit:6 %}
+          <a class="quick-item" href="{{ post.url }}" data-search-item><span class="quick-time">{{ post.date | date: '%H:%M' }}</span><div><b>{{ post.title }}</b><span>{{ post.category_label | default: post.category }} · {{ post.read_time | default: 7 }} phút</span></div></a>
+          {% endfor %}
         </div>
-        <aside class="sidebar-stack">
-          <div class="side-panel"><h3>Chọn theo nhu cầu</h3><div class="need-grid"><a class="need-link" href="/tu-van-chon-mua/">Học & Văn phòng</a><a class="need-link" href="/tu-van-chon-mua/">Creator</a><a class="need-link" href="/tu-van-chon-mua/">Gaming</a><a class="need-link" href="/tu-van-chon-mua/">AI local</a><a class="need-link" href="/tu-van-chon-mua/">Du lịch</a><a class="need-link" href="/tu-van-chon-mua/">Setup</a></div></div>
-          <div class="side-panel trust-panel"><h3>Nguyên tắc nguồn</h3><p>Đọc được “nguồn nào nói gì” quan trọng hơn nhìn một con số đẹp.</p><div class="trust-list"><span>✅ Fact đã xác nhận</span><span>🏷 Claim / benchmark của hãng</span><span>⚠ Leak / tin chưa xác nhận</span></div></div>
-        </aside>
-      </div>
-    </section>
+      </section>
 
-    {% assign compare_posts = all_posts | where: 'section', 'so-sanh-hieu-suat' %}
-    <section class="section-block">
-      <div class="section-head"><div><h2>So sánh hiệu suất</h2></div><a class="section-link" href="/so-sanh-hieu-suat/">Vào trung tâm so sánh →</a></div>
-      <div class="compare-banner"><div><h3>Laptop vs laptop, điện thoại vs điện thoại — so cả cấu hình lẫn công năng</h3><p>Benchmark, pin, nhiệt, màn hình, camera, kết nối và workflow được đặt trong đúng điều kiện test. Dữ liệu thiếu sẽ để trống, không đoán.</p></div><a class="btn btn-primary" href="/so-sanh-hieu-suat/">So sánh sản phẩm</a></div>
-      {% if compare_posts.size > 0 %}<div class="compare-grid">{% for post in compare_posts limit:4 %}<a class="compare-card" href="{{ post.url }}" data-search-item><span class="tag">{{ post.category_label }}</span><h3>{{ post.title }}</h3>{% if post.comparison %}<div class="compare-pair"><span class="product-pill">{{ post.comparison.product_a }}</span><span class="vs">VS</span><span class="product-pill">{{ post.comparison.product_b }}</span></div>{% endif %}<div class="data-note">Nguồn: {{ post.sources.size | default: 0 }} · {{ post.source_status }}</div></a>{% endfor %}</div>{% else %}<div class="compare-grid"><div class="compare-card"><span class="tag">LAPTOP</span><h3>Mẫu bảng so sánh đã sẵn sàng</h3><div class="compare-pair"><span class="product-pill">Sản phẩm A</span><span class="vs">VS</span><span class="product-pill">Sản phẩm B</span></div><div class="data-note">Chưa có dữ liệu thật nên chưa hiển thị benchmark.</div></div><div class="compare-card"><span class="tag">SMARTPHONE</span><h3>Không bịa con số để làm giao diện “đầy”</h3><div class="compare-pair"><span class="product-pill">Thông số</span><span class="vs">+</span><span class="product-pill">Công năng</span></div><div class="data-note">Khi có bài CMS, bảng sẽ lấy trực tiếp các metric có nguồn.</div></div></div>{% endif %}
-    </section>
+      <section class="section-block verdict-section">
+        <div class="section-head"><div><span class="section-kicker">DẤU ẤN RIÊNG</span><h2>Chú Nếp chốt nhanh</h2></div><a class="section-link" href="/tu-van-chon-mua/">Xem toàn bộ góc chọn mua →</a></div>
+        <div class="verdict-grid">
+          {% for post in buying_posts limit:3 %}
+          <article class="verdict-card" data-search-item>
+            <div class="verdict-top"><img src="/assets/chunep-canonical.webp?v=20260820-sharp" alt="" width="42" height="42"><div><span>CHÚ NẾP CHỐT</span><small>{{ post.category_label | default: post.category }}</small></div></div>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.answer_summary | default: post.description }}</p>
+            <a class="verdict-link" href="{{ post.url }}">Xem ai nên mua, ai không nên →</a>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
 
-    {% assign tips_posts = all_posts | where: 'section', 'thu-thuat' %}
-    {% assign deep_posts = all_posts | where: 'section', 'deeptalk' %}
-    <section class="section-block">
-      <div class="section-head"><div><h2>Thủ thuật & DeepTalk</h2></div><a class="section-link" href="/deeptalk/">Góc bàn luận →</a></div>
-      <div class="story-grid">
-        {% if tips_posts.size > 0 %}{% for post in tips_posts limit:2 %}<article class="story-card" data-search-item><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"><div class="story-body"><span class="tag">Thủ thuật</span><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div></a></article>{% endfor %}{% endif %}
-        {% if deep_posts.size > 0 %}{% for post in deep_posts limit:1 %}<article class="story-card" data-search-item><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"><div class="story-body"><span class="tag">DeepTalk</span><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div></a></article>{% endfor %}{% endif %}
-        {% if tips_posts.size == 0 and deep_posts.size == 0 %}<a class="placeholder-card" href="/thu-thuat/"><span class="emoji">🧰</span><h3>Thủ thuật thực dụng</h3><p>Cài đặt, tối ưu, xử lý lỗi và workflow có thể làm ngay.</p></a><a class="placeholder-card" href="/deeptalk/"><span class="emoji">💬</span><h3>DeepTalk cùng Chú Nếp</h3><p>Phân tích xu hướng, tranh luận công nghệ và câu hỏi “có thật sự cần nâng cấp?”.</p></a><a class="placeholder-card" href="/tin-moi/"><span class="emoji">🧠</span><h3>AI & công cụ mới</h3><p>Tin nhanh nhưng tách rõ demo, claim và khả năng dùng thật.</p></a>{% endif %}
-      </div>
-    </section>
+      <section class="section-block budget-section">
+        <div class="section-head"><div><span class="section-kicker">CHỌN THEO NGÂN SÁCH</span><h2>Đừng bắt đầu bằng tên máy</h2></div><p>Hãy bắt đầu từ nhu cầu, điểm nghẽn và số tiền thực sự tạo giá trị.</p></div>
+        <div class="budget-grid">
+          <a class="budget-card" href="/bai-viet/laptop-sinh-vien-2026-5-tieu-chi-quan-trong/"><span class="budget-range">DƯỚI 15 TRIỆU</span><h3>Học tập & công việc cơ bản</h3><ul><li>Ưu tiên màn hình và bàn phím</li><li>Pin đủ một buổi làm việc</li><li>Không trả tiền cho cấu hình dư</li></ul><b>Xem 5 tiêu chí chọn →</b></a>
+          <a class="budget-card budget-featured" href="/bai-viet/laptop-van-phong-uu-tien-pin-man-hinh-ban-phim/"><span class="budget-range">15–25 TRIỆU</span><h3>Văn phòng & marketing đa nhiệm</h3><ul><li>RAM đủ cho browser nặng</li><li>Màn hình dùng lâu không mỏi</li><li>Cổng kết nối đúng workflow</li></ul><b>Xem hướng dẫn thực dụng →</b></a>
+          <a class="budget-card" href="/bai-viet/laptop-creator-khi-nao-can-32gb-ram/"><span class="budget-range">TRÊN 25 TRIỆU</span><h3>Creator & workload chuyên sâu</h3><ul><li>Đo peak workload trước khi nâng</li><li>Cân bằng RAM, SSD và GPU</li><li>Tính thời gian giữ máy</li></ul><b>Xem khi nào cần 32GB →</b></a>
+        </div>
+        <p class="budget-note">Giá bán thay đổi theo thời điểm. Chú Nếp ưu tiên tiêu chí lựa chọn và tổng chi phí sử dụng, không cố định một sản phẩm chỉ vì đang giảm giá.</p>
+      </section>
 
-    <section class="section-block" id="video">
-      <div class="video-tease"><div><strong>▶ Video Chú Nếp</strong><p>Khung YouTube review / trải nghiệm đã chừa sẵn trong kiến trúc. Sẽ tích hợp khi kênh video được đưa vào vận hành.</p></div><span class="tag">GIAI ĐOẠN SAU</span></div>
-    </section>
-  </main>
+      <section class="section-block">
+        <div class="section-head"><div><span class="section-kicker">TRẢI NGHIỆM & DỮ LIỆU</span><h2>Trên tay & Đánh giá</h2></div><a class="section-link" href="/tren-tay-danh-gia/">Xem tất cả →</a></div>
+        <div class="story-grid">
+          {% for post in review_posts limit:3 %}
+          <article class="story-card" data-search-item><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"><div class="story-body"><div class="card-meta-row"><span class="tag">{{ post.category_label }}</span><span>{{ post.read_time | default: 7 }} phút</span></div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div></a></article>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="section-block compare-hub">
+        <div class="section-head"><div><span class="section-kicker">ĐẶT LÊN BÀN CÂN</span><h2>So sánh để chọn đúng</h2></div><a class="section-link" href="/so-sanh-hieu-suat/">Vào trung tâm so sánh →</a></div>
+        <div class="compare-intro"><div><strong>Không có sản phẩm tốt nhất cho tất cả.</strong><p>Chỉ có lựa chọn phù hợp hơn trong đúng ngân sách, nhu cầu và điều kiện sử dụng.</p></div><a class="btn btn-light" href="/chinh-sach-bien-tap/">Cách Chú Nếp kiểm chứng</a></div>
+        <div class="compare-grid">
+          {% for post in compare_posts limit:4 %}
+          <a class="compare-card" href="{{ post.url }}" data-search-item><span class="tag">{{ post.category_label }}</span><h3>{{ post.title }}</h3>{% if post.quick_compare %}<div class="compare-summary"><span>{{ post.compare_subject }}</span><b>VS</b><span>{{ post.compare_reference }}</span></div>{% endif %}<div class="data-note">{{ post.sources.size | default: 0 }} nguồn đối chiếu · {{ post.read_time | default: 8 }} phút</div></a>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="section-head"><div><span class="section-kicker">DÙNG TỐT HƠN</span><h2>Thủ thuật & DeepTalk</h2></div><a class="section-link" href="/deeptalk/">Góc bàn luận →</a></div>
+        <div class="story-grid">
+          {% for post in tips_posts limit:2 %}
+          <article class="story-card" data-search-item><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"><div class="story-body"><span class="tag">Thủ thuật</span><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div></a></article>
+          {% endfor %}
+          {% for post in deep_posts limit:1 %}
+          <article class="story-card story-deep" data-search-item><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"><div class="story-body"><span class="tag">DeepTalk</span><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div></a></article>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="video-editorial" id="video">
+        <div class="video-icon">▶</div>
+        <div><span class="section-kicker">VIDEO CHÚ NẾP</span><h2>Từ bài viết thành trải nghiệm dễ xem</h2><p>Review, hướng dẫn setup và so sánh thực tế sẽ được tích hợp tại đây. Trang video đã sẵn sàng nhận nội dung từ CMS khi kênh bắt đầu vận hành.</p></div>
+        <a class="btn btn-primary" href="/video/">Xem khu vực video →</a>
+      </section>
+    </main>
+
+    {% include editorial-sidebar.html %}
+  </div>
 </div>

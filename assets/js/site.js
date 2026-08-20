@@ -1,40 +1,102 @@
 (()=> {
-  const q=(s,c=document)=>c.querySelector(s), qa=(s,c=document)=>[...c.querySelectorAll(s)];
-  const menu=q('[data-menu]'), mobile=q('[data-mobile-nav]');
-  if(menu&&mobile) menu.addEventListener('click',()=>{const open=mobile.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));});
-  const search=q('[data-site-search]');
-  if(search) search.addEventListener('input',e=>{const term=e.target.value.trim().toLowerCase();qa('[data-search-item]').forEach(el=>{const hay=(el.dataset.search||el.innerText).toLowerCase();el.classList.toggle('search-hidden',term&&!hay.includes(term));});});
-  qa('[data-filter]').forEach(btn=>btn.addEventListener('click',()=>{const value=btn.dataset.filter;qa('[data-filter]').forEach(b=>b.classList.toggle('active',b===btn));qa('[data-category]').forEach(card=>card.classList.toggle('search-hidden',value!=='all'&&card.dataset.category!==value));}));
-  const back=q('[data-backtop]');if(back){const sync=()=>back.classList.toggle('show',scrollY>600);addEventListener('scroll',sync,{passive:true});sync();back.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));}
-  const content=q('.article-content'), toc=q('[data-toc]');if(content&&toc){const hs=qa('h2,h3',content);if(hs.length){hs.forEach((h,i)=>{if(!h.id)h.id='muc-'+(i+1);const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;a.style.paddingLeft=h.tagName==='H3'?'12px':'0';toc.appendChild(a);});}else toc.closest('.toc')?.remove();}
+  const q=(selector,context=document)=>context.querySelector(selector);
+  const qa=(selector,context=document)=>[...context.querySelectorAll(selector)];
+  const normalize=value=>(value||'').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 
-  // Editorial thumbnail art direction approved on 19/08/2026:
-  // real/product photography, cinematic depth, no flat vector mockups.
-  const editorialThumbs={
-    'galaxy-z-2026.svg':'https://etf-rebalancing.com/images/phone-preorder/galaxy-z-fold8-flip8-hero.webp',
-    'galaxy-z-flip8-review.svg':'https://img.tamindir.com/resize/1200x675/2025/12/470608/samsung-galaxy-z-flip-8-islemcisi-sizinti-1.jpg',
-    'macbook-air-m5-moi.svg':'https://s.yimg.com/ny/api/res/1.2/oiOFMCzS4EZ6ucpQQ3ULcA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTg-/https%3A/media.zenfs.com/en/pc_mag_263/b02f90f2dd8eaca3838e77da502b307b',
-    'macbook-m5-vs-m4.svg':'https://s.yimg.com/ny/api/res/1.2/oiOFMCzS4EZ6ucpQQ3ULcA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTg-/https%3A/media.zenfs.com/en/pc_mag_263/b02f90f2dd8eaca3838e77da502b307b',
-    'macbook-m5-ram.svg':'https://img.evetech.co.za/repository/ez/How-Much-RAM-Do-You-Really-Need-for-Gaming-in-2025-banner.webp?width=1200',
-    'ram-16gb-2026.svg':'https://img.evetech.co.za/repository/ez/How-Much-RAM-Do-You-Really-Need-for-Gaming-in-2025-banner.webp?width=1200',
-    'macbook-m5-creator.svg':'https://miro.medium.com/0%2Akv7PnwnJj_OTRxAv',
-    'ai-device-value.svg':'https://futureforwardit.in/images/uploaded/generated-image-3.jpg',
-    'action6-review.svg':'https://www.gadgetmatch.com/wp-content/uploads/2025/11/gadgetmatch-20251122-dji-osmo-action-6-1.jpg',
-    'action6-roadtrip.svg':'https://cdn.shopify.com/s/files/1/0108/1062/files/CS0124_CAR__QLA-ACA_-QLP-360-SB_-QLP-360-SPA__MG_0015.jpg?v=1723081972',
-    'action6-or-5pro.svg':'https://camerajabber.com/wp-content/uploads/2025/11/DJI-Osmo-Action-6-09.jpg',
-    'action6-vs-5pro.svg':'https://cdn.mos.cms.futurecdn.net/QuzDN6VcKi5eX9WDT46dpU.jpg'
-  };
-  qa('img').forEach(img=>{
-    const raw=img.getAttribute('src')||'';
-    const key=raw.split('?')[0].split('/').pop();
-    const replacement=editorialThumbs[key];
-    if(!replacement) return;
-    const original=raw;
-    img.referrerPolicy='no-referrer';
-    img.decoding='async';
-    img.addEventListener('error',()=>{if(img.src!==original) img.src=original;},{once:true});
-    img.src=replacement;
+  const menu=q('[data-menu]');
+  const mobile=q('[data-mobile-nav]');
+  if(menu&&mobile){
+    menu.addEventListener('click',()=>{
+      const open=mobile.classList.toggle('open');
+      menu.setAttribute('aria-expanded',String(open));
+    });
+    qa('a',mobile).forEach(link=>link.addEventListener('click',()=>{
+      mobile.classList.remove('open');
+      menu.setAttribute('aria-expanded','false');
+    }));
+  }
+
+  const currentPath=location.pathname.replace(/\/$/,'')||'/';
+  qa('.main-nav a,.mobile-nav>a,.section-shortcuts a').forEach(link=>{
+    const linkPath=new URL(link.href,location.origin).pathname.replace(/\/$/,'')||'/';
+    if(linkPath===currentPath) link.setAttribute('aria-current','page');
   });
+
+  let searchData=[];
+  const searchSource=q('#site-search-data');
+  if(searchSource){
+    try{searchData=JSON.parse(searchSource.textContent||'[]');}catch(error){searchData=[];}
+  }
+  const closeSearchResults=()=>qa('[data-search-results]').forEach(box=>{box.hidden=true;box.innerHTML='';});
+  qa('[data-site-search]').forEach(input=>{
+    const wrapper=input.closest('.search-box,.mobile-search');
+    const results=wrapper?q('[data-search-results]',wrapper):null;
+    if(!results)return;
+    input.addEventListener('input',()=>{
+      const raw=input.value.trim();
+      const term=normalize(raw);
+      if(term.length<2){results.hidden=true;results.innerHTML='';return;}
+      const matches=searchData.filter(item=>normalize([item.title,item.description,item.category].join(' ')).includes(term)).slice(0,7);
+      results.innerHTML='';
+      const heading=document.createElement('div');
+      heading.className='search-result-heading';
+      heading.textContent=matches.length?(matches.length+' kết quả phù hợp'):'Chưa tìm thấy bài phù hợp';
+      results.appendChild(heading);
+      matches.forEach(item=>{
+        const link=document.createElement('a');
+        link.href=item.url;
+        const meta=document.createElement('span');
+        meta.textContent=(item.category||'Công nghệ')+' · '+(item.date||'');
+        const title=document.createElement('b');
+        title.textContent=item.title;
+        link.append(meta,title);
+        results.appendChild(link);
+      });
+      results.hidden=false;
+    });
+    input.addEventListener('keydown',event=>{if(event.key==='Escape'){input.value='';closeSearchResults();input.blur();}});
+  });
+  document.addEventListener('click',event=>{if(!event.target.closest('.search-box,.mobile-search'))closeSearchResults();});
+
+  qa('[data-filter]').forEach(button=>button.addEventListener('click',()=>{
+    const value=button.dataset.filter;
+    qa('[data-filter]').forEach(item=>item.classList.toggle('active',item===button));
+    qa('[data-category]').forEach(card=>card.classList.toggle('search-hidden',value!=='all'&&card.dataset.category!==value));
+  }));
+
+  const back=q('[data-backtop]');
+  if(back){
+    const sync=()=>back.classList.toggle('show',scrollY>600);
+    addEventListener('scroll',sync,{passive:true});
+    sync();
+    back.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
+  }
+
+  const content=q('.article-content');
+  const toc=q('[data-toc]');
+  if(content&&toc){
+    const headings=qa('h2,h3',content);
+    if(headings.length){
+      headings.forEach((heading,index)=>{
+        if(!heading.id)heading.id='muc-'+(index+1);
+        const link=document.createElement('a');
+        link.href='#'+heading.id;
+        link.textContent=heading.textContent;
+        if(heading.tagName==='H3')link.classList.add('toc-sub');
+        toc.appendChild(link);
+      });
+      if('IntersectionObserver' in window){
+        const links=qa('a',toc);
+        const observer=new IntersectionObserver(entries=>{
+          entries.forEach(entry=>{
+            if(!entry.isIntersecting)return;
+            links.forEach(link=>link.classList.toggle('active',link.getAttribute('href')==='#'+entry.target.id));
+          });
+        },{rootMargin:'-110px 0px -70% 0px'});
+        headings.forEach(heading=>observer.observe(heading));
+      }
+    }else toc.closest('.toc')?.remove();
+  }
 
   const avatar='/assets/chunep-canonical.webp?v=20260820-sharp';
   qa('img[data-chunep]').forEach(img=>{img.src=avatar;img.removeAttribute('data-chunep');});

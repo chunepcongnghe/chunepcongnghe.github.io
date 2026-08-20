@@ -10,5 +10,10 @@ layout: null
   <url><loc>{{ '/so-sanh-hieu-suat/' | absolute_url }}</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>{{ '/thu-thuat/' | absolute_url }}</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>{{ '/deeptalk/' | absolute_url }}</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>{{ '/video/' | absolute_url }}</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>{{ '/gioi-thieu/' | absolute_url }}</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>{{ '/chinh-sach-bien-tap/' | absolute_url }}</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>{{ '/chinh-sach-affiliate/' | absolute_url }}</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>{{ '/lien-he/' | absolute_url }}</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   {% for post in site.posts %}{% if post.published != false %}<url><loc>{{ post.url | absolute_url }}</loc><lastmod>{{ post.date_modified | default: post.date | date_to_xmlschema }}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>{% endif %}{% endfor %}
 </urlset>

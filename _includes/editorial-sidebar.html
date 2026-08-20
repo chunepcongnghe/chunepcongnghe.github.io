@@ -1,0 +1,36 @@
+<aside class="editorial-sidebar" aria-label="Khám phá cùng Chú Nếp">
+  <section class="identity-card">
+    <img src="/assets/chunep-canonical.webp?v=20260820-sharp" alt="Chú Nếp Công Nghệ" width="92" height="92">
+    <div class="identity-copy">
+      <span class="identity-kicker">GẶP CHÚ NẾP</span>
+      <h2>Chọn đúng công nghệ.<br>Khỏi mua dư.</h2>
+      <p>Đọc nhanh để biết tin, đọc sâu để biết thiết bị có thật sự hợp nhu cầu của bạn hay không.</p>
+      <a href="/gioi-thieu/">Về Chú Nếp →</a>
+    </div>
+  </section>
+
+  {% assign editor_picks = site.posts | where: "featured", true %}
+  <section class="side-panel sidebar-stories">
+    <div class="sidebar-heading"><h3>Nên đọc trước</h3><span>Chú Nếp đề xuất</span></div>
+    {% for post in editor_picks limit:5 %}
+    <a class="rank-story" href="{{ post.url }}">
+      <span class="rank-number">0{{ forloop.index }}</span>
+      <span><b>{{ post.title }}</b><small>{{ post.category_label | default: post.category }} · {{ post.read_time | default: 7 }} phút</small></span>
+    </a>
+    {% endfor %}
+  </section>
+
+  <section class="side-panel sidebar-updates">
+    <div class="sidebar-heading"><h3>Mới cập nhật</h3><a href="/tin-moi/">Xem tất cả</a></div>
+    {% for post in site.posts limit:5 %}
+    <a href="{{ post.url }}"><time>{{ post.date | date: '%H:%M' }}</time><span>{{ post.title }}</span></a>
+    {% endfor %}
+  </section>
+
+  <section class="side-panel follow-panel">
+    <span class="identity-kicker">THEO DÕI NHANH</span>
+    <h3>Đừng để tin mới trôi mất</h3>
+    <p>Theo dõi Facebook để nhận bài mới và các bản chốt mua nhanh từ Chú Nếp.</p>
+    <a class="btn btn-primary" href="{{ site.data.home.facebook_url | default: 'https://www.facebook.com/profile.php?id=61593218769769' }}" target="_blank" rel="noopener">Theo dõi Facebook ↗</a>
+  </section>
+</aside>

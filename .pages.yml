@@ -330,6 +330,9 @@ content:
       - name: brand_tagline
         label: Tagline thương hiệu
         type: string
+      - name: facebook_url
+        label: Liên kết Facebook Chú Nếp
+        type: string
       - name: featured_topics
         label: Chủ đề nổi bật
         type: string
