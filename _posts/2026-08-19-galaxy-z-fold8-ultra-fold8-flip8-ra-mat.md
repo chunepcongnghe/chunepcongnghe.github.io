@@ -23,7 +23,7 @@ quick_compare:
   - criterion: "Pin điển hình"
     subject_value: "5.000mAh"
     reference_value: "Fold8 4.800mAh · Flip8 4.300mAh"
-    verdict: "Dung lượng cao hơn không tự động đồng nghĩa thời lượng thực tế cao hơn vì kích thước màn hình và khối lượng công việc khác nhau."
+    verdict: "Dung lượng cao hơn không tự động đồng nghĩa thời lượng thực tế cao hơn vì kích thước màn hình và nhu cầu sử dụng khác nhau."
   - criterion: "Camera chính nổi bật"
     subject_value: "200MP"
     reference_value: "Fold8 50MP · Flip8 50MP"

@@ -77,7 +77,7 @@ Nếu công việc yêu cầu di chuyển giữa nhiều địa điểm, giảm 
 
 ## 16 inch thắng khi laptop chính là “màn hình chính”
 
-Màn 16 inch 16:10 cho không gian vật lý rộng để đặt timeline, bảng Excel, code editor và browser cạnh nhau. Lợi ích này khó thể hiện bằng benchmark nhưng rất dễ cảm nhận sau nhiều giờ.
+Màn 16 inch 16:10 cho không gian vật lý rộng để đặt timeline, bảng Excel, trình soạn thảo code và trình duyệt cạnh nhau. Lợi ích này khó thể hiện bằng benchmark nhưng rất dễ cảm nhận sau nhiều giờ.
 
 Ngược lại, nếu về nhà bạn cắm laptop vào màn 27 inch, lợi thế 16 inch giảm mạnh. Khi đó chiếc máy 14 inch có thể là “CPU + bàn phím + pin di động”, còn phần hiển thị lớn đã có monitor đảm nhiệm.
 

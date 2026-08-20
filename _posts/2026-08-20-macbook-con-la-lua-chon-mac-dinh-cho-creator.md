@@ -6,7 +6,7 @@ answer_summary: "MacBook vẫn là lựa chọn rất mạnh cho nhiều creator
 target_query: "MacBook có còn tốt nhất cho creator 2026 không"
 key_takeaways:
   - "MacBook Air M5 có media engine H.264, HEVC, ProRes/ProRes RAW và AV1 decode, phù hợp nhiều quy trình làm việc video."
-  - "Air M5 vẫn là thiết kế fanless; khả năng duy trì khối lượng công việc dài cần được đánh giá theo ứng dụng cụ thể thay vì suy từ benchmark ngắn."
+  - "Air M5 vẫn là thiết kế fanless; khả năng duy trì nhu cầu sử dụng dài cần được đánh giá theo ứng dụng cụ thể thay vì suy từ benchmark ngắn."
   - "Laptop Windows AI như Zenbook S 16 có thể cung cấp OLED 3K 120Hz, NPU tới 50 TOPS và nhiều cổng hơn."
   - "Không có hệ điều hành thắng tuyệt đối: plugin, codec, GPU, phần mềm và hệ sinh thái mới quyết định giá trị cho creator."
 compare_subject: "MacBook cho creator"
@@ -76,9 +76,9 @@ Các ultrabook Windows mới có OLED 3K 120Hz, RAM 32GB, USB4, NPU 40–50 TOPS
 
 ## Fanless là ưu điểm im lặng, nhưng cũng có giới hạn cần hiểu
 
-MacBook Air không dùng quạt, nên yên tĩnh tuyệt đối về tiếng quạt. Đổi lại, khối lượng công việc nặng kéo dài có thể bị giới hạn bởi nhiệt tùy tác vụ. Điều này không thể suy ra chính xác từ một benchmark ngắn hoặc một video render duy nhất.
+MacBook Air không dùng quạt, nên yên tĩnh tuyệt đối về tiếng quạt. Đổi lại, nhu cầu sử dụng nặng kéo dài có thể bị giới hạn bởi nhiệt tùy tác vụ. Điều này không thể suy ra chính xác từ một benchmark ngắn hoặc một video render duy nhất.
 
-Nếu ngày nào cũng render dài hoặc chạy khối lượng công việc liên tục, dòng máy có hệ thống tản chủ động có thể hợp hơn dù nặng hơn.
+Nếu ngày nào cũng render dài hoặc chạy nhu cầu sử dụng liên tục, dòng máy có hệ thống tản chủ động có thể hợp hơn dù nặng hơn.
 
 ## Góc nhìn Chú Nếp: bỏ chữ “mặc định”, giữ chữ “phù hợp”
 

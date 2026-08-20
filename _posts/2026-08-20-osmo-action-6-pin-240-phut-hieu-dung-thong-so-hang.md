@@ -37,7 +37,7 @@ brand: DJI
 tags: [Osmo Action 6, pin action cam, DJI, 240 phút, benchmark hãng]
 image: "/assets/images/thumbs/osmo-action-6-pin-240-phut-hieu-dung-thong-so-hang.jpg"
 image_alt: "DJI Osmo Action 6 trong bối cảnh quay thực tế, minh họa phân tích thời lượng pin 240 phút"
-source_status: vendor-thông tin hãng công bố
+source_status: vendor-claim
 sources:
   - name: "DJI — Osmo Action 6 Specs"
     url: "https://www.dji.com/osmo-action-6/specs"

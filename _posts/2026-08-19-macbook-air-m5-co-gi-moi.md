@@ -2,7 +2,7 @@
 title: "MacBook Air M5 có gì mới? 512GB mặc định, Wi‑Fi 7 và 153GB/s đáng giá ra sao"
 slug: macbook-air-m5-co-gi-moi
 description: "MacBook Air M5 nâng SSD mặc định lên 512GB, băng thông nhớ 153GB/s và Wi‑Fi 7. Đối chiếu M5 với M4 để biết ai thực sự nên nâng cấp."
-answer_summary: "MacBook Air M5 là bản nâng cấp thiên về nền tảng hơn là thiết kế: SSD khởi điểm 512GB, băng thông bộ nhớ 153GB/s, Wi‑Fi 7 và Bluetooth 6. So với M4, lợi ích dễ thấy nhất với người mua mới là cấu hình cơ bản rộng rãi hơn; người đang dùng M4 chỉ nên đổi khi khối lượng công việc hoặc chi phí nâng cấp tạo ra lợi ích rõ ràng."
+answer_summary: "MacBook Air M5 là bản nâng cấp thiên về nền tảng hơn là thiết kế: SSD khởi điểm 512GB, băng thông bộ nhớ 153GB/s, Wi‑Fi 7 và Bluetooth 6. So với M4, lợi ích dễ thấy nhất với người mua mới là cấu hình cơ bản rộng rãi hơn; người đang dùng M4 chỉ nên đổi khi nhu cầu sử dụng hoặc chi phí nâng cấp tạo ra lợi ích rõ ràng."
 target_query: "MacBook Air M5 có gì mới"
 key_takeaways:
   - "SSD mặc định tăng từ 256GB trên M4 lên 512GB trên M5, thực dụng hơn cho ảnh, video và project local."
@@ -19,7 +19,7 @@ quick_compare:
   - criterion: "Băng thông bộ nhớ"
     subject_value: "153GB/s"
     reference_value: "120GB/s"
-    verdict: "Có lợi hơn cho khối lượng công việc nhạy với memory bandwidth; không nên quy đổi thành % nhanh hơn cho mọi app."
+    verdict: "Có lợi hơn cho nhu cầu sử dụng nhạy với memory bandwidth; không nên quy đổi thành % nhanh hơn cho mọi app."
   - criterion: "Kết nối không dây"
     subject_value: "Wi‑Fi 7 · Bluetooth 6"
     reference_value: "Wi‑Fi 6E · Bluetooth 5.3"
@@ -51,7 +51,7 @@ featured: true
 published: true
 faq:
   - question: "MacBook Air M5 có đáng nâng từ M4 không?"
-    answer: "Không mặc định. M5 có SSD cơ bản lớn hơn, băng thông nhớ cao hơn và kết nối mới hơn, nhưng M4 vẫn có CPU 10 lõi, tối đa 32GB unified memory và pin công bố 18 giờ. Nếu M4 đang đáp ứng khối lượng công việc, giữ máy thường hợp lý hơn."
+    answer: "Không mặc định. M5 có SSD cơ bản lớn hơn, băng thông nhớ cao hơn và kết nối mới hơn, nhưng M4 vẫn có CPU 10 lõi, tối đa 32GB unified memory và pin công bố 18 giờ. Nếu M4 đang đáp ứng nhu cầu sử dụng, giữ máy thường hợp lý hơn."
   - question: "153GB/s có nghĩa MacBook Air M5 nhanh hơn M4 khoảng 28% không?"
     answer: "Không. 153GB/s là băng thông bộ nhớ, cao hơn 120GB/s của M4 khoảng 27,5%, nhưng mức tăng hiệu năng thực tế tùy ứng dụng, tải CPU/GPU, SSD, nhiệt và cách phần mềm tận dụng phần cứng."
   - question: "512GB mặc định có phải thay đổi đáng giá nhất?"
@@ -61,19 +61,19 @@ faq:
 
 Nếu chỉ nhìn vỏ máy, M5 không tạo cảm giác là một thế hệ hoàn toàn mới. Điểm đáng quan tâm nằm bên trong: Apple tăng dung lượng SSD khởi điểm lên **512GB**, đưa băng thông unified memory lên **153GB/s**, chuyển sang **Wi‑Fi 7** và **Bluetooth 6**. Đây là kiểu nâng cấp ít gây “wow” khi nhìn ảnh nhưng có thể ảnh hưởng rõ hơn đến vài năm sử dụng.
 
-Điểm cần tách bạch là **thông số phần cứng** và **hiệu năng trong ứng dụng**. Băng thông 153GB/s cao hơn 120GB/s của M4, nhưng không thể kết luận Photoshop, CapCut hay trình duyệt đều nhanh hơn cùng một tỷ lệ. Muốn đánh giá hiệu năng phải đặt cùng khối lượng công việc, cùng phiên bản phần mềm và điều kiện nhiệt tương đương.
+Điểm cần tách bạch là **thông số phần cứng** và **hiệu năng trong ứng dụng**. Băng thông 153GB/s cao hơn 120GB/s của M4, nhưng không thể kết luận Photoshop, CapCut hay trình duyệt đều nhanh hơn cùng một tỷ lệ. Muốn đánh giá hiệu năng phải đặt cùng nhu cầu sử dụng, cùng phiên bản phần mềm và điều kiện nhiệt tương đương.
 
 ## 512GB mặc định thực dụng hơn 256GB như thế nào?
 
-Với người chủ yếu làm văn phòng và dùng cloud, 256GB vẫn có thể sống được. Nhưng khi quy trình làm việc có ảnh RAW, video 4K, project CapCut/Premiere, cache trình duyệt, dữ liệu AI local hoặc nhiều ứng dụng nặng, dung lượng trống giảm rất nhanh.
+Với người chủ yếu làm văn phòng và dùng cloud, 256GB vẫn có thể sống được. Nhưng khi quy trình làm việc có ảnh RAW, video 4K, project CapCut/Premiere, cache trình duyệt, dữ liệu AI chạy trực tiếp trên máy hoặc nhiều ứng dụng nặng, dung lượng trống giảm rất nhanh.
 
 M5 bắt đầu từ 512GB nên người mua mới ít phải lựa chọn giữa “mua cấu hình cơ bản” và “trả thêm chỉ để SSD bớt chật”. Đây là lợi ích có tính thực dụng cao hơn một benchmark đơn lẻ, đặc biệt nếu dự kiến giữ máy 4–5 năm.
 
 ## M5 vs M4: thay đổi nào người dùng có thể cảm nhận?
 
-### 1. Bộ nhớ và khối lượng công việc nặng
+### 1. Bộ nhớ và nhu cầu sử dụng nặng
 
-Băng thông cao hơn có thể giúp các tác vụ truyền dữ liệu liên tục giữa CPU, GPU và unified memory. Creator, người chạy model local hoặc xử lý media có khả năng hưởng lợi nhiều hơn người chỉ dùng Office và browser.
+Băng thông cao hơn có thể giúp các tác vụ truyền dữ liệu liên tục giữa CPU, GPU và unified memory. Creator, người chạy model local hoặc xử lý media có khả năng hưởng lợi nhiều hơn người chỉ dùng Office và trình duyệt.
 
 ### 2. Wi‑Fi 7 và Bluetooth 6
 
@@ -85,16 +85,16 @@ Apple tiếp tục công bố tối đa 18 giờ xem video. Vì vậy, nếu lý
 
 ## Apple công bố hiệu năng AI và creator cao hơn — nên đọc thế nào?
 
-Apple đưa ra nhiều con số so sánh M5 với M4 trong Topaz Video, Blender và Affinity. Đây là **kết quả theo phương pháp của hãng**, hữu ích để biết Apple đang tối ưu vào khối lượng công việc nào, nhưng không nên dùng thay cho benchmark độc lập hoặc trải nghiệm của chính phần mềm bạn sử dụng.
+Apple đưa ra nhiều con số so sánh M5 với M4 trong Topaz Video, Blender và Affinity. Đây là **kết quả theo phương pháp của hãng**, hữu ích để biết Apple đang tối ưu vào nhu cầu sử dụng nào, nhưng không nên dùng thay cho benchmark độc lập hoặc trải nghiệm của chính phần mềm bạn sử dụng.
 
 Nếu quy trình làm việc của bạn không trùng với ứng dụng và điều kiện hãng thử, hãy xem các thông tin hãng công bố đó như dữ liệu tham khảo chứ không phải cam kết tốc độ cho mọi tình huống.
 
 ## Ai nên mua M5, ai có thể giữ M4?
 
-**Mua M5 hợp lý hơn** nếu bạn mua MacBook Air mới trong 2026, cần SSD 512GB ngay từ đầu, muốn nền tảng kết nối mới và thường xuyên làm creator/AI khối lượng công việc.
+**Mua M5 hợp lý hơn** nếu bạn mua MacBook Air mới trong 2026, cần SSD 512GB ngay từ đầu, muốn nền tảng kết nối mới và thường xuyên làm creator/AI nhu cầu sử dụng.
 
 **Giữ M4 hợp lý hơn** nếu máy hiện tại vẫn mượt, dung lượng đủ, pin ổn và công việc không bị nghẽn bởi memory bandwidth. Nâng đời chỉ vì “M5 mới hơn” dễ tạo chi phí lớn nhưng lợi ích hằng ngày nhỏ.
 
 ## Kết luận
 
-MacBook Air M5 đáng chú ý vì Apple nâng đúng những thứ cấu hình cơ bản của M4 còn gây cân nhắc: SSD, băng thông bộ nhớ và kết nối. Nhưng M5 không làm M4 trở thành máy yếu. Câu hỏi nên là **khối lượng công việc của bạn đang thiếu gì**, không phải **đời chip nào mới hơn**.
+MacBook Air M5 đáng chú ý vì Apple nâng đúng những thứ cấu hình cơ bản của M4 còn gây cân nhắc: SSD, băng thông bộ nhớ và kết nối. Nhưng M5 không làm M4 trở thành máy yếu. Câu hỏi nên là **nhu cầu sử dụng của bạn đang thiếu gì**, không phải **đời chip nào mới hơn**.

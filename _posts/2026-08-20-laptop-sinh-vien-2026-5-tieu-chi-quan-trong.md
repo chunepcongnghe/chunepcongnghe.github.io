@@ -50,11 +50,11 @@ featured: false
 published: true
 faq:
   - question: "Sinh viên năm 2026 có cần 32GB RAM không?"
-    answer: "Không phải đa số. 16GB đủ cho nhiều ngành học phổ thông; 32GB đáng cân nhắc cho máy ảo, dataset lớn, CAD/3D, dựng video nặng hoặc AI local."
+    answer: "Không phải đa số. 16GB đủ cho nhiều ngành học phổ thông; 32GB đáng cân nhắc cho máy ảo, tập dữ liệu lớn, CAD/3D, dựng video nặng hoặc AI chạy trực tiếp trên máy."
   - question: "Nên mua laptop gaming cho sinh viên không?"
     answer: "Chỉ khi môn học hoặc sở thích cần GPU rời. Nếu phần lớn thời gian là tài liệu, code nhẹ và di chuyển, máy mỏng nhẹ thường cân bằng hơn về pin và trọng lượng."
   - question: "SSD 512GB có đủ học đại học không?"
-    answer: "Đủ cho nhiều người, nhưng ngành video, thiết kế, game hoặc dataset lớn có thể cần 1TB hay ổ ngoài. Quan trọng là kiểm tra khả năng nâng cấp."
+    answer: "Đủ cho nhiều người, nhưng ngành video, thiết kế, game hoặc tập dữ liệu lớn có thể cần 1TB hay ổ ngoài. Quan trọng là kiểm tra khả năng nâng cấp."
 ---
 Sinh viên rất dễ rơi vào bài toán “cùng tiền thì lấy CPU nào mạnh nhất?”. Đây là cách so có vẻ logic nhưng thường bỏ qua thứ ảnh hưởng nhiều hơn trong bốn năm học: **RAM, pin, màn hình, cổng và trọng lượng**.
 
@@ -121,7 +121,7 @@ Máy ít cổng vẫn dùng được với hub, nhưng hãy tính **hub là mộ
 16GB RAM, SSD 512GB, màn đẹp, pin lâu và nhẹ thường quan trọng hơn GPU rời.
 
 ### CNTT
-16GB là nền tốt; 32GB đáng cân nhắc nếu chạy nhiều VM/container hoặc AI local. Kiểm tra tương thích kiến trúc ARM/x86 với phần mềm môn học.
+16GB là nền tốt; 32GB đáng cân nhắc nếu chạy nhiều VM/container hoặc AI chạy trực tiếp trên máy. Kiểm tra tương thích kiến trúc ARM/x86 với phần mềm môn học.
 
 ### Thiết kế, kiến trúc, kỹ thuật
 Phải đi từ phần mềm bắt buộc: Adobe, CAD, BIM, 3D, CUDA hay plugin chuyên ngành. Đây là nơi GPU và RAM có thể quan trọng hơn trọng lượng.

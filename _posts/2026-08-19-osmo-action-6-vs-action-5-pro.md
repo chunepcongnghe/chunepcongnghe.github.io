@@ -38,7 +38,7 @@ brand: DJI
 tags: ["Osmo Action 6 vs Action 5 Pro", "Osmo Action 6", "Action 5 Pro", "DJI", "action cam"]
 image: "/assets/images/thumbs/osmo-action-6-vs-action-5-pro.jpg"
 image_alt: "Osmo Action 6 và Action 5 Pro đối chiếu cảm biến, khẩu độ và bộ nhớ trong"
-source_status: vendor-thông tin hãng công bố
+source_status: vendor-claim
 sources:
   - name: "DJI — Osmo Action 6"
     url: "https://www.dji.com/osmo-action-6"

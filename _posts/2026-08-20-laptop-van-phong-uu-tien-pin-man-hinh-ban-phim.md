@@ -48,7 +48,7 @@ featured: false
 published: true
 faq:
   - question: "16GB RAM có đủ cho laptop văn phòng năm 2026 không?"
-    answer: "Với Office, web, họp và đa nhiệm phổ thông, 16GB vẫn là mức hợp lý. Nếu bạn dùng VM, dữ liệu lớn, AI local hoặc nhiều app nặng cùng lúc, 24/32GB có thể hợp hơn."
+    answer: "Với Office, web, họp và đa nhiệm phổ thông, 16GB vẫn là mức hợp lý. Nếu bạn dùng VM, dữ liệu lớn, AI chạy trực tiếp trên máy hoặc nhiều app nặng cùng lúc, 24/32GB có thể hợp hơn."
   - question: "Có nên mua CPU mạnh nhất trong tầm giá?"
     answer: "Không nhất thiết. Nếu đổi lại là màn hình kém, pin ngắn, bàn phím không hợp hoặc máy nặng, tổng trải nghiệm có thể tệ hơn một cấu hình cân bằng."
   - question: "Thông số pin hãng có đáng tin không?"

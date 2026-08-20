@@ -2,18 +2,18 @@
 title: "Benchmark cao có đồng nghĩa laptop dùng sướng? 7 thứ điểm số không nói hết"
 slug: benchmark-cao-co-dong-nghia-laptop-dung-suong
 description: "DeepTalk Chú Nếp về benchmark laptop: vì sao điểm CPU/GPU cao không nói hết nhiệt, tiếng quạt, màn hình, bàn phím, pin, cổng, codec và độ ổn định quy trình làm việc."
-answer_summary: "Benchmark rất hữu ích khi dùng đúng mục đích: đo một khối lượng công việc cụ thể trong điều kiện xác định. Nhưng điểm số cao không tự chứng minh laptop dùng sướng hơn, vì trải nghiệm còn phụ thuộc hiệu năng duy trì, nhiệt/tiếng quạt, màn hình, bàn phím, pin, cổng, driver, codec và phần mềm. So laptop đúng nên kết hợp benchmark cùng điều kiện với dữ liệu pin, màn hình, ergonomics và quy trình làm việc thực tế thay vì dùng một con số để xếp hạng toàn bộ sản phẩm."
+answer_summary: "Benchmark rất hữu ích khi dùng đúng mục đích: đo một nhu cầu sử dụng cụ thể trong điều kiện xác định. Nhưng điểm số cao không tự chứng minh laptop dùng sướng hơn, vì trải nghiệm còn phụ thuộc hiệu năng duy trì, nhiệt/tiếng quạt, màn hình, bàn phím, pin, cổng, driver, codec và phần mềm. So laptop đúng nên kết hợp benchmark cùng điều kiện với dữ liệu pin, màn hình, ergonomics và quy trình làm việc thực tế thay vì dùng một con số để xếp hạng toàn bộ sản phẩm."
 target_query: "benchmark cao có đồng nghĩa laptop tốt hơn không"
 key_takeaways:
-  - "Benchmark chỉ có ý nghĩa khi biết khối lượng công việc, phiên bản phần mềm, power mode và điều kiện test."
-  - "MacBook Air M5 fanless và laptop có tản chủ động có hành vi sustained khác nhau; không nên suy từ bài test ngắn sang khối lượng công việc dài."
+  - "Benchmark chỉ có ý nghĩa khi biết nhu cầu sử dụng, phiên bản phần mềm, power mode và điều kiện test."
+  - "MacBook Air M5 fanless và laptop có tản chủ động có hành vi sustained khác nhau; không nên suy từ bài test ngắn sang nhu cầu sử dụng dài."
   - "Màn hình 27 inch QHD 109 PPI hay laptop OLED 3K 120Hz cho thấy trải nghiệm còn có những biến số không nằm trong điểm CPU/GPU."
   - "NPU TOPS là ví dụ điển hình: một chỉ số phần cứng không thay benchmark ứng dụng thật."
 compare_subject: "Đọc benchmark đúng"
 compare_reference: "Xếp hạng laptop bằng một điểm số"
 quick_compare:
   - criterion: "Hiệu năng"
-    subject_value: "Cùng khối lượng công việc, cùng điều kiện, xem cả sustained"
+    subject_value: "Cùng nhu cầu sử dụng, cùng điều kiện, xem cả sustained"
     reference_value: "Chọn điểm cao nhất"
     verdict: "Benchmark cần bối cảnh để có giá trị."
   - criterion: "Trải nghiệm"
@@ -60,7 +60,7 @@ Benchmark là một trong những công cụ tốt nhất để tránh mua hàng
 
 ## Benchmark đo bài test, không đo “độ sướng”
 
-Một bài benchmark CPU có thể đo tốc độ render hoặc tính toán. GPU benchmark đo một khối lượng công việc đồ họa. SSD benchmark đo tốc độ đọc/ghi trong điều kiện nhất định. Tất cả đều hữu ích, nhưng không bài nào đo được bàn phím có hợp tay bạn hay không.
+Một bài benchmark CPU có thể đo tốc độ render hoặc tính toán. GPU benchmark đo một nhu cầu sử dụng đồ họa. SSD benchmark đo tốc độ đọc/ghi trong điều kiện nhất định. Tất cả đều hữu ích, nhưng không bài nào đo được bàn phím có hợp tay bạn hay không.
 
 Đây là khác biệt giữa **performance** và **product experience**.
 
@@ -68,7 +68,7 @@ Một bài benchmark CPU có thể đo tốc độ render hoặc tính toán. GP
 
 Laptop bị giới hạn bởi nhiệt và công suất. Hai máy dùng cùng CPU/GPU có thể đặt power limit khác, tản nhiệt khác và firmware khác. Điểm burst vài phút cũng chưa chắc phản ánh render kéo dài 45 phút.
 
-MacBook Air là ví dụ thú vị vì thiết kế fanless. Nó có ưu điểm im lặng nhưng hành vi sustained phải được đánh giá trong khối lượng công việc dài, không thể suy từ điểm số ngắn.
+MacBook Air là ví dụ thú vị vì thiết kế fanless. Nó có ưu điểm im lặng nhưng hành vi sustained phải được đánh giá trong nhu cầu sử dụng dài, không thể suy từ điểm số ngắn.
 
 ## Điểm số không nói màn hình có dễ làm việc không
 
@@ -90,6 +90,6 @@ Nếu bạn phải mang adapter mỗi ngày, tìm ổ cắm giữa buổi hoặc
 
 ## Góc nhìn Chú Nếp: benchmark là bản đồ, không phải đích đến
 
-Chú Nếp vẫn ưu tiên dữ liệu benchmark hơn cảm tính, nhưng chỉ khi benchmark cùng khối lượng công việc và điều kiện. Sau đó mới ghép với màn hình, pin, nhiệt, bàn phím, cổng, phần mềm và giá.
+Chú Nếp vẫn ưu tiên dữ liệu benchmark hơn cảm tính, nhưng chỉ khi benchmark cùng nhu cầu sử dụng và điều kiện. Sau đó mới ghép với màn hình, pin, nhiệt, bàn phím, cổng, phần mềm và giá.
 
 Một chiếc laptop phù hợp là chiếc máy có hiệu năng **đủ mạnh ở đúng việc**, và ít gây ma sát ở những thứ bạn làm hàng ngày. Điểm cao nhất không phải mục tiêu; công việc hoàn thành nhanh và thoải mái mới là mục tiêu.

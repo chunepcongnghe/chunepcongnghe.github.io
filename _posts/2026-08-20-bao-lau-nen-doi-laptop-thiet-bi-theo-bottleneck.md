@@ -7,17 +7,17 @@ target_query: "bao lâu nên đổi laptop điện thoại thiết bị công ng
 key_takeaways:
   - "Tuổi thiết bị không tự chứng minh nhu cầu nâng cấp; điểm nghẽn và chi phí thời gian gián đoạn mới gần với giá trị sử dụng hơn."
   - "Thiết bị có khả năng sửa/nâng RAM, SSD hoặc pin có thể kéo dài vòng đời nếu điểm nghẽn nằm ở phần thay được."
-  - "Đổi máy có lý khi nhiều vấn đề cùng xuất hiện: hiệu năng, pin, độ ổn định, I/O hoặc hỗ trợ phần mềm."
-  - "Với người làm việc bằng thiết bị, nên quy thời gian chờ/render/crash thành chi phí mỗi tháng để so với chi phí nâng."
+  - "Đổi máy có lý khi nhiều vấn đề cùng xuất hiện: hiệu năng, pin, độ ổn định, cổng kết nối hoặc hỗ trợ phần mềm."
+  - "Với người làm việc bằng thiết bị, nên quy thời gian chờ/render/văng ứng dụng thành chi phí mỗi tháng để so với chi phí nâng."
 compare_subject: "Nâng theo điểm nghẽn"
 compare_reference: "Nâng theo đời máy / FOMO"
 quick_compare:
-  - criterion: "Trigger đổi máy"
+  - criterion: "lý do đổi máy"
     subject_value: "Vấn đề đo được trong quy trình làm việc"
     reference_value: "Có thế hệ mới"
     verdict: "điểm nghẽn gắn trực tiếp hơn với giá trị sử dụng."
   - criterion: "mức độ đáng tiền"
-    subject_value: "Có thể ước lượng bằng thời gian/thời gian gián đoạn tiết kiệm"
+    subject_value: "Có thể ước lượng bằng thời gian tiết kiệm được và số lần máy gây gián đoạn"
     reference_value: "Khó định lượng"
     verdict: "Người làm việc bằng máy nên quy đổi thời gian thành chi phí."
   - criterion: "Vòng đời"
@@ -50,7 +50,7 @@ faq:
   - question: "Laptop 5 năm tuổi có nên đổi ngay không?"
     answer: "Không thể kết luận từ tuổi. Nếu hiệu năng, pin, độ ổn định và hỗ trợ phần mềm vẫn đáp ứng công việc thì giữ tiếp có thể hợp lý."
   - question: "Bao nhiêu phần trăm hiệu năng tăng thì đáng nâng cấp?"
-    answer: "Không có ngưỡng chung. Tăng 30% trong khối lượng công việc bạn chờ hàng giờ mỗi ngày có giá trị lớn; tăng 50% ở tác vụ bạn gần như không dùng có thể không đáng tiền."
+    answer: "Không có ngưỡng chung. Tăng 30% trong nhu cầu sử dụng bạn chờ hàng giờ mỗi ngày có giá trị lớn; tăng 50% ở tác vụ bạn gần như không dùng có thể không đáng tiền."
   - question: "Nên sửa hay đổi khi pin chai?"
     answer: "Nếu phần còn lại của máy vẫn tốt và chi phí thay pin hợp lý, sửa có thể kinh tế hơn. Nếu pin chỉ là một trong nhiều vấn đề, đổi máy đáng cân nhắc hơn."
 ---
@@ -58,24 +58,24 @@ Mỗi năm công nghệ đều cho chúng ta một lý do mới để thấy má
 
 ## Chú Nếp chốt nhanh
 
-Đừng đặt lịch đổi máy theo năm. Hãy đặt **ngưỡng chịu đựng cho điểm nghẽn**: render mất quá lâu, pin làm gián đoạn công việc, crash gây thời gian gián đoạn, storage thiếu liên tục hoặc phần mềm không còn hỗ trợ. Khi chưa chạm ngưỡng, giữ máy thêm một năm thường là quyết định hoàn toàn hợp lý.
+Đừng đặt lịch đổi máy theo năm. Hãy đặt **ngưỡng chịu đựng cho điểm nghẽn**: render mất quá lâu, pin làm gián đoạn công việc, văng ứng dụng gây thời gian gián đoạn, storage thiếu liên tục hoặc phần mềm không còn hỗ trợ. Khi chưa chạm ngưỡng, giữ máy thêm một năm thường là quyết định hoàn toàn hợp lý.
 
-## Tuổi máy là dữ liệu phụ, không phải trigger
+## Tuổi máy là dữ liệu phụ, không phải lý do
 
-Một laptop 6 năm chỉ dùng Office có thể vẫn đủ. Một workstation 2 năm nhưng export chậm khiến editor chờ hai giờ mỗi ngày có thể đã tạo chi phí cơ hội lớn.
+Một laptop 6 năm chỉ dùng Office có thể vẫn đủ. Một workstation 2 năm nhưng export chậm khiến phần mềm chỉnh sửa chờ hai giờ mỗi ngày có thể đã tạo chi phí cơ hội lớn.
 
 Câu hỏi có ích hơn “máy mấy năm rồi?” là:
 
 - Một tuần tôi chờ thiết bị bao nhiêu phút?
 - Có việc nào tôi không nhận được vì giới hạn phần cứng?
-- Thiết bị có crash/restart/mất kết nối gây mất dữ liệu không?
+- Thiết bị có văng ứng dụng/restart/mất kết nối gây mất dữ liệu không?
 - Vấn đề nằm ở phần có thể sửa/nâng hay ở toàn hệ thống?
 
 ## Quy điểm nghẽn thành tiền
 
 Giả sử một creator mất thêm 20 phút mỗi ngày vì proxy/render/export và làm 22 ngày/tháng. Đó là hơn 7 giờ/tháng. Nếu nâng máy cắt được phần lớn thời gian đó, ta có cơ sở để tính mức độ đáng tiền.
 
-Ngược lại, nếu máy mới chỉ mở Chrome nhanh hơn một chút nhưng khối lượng công việc không có thời gian chờ đáng kể, lợi ích kinh tế khó lớn dù benchmark chênh nhiều.
+Ngược lại, nếu máy mới chỉ mở Chrome nhanh hơn một chút nhưng nhu cầu sử dụng không có thời gian chờ đáng kể, lợi ích kinh tế khó lớn dù benchmark chênh nhiều.
 
 | Tình huống | Giữ máy | Nâng cấp |
 |---|---|---|

@@ -110,7 +110,7 @@ Nếu mục tiêu của bạn là hiệu năng, cần benchmark đúng cấu hì
 - **512GB**: lựa chọn mặc định hợp lý cho số đông.
 - **1TB**: lựa chọn mua sự thoải mái và giảm phụ thuộc ổ ngoài.
 
-Nếu ngân sách hữu hạn và đang phân vân giữa **RAM cao hơn** với **SSD lớn hơn**, người dùng đa nhiệm, AI local hoặc app nặng thường nên xem xét RAM trước vì RAM trên Mac không thể nâng sau khi mua. Dung lượng lưu trữ vẫn có thể mở rộng bằng SSD ngoài.
+Nếu ngân sách hữu hạn và đang phân vân giữa **RAM cao hơn** với **SSD lớn hơn**, người dùng đa nhiệm, AI chạy trực tiếp trên máy hoặc app nặng thường nên xem xét RAM trước vì RAM trên Mac không thể nâng sau khi mua. Dung lượng lưu trữ vẫn có thể mở rộng bằng SSD ngoài.
 
 Xem thêm [MacBook Air M5 16GB, 24GB hay 32GB?](/bai-viet/macbook-air-m5-16gb-hay-24gb-32gb/) để cân đối ngân sách giữa RAM và SSD.
 

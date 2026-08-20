@@ -38,7 +38,7 @@ brand: DJI
 tags: ["Osmo Action 6", "Action 5 Pro", "DJI", "action cam", "4K Custom"]
 image: "/assets/images/thumbs/osmo-action-6-danh-gia-nhanh.jpg"
 image_alt: "Osmo Action 6 với cảm biến 1/1,1 inch, khẩu độ biến thiên f/2.0–f/4.0 và so sánh Action 5 Pro"
-source_status: vendor-thông tin hãng công bố
+source_status: vendor-claim
 sources:
   - name: "DJI — Osmo Action 6"
     url: "https://www.dji.com/osmo-action-6"

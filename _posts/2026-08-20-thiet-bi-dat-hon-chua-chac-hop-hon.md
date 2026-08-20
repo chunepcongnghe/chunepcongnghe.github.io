@@ -96,7 +96,7 @@ Nếu nhiệm vụ là gắn ngoài xe dưới mưa, action cam có thể “t�
 
 MacBook Air M5 không quạt, nhẹ và dùng M5 đủ mạnh cho rất nhiều công việc văn phòng/creator nhẹ.
 
-Một workstation có GPU rời, active cooling và nhiều cổng sẽ thắng Air trong khối lượng công việc nặng. Nhưng workstation cũng có thể:
+Một workstation có GPU rời, active cooling và nhiều cổng sẽ thắng Air trong nhu cầu sử dụng nặng. Nhưng workstation cũng có thể:
 
 - nặng hơn;
 - quạt ồn hơn;

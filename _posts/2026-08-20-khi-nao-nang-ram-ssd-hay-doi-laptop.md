@@ -2,10 +2,10 @@
 title: "Khi nào nên nâng RAM, nâng SSD hay đổi laptop? Framework quyết định theo điểm nghẽn thay vì cảm giác"
 slug: khi-nao-nang-ram-ssd-hay-doi-laptop
 description: "Cách xác định nên nâng RAM, SSD hay đổi laptop dựa trên điểm nghẽn, khả năng nâng cấp và chi phí; tránh thay máy chỉ vì cấu hình mới hấp dẫn hơn."
-answer_summary: "Nên nâng RAM khi khối lượng công việc thường xuyên thiếu bộ nhớ và máy còn hỗ trợ nâng; nâng SSD khi thiếu dung lượng hoặc storage thực sự là nút thắt; đổi laptop khi điểm nghẽn nằm ở CPU/GPU, pin, màn hình, cổng hoặc phần cứng hàn chết mà chi phí sửa/nâng không hợp lý. Quyết định tốt nhất bắt đầu bằng đo vấn đề hiện tại, không bắt đầu bằng bảng cấu hình của máy mới."
+answer_summary: "Nên nâng RAM khi nhu cầu sử dụng thường xuyên thiếu bộ nhớ và máy còn hỗ trợ nâng; nâng SSD khi thiếu dung lượng hoặc storage thực sự là nút thắt; đổi laptop khi điểm nghẽn nằm ở CPU/GPU, pin, màn hình, cổng hoặc phần cứng hàn chết mà chi phí sửa/nâng không hợp lý. Quyết định tốt nhất bắt đầu bằng đo vấn đề hiện tại, không bắt đầu bằng bảng cấu hình của máy mới."
 target_query: "khi nào nên nâng RAM SSD hay đổi laptop"
 key_takeaways:
-  - "RAM chỉ đáng nâng khi thiếu memory gây swap/reload/giật trong khối lượng công việc thật; máy RAM hàn có thể không nâng được sau mua."
+  - "RAM chỉ đáng nâng khi thiếu memory gây swap/reload/giật trong nhu cầu sử dụng thật; máy RAM hàn có thể không nâng được sau mua."
   - "SSD đáng nâng trước nếu dung lượng thấp làm quy trình làm việc phụ thuộc ổ ngoài hoặc ổ gần đầy; nhưng tốc độ Gen mới không tự giải quyết điểm nghẽn CPU/GPU."
   - "Framework Laptop 13 là ví dụ ngược với ultrabook hàn: hãng cho phép thay RAM và M.2 SSD, cho thấy khả năng nâng cấp là thuộc tính thiết kế chứ không phải mặc định của laptop."
   - "Nếu nhiều điểm nghẽn xuất hiện cùng lúc — pin chai, màn kém, CPU/GPU thiếu, thiếu cổng — đổi máy thường hợp lý hơn nâng từng phần."
@@ -50,9 +50,9 @@ featured: false
 published: true
 faq:
   - question: "RAM dùng 80% có nghĩa là phải nâng ngay không?"
-    answer: "Không. Hệ điều hành tận dụng RAM trống để cache. Nên nhìn thêm swap/pagefile, ứng dụng bị reload, memory pressure và triệu chứng trong khối lượng công việc thực tế."
+    answer: "Không. Hệ điều hành tận dụng RAM trống để cache. Nên nhìn thêm swap/pagefile, ứng dụng bị reload, memory pressure và triệu chứng trong nhu cầu sử dụng thực tế."
   - question: "SSD gần đầy có làm máy chậm không?"
-    answer: "Có thể ảnh hưởng trong một số tình huống vì hệ điều hành và SSD cần không gian cho cache, update và quản lý flash. Nhưng mức ảnh hưởng tùy ổ và khối lượng công việc; ưu tiên giải phóng dung lượng trước khi kết luận phải đổi SSD."
+    answer: "Có thể ảnh hưởng trong một số tình huống vì hệ điều hành và SSD cần không gian cho cache, update và quản lý flash. Nhưng mức ảnh hưởng tùy ổ và nhu cầu sử dụng; ưu tiên giải phóng dung lượng trước khi kết luận phải đổi SSD."
   - question: "Laptop RAM hàn có cách nâng không?"
     answer: "Thông thường RAM soldered/on-board không được thiết kế để người dùng nâng như SO-DIMM/LPCAMM2. Cần kiểm tra tài liệu chính thức đúng model."
 ---
@@ -62,7 +62,7 @@ Có hai kiểu nâng cấp tốn tiền nhất: **nâng một thứ không phả
 
 Máy chậm vì thiếu RAM thì nâng RAM; thiếu chỗ thì nâng SSD; CPU/GPU, pin, màn hình và cổng đều không còn đáp ứng thì mới nghiêng về đổi máy. Nếu bạn chưa chỉ ra được điểm nghẽn bằng triệu chứng hoặc số liệu, **chưa nên mua gì cả**.
 
-## Bước 1: xác định vấn đề bằng khối lượng công việc thật
+## Bước 1: xác định vấn đề bằng nhu cầu sử dụng thật
 
 Đừng test chỉ bằng một benchmark. Hãy mở đúng project, tab, timeline, VM hoặc file bạn dùng hàng ngày rồi quan sát:
 
@@ -71,7 +71,7 @@ Máy chậm vì thiếu RAM thì nâng RAM; thiếu chỗ thì nâng SSD; CPU/GP
 | App reload, swap cao, timeline khựng khi mở nhiều app | RAM | Memory pressure / swap / pagefile |
 | Ổ gần đầy, copy/scratch chậm | SSD | Dung lượng trống, sustained write, health |
 | Render/export luôn 100% CPU/GPU | CPU/GPU | Task Manager/Activity Monitor, nhiệt, power |
-| Máy vẫn nhanh nhưng dùng bất tiện | Pin/màn/cổng | Battery health, brightness, I/O nhu cầu |
+| Máy vẫn nhanh nhưng dùng bất tiện | Pin/màn/cổng | Battery health, brightness, cổng kết nối nhu cầu |
 
 ## Khi nâng RAM là hợp lý
 
@@ -85,7 +85,7 @@ Framework Laptop 13 là ví dụ thiết kế cho phép thay RAM và M.2 SSD. Ng
 
 Nếu máy vẫn mượt nhưng bạn thường xuyên xóa file, di chuyển project qua ổ ngoài hoặc ổ hệ thống luôn sát ngưỡng đầy, dung lượng SSD mới tạo khác biệt trực tiếp hơn RAM.
 
-Còn nếu vấn đề là render CPU 100%, đổi SSD Gen4 sang Gen5 khó có thể giải quyết nguyên nhân chính. Tốc độ lưu trữ chỉ giúp khi storage thật sự đứng trên critical path của khối lượng công việc.
+Còn nếu vấn đề là render CPU 100%, đổi SSD Gen4 sang Gen5 khó có thể giải quyết nguyên nhân chính. Tốc độ lưu trữ chỉ giúp khi storage thật sự đứng trên critical path của nhu cầu sử dụng.
 
 ## Khi nên dừng nâng và đổi máy
 

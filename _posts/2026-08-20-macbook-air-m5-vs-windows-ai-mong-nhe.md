@@ -23,7 +23,7 @@ quick_compare:
   - criterion: "AI on-device"
     subject_value: "Neural Engine trong M5; Apple không công bố TOPS trên trang thông số này"
     reference_value: "Ryzen AI có thể đạt 50 TOPS NPU"
-    verdict: "Không so TOPS chéo kiến trúc nếu thiếu benchmark cùng khối lượng công việc."
+    verdict: "Không so TOPS chéo kiến trúc nếu thiếu benchmark cùng nhu cầu sử dụng."
 comparison:
   product_a: "MacBook Air M5 13 inch"
   product_b: "Zenbook S 16 Ryzen AI (đại diện Windows AI mỏng nhẹ)"
@@ -73,7 +73,7 @@ featured: false
 published: true
 faq:
   - question: "MacBook Air M5 có NPU yếu hơn laptop Windows AI 50 TOPS không?"
-    answer: "Không thể kết luận chỉ bằng TOPS vì Apple không công bố cùng kiểu số liệu trên trang thông số này và hai kiến trúc/phần mềm khác nhau. Cần benchmark cùng model và khối lượng công việc."
+    answer: "Không thể kết luận chỉ bằng TOPS vì Apple không công bố cùng kiểu số liệu trên trang thông số này và hai kiến trúc/phần mềm khác nhau. Cần benchmark cùng model và nhu cầu sử dụng."
   - question: "Creator nên chọn MacBook hay Windows AI?"
     answer: "Hãy bắt đầu từ phần mềm, codec, plug-in, màn hình và thiết bị ngoại vi. macOS hợp một số quy trình làm việc Apple/ProRes; Windows có dải phần cứng, cổng và GPU đa dạng hơn."
   - question: "OLED 120Hz có làm Zenbook tốt hơn Air M5 không?"

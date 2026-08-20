@@ -54,7 +54,7 @@ faq:
 ---
 Có một thông số MacBook Air gần như không được in to trên banner quảng cáo nhưng ảnh hưởng trực tiếp đến trải nghiệm mỗi ngày: **máy không có quạt**.
 
-Với M5, Apple tiếp tục giữ triết lý đó. Đây vừa là điểm rất hay của Air, vừa là thứ cần hiểu đúng nếu bạn đang cân nhắc dùng máy cho khối lượng công việc nặng.
+Với M5, Apple tiếp tục giữ triết lý đó. Đây vừa là điểm rất hay của Air, vừa là thứ cần hiểu đúng nếu bạn đang cân nhắc dùng máy cho nhu cầu sử dụng nặng.
 
 ## Im lặng tuyệt đối là lợi ích thật, không phải thông số cho đẹp
 
@@ -76,7 +76,7 @@ Nhưng thông số đỉnh không trả lời được một câu khác: máy gi
 
 Khi chip chạy nặng, điện năng biến thành nhiệt. Laptop có quạt có thể tăng lưu lượng không khí để đưa nhiệt ra ngoài. Laptop fanless không có cơ chế này, nên phải dựa nhiều hơn vào truyền nhiệt qua vật liệu thân máy và giảm công suất khi chạm ngưỡng nhiệt.
 
-Điều này không đồng nghĩa Air M5 “chậm” hay “throttle ngay”. Mức giảm phụ thuộc khối lượng công việc, nhiệt độ phòng, vị trí đặt máy và thời gian chạy.
+Điều này không đồng nghĩa Air M5 “chậm” hay “throttle ngay”. Mức giảm phụ thuộc nhu cầu sử dụng, nhiệt độ phòng, vị trí đặt máy và thời gian chạy.
 
 Quan trọng là **Apple không đưa biểu đồ hiệu năng duy trì lâu trong trang thông số kỹ thuật**. Vì vậy Chú Nếp không gắn một tỷ lệ giảm hiệu năng nào nếu chưa có bài test dài và đồng điều kiện.
 
@@ -92,8 +92,8 @@ MacBook Air M5 đặc biệt hợp với:
 
 - sinh viên và dân văn phòng;
 - người làm marketing, content, presentation;
-- coder có khối lượng công việc không compile liên tục hàng giờ;
-- editor chỉnh video ngắn, ảnh và audio;
+- coder có nhu cầu sử dụng không compile liên tục hàng giờ;
+- phần mềm chỉnh sửa chỉnh video ngắn, ảnh và audio;
 - người cần máy nhẹ, im lặng và ít thành phần cơ khí.
 
 Nếu công việc là render 3D, encode dài, chạy model local liên tục hoặc build code lớn nhiều giờ, thiết kế active cooling đáng được cân nhắc nghiêm túc hơn.
@@ -102,7 +102,7 @@ Nếu công việc là render 3D, encode dài, chạy model local liên tục ho
 
 Sai lầm phổ biến là thấy cùng thế hệ chip rồi hỏi “Air có mạnh bằng Pro không?”. Hai dòng máy giải quyết hai ưu tiên khác nhau.
 
-Air tối ưu cho **tỷ lệ hiệu năng / trọng lượng / tiếng ồn / pin**. Pro có nhiều không gian hơn cho tản nhiệt, cổng kết nối và khối lượng công việc kéo dài.
+Air tối ưu cho **tỷ lệ hiệu năng / trọng lượng / tiếng ồn / pin**. Pro có nhiều không gian hơn cho tản nhiệt, cổng kết nối và nhu cầu sử dụng kéo dài.
 
 Nếu Air đủ nhanh cho 95% thời gian của bạn, việc nó chậm hơn ở một bài render 30 phút có thể không quan trọng. Ngược lại, nếu 30 phút render đó diễn ra mỗi ngày, khác biệt trở thành tiền và thời gian thật.
 

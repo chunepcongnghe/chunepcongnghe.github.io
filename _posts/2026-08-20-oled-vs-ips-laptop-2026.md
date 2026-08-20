@@ -127,7 +127,7 @@ OLED có thể tiết kiệm khi giao diện tối vì pixel tối tiêu thụ �
 
 IPS có đèn nền chạy tương đối ổn định theo độ sáng cài đặt.
 
-Do đó không thể kết luận “OLED pin tốt hơn” hay “IPS pin tốt hơn” nếu không đo **hai laptop cụ thể với cùng khối lượng công việc và độ sáng**.
+Do đó không thể kết luận “OLED pin tốt hơn” hay “IPS pin tốt hơn” nếu không đo **hai laptop cụ thể với cùng nhu cầu sử dụng và độ sáng**.
 
 ## Chú Nếp chọn loại nào cho từng nhu cầu?
 

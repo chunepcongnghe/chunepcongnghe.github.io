@@ -76,7 +76,7 @@ Bản 15 inch tạo cảm giác giống một máy làm việc cố định hơn
 
 Apple công bố cả hai đạt tối đa 18 giờ xem video và 15 giờ duyệt web không dây trong điều kiện thử nghiệm của hãng. Bản 15 inch có pin vật lý lớn hơn nhưng cũng phải nuôi màn hình lớn hơn.
 
-Do đó, đừng mua bản 15 chỉ vì nghĩ chắc chắn pin thực tế sẽ hơn nhiều. Độ sáng, browser, họp video, ứng dụng và màn hình ngoài tác động mạnh hơn.
+Do đó, đừng mua bản 15 chỉ vì nghĩ chắc chắn pin thực tế sẽ hơn nhiều. Độ sáng, trình duyệt, họp video, ứng dụng và màn hình ngoài tác động mạnh hơn.
 
 ## Hiệu năng: so đúng cấu hình
 

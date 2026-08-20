@@ -90,7 +90,7 @@ Một test đơn giản: đặt tay lên chuột mà không cố chỉnh tư th�
 ## Tính năng đáng tiền là tính năng giảm thao tác
 
 - Multi-device hữu ích nếu đổi Mac/PC thường xuyên.
-- Nút ngang/gesture có giá trị nếu map cho timeline, browser hoặc spreadsheet.
+- Nút ngang/gesture có giá trị nếu map cho timeline, trình duyệt hoặc spreadsheet.
 - Macro hữu ích khi thay một chuỗi thao tác lặp lại.
 - Wireless chỉ đáng nếu độ trễ/độ ổn định phù hợp và việc bỏ dây thật sự giúp bàn làm việc.
 

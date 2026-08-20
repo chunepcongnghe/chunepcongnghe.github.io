@@ -23,7 +23,7 @@ quick_compare:
   - criterion: "Rủi ro chọn sai cấu hình"
     subject_value: "Cao hơn"
     reference_value: "Thấp hơn nếu có thể nâng"
-    verdict: "Máy RAM hàn nên mua theo peak khối lượng công việc dự kiến, không chỉ nhu cầu hôm nay."
+    verdict: "Máy RAM hàn nên mua theo mức tải cao nhất khi dùng máy dự kiến, không chỉ nhu cầu hôm nay."
 date: 2026-08-20T14:20:00+07:00
 section: deeptalk
 section_label: "DeepTalk"
@@ -54,13 +54,13 @@ faq:
   - question: "Laptop RAM hàn có đáng tránh hoàn toàn không?"
     answer: "Không. Nếu cấu hình mua ban đầu đủ cho vòng đời dự kiến và bạn ưu tiên mỏng nhẹ/kiến trúc tích hợp, RAM hàn vẫn có thể hợp. Vấn đề là phải chấp nhận gần như không có đường nâng dung lượng sau mua."
   - question: "32GB có an toàn hơn 16GB cho máy RAM hàn không?"
-    answer: "Chỉ nếu khối lượng công việc dự kiến cần nó. Mua dư quá nhiều cũng là chi phí cơ hội; nên nhìn peak memory thực tế và kế hoạch dùng máy bao lâu."
+    answer: "Chỉ nếu nhu cầu sử dụng dự kiến cần nó. Mua dư quá nhiều cũng là chi phí cơ hội; nên nhìn peak memory thực tế và kế hoạch dùng máy bao lâu."
 ---
 RAM hàn thường bị nói như một “tội lỗi” của laptop hiện đại, trong khi thực tế đây là một **đánh đổi thiết kế**. Nó có điểm mạnh kỹ thuật, nhưng chuyển rủi ro nâng cấp từ nhà sản xuất sang người mua: chọn thiếu hôm nay thì ngày mai khó sửa.
 
 ## Chú Nếp chốt nhanh
 
-Nếu máy RAM hàn, hãy mua theo **nhu cầu cao nhất hợp lý trong vòng đời dự kiến**. Nếu bạn thường đổi khối lượng công việc, giữ máy lâu hoặc muốn nâng từng phần, thiết kế RAM module rời đáng ưu tiên. Đừng xem “hàn” = chậm hay “rời” = tốt; vấn đề chính là quyền nâng cấp.
+Nếu máy RAM hàn, hãy mua theo **nhu cầu cao nhất hợp lý trong vòng đời dự kiến**. Nếu bạn thường đổi nhu cầu sử dụng, giữ máy lâu hoặc muốn nâng từng phần, thiết kế RAM module rời đáng ưu tiên. Đừng xem “hàn” = chậm hay “rời” = tốt; vấn đề chính là quyền nâng cấp.
 
 ## RAM hàn giải quyết bài toán gì cho nhà sản xuất?
 
@@ -87,7 +87,7 @@ Ngược lại, một ultrabook RAM hàn 32GB đủ cho 5 năm quy trình làm v
 
 ## Câu hỏi quan trọng là “mình giữ máy bao lâu?”
 
-Người đổi máy 2–3 năm một lần có ít nhu cầu nâng RAM hơn người muốn giữ 6–8 năm. Người chạy VM, data, AI local hoặc project creator ngày càng lớn cũng có độ bất định cao hơn người chỉ dùng Office/web.
+Người đổi máy 2–3 năm một lần có ít nhu cầu nâng RAM hơn người muốn giữ 6–8 năm. Người chạy VM, data, AI chạy trực tiếp trên máy hoặc project creator ngày càng lớn cũng có độ bất định cao hơn người chỉ dùng Office/web.
 
 Chú Nếp sẽ cộng thêm “khả năng nâng cấp” vào **giá trị vòng đời**, thay vì chỉ so giá niêm yết ngày mua.
 
@@ -95,7 +95,7 @@ Chú Nếp sẽ cộng thêm “khả năng nâng cấp” vào **giá trị vò
 
 1. Đo peak memory trong tuần làm việc nặng nhất.
 2. Cộng phần hiệu năng còn dư cho quy trình làm việc dự kiến, không cộng vì FOMO.
-3. Xem ứng dụng mới 2–3 năm tới có thay đổi loại khối lượng công việc không.
+3. Xem ứng dụng mới 2–3 năm tới có thay đổi loại nhu cầu sử dụng không.
 4. So chi phí nâng cấu hình lúc mua với chi phí đổi cả máy sớm hơn.
 
 RAM hàn không phải kẻ xấu. Nhưng nó khiến quyết định mua ban đầu **khó đảo ngược hơn**, và đó là thông tin người mua cần được biết trước khi bị vẻ mỏng đẹp của laptop làm quên mất.

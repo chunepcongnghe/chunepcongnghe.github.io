@@ -65,7 +65,7 @@ Một cấu trúc dễ mở rộng:
 
 `Brand / Campaign / 01_Raw / 02_Assets / 03_Edit / 04_Export / 05_Report / Archive`
 
-Lợi ích là CapCut, Canva, Photoshop hay browser đều chỉ là công cụ; project vẫn nằm ở một logic chung. Khi đổi app, cấu trúc dữ liệu không vỡ.
+Lợi ích là CapCut, Canva, Photoshop hay trình duyệt đều chỉ là công cụ; project vẫn nằm ở một logic chung. Khi đổi app, cấu trúc dữ liệu không vỡ.
 
 ### Đối chiếu với lưu theo app
 
@@ -85,11 +85,11 @@ Một quy tắc thực dụng:
 
 Mỗi launcher, sync client, menu-bar utility và helper đều dùng một phần RAM/CPU/pin. Không cần cực đoan tắt hết; chỉ cần hỏi **app này có giúp tôi mỗi ngày không?**.
 
-Đặc biệt với 16GB RAM, việc giảm app nền không cần thiết giúp dành bộ nhớ cho browser và editor quan trọng hơn.
+Đặc biệt với 16GB RAM, việc giảm app nền không cần thiết giúp dành bộ nhớ cho trình duyệt và phần mềm chỉnh sửa quan trọng hơn.
 
-## 4. Chuẩn hóa browser profile theo brand hoặc loại công việc
+## 4. Chuẩn hóa trình duyệt profile theo brand hoặc loại công việc
 
-Marketing thường có nhiều tài khoản Ads Manager, Analytics, CMS, email và tài khoản khách hàng. Tách browser profile giúp cookie, bookmark và login ít lẫn nhau hơn.
+Marketing thường có nhiều tài khoản Ads Manager, Analytics, CMS, email và tài khoản khách hàng. Tách trình duyệt profile giúp cookie, bookmark và login ít lẫn nhau hơn.
 
 Nhưng quá nhiều profile cũng tạo RAM overhead. Nên tách theo logic vận hành, không phải mỗi website một profile.
 

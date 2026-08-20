@@ -23,7 +23,7 @@ quick_compare:
   - criterion: "POV ban ngày"
     subject_value: "Rất phù hợp"
     reference_value: "Vẫn rất phù hợp"
-    verdict: "Nếu đây là 90% khối lượng công việc, giá mua có thể quan trọng hơn đời máy."
+    verdict: "Nếu đây là 90% nhu cầu sử dụng, giá mua có thể quan trọng hơn đời máy."
   - criterion: "Chống nước"
     subject_value: "20m"
     reference_value: "20m"

@@ -80,7 +80,7 @@ Bạn cần:
 - SD/microSD;
 - đôi khi Ethernet.
 
-Một hub USB-C tốt có thể hoàn toàn đủ. Không cần trả thêm cho TB4 nếu không có khối lượng công việc băng thông cao.
+Một hub USB-C tốt có thể hoàn toàn đủ. Không cần trả thêm cho TB4 nếu không có nhu cầu sử dụng băng thông cao.
 
 ### Nhóm B — creator
 Bạn có thể cần:
