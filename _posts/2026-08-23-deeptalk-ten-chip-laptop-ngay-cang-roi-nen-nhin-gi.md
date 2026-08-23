@@ -31,7 +31,7 @@ category: laptop-buying
 category_label: "Góc nhìn công nghệ"
 brand: Multi-brand
 tags: [tên chip laptop, Core Ultra, Ryzen AI, Snapdragon X, cách chọn laptop, DeepTalk]
-image: "https://assets.st-note.com/img/1731507330-A25LxUJ8kgcXitvBaw7mzQG6.jpg?fit=bounds&height=2000&quality=85&width=2000"
+image: "/assets/images/thumbs/deeptalk-ten-chip-laptop-ngay-cang-roi-nen-nhin-gi.jpg"
 image_alt: "Hai laptop có tem Intel và AMD minh họa cách đọc tên chip"
 source_status: confirmed
 sources:

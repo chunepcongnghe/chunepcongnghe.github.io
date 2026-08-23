@@ -31,7 +31,7 @@ category: battery
 category_label: "Laptop / Pin"
 brand: Multi-brand
 tags: [pin laptop, giới hạn 80%, cắm sạc laptop, smart charging, battery care]
-image: "https://img1.daumcdn.net/thumb/R658x0.q70/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202505%2F13%2Fdanawa%2F20250513150003905qzoj.jpg"
+image: "/assets/images/thumbs/cam-sac-laptop-ca-ngay-gioi-han-pin-80.jpg"
 image_alt: "Màn hình laptop hiển thị mức pin 80% khi đang cắm sạc"
 source_status: confirmed
 sources:

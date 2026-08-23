@@ -31,7 +31,7 @@ category: storage
 category_label: "SSD / Lưu trữ"
 brand: Multi-brand
 tags: [SSD ngoài, USB 10Gbps, USB 20Gbps, Thunderbolt 4, creator storage]
-image: "https://driveshero.com/wp-content/uploads/2022/09/What-Does-a-Portable-Ssd-Do_2861.png"
+image: "/assets/images/thumbs/ssd-ngoai-usb-10-20gbps-thunderbolt-4-creator.jpg"
 image_alt: "SSD di động kết nối trực tiếp với laptop bằng cáp USB-C"
 source_status: confirmed
 sources:

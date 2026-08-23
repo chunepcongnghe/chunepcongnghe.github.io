@@ -31,7 +31,7 @@ category: laptop-form
 category_label: "Laptop / Thiết kế"
 brand: Multi-brand
 tags: [laptop 2-in-1, laptop cảm ứng, laptop gập 360, laptop thường, bút cảm ứng]
-image: "https://i5.walmartimages.com/asr/cbf89841-feaf-4a42-8980-d143b859f9f0.7ad59082c91ba7feca6b63f26af5d4b7.jpeg?odnBg=FFFFFF&odnHeight=612&odnWidth=612"
+image: "/assets/images/thumbs/laptop-2-in-1-vs-laptop-thuong-co-dang.jpg"
 image_alt: "Laptop 2-in-1 gập với màn hình cảm ứng và bút"
 source_status: confirmed
 sources:

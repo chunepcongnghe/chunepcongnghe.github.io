@@ -31,7 +31,7 @@ category: gaming-laptop
 category_label: "Laptop / Gaming"
 brand: Multi-brand
 tags: [TGP, RTX 5070 laptop, GPU laptop, laptop gaming, công suất GPU]
-image: "https://cdn.mos.cms.futurecdn.net/9hYgKLKd98Das4uwcdLPgE.jpg"
+image: "/assets/images/thumbs/tgp-gpu-laptop-la-gi-cung-rtx-khac-hieu-nang.jpg"
 image_alt: "Gaming laptop dùng GPU GeForce RTX trong bối cảnh chơi game"
 source_status: confirmed
 sources:

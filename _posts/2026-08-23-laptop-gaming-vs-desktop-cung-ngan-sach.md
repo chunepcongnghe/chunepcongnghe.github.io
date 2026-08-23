@@ -31,7 +31,7 @@ category: gaming-pc
 category_label: "Gaming / PC"
 brand: Multi-brand
 tags: [laptop gaming, desktop gaming, PC gaming, RTX laptop, TGP]
-image: "https://img-cdn.heureka.group/v1/2c5883db-844e-4f0c-81b5-d4d9cd06a4bd/Herni-PC-nebo-notebook.jpg"
+image: "/assets/images/thumbs/laptop-gaming-vs-desktop-cung-ngan-sach.jpg"
 image_alt: "Gaming laptop đặt cạnh desktop PC trong cùng góc máy"
 source_status: confirmed
 sources:

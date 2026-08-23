@@ -31,7 +31,7 @@ category: creator-laptop
 category_label: "Laptop / Creator"
 brand: Multi-brand
 tags: [iGPU, GPU rời, creator, dựng video, laptop creator, RTX laptop]
-image: "https://c1.neweggimages.com/ai/geo/insider/a3-video-editing-gaming-laptop-hero_1781158518.jpg"
+image: "/assets/images/thumbs/igpu-vs-gpu-roi-laptop-creator-khi-nao-du.jpg"
 image_alt: "Creator đang dựng video trên laptop hiệu năng cao trong góc làm việc"
 source_status: confirmed
 sources:

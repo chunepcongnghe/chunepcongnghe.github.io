@@ -31,7 +31,7 @@ category: phu-kien-setup
 category_label: "Phụ kiện / Setup"
 brand: Multi-brand
 tags: [USB-C, cáp 100W, cáp 240W, USB PD, cáp laptop, USB 40Gbps]
-image: "https://cdn.handyhase.de/app/uploads/2024/02/img_9210.jpg"
+image: "/assets/images/thumbs/cap-usb-c-100w-vs-240w-khac-nhau-gi.jpg"
 image_alt: "Cáp USB-C có ký hiệu 40Gbps và 240W đang cắm vào laptop"
 source_status: confirmed
 sources:

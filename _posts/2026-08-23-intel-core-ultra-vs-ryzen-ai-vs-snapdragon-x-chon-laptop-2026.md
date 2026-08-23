@@ -31,7 +31,7 @@ category: laptop-ai
 category_label: "Laptop / AI PC"
 brand: Multi-brand
 tags: [Intel Core Ultra, AMD Ryzen AI, Snapdragon X, Copilot+ PC, NPU, laptop 2026]
-image: "https://cdn.mos.cms.futurecdn.net/UWXYahf8X2gSNN7yhobXoT.jpg"
+image: "/assets/images/thumbs/intel-core-ultra-vs-ryzen-ai-vs-snapdragon-x-chon-laptop-2026.jpg"
 image_alt: "Laptop Windows với ba nền tảng Intel, AMD và Snapdragon được đặt cạnh nhau"
 source_status: confirmed
 sources:

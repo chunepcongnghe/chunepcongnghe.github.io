@@ -31,7 +31,7 @@ category: phu-kien-setup
 category_label: "Phụ kiện / Setup"
 brand: Multi-brand
 tags: [monitor arm, giá đỡ laptop, góc setup, bàn nhỏ, VESA]
-image: "https://www.shopixx.eu/media/t44s4/134394.jpg"
+image: "/assets/images/thumbs/monitor-arm-vs-gia-do-laptop-setup-nho.jpg"
 image_alt: "Laptop được nâng bằng tay treo trên bàn làm việc nhỏ"
 source_status: confirmed
 sources:

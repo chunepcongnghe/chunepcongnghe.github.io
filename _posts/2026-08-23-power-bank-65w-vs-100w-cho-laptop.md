@@ -31,7 +31,7 @@ category: phu-kien-setup
 category_label: "Phụ kiện / Setup"
 brand: Multi-brand
 tags: [power bank laptop, 65W, 100W, USB-C PD, sạc dự phòng laptop]
-image: "https://static.digit.in/Top-power-banks-to-charge-your-laptop.png"
+image: "/assets/images/thumbs/power-bank-65w-vs-100w-cho-laptop.jpg"
 image_alt: "Power bank USB-C đang sạc một chiếc laptop trên bàn"
 source_status: confirmed
 sources:

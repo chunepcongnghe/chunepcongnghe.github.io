@@ -31,7 +31,7 @@ category: laptop-display
 category_label: "Laptop / Màn hình"
 brand: Multi-brand
 tags: [60Hz, 120Hz, màn hình laptop, laptop văn phòng, tần số quét]
-image: "https://attachments.windowsforum.com/attachments/78/78427-53f3e7774cd07a8286b23a15de882d9b.data?token=1783876641-CSfP7ZDi6TcWQ9VVBVCDPzMCzN905sT0aeNDJ3eYDTQ%3D"
+image: "/assets/images/thumbs/60hz-vs-120hz-laptop-van-phong-co-dang.jpg"
 image_alt: "Laptop màn hình 120Hz trong góc làm việc tối giản"
 source_status: confirmed
 sources:
