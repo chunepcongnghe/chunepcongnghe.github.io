@@ -88,7 +88,7 @@ Cách này đảo ngược kiểu mua phổ biến: không chọn chip trước 
 
 Một CPU trên máy 14 inch mỏng nhẹ và cùng CPU trên máy 16 inch tản nhiệt lớn có thể tạo trải nghiệm khác. Pin, quạt, giới hạn công suất và firmware đều can thiệp.
 
-Vì vậy review tốt phải nói **đúng model laptop**, không chỉ đọc spec chip.
+Vì vậy review tốt phải nói **đúng model laptop**, không chỉ đọc thông số chip.
 
 ## Tên chip vẫn có ích, nhưng dùng đúng vai
 

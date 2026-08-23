@@ -1,7 +1,7 @@
 ---
 title: "TGP GPU laptop là gì? Vì sao cùng RTX 5070 nhưng hai máy có thể chạy khác nhau?"
 slug: tgp-gpu-laptop-la-gi-cung-rtx-khac-hieu-nang
-description: "Giải thích TGP GPU laptop bằng tiếng Việt dễ hiểu: cùng RTX 5070 vẫn có thể khác công suất, nhiệt và hiệu năng; cách đọc spec trước khi mua."
+description: "Giải thích TGP GPU laptop bằng tiếng Việt dễ hiểu: cùng RTX 5070 vẫn có thể khác công suất, nhiệt và hiệu năng; cách đọc thông số trước khi mua."
 answer_summary: "TGP là mức công suất dành cho hệ thống GPU laptop trong điều kiện nhà sản xuất thiết kế. Với RTX 50 Series, NVIDIA công bố cùng một mẫu GPU có thể hoạt động trong dải công suất khác nhau. Vì vậy khi so laptop gaming, phải xem TGP, tản nhiệt và kết quả test cùng điều kiện chứ không chỉ nhìn tên RTX."
 target_query: "TGP GPU laptop là gì"
 key_takeaways:

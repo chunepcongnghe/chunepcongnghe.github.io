@@ -72,7 +72,7 @@ Nhưng những lợi ích này chỉ có giá trị khi bạn dùng chúng thư�
 | Lựa chọn cấu hình | Hẹp hơn ở vài phân khúc | Rộng hơn |
 | Giá | Có thể cao hơn | Dễ tìm mức giá tốt |
 
-Màn cảm ứng cũng thường bóng hơn, dễ phản chiếu hơn trong một số môi trường. Đây là điều nên xem trực tiếp chứ không chỉ đọc spec.
+Màn cảm ứng cũng thường bóng hơn, dễ phản chiếu hơn trong một số môi trường. Đây là điều nên xem trực tiếp chứ không chỉ đọc thông số.
 
 ## Ai nên chọn 2-in-1?
 

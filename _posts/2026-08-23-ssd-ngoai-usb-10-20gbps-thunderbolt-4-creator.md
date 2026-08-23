@@ -85,6 +85,6 @@ Creator nên tìm bài test dài và xem tốc độ sau vài phút.
 
 ## Kiểm tra cổng laptop
 
-Một cổng USB-C không chắc là Thunderbolt. Nhìn logo, spec hãng hoặc Device Manager để xác định.
+Một cổng USB-C không chắc là Thunderbolt. Nhìn logo, thông số hãng hoặc Device Manager để xác định.
 
 Chú Nếp thường chọn SSD ngoài theo **tốc độ ổn định cần thiết**, không theo peak cao nhất. Phần tiền dư có thể đáng để đầu tư vào dung lượng lớn hơn hoặc backup thứ hai.
