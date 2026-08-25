@@ -31,8 +31,8 @@ category: audio-creator
 category_label: "Audio / Creator Gear"
 brand: DJI
 tags: [DJI Mic 3, wireless mic, mic không dây, creator, vlog, phỏng vấn]
-image: "/assets/images/thumbs/dji-mic-3-1tx-vs-2tx-quay-mot-nguoi.jpg"
-image_alt: "DJI Mic 3 transmitter màu đen"
+image: "https://www.lib.polyu.edu.hk/sites/default/files/attachment/DIJM3.jpg"
+image_alt: "Bộ DJI Mic 3 gồm hai transmitter, receiver và hộp sạc"
 source_status: confirmed
 sources:
   - name: "DJI — Mic 3 Specs"
