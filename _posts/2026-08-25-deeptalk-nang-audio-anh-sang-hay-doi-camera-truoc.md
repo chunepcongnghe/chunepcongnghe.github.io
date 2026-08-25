@@ -31,7 +31,7 @@ category: creator-setup
 category_label: "Creator / Setup"
 brand: Multi-brand
 tags: [creator gear, microphone, lighting, camera, setup, DeepTalk]
-image: "https://assets.telegraphindia.com/telegraph/2026/Feb/1772103824_untitled-design-5.jpg"
+image: "/assets/images/thumbs/deeptalk-nang-audio-anh-sang-hay-doi-camera-truoc.jpg"
 image_alt: "Góc creator tại nhà có camera, đèn, microphone và laptop dựng video"
 source_status: confirmed
 sources:

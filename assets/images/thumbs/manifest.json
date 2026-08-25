@@ -842,7 +842,7 @@
   "action-cam-quay-dem-cam-bien-lon-chua-du": {
     "post": "_posts/2026-08-25-action-cam-quay-dem-cam-bien-lon-chua-du.md",
     "image": "/assets/images/thumbs/action-cam-quay-dem-cam-bien-lon-chua-du.jpg",
-    "source": "https://res.insta360.com/static/c6966689da8ad58214a47e4f274846b4/6.png",
+    "source": "existing-local",
     "sha256": "23228cfb8f7b9828cbf7a91295f39195ab69847bb3a57d17a3c7e05b555e43ab",
     "size": [
       1200,
@@ -852,7 +852,7 @@
   "camera-nong-khi-quay-lau-doc-test-nhiet-dung": {
     "post": "_posts/2026-08-25-camera-nong-khi-quay-lau-doc-test-nhiet-dung.md",
     "image": "/assets/images/thumbs/camera-nong-khi-quay-lau-doc-test-nhiet-dung.jpg",
-    "source": "https://snpi.dell.com/snp/images/products/large/AD535542_mvi6.jpg",
+    "source": "existing-local",
     "sha256": "bb3db18de2ee7af1b54d862986ca328f68aad666d445763e0acd1db7e535ef21",
     "size": [
       1200,
@@ -862,8 +862,8 @@
   "deeptalk-nang-audio-anh-sang-hay-doi-camera-truoc": {
     "post": "_posts/2026-08-25-deeptalk-nang-audio-anh-sang-hay-doi-camera-truoc.md",
     "image": "/assets/images/thumbs/deeptalk-nang-audio-anh-sang-hay-doi-camera-truoc.jpg",
-    "source": "https://www.gadgetmatch.com/wp-content/uploads/2025/11/gadgetmatch-20251122-dji-osmo-action-6-1.jpg",
-    "sha256": "41bccaebc8f3f027b1f2b683a7419e0d532294d8cb3a51a4cb64e68a8cdfa997",
+    "source": "https://assets.telegraphindia.com/telegraph/2026/Feb/1772103824_untitled-design-5.jpg",
+    "sha256": "173af994ec18e76565a84c6cbce1824d9edf7bb691c418d5f6f4ee0f1f596bea",
     "size": [
       1200,
       675
@@ -872,8 +872,8 @@
   "dji-mic-3-1tx-vs-2tx-quay-mot-nguoi": {
     "post": "_posts/2026-08-25-dji-mic-3-1tx-vs-2tx-quay-mot-nguoi.md",
     "image": "/assets/images/thumbs/dji-mic-3-1tx-vs-2tx-quay-mot-nguoi.jpg",
-    "source": "https://miro.medium.com/0%2Akv7PnwnJj_OTRxAv",
-    "sha256": "99d78db78a4df67e899b6f1d03e024c1fdee9d7bd746f38e1a46c6da6534a50d",
+    "source": "https://www.lib.polyu.edu.hk/sites/default/files/attachment/DIJM3.jpg",
+    "sha256": "16865db5f4890d18eba1e1b59527563edae1775ce7f37f5929830a336fcb7ba9",
     "size": [
       1200,
       675
@@ -882,7 +882,7 @@
   "dji-mic-mini-vs-mic-3-creator-moi": {
     "post": "_posts/2026-08-25-dji-mic-mini-vs-mic-3-creator-moi.md",
     "image": "/assets/images/thumbs/dji-mic-mini-vs-mic-3-creator-moi.jpg",
-    "source": "https://cdn.idealo.com/folder/Product/205167/9/205167987/s4_produktbild_max_5/dji-mic-mini-transmitter-infinity-black.jpg",
+    "source": "existing-local",
     "sha256": "982d8ec4d8e0c8c7d68a6c5788c03201bbb369235d7278ea285a28ed0693f4e0",
     "size": [
       1200,
@@ -892,7 +892,7 @@
   "gimbal-dien-thoai-2026-con-dang-mua-khong": {
     "post": "_posts/2026-08-25-gimbal-dien-thoai-2026-con-dang-mua-khong.md",
     "image": "/assets/images/thumbs/gimbal-dien-thoai-2026-con-dang-mua-khong.jpg",
-    "source": "https://www.fotoforma.fi/tuotekuvat/1200x1200/DJI_Osmo_Mobile_8_4.jpg",
+    "source": "existing-local",
     "sha256": "fba752b0395714946423ec1d5ef99f253c52ae086f27b41eb42f38bef63c6c8a",
     "size": [
       1200,
@@ -902,7 +902,7 @@
   "h264-h265-av1-creator-nen-dung-codec-nao": {
     "post": "_posts/2026-08-25-h264-h265-av1-creator-nen-dung-codec-nao.md",
     "image": "/assets/images/thumbs/h264-h265-av1-creator-nen-dung-codec-nao.jpg",
-    "source": "https://us.v-cdn.net/6031942/uploads/D1865MS8LJJY/gettyimages-1180897643.jpg",
+    "source": "existing-local",
     "sha256": "80494855580b09046307bb9b7478dddcf5c74c3176ea169b0e2546f07771b3de",
     "size": [
       1200,
@@ -912,7 +912,7 @@
   "nd-filter-action-cam-dien-thoai-khi-nao-dung": {
     "post": "_posts/2026-08-25-nd-filter-action-cam-dien-thoai-khi-nao-dung.md",
     "image": "/assets/images/thumbs/nd-filter-action-cam-dien-thoai-khi-nao-dung.jpg",
-    "source": "https://freewellgear.com/cdn/shop/files/gopro-hero13-black-nd1000-filter-freewell-gear-217626.jpg?v=1741851715&width=1206",
+    "source": "existing-local",
     "sha256": "66674b31cb82c366dc5e4eaed704a3f3a2ff05a106548faa0a521dd1728cb034",
     "size": [
       1200,
@@ -922,8 +922,8 @@
   "osmo-pocket-4-vs-osmo-action-6-vlog-du-lich": {
     "post": "_posts/2026-08-25-osmo-pocket-4-vs-osmo-action-6-vlog-du-lich.md",
     "image": "/assets/images/thumbs/osmo-pocket-4-vs-osmo-action-6-vlog-du-lich.jpg",
-    "source": "https://www.gadgetmatch.com/wp-content/uploads/2025/11/gadgetmatch-20251122-dji-osmo-action-6-1.jpg",
-    "sha256": "3c656b3790112a868be67fd7ce1c17da3c6432ab4b629a612c713cb02290489a",
+    "source": "https://acdn-us.mitiendanube.com/stores/005/618/526/products/dji219_20260515130057448997-96cc931dfb99eb03a017788610363682-1024-1024.webp",
+    "sha256": "dcb3cc85a42eb3568119837c942ac8c5ec602f39b520dcab1721071f0c26637b",
     "size": [
       1200,
       675
@@ -932,7 +932,7 @@
   "shotgun-mic-vs-mic-khong-day-creator": {
     "post": "_posts/2026-08-25-shotgun-mic-vs-mic-khong-day-creator.md",
     "image": "/assets/images/thumbs/shotgun-mic-vs-mic-khong-day-creator.jpg",
-    "source": "https://i5.walmartimages.com/asr/58f2becc-2a53-449a-9c52-d32fa30fad52.654c2ffe3b84194ae2c0342a1c5c5d42.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768",
+    "source": "existing-local",
     "sha256": "5fecbd1069088afafa2ba3884c3dfb4ef7dce302e302a946cb6624722472505f",
     "size": [
       1200,
@@ -942,7 +942,7 @@
   "tripod-mini-kep-ban-suction-mount-creator": {
     "post": "_posts/2026-08-25-tripod-mini-kep-ban-suction-mount-creator.md",
     "image": "/assets/images/thumbs/tripod-mini-kep-ban-suction-mount-creator.jpg",
-    "source": "https://microless.com/cdn/products/799666ee5912cb8237b8915a4e5983a5-hi.jpg",
+    "source": "existing-local",
     "sha256": "9b6942930717f699cc555a46ed9ab761a4e6c0dc3a5221fc1163ac8a9b04a91c",
     "size": [
       1200,
@@ -952,7 +952,7 @@
   "video-10-bit-co-can-neu-dung-capcut": {
     "post": "_posts/2026-08-25-video-10-bit-co-can-neu-dung-capcut.md",
     "image": "/assets/images/thumbs/video-10-bit-co-can-neu-dung-capcut.jpg",
-    "source": "https://cdn.tomshw.it/storage/media/2026/07/104626/asus-porta-loled-4k-sulle-scrivanie-dei-professionisti.png?aspect_ratio=16%3A9&width=970",
+    "source": "existing-local",
     "sha256": "6f156bc465af0c6e0e488a0050c3398c82aebb4b5cbd8b031e2b189cae43cf45",
     "size": [
       1200,
