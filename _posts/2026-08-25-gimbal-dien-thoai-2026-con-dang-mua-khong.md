@@ -31,7 +31,7 @@ category: phu-kien-setup
 category_label: "Phụ kiện / Setup"
 brand: DJI
 tags: [gimbal điện thoại, Osmo Mobile 8, creator, smartphone video, phụ kiện điện thoại]
-image: "https://www.fotoforma.fi/tuotekuvat/1200x1200/DJI_Osmo_Mobile_8_4.jpg"
+image: "/assets/images/thumbs/gimbal-dien-thoai-2026-con-dang-mua-khong.jpg"
 image_alt: "DJI Osmo Mobile 8 gắn điện thoại trên gimbal cầm tay"
 source_status: confirmed
 sources:

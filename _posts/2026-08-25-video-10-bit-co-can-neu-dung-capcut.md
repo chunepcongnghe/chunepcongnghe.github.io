@@ -31,7 +31,7 @@ category: video-editing
 category_label: "Video / Hậu kỳ"
 brand: Multi-brand
 tags: [10-bit, CapCut, video editing, creator, D-Log, HLG, color grading]
-image: "https://cdn.tomshw.it/storage/media/2026/07/104626/asus-porta-loled-4k-sulle-scrivanie-dei-professionisti.png?aspect_ratio=16%3A9&width=970"
+image: "/assets/images/thumbs/video-10-bit-co-can-neu-dung-capcut.jpg"
 image_alt: "Màn hình dựng video với giao diện chỉnh màu chuyên nghiệp"
 source_status: confirmed
 sources:

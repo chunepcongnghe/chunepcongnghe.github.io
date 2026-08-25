@@ -31,7 +31,7 @@ category: camera-creator
 category_label: "Camera / Creator Gear"
 brand: Multi-brand
 tags: [camera overheating, nhiệt camera, quay video dài, creator, action cam, mirrorless]
-image: "https://snpi.dell.com/snp/images/products/large/AD535542_mvi6.jpg"
+image: "/assets/images/thumbs/camera-nong-khi-quay-lau-doc-test-nhiet-dung.jpg"
 image_alt: "Action camera nhỏ gọn dùng để quay video liên tục"
 source_status: confirmed
 sources:

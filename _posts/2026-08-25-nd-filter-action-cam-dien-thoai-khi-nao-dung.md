@@ -31,7 +31,7 @@ category: phu-kien-setup
 category_label: "Phụ kiện / Setup"
 brand: Multi-brand
 tags: [ND filter, action cam, điện thoại, video, creator, phụ kiện camera]
-image: "https://freewellgear.com/cdn/shop/files/gopro-hero13-black-nd1000-filter-freewell-gear-217626.jpg?v=1741851715&width=1206"
+image: "/assets/images/thumbs/nd-filter-action-cam-dien-thoai-khi-nao-dung.jpg"
 image_alt: "Kính lọc ND dành cho action camera"
 source_status: confirmed
 sources:

@@ -31,7 +31,7 @@ category: phu-kien-setup
 category_label: "Phụ kiện / Setup"
 brand: Multi-brand
 tags: [shotgun mic, mic không dây, lavalier, creator, vlog, phỏng vấn, audio]
-image: "https://i5.walmartimages.com/asr/58f2becc-2a53-449a-9c52-d32fa30fad52.654c2ffe3b84194ae2c0342a1c5c5d42.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768"
+image: "/assets/images/thumbs/shotgun-mic-vs-mic-khong-day-creator.jpg"
 image_alt: "Shotgun microphone nhỏ gắn trên camera"
 source_status: confirmed
 sources:

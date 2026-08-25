@@ -31,7 +31,7 @@ category: creator-setup
 category_label: "Creator / Setup"
 brand: Multi-brand
 tags: [creator gear, microphone, lighting, camera, setup, DeepTalk]
-image: "https://thumbsup.com/cdn/shop/files/ring-light-creator-rig-smartphone-holder-10-inch-desktop-setup-creators_700x700.jpg?v=1736160723"
+image: "/assets/images/thumbs/deeptalk-nang-audio-anh-sang-hay-doi-camera-truoc.jpg"
 image_alt: "Góc creator tại nhà với ring light và điện thoại"
 source_status: confirmed
 sources:

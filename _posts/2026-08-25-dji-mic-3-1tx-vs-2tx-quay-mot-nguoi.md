@@ -31,7 +31,7 @@ category: audio-creator
 category_label: "Audio / Creator Gear"
 brand: DJI
 tags: [DJI Mic 3, wireless mic, mic không dây, creator, vlog, phỏng vấn]
-image: "https://www.pbtech.co.nz/imgprod/M/I/MICDJI3003__4.jpg?h=2908767271"
+image: "/assets/images/thumbs/dji-mic-3-1tx-vs-2tx-quay-mot-nguoi.jpg"
 image_alt: "DJI Mic 3 transmitter màu đen"
 source_status: confirmed
 sources:

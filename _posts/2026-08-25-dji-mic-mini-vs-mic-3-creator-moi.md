@@ -31,7 +31,7 @@ category: audio-creator
 category_label: "Audio / Creator Gear"
 brand: DJI
 tags: [DJI Mic Mini, DJI Mic 3, mic không dây, creator, vlog, audio]
-image: "https://cdn.idealo.com/folder/Product/205167/9/205167987/s4_produktbild_max_5/dji-mic-mini-transmitter-infinity-black.jpg"
+image: "/assets/images/thumbs/dji-mic-mini-vs-mic-3-creator-moi.jpg"
 image_alt: "DJI Mic Mini transmitter nhỏ gọn màu đen"
 source_status: confirmed
 sources:

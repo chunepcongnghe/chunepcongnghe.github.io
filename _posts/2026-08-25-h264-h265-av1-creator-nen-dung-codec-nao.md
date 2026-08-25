@@ -31,7 +31,7 @@ category: video-editing
 category_label: "Video / Hậu kỳ"
 brand: Multi-brand
 tags: [H.264, H.265, HEVC, AV1, codec, creator, video editing, 4K]
-image: "https://us.v-cdn.net/6031942/uploads/D1865MS8LJJY/gettyimages-1180897643.jpg"
+image: "/assets/images/thumbs/h264-h265-av1-creator-nen-dung-codec-nao.jpg"
 image_alt: "Laptop đang dựng video với timeline và ổ lưu trữ ngoài"
 source_status: confirmed
 sources:

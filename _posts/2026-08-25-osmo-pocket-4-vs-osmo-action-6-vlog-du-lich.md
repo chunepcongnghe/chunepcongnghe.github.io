@@ -35,7 +35,7 @@ category: camera-creator
 category_label: "Camera / Creator Gear"
 brand: DJI
 tags: [DJI Osmo Pocket 4, Osmo Action 6, vlog, road trip, action cam, camera creator]
-image: "https://ceno.lv/uploads/catalogue/product/dji-osmo-pocket-4-original-size-46867.jpg"
+image: "/assets/images/thumbs/osmo-pocket-4-vs-osmo-action-6-vlog-du-lich.jpg"
 image_alt: "DJI Osmo Pocket 4 với camera gimbal nhỏ gọn"
 source_status: confirmed
 sources:

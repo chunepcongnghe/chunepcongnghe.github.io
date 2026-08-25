@@ -31,7 +31,7 @@ category: phu-kien-setup
 category_label: "Phụ kiện / Setup"
 brand: Multi-brand
 tags: [tripod mini, clamp, suction mount, action cam, điện thoại, creator gear]
-image: "https://microless.com/cdn/products/799666ee5912cb8237b8915a4e5983a5-hi.jpg"
+image: "/assets/images/thumbs/tripod-mini-kep-ban-suction-mount-creator.jpg"
 image_alt: "Suction mount ba giác hút dành cho camera hành động"
 source_status: confirmed
 sources:

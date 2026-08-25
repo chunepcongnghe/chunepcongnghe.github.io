@@ -31,7 +31,7 @@ category: camera-creator
 category_label: "Camera / Creator Gear"
 brand: Multi-brand
 tags: [action cam, quay đêm, Osmo Action 6, low light, creator, video]
-image: "https://res.insta360.com/static/c6966689da8ad58214a47e4f274846b4/6.png"
+image: "/assets/images/thumbs/action-cam-quay-dem-cam-bien-lon-chua-du.jpg"
 image_alt: "Người dùng action camera trên phố vào ban đêm"
 source_status: confirmed
 sources:
