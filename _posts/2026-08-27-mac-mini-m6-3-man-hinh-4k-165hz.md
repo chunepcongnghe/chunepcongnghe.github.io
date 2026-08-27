@@ -31,7 +31,7 @@ category: desktop
 category_label: "Mac / Desktop"
 brand: Apple
 tags: [Mac mini M6, 4K 165Hz, 3 màn hình Mac mini, Thunderbolt 5, monitor setup]
-image: "https://www.soydemac.com/wp-content/uploads/2024/02/mac-mini-m2-con-monitor-scaled-e1707498227469.jpg"
+image: "/assets/images/thumbs/mac-mini-m6-3-man-hinh-4k-165hz.jpg"
 image_alt: "Mac mini trong góc làm việc với màn hình ngoài"
 source_status: confirmed
 sources:
