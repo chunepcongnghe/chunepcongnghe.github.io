@@ -62,17 +62,17 @@ Mac mini M6 đáng chú ý ở ba thứ: **M6 mạnh hơn**, **kết nối hiệ
 
 Apple công bố M6 trên Mac mini có CPU 12 lõi, GPU 12 lõi, Neural Accelerator trong GPU, Bộ Đôi Neural Engine 16 lõi và băng thông unified memory tới 170GB/s.
 
-Máy có 16GB unified memory tiêu chuẩn và có thể nâng lên 32GB. Đây là mức đủ rộng cho văn phòng, marketing, coding, thiết kế và phần lớn workflow creator. Nhưng nếu mục tiêu là model AI local lớn, 32GB có thể trở thành giới hạn sớm hơn tốc độ CPU/GPU.
+Máy có 16GB unified memory tiêu chuẩn và có thể nâng lên 32GB. Đây là mức đủ rộng cho văn phòng, marketing, coding, thiết kế và phần lớn cách làm việc của người làm nội dung. Nhưng nếu mục tiêu là mô hình AI chạy trực tiếp trên máy lớn, 32GB có thể trở thành giới hạn sớm hơn tốc độ CPU/GPU.
 
 ## Apple nói M6 nhanh hơn bao nhiêu?
 
 Apple công bố Mac mini M6 có CPU nhanh hơn tới 40%, đồ họa nhanh hơn tới 2 lần và AI nhanh hơn tới 4 lần so với Mac mini M4 trong các điều kiện test cụ thể của hãng.
 
-Điều quan trọng là từ “tới”. Đây không phải mức tăng cố định trong mọi ứng dụng. Excel, Photoshop, Final Cut, Chrome hay CapCut sẽ có mức hưởng lợi khác nhau tùy workload.
+Điều quan trọng là từ “tới”. Đây không phải mức tăng cố định trong mọi ứng dụng. Excel, Photoshop, Final Cut, Chrome hay CapCut sẽ có mức hưởng lợi khác nhau tùy nhu cầu sử dụng.
 
 ## Kết nối mới thực dụng hơn benchmark
 
-Mac mini mới hỗ trợ Wi‑Fi 7, Bluetooth 6 và Ethernet 2,5Gb tiêu chuẩn, có tùy chọn 10Gb Ethernet. Với người dùng NAS, server tại nhà, SSD mạng hoặc workflow copy file lớn, Ethernet 2,5Gb có thể đáng giá hơn một benchmark CPU.
+Mac mini mới hỗ trợ Wi‑Fi 7, Bluetooth 6 và Ethernet 2,5Gb tiêu chuẩn, có tùy chọn 10Gb Ethernet. Với người dùng NAS, server tại nhà, SSD mạng hoặc quy trình làm việc copy file lớn, Ethernet 2,5Gb có thể đáng giá hơn một benchmark CPU.
 
 Phía trước vẫn có hai USB-C và jack tai nghe. Phía sau bản M6 có ba Thunderbolt 4, HDMI và Ethernet. Bản M5 Pro mới là bản có Thunderbolt 5.
 
@@ -94,7 +94,7 @@ Tuy vậy, nếu đã có màn hình và phụ kiện, Mac mini vẫn có lợi 
 
 Với phần đông người dùng, có. M6 rẻ hơn đáng kể và đã đủ mạnh cho rất nhiều công việc.
 
-M5 Pro chỉ bắt đầu đáng tiền khi bạn cần 64GB unified memory, nhiều lõi CPU/GPU hơn, Thunderbolt 5, model AI lớn hơn, 3D/VFX nặng hoặc workflow video chuyên nghiệp dài hơi.
+M5 Pro chỉ bắt đầu đáng tiền khi bạn cần 64GB unified memory, nhiều lõi CPU/GPU hơn, Thunderbolt 5, mô hình AI lớn hơn, 3D/VFX nặng hoặc quy trình làm việc video chuyên nghiệp dài hơi.
 
 ## Điểm chưa được nói đủ: tổng chi phí setup
 
@@ -104,6 +104,6 @@ Ngược lại, nếu bạn đã có góc setup ngon, Mac mini có thể là cá
 
 ## Kết luận
 
-Mac mini M6 không còn hấp dẫn chỉ vì nhỏ và rẻ. Nó hấp dẫn vì **nhỏ nhưng đủ mạnh để làm desktop chính**, có kết nối mới và chạy được nhiều workflow AI/creator mà trước đây phải lên dòng Pro cao hơn.
+Mac mini M6 không còn hấp dẫn chỉ vì nhỏ và rẻ. Nó hấp dẫn vì **nhỏ nhưng đủ mạnh để làm desktop chính**, có kết nối mới và chạy được nhiều công việc có dùng AI/creator mà trước đây phải lên dòng Pro cao hơn.
 
 Nếu đang dùng M1/M2 và công việc bắt đầu nặng, đây là một bước nhảy đáng cân nhắc. Nếu đang dùng M4 và vẫn mượt, đừng đổi chỉ vì chữ M6 — hãy nhìn vào giới hạn thực tế của máy hiện tại.

@@ -1,14 +1,14 @@
 ---
 title: "Mac mini M6 hỗ trợ 3 màn hình và 4K 165Hz: setup đa màn hình được lợi gì?"
 slug: mac-mini-m6-3-man-hinh-4k-165hz
-description: "Mac mini M6 và M5 Pro tăng hỗ trợ refresh rate màn hình ngoài. Phân tích 3 màn hình, 4K 165Hz, 5K 120Hz và khi nào người dùng thật sự hưởng lợi."
+description: "Mac mini M6 và M5 Pro tăng hỗ trợ tần số quét màn hình ngoài. Phân tích 3 màn hình, 4K 165Hz, 5K 120Hz và khi nào người dùng thật sự hưởng lợi."
 answer_summary: "Mac mini M6 tiếp tục hỗ trợ tối đa ba màn hình ngoài và theo thông số mới có thể chạy hai màn hình tới 6K60 hoặc 4K165Hz, cộng màn hình thứ ba tới 5K60 qua Thunderbolt hoặc 4K60 qua HDMI. M5 Pro linh hoạt hơn, có thể chạy ba màn hình tới 6K60 hoặc 4K165Hz và hỗ trợ cấu hình hai màn hình tới 5K120/4K200Hz. Đây là nâng cấp đáng quan tâm với creator, trader, developer và người dùng màn hình high-refresh; người chỉ dùng 60Hz không cần nâng máy vì lý do này."
 target_query: "Mac mini M6 hỗ trợ mấy màn hình 4K 165Hz"
 key_takeaways:
   - "Mac mini M6 hỗ trợ tối đa ba màn hình ngoài."
   - "Hai màn hình đầu có thể đạt 6K60 hoặc 4K165Hz theo thông số Apple được MacRumors tổng hợp."
   - "M5 Pro linh hoạt hơn với Thunderbolt 5 và cấu hình nhiều màn hình tốc độ cao."
-  - "Refresh rate cao chỉ có ý nghĩa nếu màn hình và cáp/chuẩn kết nối tương thích."
+  - "tần số quét cao chỉ có ý nghĩa nếu màn hình và cáp/chuẩn kết nối tương thích."
 compare_subject: "Mac mini M6"
 compare_reference: "Mac mini M5 Pro"
 quick_compare:
@@ -64,7 +64,7 @@ Nếu bạn làm việc với 2–3 màn hình, nhất là 4K 120/144/165Hz, Mac
 
 Theo thông số kỹ thuật Apple được MacRumors đối chiếu, M6 vẫn hỗ trợ tối đa ba màn hình ngoài. Cấu hình phổ biến gồm hai màn hình tới 6K60 hoặc 4K165Hz, cộng màn hình thứ ba tới 5K60 qua Thunderbolt hoặc 4K60 qua HDMI.
 
-Điểm mới là refresh rate 4K tăng từ mức 144Hz ở thế hệ trước lên 165Hz trong một số cấu hình.
+Điểm mới là tần số quét 4K tăng từ mức 144Hz ở thế hệ trước lên 165Hz trong một số cấu hình.
 
 ## M5 Pro còn linh hoạt hơn
 
@@ -83,11 +83,11 @@ Mac mini M5 Pro dùng Thunderbolt 5 và DisplayPort 2.1. Theo thông số mới,
 
 ### Developer và dân văn phòng đa màn hình
 
-Refresh rate cao làm cuộn code, spreadsheet và browser mượt hơn. Nó không làm CPU tính toán nhanh hơn, nhưng cảm giác thao tác dễ chịu hơn nếu bạn ngồi trước màn hình nhiều giờ.
+tần số quét cao làm cuộn code, spreadsheet và trình duyệt mượt hơn. Nó không làm CPU tính toán nhanh hơn, nhưng cảm giác thao tác dễ chịu hơn nếu bạn ngồi trước màn hình nhiều giờ.
 
 ### Creator
 
-Timeline, scrub video và animation UI có thể mượt hơn. Tuy nhiên màu sắc, độ sáng, gamut và độ chính xác màu vẫn quan trọng hơn refresh rate nếu công việc là chỉnh ảnh/video.
+Timeline, scrub video và animation UI có thể mượt hơn. Tuy nhiên màu sắc, độ sáng, gamut và độ chính xác màu vẫn quan trọng hơn tần số quét nếu công việc là chỉnh ảnh/video.
 
 ### Gaming
 
@@ -95,7 +95,7 @@ Timeline, scrub video và animation UI có thể mượt hơn. Tuy nhiên màu s
 
 ## Cáp và monitor là phần dễ bị bỏ quên
 
-Muốn đạt đúng resolution + refresh rate, cả ba thứ phải tương thích:
+Muốn đạt đúng resolution + tần số quét, cả ba thứ phải tương thích:
 
 1. GPU/output của Mac.
 2. Cổng và chuẩn DisplayPort/HDMI.
@@ -107,7 +107,7 @@ Một sợi cáp cũ hoặc dock giới hạn băng thông có thể kéo toàn 
 
 Không. Nếu chỉ dùng một monitor 4K60, SSD ngoài phổ thông và vài phụ kiện, TB4 đã rất dư.
 
-TB5 đáng giá khi bạn gom nhiều luồng băng thông lớn cùng lúc: monitor độ phân giải cao, storage cực nhanh, capture card, dock chuyên nghiệp hoặc cluster Mac cho workload đặc thù.
+TB5 đáng giá khi bạn gom nhiều luồng băng thông lớn cùng lúc: monitor độ phân giải cao, storage cực nhanh, capture card, dock chuyên nghiệp hoặc cluster Mac cho nhu cầu sử dụng đặc thù.
 
 ## Có nên nâng M4 lên M6 chỉ vì 165Hz?
 

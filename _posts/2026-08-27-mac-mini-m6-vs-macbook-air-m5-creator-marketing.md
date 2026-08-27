@@ -2,13 +2,13 @@
 title: "Mac mini M6 vs MacBook Air M5: creator và marketing nên chọn desktop hay laptop?"
 slug: mac-mini-m6-vs-macbook-air-m5-creator-marketing
 description: "So sánh Mac mini M6 và MacBook Air M5 theo hiệu năng, tính di động, màn hình, pin, RAM, storage và tổng chi phí setup cho creator/marketing."
-answer_summary: "Mac mini M6 hợp người làm việc cố định tại bàn, đã có màn hình/phụ kiện và muốn hiệu năng desktop mới với CPU/GPU 12 lõi cùng giá máy thấp hơn laptop cấu hình tương đương. MacBook Air M5 hợp người thường xuyên di chuyển vì có sẵn màn hình, pin, bàn phím, trackpad và webcam trong một thiết bị. Với creator/marketing, lựa chọn đúng chủ yếu nằm ở workflow: 80% làm tại bàn nên nghiêng Mac mini; thường đi họp, quay ngoại cảnh, coworking hoặc làm việc nhiều nơi nên MacBook Air thực dụng hơn."
+answer_summary: "Mac mini M6 hợp người làm việc cố định tại bàn, đã có màn hình/phụ kiện và muốn hiệu năng desktop mới với CPU/GPU 12 lõi cùng giá máy thấp hơn laptop cấu hình tương đương. MacBook Air M5 hợp người thường xuyên di chuyển vì có sẵn màn hình, pin, bàn phím, trackpad và webcam trong một thiết bị. Với creator/marketing, lựa chọn đúng chủ yếu nằm ở quy trình làm việc: 80% làm tại bàn nên nghiêng Mac mini; thường đi họp, quay ngoại cảnh, coworking hoặc làm việc nhiều nơi nên MacBook Air thực dụng hơn."
 target_query: "Mac mini M6 vs MacBook Air M5 creator marketing"
 key_takeaways:
   - "Mac mini M6 mạnh và linh hoạt hơn cho góc desktop cố định."
   - "MacBook Air M5 gói màn hình, pin, webcam, bàn phím và trackpad trong một thiết bị."
   - "MacBook Air M5 bắt đầu từ SSD 512GB theo Apple, còn tổng chi phí Mac mini phải tính thêm monitor/phụ kiện nếu chưa có."
-  - "Chọn theo nơi làm việc và workflow quan trọng hơn chọn M6 vì mới hơn M5."
+  - "Chọn theo nơi làm việc và quy trình làm việc quan trọng hơn chọn M6 vì mới hơn M5."
 compare_subject: "Mac mini M6"
 compare_reference: "MacBook Air M5"
 quick_compare:
@@ -24,7 +24,7 @@ quick_compare:
     subject_value: "Dễ đổi monitor/phụ kiện độc lập"
     reference_value: "Phụ thuộc màn hình tích hợp"
     verdict: "Mini linh hoạt hơn ở bàn cố định."
-  - criterion: "AI local memory tối đa"
+  - criterion: "AI chạy trực tiếp trên máy memory tối đa"
     subject_value: "32GB"
     reference_value: "Tới 32GB"
     verdict: "Hai máy cùng có giới hạn capacity tương tự ở cấu hình cao."
@@ -54,9 +54,9 @@ faq:
   - question: "Creator nên mua Mac mini M6 hay MacBook Air M5?"
     answer: "Nếu phần lớn thời gian làm tại bàn và đã có monitor, Mac mini hợp hơn. Nếu thường đi quay, họp, coworking hoặc cần làm việc mọi nơi, MacBook Air thực dụng hơn."
   - question: "M6 mới hơn M5 có nghĩa Mac mini luôn tốt hơn không?"
-    answer: "Không. MacBook Air có màn hình, pin và tính di động; giá trị sử dụng phụ thuộc workflow chứ không chỉ đời chip."
+    answer: "Không. MacBook Air có màn hình, pin và tính di động; giá trị sử dụng phụ thuộc quy trình làm việc chứ không chỉ đời chip."
   - question: "Marketing có cần Mac mini M6 không?"
-    answer: "Không bắt buộc. Cả hai máy đều đủ mạnh cho browser, ads, Office, Canva, Figma và Photoshop phổ biến; chọn theo cách làm việc và ngân sách."
+    answer: "Không bắt buộc. Cả hai máy đều đủ mạnh cho trình duyệt, ads, Office, Canva, Figma và Photoshop phổ biến; chọn theo cách làm việc và ngân sách."
 ---
 Một bên là desktop nhỏ gọn đời chip mới nhất. Một bên là laptop mỏng nhẹ tiện đi mọi nơi. Nếu chỉ nhìn M6 vs M5, Mac mini có vẻ thắng ngay — nhưng với người làm creator/marketing, **cách làm việc** quan trọng hơn tên chip.
 
@@ -76,11 +76,11 @@ Air M5 có sẵn màn hình, bàn phím, trackpad, webcam, loa và pin. Apple đ
 
 Bạn có thể mang máy đi họp khách, chỉnh nội dung ở quán, kiểm tra campaign khi đang di chuyển hoặc dựng nhanh footage ngay sau khi quay.
 
-## Với marketing, sức mạnh chip hiếm khi là bottleneck đầu tiên
+## Với marketing, sức mạnh chip hiếm khi là điểm nghẽn đầu tiên
 
-Meta Ads Manager, Google Ads, Sheets, Looker Studio, Slack, Notion, Canva, Figma và browser nhiều tab cần RAM và độ ổn định hơn là GPU cực mạnh.
+Meta Ads Manager, Google Ads, Sheets, Looker Studio, Slack, Notion, Canva, Figma và trình duyệt nhiều tab cần RAM và độ ổn định hơn là GPU cực mạnh.
 
-Cả M6 và M5 đều dư sức cho phần lớn workflow marketing. Nếu browser ngốn RAM, việc chọn 24/32GB có thể tạo khác biệt lớn hơn chọn desktop hay laptop theo benchmark CPU.
+Cả M6 và M5 đều dư sức cho phần lớn quy trình làm việc marketing. Nếu trình duyệt ngốn RAM, việc chọn 24/32GB có thể tạo khác biệt lớn hơn chọn desktop hay laptop theo benchmark CPU.
 
 ## Với creator, câu hỏi là bạn quay và dựng ở đâu
 
@@ -104,9 +104,9 @@ Nhiều người dùng MacBook Air như máy chính, về nhà cắm vào monito
 
 Đổi lại, bạn phải trả tiền cho màn hình laptop ngay cả khi phần lớn thời gian nó đóng nắp. Mac mini lại tối ưu hơn nếu gần như không cần di động.
 
-## AI local: hai máy đều có trần memory
+## AI chạy trực tiếp trên máy: hai máy đều có trần memory
 
-Mac mini M6 tối đa 32GB. MacBook Air M5 cũng lên tới 32GB ở các cấu hình phù hợp. Với AI local model vừa, cả hai đều dùng được; với model lớn hơn, M5 Pro/Mac Studio mới là bước nâng đáng nhìn.
+Mac mini M6 tối đa 32GB. MacBook Air M5 cũng lên tới 32GB ở các cấu hình phù hợp. Với AI chạy trực tiếp trên máy model vừa, cả hai đều dùng được; với model lớn hơn, M5 Pro/Mac Studio mới là bước nâng đáng nhìn.
 
 ## Chọn nhanh
 
