@@ -39,7 +39,7 @@ category: desktop
 category_label: "Mac / Desktop"
 brand: Apple
 tags: [Mac mini M6, Mac mini M5 Pro, Apple M6, M5 Pro, Mac mini 2026]
-image: "https://media.falabella.com/falabellaCL/80724684_3/w%3D1500%2Ch%3D1500%2Cfit%3Dcover"
+image: "/assets/images/thumbs/mac-mini-m6-vs-m5-pro.jpg"
 image_alt: "Logo Apple M5 Pro"
 source_status: confirmed
 sources:

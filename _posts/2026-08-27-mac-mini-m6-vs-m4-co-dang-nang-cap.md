@@ -35,7 +35,7 @@ category: desktop
 category_label: "Mac / Desktop"
 brand: Apple
 tags: [Mac mini M6, Mac mini M4, nâng cấp Mac mini, Apple M6, desktop 2026]
-image: "https://image.21market.kr/production/blog/18cb28d0-2ec4-4708-b26c-ab5afec51a13.png"
+image: "/assets/images/thumbs/mac-mini-m6-vs-m4-co-dang-nang-cap.jpg"
 image_alt: "Góc làm việc với Mac mini, màn hình và SSD ngoài"
 source_status: confirmed
 sources:

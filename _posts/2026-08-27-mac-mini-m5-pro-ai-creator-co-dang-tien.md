@@ -31,7 +31,7 @@ category: desktop
 category_label: "Mac / Desktop"
 brand: Apple
 tags: [Mac mini M5 Pro, M5 Pro, Mac mini 64GB, Thunderbolt 5, creator Mac]
-image: "https://pas7.com.ua/images/blog/apple-m5-pro-max-records-2026/cover.webp"
+image: "/assets/images/thumbs/mac-mini-m5-pro-ai-creator-co-dang-tien.jpg"
 image_alt: "Đồ họa chip Apple M5 Max và kiến trúc silicon"
 source_status: confirmed
 sources:

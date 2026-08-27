@@ -35,7 +35,7 @@ category: desktop
 category_label: "Mac / Desktop"
 brand: Apple
 tags: [Mac mini M6 16GB, Mac mini M6 32GB, unified memory, RAM Mac mini, Apple M6]
-image: "https://www.journaldugeek.com/app/uploads/2026/02/mac-mini-apple.jpg"
+image: "/assets/images/thumbs/mac-mini-m6-16gb-vs-32gb.jpg"
 image_alt: "Mac mini nhỏ gọn với hai cổng USB-C phía trước"
 source_status: confirmed
 sources:

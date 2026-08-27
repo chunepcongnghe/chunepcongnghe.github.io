@@ -35,7 +35,7 @@ category: chip-ai
 category_label: "Chip / AI"
 brand: Apple
 tags: [Apple M6, M5 Ultra, Apple silicon, Mac mini, Mac Studio, AI local]
-image: "https://www.macplus.net/app/uploads/2026/01/M6-apple-silicon-ipad-pro.jpg"
+image: "/assets/images/thumbs/apple-m6-m5-ultra-moi-co-gi.jpg"
 image_alt: "Logo Apple M6 trên nền tối"
 source_status: confirmed
 sources:

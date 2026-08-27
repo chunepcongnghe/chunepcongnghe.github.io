@@ -31,7 +31,7 @@ category: desktop
 category_label: "Mac / Desktop"
 brand: Apple
 tags: [Mac mini M6, Apple M6, Mac mini 2026, Mac desktop, giá Mac mini]
-image: "https://img.tamindir.com/resize/1200x675/2026/01/476780/2026-yilinda-tanitilacak-mac-bilgisayarlar-5.jpg"
+image: "/assets/images/thumbs/mac-mini-m6-moi-co-gi-gia-viet-nam.jpg"
 image_alt: "Mac mini thiết kế nhỏ gọn với hai cổng USB-C phía trước"
 source_status: confirmed
 sources:

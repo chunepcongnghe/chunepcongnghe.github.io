@@ -35,7 +35,7 @@ category: mac
 category_label: "Mac / Laptop & Desktop"
 brand: Apple
 tags: [Mac mini M6, MacBook Air M5, creator Mac, marketing laptop, Apple M6]
-image: "https://image.21market.kr/production/blog/18cb28d0-2ec4-4708-b26c-ab5afec51a13.png"
+image: "/assets/images/thumbs/mac-mini-m6-vs-macbook-air-m5-creator-marketing.jpg"
 image_alt: "Góc làm việc với Mac mini, màn hình và phụ kiện desktop"
 source_status: confirmed
 sources:

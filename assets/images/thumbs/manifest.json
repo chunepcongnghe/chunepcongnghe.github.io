@@ -862,7 +862,7 @@
   "deeptalk-nang-audio-anh-sang-hay-doi-camera-truoc": {
     "post": "_posts/2026-08-25-deeptalk-nang-audio-anh-sang-hay-doi-camera-truoc.md",
     "image": "/assets/images/thumbs/deeptalk-nang-audio-anh-sang-hay-doi-camera-truoc.jpg",
-    "source": "https://assets.telegraphindia.com/telegraph/2026/Feb/1772103824_untitled-design-5.jpg",
+    "source": "existing-local",
     "sha256": "173af994ec18e76565a84c6cbce1824d9edf7bb691c418d5f6f4ee0f1f596bea",
     "size": [
       1200,
@@ -872,7 +872,7 @@
   "dji-mic-3-1tx-vs-2tx-quay-mot-nguoi": {
     "post": "_posts/2026-08-25-dji-mic-3-1tx-vs-2tx-quay-mot-nguoi.md",
     "image": "/assets/images/thumbs/dji-mic-3-1tx-vs-2tx-quay-mot-nguoi.jpg",
-    "source": "https://www.lib.polyu.edu.hk/sites/default/files/attachment/DIJM3.jpg",
+    "source": "existing-local",
     "sha256": "16865db5f4890d18eba1e1b59527563edae1775ce7f37f5929830a336fcb7ba9",
     "size": [
       1200,
@@ -922,7 +922,7 @@
   "osmo-pocket-4-vs-osmo-action-6-vlog-du-lich": {
     "post": "_posts/2026-08-25-osmo-pocket-4-vs-osmo-action-6-vlog-du-lich.md",
     "image": "/assets/images/thumbs/osmo-pocket-4-vs-osmo-action-6-vlog-du-lich.jpg",
-    "source": "https://acdn-us.mitiendanube.com/stores/005/618/526/products/dji219_20260515130057448997-96cc931dfb99eb03a017788610363682-1024-1024.webp",
+    "source": "existing-local",
     "sha256": "dcb3cc85a42eb3568119837c942ac8c5ec602f39b520dcab1721071f0c26637b",
     "size": [
       1200,
@@ -954,6 +954,126 @@
     "image": "/assets/images/thumbs/video-10-bit-co-can-neu-dung-capcut.jpg",
     "source": "existing-local",
     "sha256": "6f156bc465af0c6e0e488a0050c3398c82aebb4b5cbd8b031e2b189cae43cf45",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "apple-m6-m5-ultra-moi-co-gi": {
+    "post": "_posts/2026-08-27-apple-m6-m5-ultra-moi-co-gi.md",
+    "image": "/assets/images/thumbs/apple-m6-m5-ultra-moi-co-gi.jpg",
+    "source": "https://www.macplus.net/app/uploads/2026/01/M6-apple-silicon-ipad-pro.jpg",
+    "sha256": "2204bfd6153d5736aa1fae33f360b2c6a29572cf5c265fbae11514266e3c3859",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "mac-mini-m5-pro-ai-creator-co-dang-tien": {
+    "post": "_posts/2026-08-27-mac-mini-m5-pro-ai-creator-co-dang-tien.md",
+    "image": "/assets/images/thumbs/mac-mini-m5-pro-ai-creator-co-dang-tien.jpg",
+    "source": "https://pas7.com.ua/images/blog/apple-m5-pro-max-records-2026/cover.webp",
+    "sha256": "2e2bb4c2cfeb2832433c0266f542be29cc632d312b93578409c5c4d3408aa873",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "mac-mini-m5-pro-vs-mac-studio-m5-max": {
+    "post": "_posts/2026-08-27-mac-mini-m5-pro-vs-mac-studio-m5-max.md",
+    "image": "/assets/images/thumbs/mac-mini-m5-pro-vs-mac-studio-m5-max.jpg",
+    "source": "https://s2-techtudo.glbimg.com/I8169RJsl1Fy9xB9_6f1PLZ50Ig=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2025/Q/C/suhWE5SzO0HPKfbmkMWw/2025-mac-studio-1.jpg",
+    "sha256": "93d187b38179b680387dd5578bb80050f1050ddbaf02a12632b6394e7ee27cbe",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "mac-mini-m6-16gb-vs-32gb": {
+    "post": "_posts/2026-08-27-mac-mini-m6-16gb-vs-32gb.md",
+    "image": "/assets/images/thumbs/mac-mini-m6-16gb-vs-32gb.jpg",
+    "source": "https://www.journaldugeek.com/app/uploads/2026/02/mac-mini-apple.jpg",
+    "sha256": "b8f118044eadf50ae0614c8dbc1421ad15c12357d00e5e8e1cff689a97cd16fc",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "mac-mini-m6-3-man-hinh-4k-165hz": {
+    "post": "_posts/2026-08-27-mac-mini-m6-3-man-hinh-4k-165hz.md",
+    "image": "/assets/images/thumbs/mac-mini-m6-3-man-hinh-4k-165hz.jpg",
+    "source": "https://miro.medium.com/0%2Akv7PnwnJj_OTRxAv",
+    "sha256": "a532a8deb153dd17ffee833f6b2725a6fb2d07538a76cde8489d6472fc30eeb8",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "mac-mini-m6-ai-local-llm-agent": {
+    "post": "_posts/2026-08-27-mac-mini-m6-ai-local-llm-agent.md",
+    "image": "/assets/images/thumbs/mac-mini-m6-ai-local-llm-agent.jpg",
+    "source": "https://www.soydemac.com/wp-content/uploads/2024/02/mac-mini-m2-con-monitor-scaled-e1707498227469.jpg",
+    "sha256": "fe7f96a2ac1eda4e2909df29727c726fec78c7719a708d46de6339fe09c98f76",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "mac-mini-m6-moi-co-gi-gia-viet-nam": {
+    "post": "_posts/2026-08-27-mac-mini-m6-moi-co-gi-gia-viet-nam.md",
+    "image": "/assets/images/thumbs/mac-mini-m6-moi-co-gi-gia-viet-nam.jpg",
+    "source": "https://img.tamindir.com/resize/1200x675/2026/01/476780/2026-yilinda-tanitilacak-mac-bilgisayarlar-5.jpg",
+    "sha256": "9263cc1148af94a32dda437030748eafdb8b883a4ee9e56151f7a40de01cfd68",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "mac-mini-m6-vs-m4-co-dang-nang-cap": {
+    "post": "_posts/2026-08-27-mac-mini-m6-vs-m4-co-dang-nang-cap.md",
+    "image": "/assets/images/thumbs/mac-mini-m6-vs-m4-co-dang-nang-cap.jpg",
+    "source": "https://image.21market.kr/production/blog/18cb28d0-2ec4-4708-b26c-ab5afec51a13.png",
+    "sha256": "2dc6c8c2de09a2c12224809fa2ff9610a9cf33036f76c0096550d887130e11cc",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "mac-mini-m6-vs-m5-pro": {
+    "post": "_posts/2026-08-27-mac-mini-m6-vs-m5-pro.md",
+    "image": "/assets/images/thumbs/mac-mini-m6-vs-m5-pro.jpg",
+    "source": "https://media.falabella.com/falabellaCL/80724684_3/w%3D1500%2Ch%3D1500%2Cfit%3Dcover",
+    "sha256": "5c48e0dffc84789754aec29b8e120a87793c56c52db9bb4d9101ee2f9e88ba75",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "mac-mini-m6-vs-macbook-air-m5-creator-marketing": {
+    "post": "_posts/2026-08-27-mac-mini-m6-vs-macbook-air-m5-creator-marketing.md",
+    "image": "/assets/images/thumbs/mac-mini-m6-vs-macbook-air-m5-creator-marketing.jpg",
+    "source": "https://image.21market.kr/production/blog/18cb28d0-2ec4-4708-b26c-ab5afec51a13.png",
+    "sha256": "5371a7f7c9855152a253ca5c57d068cf4cee76c94eab9265d0640cd9e72a2144",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "mac-studio-m5-max-m5-ultra-moi-co-gi": {
+    "post": "_posts/2026-08-27-mac-studio-m5-max-m5-ultra-moi-co-gi.md",
+    "image": "/assets/images/thumbs/mac-studio-m5-max-m5-ultra-moi-co-gi.jpg",
+    "source": "https://www.geeky-gadgets.com/wp-content/uploads/2025/06/mac-studio-m5-ultra-performance-leap_optimized.jpg",
+    "sha256": "13a8836e6b09a2d37f594130b7d75714f4513654aca9a891272a30062a5421d9",
+    "size": [
+      1200,
+      675
+    ]
+  },
+  "mac-studio-m5-max-vs-m5-ultra": {
+    "post": "_posts/2026-08-27-mac-studio-m5-max-vs-m5-ultra.md",
+    "image": "/assets/images/thumbs/mac-studio-m5-max-vs-m5-ultra.jpg",
+    "source": "https://s.yimg.com/ny/api/res/1.2/oiOFMCzS4EZ6ucpQQ3ULcA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTg-/https%3A/media.zenfs.com/en/pc_mag_263/b02f90f2dd8eaca3838e77da502b307b",
+    "sha256": "84340b98d8910c2479fbbe6bf6cee33c908c6767919ea3cf4b7f82a84f61589b",
     "size": [
       1200,
       675

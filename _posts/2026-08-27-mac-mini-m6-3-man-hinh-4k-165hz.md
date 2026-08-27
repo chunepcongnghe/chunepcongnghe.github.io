@@ -31,7 +31,7 @@ category: desktop
 category_label: "Mac / Desktop"
 brand: Apple
 tags: [Mac mini M6, 4K 165Hz, 3 màn hình Mac mini, Thunderbolt 5, monitor setup]
-image: "https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/57/573ce965-41b3-459f-a6c1-2780346ee2e0?rule=kijijica-400-webp"
+image: "/assets/images/thumbs/mac-mini-m6-3-man-hinh-4k-165hz.jpg"
 image_alt: "Mặt trước và sau Mac mini với các cổng USB-C HDMI Ethernet và Thunderbolt"
 source_status: confirmed
 sources:

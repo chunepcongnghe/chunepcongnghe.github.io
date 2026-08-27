@@ -31,7 +31,7 @@ category: ai
 category_label: "AI / Local Compute"
 brand: Apple
 tags: [Mac mini M6, AI local, LLM local, LM Studio, AI agent, unified memory]
-image: "https://www.soydemac.com/wp-content/uploads/2024/02/mac-mini-m2-con-monitor-scaled-e1707498227469.jpg"
+image: "/assets/images/thumbs/mac-mini-m6-ai-local-llm-agent.jpg"
 image_alt: "Mac mini kết nối màn hình trong góc desktop"
 source_status: confirmed
 sources:

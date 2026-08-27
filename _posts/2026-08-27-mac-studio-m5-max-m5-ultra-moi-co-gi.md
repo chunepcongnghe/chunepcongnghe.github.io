@@ -31,7 +31,7 @@ category: desktop
 category_label: "Mac / Desktop"
 brand: Apple
 tags: [Mac Studio M5 Max, M5 Ultra, Mac Studio 2026, workstation]
-image: "https://www.geeky-gadgets.com/wp-content/uploads/2025/06/mac-studio-m5-ultra-performance-leap_optimized.jpg"
+image: "/assets/images/thumbs/mac-studio-m5-max-m5-ultra-moi-co-gi.jpg"
 image_alt: "Mac Studio và hình minh họa chip M5"
 source_status: confirmed
 sources:

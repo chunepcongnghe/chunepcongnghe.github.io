@@ -35,7 +35,7 @@ category: desktop
 category_label: "Mac / Desktop"
 brand: Apple
 tags: [Mac mini M5 Pro, Mac Studio M5 Max, creator Mac, Apple desktop, AI local]
-image: "https://s2-techtudo.glbimg.com/I8169RJsl1Fy9xB9_6f1PLZ50Ig=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2025/Q/C/suhWE5SzO0HPKfbmkMWw/2025-mac-studio-1.jpg"
+image: "/assets/images/thumbs/mac-mini-m5-pro-vs-mac-studio-m5-max.jpg"
 image_alt: "Góc làm việc dựng video chuyên nghiệp với Mac Studio và nhiều màn hình"
 source_status: confirmed
 sources:

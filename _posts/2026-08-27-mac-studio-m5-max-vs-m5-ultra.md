@@ -35,7 +35,7 @@ category: desktop
 category_label: "Mac / Desktop"
 brand: Apple
 tags: [M5 Max vs M5 Ultra, Mac Studio, M5 Ultra 512GB, Apple workstation, AI local]
-image: "https://en.shiftdelete.net/wp-content/uploads/2025/11/M5-Ultra-cip-Mac-Studio-modelleri-ile-onumuzdeki-yil-geliyor.jpg"
+image: "/assets/images/thumbs/mac-studio-m5-max-vs-m5-ultra.jpg"
 image_alt: "Logo Apple M5 Ultra"
 source_status: confirmed
 sources:
